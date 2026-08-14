@@ -223,7 +223,7 @@
       "name": "Tamilnad Mercantile Bank",
       "slug": "tamilnad-mercantile-bank",
       "coverage": "discovery",
-      "catalog": "https://tmb.in/doc/creditcard_policy_01.pdf"
+      "catalog": "https://tmb.bank.in/"
     },
     {
       "name": "SBM Bank India",
@@ -5880,7 +5880,7 @@
       "id": "tmb-platinum",
       "issuer": "Tamilnad Mercantile Bank",
       "name": "TMB Platinum Credit Card",
-      "source": "https://tmb.in/doc/creditcard_policy_01.pdf",
+      "source": "https://tmb.bank.in/",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
@@ -5901,7 +5901,7 @@
       "id": "tmb-titanium",
       "issuer": "Tamilnad Mercantile Bank",
       "name": "TMB Titanium Credit Card",
-      "source": "https://tmb.in/doc/creditcard_policy_01.pdf",
+      "source": "https://tmb.bank.in/",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
