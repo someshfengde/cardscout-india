@@ -53,6 +53,9 @@ const discoveredCards = discoveries.map((card) => ({
 }));
 
 const allCards = [...cards, ...discoveredCards];
+const cardCountByIssuer = new Map();
+for (const card of allCards) cardCountByIssuer.set(card.issuer, (cardCountByIssuer.get(card.issuer) ?? 0) + 1);
+const issuersWithCounts = issuers.map((issuer) => ({ ...issuer, cardCount: cardCountByIssuer.get(issuer.name) ?? 0 }));
 
 const detailedIssuers = issuers.filter((issuer) => issuer.coverage === "detailed").length;
 const output = {
@@ -62,10 +65,11 @@ const output = {
     detailedCardCount: cards.length,
     discoveryCardCount: discoveredCards.length,
     issuerCount: issuers.length,
+    representedIssuerCount: cardCountByIssuer.size,
     detailedIssuerCount: detailedIssuers,
     verifiedCount: cards.filter((card) => card.verification === "verified").length,
   },
-  issuers,
+  issuers: issuersWithCounts,
   cards: allCards.sort((a, b) => a.issuer.localeCompare(b.issuer) || a.name.localeCompare(b.name)),
 };
 
