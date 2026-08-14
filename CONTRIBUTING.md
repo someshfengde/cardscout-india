@@ -14,6 +14,19 @@ Small, source-backed pull requests are the fastest to review.
 
 ## Add a card
 
+If you have only found the official card name, first add a discovery record to
+`data/discovery.yml`:
+
+```yaml
+- id: issuer-card-name
+  issuer: Issuer name exactly as listed in data/issuers.yml
+  name: Public card name
+  source: https://issuer.example/official-card-page
+```
+
+Move it to `data/cards.yml` only after the fee and benefit fields below have been
+checked. Never keep the same ID in both files.
+
 Copy this shape into the `cards` list and keep the ID lowercase with hyphens:
 
 ```yaml
@@ -36,7 +49,7 @@ Copy this shape into the `cards` list and keep the ID lowercase with hyphens:
 ```
 
 Use one of `none`, `conditional`, `included`, or `unlimited` for `lounge`.
-Start at `partial`; a maintainer will change it to `verified` after checking the
+Detailed records start at `partial`; a maintainer changes one to `verified` after checking the
 fee schedule and material claims.
 
 ## Source policy

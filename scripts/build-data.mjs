@@ -2,11 +2,15 @@ import { readFile, writeFile } from "node:fs/promises";
 import { parse } from "yaml";
 
 const cardsDoc = parse(await readFile(new URL("../data/cards.yml", import.meta.url), "utf8"));
+const discoveryDoc = parse(await readFile(new URL("../data/discovery.yml", import.meta.url), "utf8"));
 const issuersDoc = parse(await readFile(new URL("../data/issuers.yml", import.meta.url), "utf8"));
 const cards = cardsDoc?.cards;
+const discoveries = discoveryDoc?.cards;
 const issuers = issuersDoc?.issuers;
 
-if (!Array.isArray(cards) || !Array.isArray(issuers)) throw new Error("cards.yml and issuers.yml must contain arrays");
+if (!Array.isArray(cards) || !Array.isArray(discoveries) || !Array.isArray(issuers)) {
+  throw new Error("cards.yml, discovery.yml, and issuers.yml must contain arrays");
+}
 
 const required = ["id", "issuer", "name", "network", "joining_fee", "annual_fee", "reward", "categories", "highlights", "lounge", "forex_markup", "verification", "source"];
 const ids = new Set();
@@ -24,18 +28,46 @@ for (const [index, card] of cards.entries()) {
   if (!["verified", "partial"].includes(card.verification)) throw new Error(`Invalid verification: ${card.id}`);
 }
 
+for (const [index, card] of discoveries.entries()) {
+  for (const key of ["id", "issuer", "name", "source"]) {
+    if (!(key in card)) throw new Error(`Discovery ${index + 1} (${card.id ?? "unknown"}) is missing ${key}`);
+  }
+  if (ids.has(card.id)) throw new Error(`Duplicate card id: ${card.id}`);
+  ids.add(card.id);
+  if (!issuerNames.has(card.issuer)) throw new Error(`Unknown issuer on ${card.id}: ${card.issuer}`);
+  if (!/^https:\/\//.test(card.source)) throw new Error(`Source must use HTTPS: ${card.id}`);
+}
+
+const discoveredCards = discoveries.map((card) => ({
+  ...card,
+  network: "Researching",
+  joining_fee: null,
+  annual_fee: null,
+  waiver_spend: null,
+  reward: "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+  categories: ["discovery"],
+  highlights: ["Official verification target linked", "Detailed verification in progress"],
+  lounge: "researching",
+  forex_markup: null,
+  verification: "discovered",
+}));
+
+const allCards = [...cards, ...discoveredCards];
+
 const detailedIssuers = issuers.filter((issuer) => issuer.coverage === "detailed").length;
 const output = {
   meta: {
-    updatedAt: String(cardsDoc.updated_at),
-    cardCount: cards.length,
+    updatedAt: String(discoveryDoc.updated_at),
+    cardCount: allCards.length,
+    detailedCardCount: cards.length,
+    discoveryCardCount: discoveredCards.length,
     issuerCount: issuers.length,
     detailedIssuerCount: detailedIssuers,
     verifiedCount: cards.filter((card) => card.verification === "verified").length,
   },
   issuers,
-  cards: cards.sort((a, b) => a.issuer.localeCompare(b.issuer) || a.name.localeCompare(b.name)),
+  cards: allCards.sort((a, b) => a.issuer.localeCompare(b.issuer) || a.name.localeCompare(b.name)),
 };
 
 await writeFile(new URL("../app/generated/catalog.json", import.meta.url), `${JSON.stringify(output, null, 2)}\n`);
-console.log(`Validated ${cards.length} cards across ${issuers.length} tracked issuers.`);
+console.log(`Validated ${allCards.length} cards (${cards.length} detailed + ${discoveredCards.length} discovery) across ${issuers.length} tracked issuers.`);

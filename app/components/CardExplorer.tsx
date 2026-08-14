@@ -4,12 +4,12 @@ import { useMemo, useState } from "react";
 
 type Card = {
   id: string; issuer: string; name: string; network: string;
-  joining_fee: number; annual_fee: number; waiver_spend: number | null;
+  joining_fee: number | null; annual_fee: number | null; waiver_spend: number | null;
   reward: string; categories: string[]; highlights: string[];
-  lounge: string; forex_markup: number; verification: string; source: string;
+  lounge: string; forex_markup: number | null; verification: string; source: string;
 };
 type Catalog = {
-  meta: { updatedAt: string; cardCount: number; issuerCount: number; detailedIssuerCount: number; verifiedCount: number };
+  meta: { updatedAt: string; cardCount: number; detailedCardCount: number; discoveryCardCount: number; issuerCount: number; detailedIssuerCount: number; verifiedCount: number };
   issuers: { name: string; coverage: string; catalog: string }[];
   cards: Card[];
 };
@@ -24,6 +24,7 @@ export default function CardExplorer({ catalog }: { catalog: Catalog }) {
   const [issuer, setIssuer] = useState("all");
   const [category, setCategory] = useState("all");
   const [fee, setFee] = useState("all");
+  const [record, setRecord] = useState("all");
   const [sort, setSort] = useState("recommended");
   const [visible, setVisible] = useState(12);
   const [selected, setSelected] = useState<Card | null>(null);
@@ -37,13 +38,16 @@ export default function CardExplorer({ catalog }: { catalog: Catalog }) {
     const normalized = query.trim().toLowerCase();
     const result = catalog.cards.filter((card) => {
       const haystack = [card.name, card.issuer, card.reward, card.network, ...card.categories, ...card.highlights].join(" ").toLowerCase();
-      const feeMatch = fee === "all" || (fee === "free" ? card.annual_fee === 0 : fee === "under1000" ? card.annual_fee < 1000 : card.annual_fee >= 1000);
-      return (!normalized || haystack.includes(normalized)) && (issuer === "all" || card.issuer === issuer) && (category === "all" || card.categories.includes(category)) && feeMatch;
+      const feeMatch = fee === "all" || (fee === "researching" ? card.annual_fee === null : card.annual_fee !== null && (fee === "free" ? card.annual_fee === 0 : fee === "under1000" ? card.annual_fee < 1000 : card.annual_fee >= 1000));
+      const recordMatch = record === "all" || (record === "discovered" ? card.verification === "discovered" : card.verification !== "discovered");
+      return (!normalized || haystack.includes(normalized)) && (issuer === "all" || card.issuer === issuer) && (category === "all" || card.categories.includes(category)) && feeMatch && recordMatch;
     });
-    return result.sort((a, b) => sort === "fee-low" ? a.annual_fee - b.annual_fee : sort === "forex" ? a.forex_markup - b.forex_markup : sort === "name" ? a.name.localeCompare(b.name) : Number(b.verification === "verified") - Number(a.verification === "verified") || a.annual_fee - b.annual_fee);
-  }, [catalog.cards, query, issuer, category, fee, sort]);
+    const rank = { verified: 0, partial: 1, discovered: 2 } as Record<string, number>;
+    const nullableNumber = (value: number | null) => value ?? Number.POSITIVE_INFINITY;
+    return result.sort((a, b) => sort === "fee-low" ? nullableNumber(a.annual_fee) - nullableNumber(b.annual_fee) : sort === "forex" ? nullableNumber(a.forex_markup) - nullableNumber(b.forex_markup) : sort === "name" ? a.name.localeCompare(b.name) : rank[a.verification] - rank[b.verification] || nullableNumber(a.annual_fee) - nullableNumber(b.annual_fee));
+  }, [catalog.cards, query, issuer, category, fee, record, sort]);
 
-  const reset = () => { setQuery(""); setIssuer("all"); setCategory("all"); setFee("all"); setVisible(12); };
+  const reset = () => { setQuery(""); setIssuer("all"); setCategory("all"); setFee("all"); setRecord("all"); setVisible(12); };
   const toggleCompare = (id: string) => setCompare((current) => current.includes(id) ? current.filter((item) => item !== id) : current.length < 3 ? [...current, id] : current);
   const compareCards = compare.map((id) => catalog.cards.find((card) => card.id === id)).filter(Boolean) as Card[];
   const updatedLabel = date.format(new Date(`${catalog.meta.updatedAt}T12:00:00+05:30`));
@@ -64,18 +68,19 @@ export default function CardExplorer({ catalog }: { catalog: Catalog }) {
       </section>
 
       <section className="trust-strip" aria-label="Catalog statistics">
-        <div><strong>{catalog.meta.cardCount}</strong><span>Cards documented</span></div>
+        <div><strong>{catalog.meta.cardCount}</strong><span>Cards discovered</span></div>
         <div><strong>{catalog.meta.issuerCount}</strong><span>Issuers tracked</span></div>
-        <div><strong>{catalog.meta.verifiedCount}</strong><span>Officially verified records</span></div>
+        <div><strong>{catalog.meta.detailedCardCount}</strong><span>Detailed card records</span></div>
         <div><strong>Weekly</strong><span>Source-change audits</span></div>
       </section>
 
       <section className="catalog" id="cards">
         <div className="section-heading"><div><span className="section-kicker">THE OPEN CATALOG</span><h2>Compare Indian credit cards</h2><p>Fees exclude GST. Always recheck the issuer page before applying.</p></div><div className="catalog-meta"><span className="updated-date"><b>●</b> Last updated {updatedLabel}</span><span className="result-count">{filtered.length} {filtered.length === 1 ? "card" : "cards"}</span></div></div>
         <div className="filters" aria-label="Card filters">
-          <label><span>Issuer</span><select value={issuer} onChange={(event) => { setIssuer(event.target.value); setVisible(12); }}><option value="all">All detailed issuers</option>{issuers.map((name) => <option key={name}>{name}</option>)}</select></label>
+          <label><span>Issuer</span><select value={issuer} onChange={(event) => { setIssuer(event.target.value); setVisible(12); }}><option value="all">All issuers</option>{issuers.map((name) => <option key={name}>{name}</option>)}</select></label>
+          <label><span>Record status</span><select value={record} onChange={(event) => { setRecord(event.target.value); setVisible(12); }}><option value="all">All discovered cards</option><option value="detailed">Detailed records</option><option value="discovered">Research queue</option></select></label>
           <label><span>Best for</span><select value={category} onChange={(event) => { setCategory(event.target.value); setVisible(12); }}><option value="all">Every use case</option>{categories.map((item) => <option value={item} key={item}>{label(item)}</option>)}</select></label>
-          <label><span>Annual fee</span><select value={fee} onChange={(event) => { setFee(event.target.value); setVisible(12); }}><option value="all">Any annual fee</option><option value="free">Lifetime free</option><option value="under1000">Under ₹1,000</option><option value="premium">₹1,000 and above</option></select></label>
+          <label><span>Annual fee</span><select value={fee} onChange={(event) => { setFee(event.target.value); setVisible(12); }}><option value="all">Any or researching</option><option value="free">Lifetime free</option><option value="under1000">Under ₹1,000</option><option value="premium">₹1,000 and above</option><option value="researching">Still researching</option></select></label>
           <label><span>Sort</span><select value={sort} onChange={(event) => setSort(event.target.value)}><option value="recommended">Verified first</option><option value="fee-low">Lowest fee</option><option value="forex">Lowest forex markup</option><option value="name">Card name</option></select></label>
         </div>
 
@@ -85,11 +90,11 @@ export default function CardExplorer({ catalog }: { catalog: Catalog }) {
               <span className="issuer-name">{card.issuer}</span><span className="network">{card.network}</span><span className="visual-name">{card.name}</span><span className="chip" aria-hidden="true" /><span className="waves" aria-hidden="true" />
             </button>
             <div className="card-copy">
-              <div className="status-row"><span className={card.verification === "verified" ? "verified" : "partial"}>{card.verification === "verified" ? "● OFFICIAL SOURCE CHECKED" : "◐ PARTIALLY VERIFIED"}</span><button className={compare.includes(card.id) ? "compare active" : "compare"} onClick={() => toggleCompare(card.id)} disabled={!compare.includes(card.id) && compare.length >= 3}>{compare.includes(card.id) ? "✓ Added" : "+ Compare"}</button></div>
+              <div className="status-row"><span className={card.verification === "verified" ? "verified" : "partial"}>{card.verification === "verified" ? "● OFFICIAL SOURCE CHECKED" : card.verification === "discovered" ? "○ DISCOVERY RECORD" : "◐ PARTIALLY VERIFIED"}</span><button className={compare.includes(card.id) ? "compare active" : "compare"} onClick={() => toggleCompare(card.id)} disabled={!compare.includes(card.id) && compare.length >= 3}>{compare.includes(card.id) ? "✓ Added" : "+ Compare"}</button></div>
               <button className="title-button" onClick={() => setSelected(card)}><h3>{card.name}</h3><span>{card.issuer}</span></button>
               <p className="reward">{card.reward}</p>
               <div className="tag-row">{card.categories.slice(0, 3).map((item) => <span key={item}>{label(item)}</span>)}</div>
-              <dl className="facts"><div><dt>Annual fee</dt><dd>{card.annual_fee === 0 ? "Lifetime free" : money.format(card.annual_fee)}</dd></div><div><dt>Forex markup</dt><dd>{card.forex_markup}%</dd></div></dl>
+              <dl className="facts"><div><dt>Annual fee</dt><dd>{card.annual_fee === null ? "Researching" : card.annual_fee === 0 ? "Lifetime free" : money.format(card.annual_fee)}</dd></div><div><dt>Forex markup</dt><dd>{card.forex_markup === null ? "Researching" : `${card.forex_markup}%`}</dd></div></dl>
               <button className="details-link" onClick={() => setSelected(card)}>Full details <span>→</span></button>
             </div>
           </article>)}
@@ -99,7 +104,7 @@ export default function CardExplorer({ catalog }: { catalog: Catalog }) {
       </section>
 
       <section className="coverage" id="coverage">
-        <div className="coverage-copy"><span className="section-kicker">HONEST ABOUT THE GAPS</span><h2>India-wide discovery,<br /><i>in public.</i></h2><p>We track {catalog.meta.issuerCount} issuers. {catalog.meta.detailedIssuerCount} currently meet the detailed-data bar; the rest stay visible in the research queue until their cards are source-checked.</p><a href="https://github.com/someshfengde/cardscout-india/blob/main/data/issuers.yml" target="_blank" rel="noreferrer">View the discovery ledger →</a></div>
+        <div className="coverage-copy"><span className="section-kicker">HONEST ABOUT THE GAPS</span><h2>India-wide discovery,<br /><i>in public.</i></h2><p>We now expose {catalog.meta.cardCount} card names across {catalog.meta.issuerCount} issuers. {catalog.meta.detailedCardCount} have structured fees and benefits; {catalog.meta.discoveryCardCount} stay visibly marked as research records until every field and application status is checked.</p><a href="https://github.com/someshfengde/cardscout-india/blob/main/data/discovery.yml" target="_blank" rel="noreferrer">View the card-by-card discovery ledger →</a></div>
         <div className="issuer-cloud">{catalog.issuers.map((item) => <a key={item.name} href={item.catalog} target="_blank" rel="noreferrer" className={item.coverage}>{item.name}<small>{item.coverage === "detailed" ? "Detailed" : "Research queue"}</small></a>)}</div>
       </section>
 
@@ -110,9 +115,9 @@ export default function CardExplorer({ catalog }: { catalog: Catalog }) {
 
       {compareCards.length > 0 && <aside className="compare-tray" aria-label="Comparison tray"><div><strong>Compare cards</strong><span>{compareCards.map((card) => card.name).join(" · ")}</span></div><button onClick={() => setShowCompare(true)}>Compare ({compareCards.length}/3)</button><button className="tray-close" onClick={() => setCompare([])} aria-label="Clear comparison">×</button></aside>}
 
-      {showCompare && <div className="modal-backdrop" role="presentation" onMouseDown={(event) => event.currentTarget === event.target && setShowCompare(false)}><section className="compare-modal" role="dialog" aria-modal="true" aria-labelledby="compare-title"><button className="modal-close" onClick={() => setShowCompare(false)} aria-label="Close comparison">×</button><span className="section-kicker">SIDE BY SIDE</span><h2 id="compare-title">Your shortlist</h2><div className="comparison-grid"><div className="comparison-labels"><strong>Card</strong><span>Annual fee</span><span>Fee waiver</span><span>Forex markup</span><span>Lounge</span><span>Best for</span><span>Official source</span></div>{compareCards.map((card) => <div className="comparison-column" key={card.id}><strong>{card.name}<small>{card.issuer}</small></strong><span>{card.annual_fee ? money.format(card.annual_fee) : "Lifetime free"}</span><span>{card.waiver_spend ? money.format(card.waiver_spend) : "—"}</span><span>{card.forex_markup}%</span><span>{label(card.lounge)}</span><span>{card.categories.slice(0, 2).map(label).join(", ")}</span><a href={card.source} target="_blank" rel="noreferrer">Open ↗</a><button onClick={() => toggleCompare(card.id)}>Remove</button></div>)}</div><p className="disclaimer">This comparison is informational. Check current issuer terms, exclusions and eligibility before applying.</p></section></div>}
+      {showCompare && <div className="modal-backdrop" role="presentation" onMouseDown={(event) => event.currentTarget === event.target && setShowCompare(false)}><section className="compare-modal" role="dialog" aria-modal="true" aria-labelledby="compare-title"><button className="modal-close" onClick={() => setShowCompare(false)} aria-label="Close comparison">×</button><span className="section-kicker">SIDE BY SIDE</span><h2 id="compare-title">Your shortlist</h2><div className="comparison-grid"><div className="comparison-labels"><strong>Card</strong><span>Annual fee</span><span>Fee waiver</span><span>Forex markup</span><span>Lounge</span><span>Best for</span><span>Official source</span></div>{compareCards.map((card) => <div className="comparison-column" key={card.id}><strong>{card.name}<small>{card.issuer}</small></strong><span>{card.annual_fee === null ? "Researching" : card.annual_fee === 0 ? "Lifetime free" : money.format(card.annual_fee)}</span><span>{card.waiver_spend ? money.format(card.waiver_spend) : "—"}</span><span>{card.forex_markup === null ? "Researching" : `${card.forex_markup}%`}</span><span>{label(card.lounge)}</span><span>{card.categories.slice(0, 2).map(label).join(", ")}</span><a href={card.source} target="_blank" rel="noreferrer">Open ↗</a><button onClick={() => toggleCompare(card.id)}>Remove</button></div>)}</div><p className="disclaimer">This comparison is informational. Check current issuer terms, exclusions and eligibility before applying.</p></section></div>}
 
-      {selected && <div className="modal-backdrop" role="presentation" onMouseDown={(event) => event.currentTarget === event.target && setSelected(null)}><section className="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detail-title"><button className="modal-close" onClick={() => setSelected(null)} aria-label="Close details">×</button><span className={selected.verification === "verified" ? "verified" : "partial"}>{selected.verification === "verified" ? "● OFFICIAL SOURCE CHECKED" : "◐ PARTIALLY VERIFIED"}</span><p className="modal-issuer">{selected.issuer} · {selected.network}</p><h2 id="detail-title">{selected.name}</h2><p className="modal-reward">{selected.reward}</p><dl className="modal-facts"><div><dt>Joining fee</dt><dd>{selected.joining_fee === 0 ? "₹0" : money.format(selected.joining_fee)}</dd></div><div><dt>Annual fee</dt><dd>{selected.annual_fee === 0 ? "₹0" : money.format(selected.annual_fee)}</dd></div><div><dt>Fee waiver spend</dt><dd>{selected.waiver_spend ? money.format(selected.waiver_spend) : "Not listed"}</dd></div><div><dt>Forex markup</dt><dd>{selected.forex_markup}%</dd></div><div><dt>Lounge access</dt><dd>{label(selected.lounge)}</dd></div><div><dt>Network</dt><dd>{selected.network}</dd></div></dl><h3>Key benefits</h3><ul>{selected.highlights.map((item) => <li key={item}>{item}</li>)}</ul><div className="modal-actions"><a href={selected.source} target="_blank" rel="noreferrer">Check official source ↗</a><button className={compare.includes(selected.id) ? "active" : ""} onClick={() => toggleCompare(selected.id)}>{compare.includes(selected.id) ? "✓ In comparison" : "+ Add to comparison"}</button></div><p className="disclaimer">Terms, exclusions, caps and eligibility apply. Verify the live issuer page before applying.</p></section></div>}
+      {selected && <div className="modal-backdrop" role="presentation" onMouseDown={(event) => event.currentTarget === event.target && setSelected(null)}><section className="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detail-title"><button className="modal-close" onClick={() => setSelected(null)} aria-label="Close details">×</button><span className={selected.verification === "verified" ? "verified" : "partial"}>{selected.verification === "verified" ? "● OFFICIAL SOURCE CHECKED" : selected.verification === "discovered" ? "○ DISCOVERY RECORD" : "◐ PARTIALLY VERIFIED"}</span><p className="modal-issuer">{selected.issuer} · {selected.network}</p><h2 id="detail-title">{selected.name}</h2><p className="modal-reward">{selected.reward}</p><dl className="modal-facts"><div><dt>Joining fee</dt><dd>{selected.joining_fee === null ? "Researching" : selected.joining_fee === 0 ? "₹0" : money.format(selected.joining_fee)}</dd></div><div><dt>Annual fee</dt><dd>{selected.annual_fee === null ? "Researching" : selected.annual_fee === 0 ? "₹0" : money.format(selected.annual_fee)}</dd></div><div><dt>Fee waiver spend</dt><dd>{selected.waiver_spend ? money.format(selected.waiver_spend) : selected.verification === "discovered" ? "Researching" : "Not listed"}</dd></div><div><dt>Forex markup</dt><dd>{selected.forex_markup === null ? "Researching" : `${selected.forex_markup}%`}</dd></div><div><dt>Lounge access</dt><dd>{label(selected.lounge)}</dd></div><div><dt>Network</dt><dd>{selected.network}</dd></div></dl><h3>Key benefits</h3><ul>{selected.highlights.map((item) => <li key={item}>{item}</li>)}</ul><div className="modal-actions"><a href={selected.source} target="_blank" rel="noreferrer">Check official source ↗</a><button className={compare.includes(selected.id) ? "active" : ""} onClick={() => toggleCompare(selected.id)}>{compare.includes(selected.id) ? "✓ In comparison" : "+ Add to comparison"}</button></div><p className="disclaimer">Terms, exclusions, caps and eligibility apply. Verify the live issuer page before applying.</p></section></div>}
     </main>
   );
 }

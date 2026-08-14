@@ -1,0 +1,251 @@
+schema_version: 1
+updated_at: 2026-08-14
+# Discovery records make the full research queue visible. Each record links to
+# the official verification target used for the issuer-by-issuer pass. It is a
+# candidate until a maintainer confirms current issuance, fees, and benefits.
+cards:
+  # HDFC Bank
+  - { id: hdfc-moneyback-plus, issuer: HDFC Bank, name: MoneyBack+, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-freedom, issuer: HDFC Bank, name: Freedom Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-indianoil, issuer: HDFC Bank, name: IndianOil HDFC Bank Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-diners-privilege, issuer: HDFC Bank, name: Diners Club Privilege, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-shoppers-stop, issuer: HDFC Bank, name: Shoppers Stop HDFC Bank Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-shoppers-stop-black, issuer: HDFC Bank, name: Shoppers Stop BLACK HDFC Bank Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-pixel-play, issuer: HDFC Bank, name: PIXEL Play Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-pixel-go, issuer: HDFC Bank, name: PIXEL Go Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-upi-rupay, issuer: HDFC Bank, name: HDFC Bank UPI RuPay Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-paytm-mobile, issuer: HDFC Bank, name: Paytm HDFC Bank Mobile Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-paytm-select, issuer: HDFC Bank, name: Paytm HDFC Bank Select Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { id: hdfc-bizblack-metal, issuer: HDFC Bank, name: BizBlack Metal Edition, source: "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards" }
+  - { id: hdfc-bizpower, issuer: HDFC Bank, name: BizPower Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards" }
+  - { id: hdfc-bizgrow, issuer: HDFC Bank, name: BizGrow Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards" }
+
+  # SBI Card
+  - { id: sbi-unnati, issuer: SBI Card, name: Unnati SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-tata-neu-plus, issuer: SBI Card, name: Tata Neu Plus SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-tata-neu-infinity, issuer: SBI Card, name: Tata Neu Infinity SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-irctc-platinum, issuer: SBI Card, name: IRCTC SBI Platinum Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-irctc-premier, issuer: SBI Card, name: IRCTC SBI Card Premier, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-fabindia, issuer: SBI Card, name: Fabindia SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-fabindia-select, issuer: SBI Card, name: Fabindia SBI Card SELECT, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-central, issuer: SBI Card, name: Central SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-central-select, issuer: SBI Card, name: Central SBI Card SELECT, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-lifestyle-home-centre, issuer: SBI Card, name: Lifestyle Home Centre SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-lifestyle-home-centre-select, issuer: SBI Card, name: Lifestyle Home Centre SBI Card SELECT, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-nature-basket, issuer: SBI Card, name: Nature's Basket SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-nature-basket-select, issuer: SBI Card, name: Nature's Basket SBI Card ELITE, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-titan, issuer: SBI Card, name: Titan SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-club-vistara, issuer: SBI Card, name: Club Vistara SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-club-vistara-prime, issuer: SBI Card, name: Club Vistara SBI Card PRIME, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-etihad-guest, issuer: SBI Card, name: Etihad Guest SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-etihad-guest-premier, issuer: SBI Card, name: Etihad Guest SBI Card Premier, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-krisflyer, issuer: SBI Card, name: KrisFlyer SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-krisflyer-apex, issuer: SBI Card, name: KrisFlyer SBI Card APEX, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-miles, issuer: SBI Card, name: SBI Card MILES, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-miles-prime, issuer: SBI Card, name: SBI Card MILES PRIME, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+  - { id: sbi-miles-elite, issuer: SBI Card, name: SBI Card MILES ELITE, source: "https://www.sbicard.com/en/personal/credit-cards.page" }
+
+  # Axis Bank
+  - { id: axis-my-zone, issuer: Axis Bank, name: MY ZONE Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-rewards, issuer: Axis Bank, name: Rewards Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-aura, issuer: Axis Bank, name: AURA Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-privilege, issuer: Axis Bank, name: PRIVILEGE Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-horizon, issuer: Axis Bank, name: HORIZON Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-magnus, issuer: Axis Bank, name: MAGNUS Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-magnus-burgundy, issuer: Axis Bank, name: MAGNUS for Burgundy, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-primus, issuer: Axis Bank, name: PRIMUS Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-reserve, issuer: Axis Bank, name: RESERVE Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-freecharge, issuer: Axis Bank, name: Freecharge Axis Bank Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-freecharge-plus, issuer: Axis Bank, name: Freecharge Plus Axis Bank Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-samsung-infinite, issuer: Axis Bank, name: Samsung Axis Bank Infinite Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-samsung-signature, issuer: Axis Bank, name: Samsung Axis Bank Signature Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-lic-signature, issuer: Axis Bank, name: LIC Axis Bank Signature Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-lic-platinum, issuer: Axis Bank, name: LIC Axis Bank Platinum Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-fibe, issuer: Axis Bank, name: Fibe Axis Bank Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { id: axis-pnb, issuer: Axis Bank, name: PNB Axis Bank Credit Card, source: "https://www.axisbank.com/retail/cards/credit-card" }
+
+  # ICICI Bank
+  - { id: icici-coral, issuer: ICICI Bank, name: Coral Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-rubyx, issuer: ICICI Bank, name: Rubyx Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-emeralde, issuer: ICICI Bank, name: Emeralde Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-makemytrip, issuer: ICICI Bank, name: MakeMyTrip ICICI Bank Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-makemytrip-signature, issuer: ICICI Bank, name: MakeMyTrip ICICI Bank Signature Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-adani-one-signature, issuer: ICICI Bank, name: Adani One ICICI Bank Signature Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-adani-one-platinum, issuer: ICICI Bank, name: Adani One ICICI Bank Platinum Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-hpcl-super-saver, issuer: ICICI Bank, name: HPCL Super Saver Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-hpcl-coral, issuer: ICICI Bank, name: HPCL Coral Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-emirates-skywards-sapphiro, issuer: ICICI Bank, name: Emirates Skywards ICICI Bank Sapphiro Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-emirates-skywards-rubyx, issuer: ICICI Bank, name: Emirates Skywards ICICI Bank Rubyx Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-manchester-united-signature, issuer: ICICI Bank, name: Manchester United Signature Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-manchester-united-platinum, issuer: ICICI Bank, name: Manchester United Platinum Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-times-black, issuer: ICICI Bank, name: Times Black ICICI Bank Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { id: icici-expressions, issuer: ICICI Bank, name: Expressions Credit Card, source: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+
+  # IDFC FIRST Bank
+  - { id: idfc-power, issuer: IDFC FIRST Bank, name: FIRST Power, source: "https://www.idfcfirstbank.com/credit-card" }
+  - { id: idfc-swyp, issuer: IDFC FIRST Bank, name: FIRST SWYP, source: "https://www.idfcfirstbank.com/credit-card" }
+  - { id: idfc-earn, issuer: IDFC FIRST Bank, name: FIRST EA₹N, source: "https://www.idfcfirstbank.com/credit-card" }
+  - { id: idfc-digital-rupay, issuer: IDFC FIRST Bank, name: FIRST Digital RuPay Credit Card, source: "https://www.idfcfirstbank.com/credit-card" }
+  - { id: idfc-private, issuer: IDFC FIRST Bank, name: FIRST Private Credit Card, source: "https://www.idfcfirstbank.com/credit-card" }
+
+  # Kotak Mahindra Bank
+  - { id: kotak-solitaire, issuer: Kotak Mahindra Bank, name: Solitaire Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-white, issuer: Kotak Mahindra Bank, name: White Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-zen-signature, issuer: Kotak Mahindra Bank, name: Zen Signature Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-mojo-platinum, issuer: Kotak Mahindra Bank, name: Mojo Platinum Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-urbane-gold, issuer: Kotak Mahindra Bank, name: Urbane Gold Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-811, issuer: Kotak Mahindra Bank, name: 811 Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-811-dream-different, issuer: Kotak Mahindra Bank, name: 811 Dream Different Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-pvr-inox, issuer: Kotak Mahindra Bank, name: PVR INOX Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-pvr-platinum, issuer: Kotak Mahindra Bank, name: PVR Platinum Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-pvr-gold, issuer: Kotak Mahindra Bank, name: PVR Gold Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-indigo, issuer: Kotak Mahindra Bank, name: IndiGo Kotak Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-indigo-xl, issuer: Kotak Mahindra Bank, name: IndiGo Kotak XL Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-royale-signature, issuer: Kotak Mahindra Bank, name: Royale Signature Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-privy-league-signature, issuer: Kotak Mahindra Bank, name: Privy League Signature Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { id: kotak-solitaire-business, issuer: Kotak Mahindra Bank, name: Solitaire Business Credit Card, source: "https://www.kotak.com/en/personal-banking/cards/credit-cards/business-credit-card.html" }
+
+  # YES BANK, HSBC and AU Small Finance Bank
+  - { id: yes-wellness, issuer: YES BANK, name: Wellness Credit Card, source: "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards" }
+  - { id: yes-wellness-plus, issuer: YES BANK, name: Wellness Plus Credit Card, source: "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards" }
+  - { id: yes-byoc-cashback, issuer: YES BANK, name: BYOC Cashback Credit Card, source: "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards" }
+  - { id: yes-byoc-rewards, issuer: YES BANK, name: BYOC Rewards Credit Card, source: "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards" }
+  - { id: yes-ai-inside, issuer: YES BANK, name: YES BANK AI Inside Credit Card, source: "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards" }
+  - { id: hsbc-taj, issuer: HSBC India, name: HSBC Taj Credit Card, source: "https://www.hsbc.co.in/credit-cards/" }
+  - { id: hsbc-rupay-cashback, issuer: HSBC India, name: HSBC RuPay Cashback Credit Card, source: "https://www.hsbc.co.in/credit-cards/" }
+  - { id: au-zenith, issuer: AU Small Finance Bank, name: ZENITH Credit Card, source: "https://www.aubank.in/personal-banking/credit-cards" }
+  - { id: au-vetta, issuer: AU Small Finance Bank, name: VETTA Credit Card, source: "https://www.aubank.in/personal-banking/credit-cards" }
+  - { id: au-lit, issuer: AU Small Finance Bank, name: LIT Credit Card, source: "https://www.aubank.in/personal-banking/credit-cards" }
+  - { id: au-altura-plus, issuer: AU Small Finance Bank, name: ALTURA PLUS Credit Card, source: "https://www.aubank.in/personal-banking/credit-cards" }
+  - { id: au-altura, issuer: AU Small Finance Bank, name: ALTURA Credit Card, source: "https://www.aubank.in/personal-banking/credit-cards" }
+  - { id: au-nomo, issuer: AU Small Finance Bank, name: NOMO Credit Card, source: "https://www.aubank.in/personal-banking/credit-cards" }
+
+  # IndusInd Bank
+  - { id: indusind-platinum-rupay, issuer: IndusInd Bank, name: Platinum RuPay Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-platinum-visa, issuer: IndusInd Bank, name: Platinum Visa Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-platinum-aura-edge, issuer: IndusInd Bank, name: Platinum Aura Edge Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-legend, issuer: IndusInd Bank, name: Legend Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-pinnacle, issuer: IndusInd Bank, name: Pinnacle Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-nexxt, issuer: IndusInd Bank, name: Nexxt Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-tiger, issuer: IndusInd Bank, name: Tiger Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-samman, issuer: IndusInd Bank, name: Samman Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-eazydiner-platinum, issuer: IndusInd Bank, name: EazyDiner IndusInd Bank Platinum Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-eazydiner-signature, issuer: IndusInd Bank, name: EazyDiner IndusInd Bank Signature Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-avios-visa-infinite, issuer: IndusInd Bank, name: Avios Visa Infinite Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-avios-visa-signature, issuer: IndusInd Bank, name: Avios Visa Signature Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-club-marriott, issuer: IndusInd Bank, name: Club Marriott Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { id: indusind-voyage, issuer: IndusInd Bank, name: IndusInd Bank Voyage Credit Card, source: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+
+  # RBL Bank
+  - { id: rbl-shoprite, issuer: RBL Bank, name: ShopRite Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-platinum-maxima, issuer: RBL Bank, name: Platinum Maxima Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-world-safari, issuer: RBL Bank, name: World Safari Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-insignia, issuer: RBL Bank, name: Insignia Preferred Banking World Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-icon, issuer: RBL Bank, name: Icon Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-monthly-treats, issuer: RBL Bank, name: Monthly Treats Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-duet, issuer: RBL Bank, name: Duet Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-zomato-edition, issuer: RBL Bank, name: Zomato Edition Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-zomato-edition-classic, issuer: RBL Bank, name: Zomato Edition Classic Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-bookmyshow-play, issuer: RBL Bank, name: BookMyShow RBL Bank PLAY Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-bajaj-finserv-supercard, issuer: RBL Bank, name: Bajaj Finserv RBL Bank SuperCard, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-indian-oil-xtra, issuer: RBL Bank, name: IndianOil RBL Bank XTRA Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-indian-oil, issuer: RBL Bank, name: IndianOil RBL Bank Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-paisa-on-demand, issuer: RBL Bank, name: Paisa on Demand Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { id: rbl-platinum-traveleasy, issuer: RBL Bank, name: Platinum TravelEasy Credit Card, source: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+
+  # Standard Chartered India
+  - { id: sc-smart, issuer: Standard Chartered India, name: Smart Credit Card, source: "https://www.sc.com/in/credit-cards/" }
+  - { id: sc-easemytrip, issuer: Standard Chartered India, name: EaseMyTrip Credit Card, source: "https://www.sc.com/in/credit-cards/" }
+  - { id: sc-rewards, issuer: Standard Chartered India, name: Rewards Credit Card, source: "https://www.sc.com/in/credit-cards/" }
+  - { id: sc-ultimate, issuer: Standard Chartered India, name: Ultimate Credit Card, source: "https://www.sc.com/in/credit-cards/" }
+  - { id: sc-super-value-titanium, issuer: Standard Chartered India, name: Super Value Titanium Credit Card, source: "https://www.sc.com/in/credit-cards/" }
+  - { id: sc-manhattan-platinum, issuer: Standard Chartered India, name: Manhattan Platinum Credit Card, source: "https://www.sc.com/in/credit-cards/" }
+  - { id: sc-platinum-rewards, issuer: Standard Chartered India, name: Platinum Rewards Credit Card, source: "https://www.sc.com/in/credit-cards/" }
+  - { id: sc-digismart, issuer: Standard Chartered India, name: DigiSmart Credit Card, source: "https://www.sc.com/in/credit-cards/" }
+
+  # Federal Bank
+  - { id: federal-celesta, issuer: Federal Bank, name: Celesta Credit Card, source: "https://www.federalbank.co.in/credit-cards" }
+  - { id: federal-imperia, issuer: Federal Bank, name: Imperio Credit Card, source: "https://www.federalbank.co.in/credit-cards" }
+  - { id: federal-signette, issuer: Federal Bank, name: Signet Credit Card, source: "https://www.federalbank.co.in/credit-cards" }
+
+  # Public-sector banks
+  - { id: bob-easy, issuer: Bank of Baroda, name: BOBCARD Easy, source: "https://www.bobcard.co.in/credit-card" }
+  - { id: bob-premier, issuer: Bank of Baroda, name: BOBCARD Premier, source: "https://www.bobcard.co.in/credit-card" }
+  - { id: bob-select, issuer: Bank of Baroda, name: BOBCARD Select, source: "https://www.bobcard.co.in/credit-card" }
+  - { id: bob-eterna, issuer: Bank of Baroda, name: BOBCARD Eterna, source: "https://www.bobcard.co.in/credit-card" }
+  - { id: bob-snapdeal, issuer: Bank of Baroda, name: Snapdeal BOBCARD, source: "https://www.bobcard.co.in/credit-card" }
+  - { id: bob-hpcl-energie, issuer: Bank of Baroda, name: HPCL BOBCARD ENERGIE, source: "https://www.bobcard.co.in/credit-card" }
+  - { id: bob-irctc, issuer: Bank of Baroda, name: IRCTC BOBCARD, source: "https://www.bobcard.co.in/credit-card" }
+  - { id: bob-prime, issuer: Bank of Baroda, name: BOBCARD Prime, source: "https://www.bobcard.co.in/credit-card" }
+  - { id: bob-tie, issuer: Bank of Baroda, name: TiE BOBCARD, source: "https://www.bobcard.co.in/credit-card" }
+  - { id: pnb-rupay-platinum, issuer: Punjab National Bank, name: PNB RuPay Platinum Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-rupay-select, issuer: Punjab National Bank, name: PNB RuPay Select Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-rupay-millennial, issuer: Punjab National Bank, name: PNB RuPay Millennial Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-rakshak-platinum, issuer: Punjab National Bank, name: PNB Rakshak RuPay Platinum Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-rakshak-select, issuer: Punjab National Bank, name: PNB Rakshak RuPay Select Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-visa-classic, issuer: Punjab National Bank, name: PNB Visa Classic Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-visa-gold, issuer: Punjab National Bank, name: PNB Visa Gold Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-visa-platinum, issuer: Punjab National Bank, name: PNB Visa Platinum Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-visa-signature, issuer: Punjab National Bank, name: PNB Visa Signature Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-bliss, issuer: Punjab National Bank, name: PNB BLISS Card, source: "https://www.pnbcard.in/" }
+  - { id: pnb-luxura-rupay, issuer: Punjab National Bank, name: PNB RuPay Metal Card LUXURA, source: "https://www.pnbcard.in/" }
+  - { id: pnb-luxura-visa, issuer: Punjab National Bank, name: PNB Visa Metal Card LUXURA, source: "https://www.pnbcard.in/" }
+  - { id: pnb-patanjali-select, issuer: Punjab National Bank, name: PNB Patanjali RuPay Select Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: pnb-patanjali-platinum, issuer: Punjab National Bank, name: PNB Patanjali RuPay Platinum Card, source: "https://www.pnbcard.in/types.html" }
+  - { id: canara-classic, issuer: Canara Bank, name: Canara Classic Credit Card, source: "https://canarabank.com/" }
+  - { id: canara-gold, issuer: Canara Bank, name: Canara Gold Credit Card, source: "https://canarabank.com/" }
+  - { id: canara-platinum, issuer: Canara Bank, name: Canara Platinum Credit Card, source: "https://canarabank.com/" }
+  - { id: canara-select, issuer: Canara Bank, name: Canara RuPay Select Credit Card, source: "https://canarabank.com/" }
+  - { id: union-classic, issuer: Union Bank of India, name: Union Classic Credit Card, source: "https://www.unionbankofindia.co.in/en/listing/credit-card" }
+  - { id: union-silver, issuer: Union Bank of India, name: Union Silver Credit Card, source: "https://www.unionbankofindia.co.in/en/listing/credit-card" }
+  - { id: union-gold, issuer: Union Bank of India, name: Union Gold Credit Card, source: "https://www.unionbankofindia.co.in/en/listing/credit-card" }
+  - { id: union-platinum, issuer: Union Bank of India, name: Union Platinum Credit Card, source: "https://www.unionbankofindia.co.in/en/listing/credit-card" }
+  - { id: union-signature, issuer: Union Bank of India, name: Union Signature Credit Card, source: "https://www.unionbankofindia.co.in/en/listing/credit-card" }
+  - { id: union-rupay-select, issuer: Union Bank of India, name: Union RuPay Select Credit Card, source: "https://www.unionbankofindia.co.in/en/listing/credit-card" }
+  - { id: boi-india, issuer: Bank of India, name: BOI India Credit Card, source: "https://bankofindia.co.in/credit-card" }
+  - { id: boi-gold, issuer: Bank of India, name: BOI Gold Credit Card, source: "https://bankofindia.co.in/credit-card" }
+  - { id: boi-international, issuer: Bank of India, name: BOI International Credit Card, source: "https://bankofindia.co.in/credit-card" }
+  - { id: indian-bank-bharat, issuer: Indian Bank, name: Bharat Credit Card, source: "https://www.indianbank.in/departments/credit-card/" }
+  - { id: indian-bank-gold, issuer: Indian Bank, name: Indian Bank Gold Credit Card, source: "https://www.indianbank.in/departments/credit-card/" }
+  - { id: indian-bank-platinum, issuer: Indian Bank, name: Indian Bank Platinum Credit Card, source: "https://www.indianbank.in/departments/credit-card/" }
+  - { id: indian-bank-rupay-platinum, issuer: Indian Bank, name: Indian Bank RuPay Platinum Credit Card, source: "https://www.indianbank.in/departments/credit-card/" }
+  - { id: indian-bank-rupay-select, issuer: Indian Bank, name: Indian Bank RuPay Select Credit Card, source: "https://www.indianbank.in/departments/credit-card/" }
+
+  # Other banks and partner-led cards
+  - { id: sib-sbi-platinum, issuer: South Indian Bank, name: South Indian Bank SBI Platinum Card, source: "https://www.southindianbank.com/content/personal-banking/credit-cards/385" }
+  - { id: sib-sbi-simplysave, issuer: South Indian Bank, name: South Indian Bank SimplySAVE SBI Card, source: "https://www.southindianbank.com/content/personal-banking/credit-cards/385" }
+  - { id: sib-onecard, issuer: South Indian Bank, name: South Indian Bank OneCard, source: "https://www.southindianbank.com/content/personal-banking/credit-cards/385" }
+  - { id: kvb-sbi-platinum, issuer: Karur Vysya Bank, name: KVB SBI Platinum Card, source: "https://www.kvb.co.in/personal/cards/credit-cards/" }
+  - { id: kvb-sbi-simplysave, issuer: Karur Vysya Bank, name: KVB SimplySAVE SBI Card, source: "https://www.kvb.co.in/personal/cards/credit-cards/" }
+  - { id: csb-jupiter-edge, issuer: CSB Bank, name: CSB Bank Jupiter Edge Credit Card, source: "https://www.csb.co.in/credit-card" }
+  - { id: csb-onecard, issuer: CSB Bank, name: CSB Bank OneCard, source: "https://www.csb.co.in/credit-card" }
+  - { id: dbs-bajaj-finserv-supercard, issuer: DBS Bank India, name: Bajaj Finserv DBS Bank SuperCard, source: "https://www.dbs.com/digibank/in/cards/credit-cards" }
+  - { id: dbs-velvet, issuer: DBS Bank India, name: DBS Vantage Credit Card, source: "https://www.dbs.com/digibank/in/cards/credit-cards" }
+  - { id: onecard-metal, issuer: OneCard partner banks, name: OneCard Metal Credit Card, source: "https://www.getonecard.app/" }
+  - { id: scapia-federal, issuer: Scapia partner bank, name: Scapia Federal Bank Credit Card, source: "https://www.scapia.cards/" }
+  - { id: kiwi-yes-bank, issuer: Kiwi partner banks, name: Kiwi YES BANK RuPay Credit Card, source: "https://gokiwi.in/" }
+  - { id: kiwi-axis-bank, issuer: Kiwi partner banks, name: Kiwi Axis Bank RuPay Credit Card, source: "https://gokiwi.in/" }
+  - { id: bom-sbi-elite, issuer: Bank of Maharashtra, name: Bank of Maharashtra SBI Card ELITE, source: "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf" }
+  - { id: bom-sbi-prime, issuer: Bank of Maharashtra, name: Bank of Maharashtra SBI Card PRIME, source: "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf" }
+  - { id: bom-sbi-simplysave, issuer: Bank of Maharashtra, name: Bank of Maharashtra SimplySAVE SBI Card, source: "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf" }
+  - { id: bom-secured, issuer: Bank of Maharashtra, name: Bank of Maharashtra Secured Credit Card, source: "https://bankofmaharashtra.in/writereaddata/documentlibrary/289b422d-886a-4353-8ca1-8a9299c60f79.pdf" }
+  - { id: bandhan-one, issuer: Bandhan Bank, name: Bandhan Bank One Credit Card, source: "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf" }
+  - { id: bandhan-plus, issuer: Bandhan Bank, name: Bandhan Bank Plus Credit Card, source: "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf" }
+  - { id: bandhan-xclusive, issuer: Bandhan Bank, name: Bandhan Bank Xclusive Credit Card, source: "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf" }
+  - { id: cub-dhi-signature, issuer: City Union Bank, name: Dhi CUB Visa Signature Credit Card, source: "https://www.cityunionbank.com/creditcard" }
+  - { id: cub-salaryse-level-up, issuer: City Union Bank, name: CUB SalarySe Level UP Credit Card, source: "https://www.cityunionbank.com/cub-salaryse-level-up-credit-card" }
+  - { id: cub-csk, issuer: City Union Bank, name: CUB Chennai Super Kings Credit Card, source: "https://cityunionbank.com/csk-srh-mitc-kfs" }
+  - { id: cub-srh, issuer: City Union Bank, name: CUB Sunrisers Hyderabad Credit Card, source: "https://cityunionbank.com/csk-srh-mitc-kfs" }
+  - { id: dhanlaxmi-platinum, issuer: Dhanlaxmi Bank, name: Visa Platinum Chip Credit Card, source: "https://www.dhanbank.com/pdf/Credit-Card-Policy.pdf" }
+  - { id: idbi-aspire, issuer: IDBI Bank, name: IDBI Aspire Credit Card, source: "https://www.idbibank.in/credit-card.aspx" }
+  - { id: idbi-euphoria, issuer: IDBI Bank, name: IDBI Euphoria Credit Card, source: "https://www.idbibank.in/credit-card.aspx" }
+  - { id: idbi-winnings, issuer: IDBI Bank, name: IDBI Winnings Credit Card, source: "https://www.idbibank.in/credit-card.aspx" }
+  - { id: jkb-platinum, issuer: Jammu & Kashmir Bank, name: J&K Bank Platinum Credit Card, source: "https://jkb.bank.in/transactions/services/credit-cards" }
+  - { id: jkb-gold, issuer: Jammu & Kashmir Bank, name: J&K Bank Gold Credit Card, source: "https://jkb.bank.in/transactions/services/credit-cards" }
+  - { id: jkb-platinum-privilege, issuer: Jammu & Kashmir Bank, name: J&K Bank Platinum Privilege Credit Card, source: "https://jkb.bank.in/transactions/services/credit-cards" }
+  - { id: jkb-eminent, issuer: Jammu & Kashmir Bank, name: J&K Bank Eminent Credit Card, source: "https://jkb.bank.in/transactions/services/credit-cards" }
+  - { id: jkb-corporate, issuer: Jammu & Kashmir Bank, name: J&K Bank Corporate Credit Card, source: "https://jkb.bank.in/transactions/services/credit-cards" }
+  - { id: tmb-platinum, issuer: Tamilnad Mercantile Bank, name: TMB Platinum Credit Card, source: "https://tmb.in/doc/creditcard_policy_01.pdf" }
+  - { id: tmb-titanium, issuer: Tamilnad Mercantile Bank, name: TMB Titanium Credit Card, source: "https://tmb.in/doc/creditcard_policy_01.pdf" }
+  - { id: sbm-onecard, issuer: SBM Bank India, name: SBM Bank India OneCard, source: "https://www.sbmbank.co.in/" }
+  - { id: sbm-step-up, issuer: SBM Bank India, name: SBM Step Up Credit Card, source: "https://www.sbmbank.co.in/" }
