@@ -3,9 +3,11 @@ import { readFile, writeFile } from "node:fs/promises";
 import { parse } from "yaml";
 
 const cardsDoc = parse(await readFile(new URL("../data/cards.yml", import.meta.url), "utf8"));
+const discoveryDoc = parse(await readFile(new URL("../data/discovery.yml", import.meta.url), "utf8"));
 const issuerDoc = parse(await readFile(new URL("../data/issuers.yml", import.meta.url), "utf8"));
 const urls = [...new Set([
   ...cardsDoc.cards.map((card) => card.source),
+  ...discoveryDoc.cards.map((card) => card.source),
   ...issuerDoc.issuers.map((issuer) => issuer.catalog),
 ])];
 const previous = JSON.parse(await readFile(new URL("../data/source-state.json", import.meta.url), "utf8").catch(() => "{}"));
@@ -21,7 +23,7 @@ async function audit(url) {
     const body = (await response.text()).replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "").replace(/\s+/g, " ").slice(0, 1_000_000);
     const hash = createHash("sha256").update(body).digest("hex").slice(0, 20);
     next[url] = { status: response.status, hash };
-    if ([401, 403, 406, 429].includes(response.status)) blocked.push(`${response.status} ${url}`);
+    if ([401, 403, 406, 429, 500, 502, 503, 504].includes(response.status)) blocked.push(`${response.status} ${url}`);
     else if (response.status >= 400) failed.push(`${response.status} ${url}`);
     if (!baseline && previous[url] && (previous[url].hash !== hash || previous[url].status !== response.status)) changed.push(url);
   } catch (error) {

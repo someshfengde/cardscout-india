@@ -1,8 +1,10 @@
 {
   "meta": {
     "updatedAt": "2026-08-14",
-    "cardCount": 62,
-    "issuerCount": 28,
+    "cardCount": 282,
+    "detailedCardCount": 62,
+    "discoveryCardCount": 220,
+    "issuerCount": 40,
     "detailedIssuerCount": 10,
     "verifiedCount": 45
   },
@@ -174,6 +176,78 @@
       "slug": "kiwi",
       "coverage": "discovery",
       "catalog": "https://gokiwi.in/"
+    },
+    {
+      "name": "Bank of Maharashtra",
+      "slug": "bank-of-maharashtra",
+      "coverage": "discovery",
+      "catalog": "https://bankofmaharashtra.in/credit-card"
+    },
+    {
+      "name": "Bandhan Bank",
+      "slug": "bandhan",
+      "coverage": "discovery",
+      "catalog": "https://bandhanbank.com/"
+    },
+    {
+      "name": "City Union Bank",
+      "slug": "city-union-bank",
+      "coverage": "discovery",
+      "catalog": "https://www.cityunionbank.com/creditcard"
+    },
+    {
+      "name": "DCB Bank",
+      "slug": "dcb-bank",
+      "coverage": "discovery",
+      "catalog": "https://www.dcbbank.com/"
+    },
+    {
+      "name": "Dhanlaxmi Bank",
+      "slug": "dhanlaxmi-bank",
+      "coverage": "discovery",
+      "catalog": "https://www.dhanbank.com/credit-cards/"
+    },
+    {
+      "name": "IDBI Bank",
+      "slug": "idbi-bank",
+      "coverage": "discovery",
+      "catalog": "https://www.idbibank.in/credit-card.aspx"
+    },
+    {
+      "name": "Jammu & Kashmir Bank",
+      "slug": "jammu-kashmir-bank",
+      "coverage": "discovery",
+      "catalog": "https://jkb.bank.in/transactions/services/credit-cards"
+    },
+    {
+      "name": "Tamilnad Mercantile Bank",
+      "slug": "tamilnad-mercantile-bank",
+      "coverage": "discovery",
+      "catalog": "https://tmb.in/doc/creditcard_policy_01.pdf"
+    },
+    {
+      "name": "SBM Bank India",
+      "slug": "sbm-bank-india",
+      "coverage": "discovery",
+      "catalog": "https://www.sbmbank.co.in/"
+    },
+    {
+      "name": "Equitas Small Finance Bank",
+      "slug": "equitas",
+      "coverage": "discovery",
+      "catalog": "https://equitas.bank.in/"
+    },
+    {
+      "name": "ESAF Small Finance Bank",
+      "slug": "esaf",
+      "coverage": "discovery",
+      "catalog": "https://www.esafbank.com/"
+    },
+    {
+      "name": "Utkarsh Small Finance Bank",
+      "slug": "utkarsh",
+      "coverage": "discovery",
+      "catalog": "https://www.utkarsh.bank/"
     }
   ],
   "cards": [
@@ -313,6 +387,48 @@
       "source": "https://www.americanexpress.com/in/credit-cards/smart-earn-credit-card/"
     },
     {
+      "id": "au-altura",
+      "issuer": "AU Small Finance Bank",
+      "name": "ALTURA Credit Card",
+      "source": "https://www.aubank.in/personal-banking/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "au-altura-plus",
+      "issuer": "AU Small Finance Bank",
+      "name": "ALTURA PLUS Credit Card",
+      "source": "https://www.aubank.in/personal-banking/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "au-ixigo",
       "issuer": "AU Small Finance Bank",
       "name": "ixigo AU Credit Card",
@@ -336,6 +452,48 @@
       "source": "https://www.aubank.in/personal-banking/credit-cards/ixigo-au-travel-credit-card"
     },
     {
+      "id": "au-lit",
+      "issuer": "AU Small Finance Bank",
+      "name": "LIT Credit Card",
+      "source": "https://www.aubank.in/personal-banking/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "au-nomo",
+      "issuer": "AU Small Finance Bank",
+      "name": "NOMO Credit Card",
+      "source": "https://www.aubank.in/personal-banking/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "au-spont",
       "issuer": "AU Small Finance Bank",
       "name": "SPONT RuPay Credit Card",
@@ -357,6 +515,48 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://aubank.in/personal-banking/credit-cards/au-spont-credit-card"
+    },
+    {
+      "id": "au-vetta",
+      "issuer": "AU Small Finance Bank",
+      "name": "VETTA Credit Card",
+      "source": "https://www.aubank.in/personal-banking/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "au-zenith",
+      "issuer": "AU Small Finance Bank",
+      "name": "ZENITH Credit Card",
+      "source": "https://www.aubank.in/personal-banking/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "au-zenith-plus",
@@ -450,6 +650,48 @@
       "source": "https://www.axisbank.com/retail/cards/credit-card/axis-bank-atlas-credit-card/features-benefits"
     },
     {
+      "id": "axis-aura",
+      "issuer": "Axis Bank",
+      "name": "AURA Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-fibe",
+      "issuer": "Axis Bank",
+      "name": "Fibe Axis Bank Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "axis-flipkart",
       "issuer": "Axis Bank",
       "name": "Flipkart Axis Bank Credit Card",
@@ -470,6 +712,69 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits"
+    },
+    {
+      "id": "axis-freecharge",
+      "issuer": "Axis Bank",
+      "name": "Freecharge Axis Bank Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-freecharge-plus",
+      "issuer": "Axis Bank",
+      "name": "Freecharge Plus Axis Bank Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-horizon",
+      "issuer": "Axis Bank",
+      "name": "HORIZON Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "axis-indianoil",
@@ -493,6 +798,111 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.axisbank.com/retail/cards/credit-card/indianoil-axis-bank-credit-card/features-benefits"
+    },
+    {
+      "id": "axis-lic-platinum",
+      "issuer": "Axis Bank",
+      "name": "LIC Axis Bank Platinum Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-lic-signature",
+      "issuer": "Axis Bank",
+      "name": "LIC Axis Bank Signature Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-magnus",
+      "issuer": "Axis Bank",
+      "name": "MAGNUS Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-magnus-burgundy",
+      "issuer": "Axis Bank",
+      "name": "MAGNUS for Burgundy",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-my-zone",
+      "issuer": "Axis Bank",
+      "name": "MY ZONE Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "axis-neo",
@@ -541,6 +951,153 @@
       "source": "https://www.axisbank.com/retail/cards/credit-card/olympus-credit-card"
     },
     {
+      "id": "axis-pnb",
+      "issuer": "Axis Bank",
+      "name": "PNB Axis Bank Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-primus",
+      "issuer": "Axis Bank",
+      "name": "PRIMUS Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-privilege",
+      "issuer": "Axis Bank",
+      "name": "PRIVILEGE Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-reserve",
+      "issuer": "Axis Bank",
+      "name": "RESERVE Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-rewards",
+      "issuer": "Axis Bank",
+      "name": "Rewards Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-samsung-infinite",
+      "issuer": "Axis Bank",
+      "name": "Samsung Axis Bank Infinite Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "axis-samsung-signature",
+      "issuer": "Axis Bank",
+      "name": "Samsung Axis Bank Signature Credit Card",
+      "source": "https://www.axisbank.com/retail/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "axis-select",
       "issuer": "Axis Bank",
       "name": "SELECT Credit Card",
@@ -562,6 +1119,804 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.axisbank.com/retail/cards/credit-card/axis-bank-select-credit-card/features-benefits"
+    },
+    {
+      "id": "bandhan-one",
+      "issuer": "Bandhan Bank",
+      "name": "Bandhan Bank One Credit Card",
+      "source": "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bandhan-plus",
+      "issuer": "Bandhan Bank",
+      "name": "Bandhan Bank Plus Credit Card",
+      "source": "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bandhan-xclusive",
+      "issuer": "Bandhan Bank",
+      "name": "Bandhan Bank Xclusive Credit Card",
+      "source": "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bob-easy",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Easy",
+      "source": "https://www.bobcard.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bob-eterna",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Eterna",
+      "source": "https://www.bobcard.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bob-premier",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Premier",
+      "source": "https://www.bobcard.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bob-prime",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Prime",
+      "source": "https://www.bobcard.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bob-select",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Select",
+      "source": "https://www.bobcard.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bob-hpcl-energie",
+      "issuer": "Bank of Baroda",
+      "name": "HPCL BOBCARD ENERGIE",
+      "source": "https://www.bobcard.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bob-irctc",
+      "issuer": "Bank of Baroda",
+      "name": "IRCTC BOBCARD",
+      "source": "https://www.bobcard.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bob-snapdeal",
+      "issuer": "Bank of Baroda",
+      "name": "Snapdeal BOBCARD",
+      "source": "https://www.bobcard.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bob-tie",
+      "issuer": "Bank of Baroda",
+      "name": "TiE BOBCARD",
+      "source": "https://www.bobcard.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "boi-gold",
+      "issuer": "Bank of India",
+      "name": "BOI Gold Credit Card",
+      "source": "https://bankofindia.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "boi-india",
+      "issuer": "Bank of India",
+      "name": "BOI India Credit Card",
+      "source": "https://bankofindia.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "boi-international",
+      "issuer": "Bank of India",
+      "name": "BOI International Credit Card",
+      "source": "https://bankofindia.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bom-sbi-elite",
+      "issuer": "Bank of Maharashtra",
+      "name": "Bank of Maharashtra SBI Card ELITE",
+      "source": "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bom-sbi-prime",
+      "issuer": "Bank of Maharashtra",
+      "name": "Bank of Maharashtra SBI Card PRIME",
+      "source": "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bom-secured",
+      "issuer": "Bank of Maharashtra",
+      "name": "Bank of Maharashtra Secured Credit Card",
+      "source": "https://bankofmaharashtra.in/writereaddata/documentlibrary/289b422d-886a-4353-8ca1-8a9299c60f79.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "bom-sbi-simplysave",
+      "issuer": "Bank of Maharashtra",
+      "name": "Bank of Maharashtra SimplySAVE SBI Card",
+      "source": "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "canara-classic",
+      "issuer": "Canara Bank",
+      "name": "Canara Classic Credit Card",
+      "source": "https://canarabank.com/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "canara-gold",
+      "issuer": "Canara Bank",
+      "name": "Canara Gold Credit Card",
+      "source": "https://canarabank.com/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "canara-platinum",
+      "issuer": "Canara Bank",
+      "name": "Canara Platinum Credit Card",
+      "source": "https://canarabank.com/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "canara-select",
+      "issuer": "Canara Bank",
+      "name": "Canara RuPay Select Credit Card",
+      "source": "https://canarabank.com/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "cub-csk",
+      "issuer": "City Union Bank",
+      "name": "CUB Chennai Super Kings Credit Card",
+      "source": "https://cityunionbank.com/csk-srh-mitc-kfs",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "cub-salaryse-level-up",
+      "issuer": "City Union Bank",
+      "name": "CUB SalarySe Level UP Credit Card",
+      "source": "https://www.cityunionbank.com/cub-salaryse-level-up-credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "cub-srh",
+      "issuer": "City Union Bank",
+      "name": "CUB Sunrisers Hyderabad Credit Card",
+      "source": "https://cityunionbank.com/csk-srh-mitc-kfs",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "cub-dhi-signature",
+      "issuer": "City Union Bank",
+      "name": "Dhi CUB Visa Signature Credit Card",
+      "source": "https://www.cityunionbank.com/creditcard",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "csb-jupiter-edge",
+      "issuer": "CSB Bank",
+      "name": "CSB Bank Jupiter Edge Credit Card",
+      "source": "https://www.csb.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "csb-onecard",
+      "issuer": "CSB Bank",
+      "name": "CSB Bank OneCard",
+      "source": "https://www.csb.co.in/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "dbs-bajaj-finserv-supercard",
+      "issuer": "DBS Bank India",
+      "name": "Bajaj Finserv DBS Bank SuperCard",
+      "source": "https://www.dbs.com/digibank/in/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "dbs-velvet",
+      "issuer": "DBS Bank India",
+      "name": "DBS Vantage Credit Card",
+      "source": "https://www.dbs.com/digibank/in/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "dhanlaxmi-platinum",
+      "issuer": "Dhanlaxmi Bank",
+      "name": "Visa Platinum Chip Credit Card",
+      "source": "https://www.dhanbank.com/pdf/Credit-Card-Policy.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "federal-celesta",
+      "issuer": "Federal Bank",
+      "name": "Celesta Credit Card",
+      "source": "https://www.federalbank.co.in/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "federal-imperia",
+      "issuer": "Federal Bank",
+      "name": "Imperio Credit Card",
+      "source": "https://www.federalbank.co.in/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "federal-signette",
+      "issuer": "Federal Bank",
+      "name": "Signet Credit Card",
+      "source": "https://www.federalbank.co.in/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-bizblack-metal",
+      "issuer": "HDFC Bank",
+      "name": "BizBlack Metal Edition",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-bizgrow",
+      "issuer": "HDFC Bank",
+      "name": "BizGrow Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-bizpower",
+      "issuer": "HDFC Bank",
+      "name": "BizPower Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "hdfc-diners-black-metal",
@@ -586,6 +1941,90 @@
       "forex_markup": 2,
       "verification": "partial",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-club-black-metal-edition"
+    },
+    {
+      "id": "hdfc-diners-privilege",
+      "issuer": "HDFC Bank",
+      "name": "Diners Club Privilege",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-freedom",
+      "issuer": "HDFC Bank",
+      "name": "Freedom Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-upi-rupay",
+      "issuer": "HDFC Bank",
+      "name": "HDFC Bank UPI RuPay Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-indianoil",
+      "issuer": "HDFC Bank",
+      "name": "IndianOil HDFC Bank Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "hdfc-infinia-metal",
@@ -657,6 +2096,111 @@
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia-credit-card"
     },
     {
+      "id": "hdfc-moneyback-plus",
+      "issuer": "HDFC Bank",
+      "name": "MoneyBack+",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-paytm-mobile",
+      "issuer": "HDFC Bank",
+      "name": "Paytm HDFC Bank Mobile Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-paytm-select",
+      "issuer": "HDFC Bank",
+      "name": "Paytm HDFC Bank Select Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-pixel-go",
+      "issuer": "HDFC Bank",
+      "name": "PIXEL Go Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-pixel-play",
+      "issuer": "HDFC Bank",
+      "name": "PIXEL Play Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "hdfc-regalia-gold",
       "issuer": "HDFC Bank",
       "name": "Regalia Gold",
@@ -678,6 +2222,48 @@
       "forex_markup": 2,
       "verification": "partial",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold-credit-card"
+    },
+    {
+      "id": "hdfc-shoppers-stop-black",
+      "issuer": "HDFC Bank",
+      "name": "Shoppers Stop BLACK HDFC Bank Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-shoppers-stop",
+      "issuer": "HDFC Bank",
+      "name": "Shoppers Stop HDFC Bank Credit Card",
+      "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "hdfc-swiggy",
@@ -747,6 +2333,48 @@
       "forex_markup": 3.5,
       "verification": "partial",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card"
+    },
+    {
+      "id": "hsbc-rupay-cashback",
+      "issuer": "HSBC India",
+      "name": "HSBC RuPay Cashback Credit Card",
+      "source": "https://www.hsbc.co.in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hsbc-taj",
+      "issuer": "HSBC India",
+      "name": "HSBC Taj Credit Card",
+      "source": "https://www.hsbc.co.in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "hsbc-live-plus",
@@ -840,6 +2468,48 @@
       "source": "https://www.hsbc.co.in/credit-cards/products/visa-platinum/"
     },
     {
+      "id": "icici-adani-one-platinum",
+      "issuer": "ICICI Bank",
+      "name": "Adani One ICICI Bank Platinum Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "icici-adani-one-signature",
+      "issuer": "ICICI Bank",
+      "name": "Adani One ICICI Bank Signature Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "icici-amazon-pay",
       "issuer": "ICICI Bank",
       "name": "Amazon Pay ICICI Bank Credit Card",
@@ -861,6 +2531,27 @@
       "forex_markup": 3.5,
       "verification": "partial",
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card/amazon-pay-credit-card"
+    },
+    {
+      "id": "icici-coral",
+      "issuer": "ICICI Bank",
+      "name": "Coral Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "icici-coral-rupay",
@@ -886,6 +2577,27 @@
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card/coral-rupay-credit-card"
     },
     {
+      "id": "icici-emeralde",
+      "issuer": "ICICI Bank",
+      "name": "Emeralde Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "icici-emeralde-private",
       "issuer": "ICICI Bank",
       "name": "Emeralde Private Metal Credit Card",
@@ -907,6 +2619,195 @@
       "forex_markup": 2,
       "verification": "partial",
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-private-metal-credit-card"
+    },
+    {
+      "id": "icici-emirates-skywards-rubyx",
+      "issuer": "ICICI Bank",
+      "name": "Emirates Skywards ICICI Bank Rubyx Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "icici-emirates-skywards-sapphiro",
+      "issuer": "ICICI Bank",
+      "name": "Emirates Skywards ICICI Bank Sapphiro Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "icici-expressions",
+      "issuer": "ICICI Bank",
+      "name": "Expressions Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "icici-hpcl-coral",
+      "issuer": "ICICI Bank",
+      "name": "HPCL Coral Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "icici-hpcl-super-saver",
+      "issuer": "ICICI Bank",
+      "name": "HPCL Super Saver Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "icici-makemytrip",
+      "issuer": "ICICI Bank",
+      "name": "MakeMyTrip ICICI Bank Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "icici-makemytrip-signature",
+      "issuer": "ICICI Bank",
+      "name": "MakeMyTrip ICICI Bank Signature Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "icici-manchester-united-platinum",
+      "issuer": "ICICI Bank",
+      "name": "Manchester United Platinum Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "icici-manchester-united-signature",
+      "issuer": "ICICI Bank",
+      "name": "Manchester United Signature Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "icici-platinum-chip",
@@ -931,6 +2832,27 @@
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip-credit-card"
     },
     {
+      "id": "icici-rubyx",
+      "issuer": "ICICI Bank",
+      "name": "Rubyx Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "icici-sapphiro",
       "issuer": "ICICI Bank",
       "name": "Sapphiro Credit Card",
@@ -952,6 +2874,90 @@
       "forex_markup": 3.5,
       "verification": "partial",
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card/sapphiro-credit-card"
+    },
+    {
+      "id": "icici-times-black",
+      "issuer": "ICICI Bank",
+      "name": "Times Black ICICI Bank Credit Card",
+      "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "idbi-aspire",
+      "issuer": "IDBI Bank",
+      "name": "IDBI Aspire Credit Card",
+      "source": "https://www.idbibank.in/credit-card.aspx",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "idbi-euphoria",
+      "issuer": "IDBI Bank",
+      "name": "IDBI Euphoria Credit Card",
+      "source": "https://www.idbibank.in/credit-card.aspx",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "idbi-winnings",
+      "issuer": "IDBI Bank",
+      "name": "IDBI Winnings Credit Card",
+      "source": "https://www.idbibank.in/credit-card.aspx",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "idfc-ashva",
@@ -999,6 +3005,48 @@
       "source": "https://www.idfcfirstbank.com/credit-card/classic"
     },
     {
+      "id": "idfc-digital-rupay",
+      "issuer": "IDFC FIRST Bank",
+      "name": "FIRST Digital RuPay Credit Card",
+      "source": "https://www.idfcfirstbank.com/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "idfc-earn",
+      "issuer": "IDFC FIRST Bank",
+      "name": "FIRST EA₹N",
+      "source": "https://www.idfcfirstbank.com/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "idfc-millennia",
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST Millennia",
@@ -1019,6 +3067,27 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.idfcfirstbank.com/credit-card/millennia"
+    },
+    {
+      "id": "idfc-power",
+      "issuer": "IDFC FIRST Bank",
+      "name": "FIRST Power",
+      "source": "https://www.idfcfirstbank.com/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "idfc-power-plus",
@@ -1044,6 +3113,27 @@
       "source": "https://www.idfcfirstbank.com/credit-card?cardType=Select"
     },
     {
+      "id": "idfc-private",
+      "issuer": "IDFC FIRST Bank",
+      "name": "FIRST Private Credit Card",
+      "source": "https://www.idfcfirstbank.com/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "idfc-select",
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST Select",
@@ -1065,6 +3155,27 @@
       "forex_markup": 1.99,
       "verification": "verified",
       "source": "https://www.idfcfirstbank.com/credit-card/select"
+    },
+    {
+      "id": "idfc-swyp",
+      "issuer": "IDFC FIRST Bank",
+      "name": "FIRST SWYP",
+      "source": "https://www.idfcfirstbank.com/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "idfc-wealth",
@@ -1136,6 +3247,636 @@
       "source": "https://www.idfcfirstbank.com/credit-card?cardType=Select"
     },
     {
+      "id": "indian-bank-bharat",
+      "issuer": "Indian Bank",
+      "name": "Bharat Credit Card",
+      "source": "https://www.indianbank.in/departments/credit-card/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indian-bank-gold",
+      "issuer": "Indian Bank",
+      "name": "Indian Bank Gold Credit Card",
+      "source": "https://www.indianbank.in/departments/credit-card/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indian-bank-platinum",
+      "issuer": "Indian Bank",
+      "name": "Indian Bank Platinum Credit Card",
+      "source": "https://www.indianbank.in/departments/credit-card/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indian-bank-rupay-platinum",
+      "issuer": "Indian Bank",
+      "name": "Indian Bank RuPay Platinum Credit Card",
+      "source": "https://www.indianbank.in/departments/credit-card/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indian-bank-rupay-select",
+      "issuer": "Indian Bank",
+      "name": "Indian Bank RuPay Select Credit Card",
+      "source": "https://www.indianbank.in/departments/credit-card/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-avios-visa-infinite",
+      "issuer": "IndusInd Bank",
+      "name": "Avios Visa Infinite Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-avios-visa-signature",
+      "issuer": "IndusInd Bank",
+      "name": "Avios Visa Signature Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-club-marriott",
+      "issuer": "IndusInd Bank",
+      "name": "Club Marriott Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-eazydiner-platinum",
+      "issuer": "IndusInd Bank",
+      "name": "EazyDiner IndusInd Bank Platinum Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-eazydiner-signature",
+      "issuer": "IndusInd Bank",
+      "name": "EazyDiner IndusInd Bank Signature Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-voyage",
+      "issuer": "IndusInd Bank",
+      "name": "IndusInd Bank Voyage Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-legend",
+      "issuer": "IndusInd Bank",
+      "name": "Legend Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-nexxt",
+      "issuer": "IndusInd Bank",
+      "name": "Nexxt Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-pinnacle",
+      "issuer": "IndusInd Bank",
+      "name": "Pinnacle Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-platinum-aura-edge",
+      "issuer": "IndusInd Bank",
+      "name": "Platinum Aura Edge Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-platinum-rupay",
+      "issuer": "IndusInd Bank",
+      "name": "Platinum RuPay Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-platinum-visa",
+      "issuer": "IndusInd Bank",
+      "name": "Platinum Visa Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-samman",
+      "issuer": "IndusInd Bank",
+      "name": "Samman Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-tiger",
+      "issuer": "IndusInd Bank",
+      "name": "Tiger Credit Card",
+      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "jkb-corporate",
+      "issuer": "Jammu & Kashmir Bank",
+      "name": "J&K Bank Corporate Credit Card",
+      "source": "https://jkb.bank.in/transactions/services/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "jkb-eminent",
+      "issuer": "Jammu & Kashmir Bank",
+      "name": "J&K Bank Eminent Credit Card",
+      "source": "https://jkb.bank.in/transactions/services/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "jkb-gold",
+      "issuer": "Jammu & Kashmir Bank",
+      "name": "J&K Bank Gold Credit Card",
+      "source": "https://jkb.bank.in/transactions/services/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "jkb-platinum",
+      "issuer": "Jammu & Kashmir Bank",
+      "name": "J&K Bank Platinum Credit Card",
+      "source": "https://jkb.bank.in/transactions/services/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "jkb-platinum-privilege",
+      "issuer": "Jammu & Kashmir Bank",
+      "name": "J&K Bank Platinum Privilege Credit Card",
+      "source": "https://jkb.bank.in/transactions/services/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kvb-sbi-platinum",
+      "issuer": "Karur Vysya Bank",
+      "name": "KVB SBI Platinum Card",
+      "source": "https://www.kvb.co.in/personal/cards/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kvb-sbi-simplysave",
+      "issuer": "Karur Vysya Bank",
+      "name": "KVB SimplySAVE SBI Card",
+      "source": "https://www.kvb.co.in/personal/cards/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kiwi-axis-bank",
+      "issuer": "Kiwi partner banks",
+      "name": "Kiwi Axis Bank RuPay Credit Card",
+      "source": "https://gokiwi.in/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kiwi-yes-bank",
+      "issuer": "Kiwi partner banks",
+      "name": "Kiwi YES BANK RuPay Credit Card",
+      "source": "https://gokiwi.in/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-811",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "811 Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-811-dream-different",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "811 Dream Different Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "kotak-cashback-plus",
       "issuer": "Kotak Mahindra Bank",
       "name": "Cashback+",
@@ -1180,6 +3921,48 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/indian-oil-credit-card.html"
+    },
+    {
+      "id": "kotak-indigo",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "IndiGo Kotak Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-indigo-xl",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "IndiGo Kotak XL Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "kotak-air-plus",
@@ -1250,6 +4033,216 @@
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/league-platinum-card.html"
     },
     {
+      "id": "kotak-mojo-platinum",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "Mojo Platinum Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-privy-league-signature",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "Privy League Signature Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-pvr-gold",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "PVR Gold Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-pvr-inox",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "PVR INOX Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-pvr-platinum",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "PVR Platinum Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-royale-signature",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "Royale Signature Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-solitaire-business",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "Solitaire Business Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/business-credit-card.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-solitaire",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "Solitaire Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-urbane-gold",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "Urbane Gold Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "kotak-white",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "White Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "kotak-white-reserve",
       "issuer": "Kotak Mahindra Bank",
       "name": "White Reserve",
@@ -1271,6 +4264,657 @@
       "forex_markup": 2,
       "verification": "verified",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/white-reserve-credit-card.html"
+    },
+    {
+      "id": "kotak-zen-signature",
+      "issuer": "Kotak Mahindra Bank",
+      "name": "Zen Signature Credit Card",
+      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "onecard-metal",
+      "issuer": "OneCard partner banks",
+      "name": "OneCard Metal Credit Card",
+      "source": "https://www.getonecard.app/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-bliss",
+      "issuer": "Punjab National Bank",
+      "name": "PNB BLISS Card",
+      "source": "https://www.pnbcard.in/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-patanjali-platinum",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Patanjali RuPay Platinum Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-patanjali-select",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Patanjali RuPay Select Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-rakshak-platinum",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Rakshak RuPay Platinum Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-rakshak-select",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Rakshak RuPay Select Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-luxura-rupay",
+      "issuer": "Punjab National Bank",
+      "name": "PNB RuPay Metal Card LUXURA",
+      "source": "https://www.pnbcard.in/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-rupay-millennial",
+      "issuer": "Punjab National Bank",
+      "name": "PNB RuPay Millennial Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-rupay-platinum",
+      "issuer": "Punjab National Bank",
+      "name": "PNB RuPay Platinum Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-rupay-select",
+      "issuer": "Punjab National Bank",
+      "name": "PNB RuPay Select Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-visa-classic",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Visa Classic Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-visa-gold",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Visa Gold Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-luxura-visa",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Visa Metal Card LUXURA",
+      "source": "https://www.pnbcard.in/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-visa-platinum",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Visa Platinum Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "pnb-visa-signature",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Visa Signature Card",
+      "source": "https://www.pnbcard.in/types.html",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-bajaj-finserv-supercard",
+      "issuer": "RBL Bank",
+      "name": "Bajaj Finserv RBL Bank SuperCard",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-bookmyshow-play",
+      "issuer": "RBL Bank",
+      "name": "BookMyShow RBL Bank PLAY Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-duet",
+      "issuer": "RBL Bank",
+      "name": "Duet Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-icon",
+      "issuer": "RBL Bank",
+      "name": "Icon Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-indian-oil",
+      "issuer": "RBL Bank",
+      "name": "IndianOil RBL Bank Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-indian-oil-xtra",
+      "issuer": "RBL Bank",
+      "name": "IndianOil RBL Bank XTRA Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-insignia",
+      "issuer": "RBL Bank",
+      "name": "Insignia Preferred Banking World Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-monthly-treats",
+      "issuer": "RBL Bank",
+      "name": "Monthly Treats Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-paisa-on-demand",
+      "issuer": "RBL Bank",
+      "name": "Paisa on Demand Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-platinum-maxima",
+      "issuer": "RBL Bank",
+      "name": "Platinum Maxima Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-platinum-traveleasy",
+      "issuer": "RBL Bank",
+      "name": "Platinum TravelEasy Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-shoprite",
+      "issuer": "RBL Bank",
+      "name": "ShopRite Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-world-safari",
+      "issuer": "RBL Bank",
+      "name": "World Safari Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-zomato-edition-classic",
+      "issuer": "RBL Bank",
+      "name": "Zomato Edition Classic Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-zomato-edition",
+      "issuer": "RBL Bank",
+      "name": "Zomato Edition Credit Card",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "sbi-aurum",
@@ -1364,6 +5008,342 @@
       "source": "https://www.sbicard.com/en/personal/credit-cards/rewards/cashback-sbi-card.page"
     },
     {
+      "id": "sbi-central",
+      "issuer": "SBI Card",
+      "name": "Central SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-central-select",
+      "issuer": "SBI Card",
+      "name": "Central SBI Card SELECT",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-club-vistara",
+      "issuer": "SBI Card",
+      "name": "Club Vistara SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-club-vistara-prime",
+      "issuer": "SBI Card",
+      "name": "Club Vistara SBI Card PRIME",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-etihad-guest",
+      "issuer": "SBI Card",
+      "name": "Etihad Guest SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-etihad-guest-premier",
+      "issuer": "SBI Card",
+      "name": "Etihad Guest SBI Card Premier",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-fabindia",
+      "issuer": "SBI Card",
+      "name": "Fabindia SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-fabindia-select",
+      "issuer": "SBI Card",
+      "name": "Fabindia SBI Card SELECT",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-irctc-premier",
+      "issuer": "SBI Card",
+      "name": "IRCTC SBI Card Premier",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-irctc-platinum",
+      "issuer": "SBI Card",
+      "name": "IRCTC SBI Platinum Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-krisflyer",
+      "issuer": "SBI Card",
+      "name": "KrisFlyer SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-krisflyer-apex",
+      "issuer": "SBI Card",
+      "name": "KrisFlyer SBI Card APEX",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-lifestyle-home-centre",
+      "issuer": "SBI Card",
+      "name": "Lifestyle Home Centre SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-lifestyle-home-centre-select",
+      "issuer": "SBI Card",
+      "name": "Lifestyle Home Centre SBI Card SELECT",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-nature-basket",
+      "issuer": "SBI Card",
+      "name": "Nature's Basket SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-nature-basket-select",
+      "issuer": "SBI Card",
+      "name": "Nature's Basket SBI Card ELITE",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "sbi-elite",
       "issuer": "SBI Card",
       "name": "SBI Card ELITE",
@@ -1386,6 +5366,69 @@
       "forex_markup": 1.99,
       "verification": "verified",
       "source": "https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite.page"
+    },
+    {
+      "id": "sbi-miles",
+      "issuer": "SBI Card",
+      "name": "SBI Card MILES",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-miles-elite",
+      "issuer": "SBI Card",
+      "name": "SBI Card MILES ELITE",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-miles-prime",
+      "issuer": "SBI Card",
+      "name": "SBI Card MILES PRIME",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "sbi-prime",
@@ -1456,6 +5499,552 @@
       "source": "https://www.sbicard.com/en/personal/credit-cards/shopping/simplysave-sbi-card.page"
     },
     {
+      "id": "sbi-tata-neu-infinity",
+      "issuer": "SBI Card",
+      "name": "Tata Neu Infinity SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-tata-neu-plus",
+      "issuer": "SBI Card",
+      "name": "Tata Neu Plus SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-titan",
+      "issuer": "SBI Card",
+      "name": "Titan SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbi-unnati",
+      "issuer": "SBI Card",
+      "name": "Unnati SBI Card",
+      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbm-onecard",
+      "issuer": "SBM Bank India",
+      "name": "SBM Bank India OneCard",
+      "source": "https://www.sbmbank.co.in/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sbm-step-up",
+      "issuer": "SBM Bank India",
+      "name": "SBM Step Up Credit Card",
+      "source": "https://www.sbmbank.co.in/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "scapia-federal",
+      "issuer": "Scapia partner bank",
+      "name": "Scapia Federal Bank Credit Card",
+      "source": "https://www.scapia.cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sib-onecard",
+      "issuer": "South Indian Bank",
+      "name": "South Indian Bank OneCard",
+      "source": "https://www.southindianbank.com/content/personal-banking/credit-cards/385",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sib-sbi-platinum",
+      "issuer": "South Indian Bank",
+      "name": "South Indian Bank SBI Platinum Card",
+      "source": "https://www.southindianbank.com/content/personal-banking/credit-cards/385",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sib-sbi-simplysave",
+      "issuer": "South Indian Bank",
+      "name": "South Indian Bank SimplySAVE SBI Card",
+      "source": "https://www.southindianbank.com/content/personal-banking/credit-cards/385",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sc-digismart",
+      "issuer": "Standard Chartered India",
+      "name": "DigiSmart Credit Card",
+      "source": "https://www.sc.com/in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sc-easemytrip",
+      "issuer": "Standard Chartered India",
+      "name": "EaseMyTrip Credit Card",
+      "source": "https://www.sc.com/in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sc-manhattan-platinum",
+      "issuer": "Standard Chartered India",
+      "name": "Manhattan Platinum Credit Card",
+      "source": "https://www.sc.com/in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sc-platinum-rewards",
+      "issuer": "Standard Chartered India",
+      "name": "Platinum Rewards Credit Card",
+      "source": "https://www.sc.com/in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sc-rewards",
+      "issuer": "Standard Chartered India",
+      "name": "Rewards Credit Card",
+      "source": "https://www.sc.com/in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sc-smart",
+      "issuer": "Standard Chartered India",
+      "name": "Smart Credit Card",
+      "source": "https://www.sc.com/in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sc-super-value-titanium",
+      "issuer": "Standard Chartered India",
+      "name": "Super Value Titanium Credit Card",
+      "source": "https://www.sc.com/in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sc-ultimate",
+      "issuer": "Standard Chartered India",
+      "name": "Ultimate Credit Card",
+      "source": "https://www.sc.com/in/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "tmb-platinum",
+      "issuer": "Tamilnad Mercantile Bank",
+      "name": "TMB Platinum Credit Card",
+      "source": "https://tmb.in/doc/creditcard_policy_01.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "tmb-titanium",
+      "issuer": "Tamilnad Mercantile Bank",
+      "name": "TMB Titanium Credit Card",
+      "source": "https://tmb.in/doc/creditcard_policy_01.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "union-classic",
+      "issuer": "Union Bank of India",
+      "name": "Union Classic Credit Card",
+      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "union-gold",
+      "issuer": "Union Bank of India",
+      "name": "Union Gold Credit Card",
+      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "union-platinum",
+      "issuer": "Union Bank of India",
+      "name": "Union Platinum Credit Card",
+      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "union-rupay-select",
+      "issuer": "Union Bank of India",
+      "name": "Union RuPay Select Credit Card",
+      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "union-signature",
+      "issuer": "Union Bank of India",
+      "name": "Union Signature Credit Card",
+      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "union-silver",
+      "issuer": "Union Bank of India",
+      "name": "Union Silver Credit Card",
+      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "yes-ace",
       "issuer": "YES BANK",
       "name": "ACE",
@@ -1476,6 +6065,48 @@
       "forex_markup": 3.4,
       "verification": "verified",
       "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards/ace-credit-card"
+    },
+    {
+      "id": "yes-byoc-cashback",
+      "issuer": "YES BANK",
+      "name": "BYOC Cashback Credit Card",
+      "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "yes-byoc-rewards",
+      "issuer": "YES BANK",
+      "name": "BYOC Rewards Credit Card",
+      "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "yes-elite-plus",
@@ -1592,6 +6223,69 @@
       "forex_markup": 3.4,
       "verification": "verified",
       "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards/select-credit-card"
+    },
+    {
+      "id": "yes-wellness",
+      "issuer": "YES BANK",
+      "name": "Wellness Credit Card",
+      "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "yes-wellness-plus",
+      "issuer": "YES BANK",
+      "name": "Wellness Plus Credit Card",
+      "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "yes-ai-inside",
+      "issuer": "YES BANK",
+      "name": "YES BANK AI Inside Credit Card",
+      "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     }
   ]
 }

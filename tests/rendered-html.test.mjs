@@ -17,8 +17,8 @@ test("server-renders the CardScout catalog", async () => {
   const html = await response.text();
   assert.match(html, /CardScout India/);
   assert.match(html, /Find a credit card/);
-  assert.match(html, /62/);
-  assert.match(html, /Officially verified records/);
+  assert.match(html, /Cards discovered/);
+  assert.match(html, /Detailed card records/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|Your site is taking shape/);
 });
 

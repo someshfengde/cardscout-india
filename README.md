@@ -9,15 +9,20 @@ anyone can review.
 
 ## What is included
 
-- 62 detailed card records across 10 issuers
-- 28 issuers in the public discovery ledger
+- 200+ discovered card products across 40 issuers and partner programs
+- 62 detailed records, with incomplete cards visibly marked `Researching`
 - Search, issuer/use-case/fee filters, sorting, detail views, and comparisons
 - A primary-source link and verification state on every card
 - Schema validation, tests, CI, and weekly official-source change detection
 - A contributor workflow designed for one-card pull requests
 
-The catalog is intentionally honest about coverage. An issuer can be tracked in
-`data/issuers.yml` before its cards graduate into the detailed catalog.
+The catalog is intentionally honest about coverage. Card candidates enter
+`data/discovery.yml` during the issuer-by-issuer pass, then graduate to
+`data/cards.yml` only after fees and material benefits are checked.
+
+The issuer baseline is cross-checked against the Reserve Bank of India's
+[bank-wise card statistics](https://www.rbi.org.in/scripts/ATMView.aspx?atmid=169).
+Partner programs are tracked separately because the issuing bank can change.
 
 ## Local development
 
@@ -40,6 +45,7 @@ npm run data:audit
 ## Data model
 
 - `data/cards.yml` — website card records
+- `data/discovery.yml` — card-by-card discovery and verification queue
 - `data/issuers.yml` — India-wide issuer discovery ledger
 - `data/source-state.json` — fingerprints used to detect official-page changes
 - `source-audit.md` — latest human-readable audit result
