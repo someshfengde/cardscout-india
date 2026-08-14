@@ -91,6 +91,7 @@ export default function CardExplorer({ catalog }: { catalog: Catalog }) {
 
   return (
     <main id="top">
+      <a className="skip-link" href="#cards">Skip to card catalog</a>
       <header className="nav-shell">
         <a className="brand" href="#top" aria-label="CardScout India home"><span className="brand-mark">CS</span><span>CardScout <em>India</em></span></a>
         <nav aria-label="Main navigation"><a className="nav-catalog" href="#cards">Cards</a><a href="#coverage">Coverage</a><a href="#method">Method</a><a className="contribute" href="https://github.com/someshfengde/cardscout-india" target="_blank" rel="noreferrer">Contribute ↗</a></nav>
