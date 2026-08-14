@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://cardscout-india.pages.dev"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://cardscout-india.someshfengade.chatgpt.site"),
   title: "CardScout India — Compare Credit Cards Without the Sales Pitch",
   description: "A source-backed, community-maintained directory of Indian credit cards, fees, rewards and benefits.",
   keywords: ["India credit cards", "credit card comparison", "cashback credit cards", "lifetime free credit cards", "RuPay credit cards"],

@@ -1,5 +1,7 @@
 # CardScout India
 
+**Live site:** https://cardscout-india.someshfengade.chatgpt.site
+
 An open, source-backed catalog for comparing Indian credit cards without the
 sales pitch. CardScout India keeps fees, rewards, lounge access, forex markup,
 waiver thresholds, and official issuer links in a small YAML dataset that
