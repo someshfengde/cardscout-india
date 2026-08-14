@@ -245,7 +245,7 @@ cards:
   - { id: jkb-platinum-privilege, issuer: Jammu & Kashmir Bank, name: J&K Bank Platinum Privilege Credit Card, source: "https://jkb.bank.in/transactions/services/credit-cards" }
   - { id: jkb-eminent, issuer: Jammu & Kashmir Bank, name: J&K Bank Eminent Credit Card, source: "https://jkb.bank.in/transactions/services/credit-cards" }
   - { id: jkb-corporate, issuer: Jammu & Kashmir Bank, name: J&K Bank Corporate Credit Card, source: "https://jkb.bank.in/transactions/services/credit-cards" }
-  - { id: tmb-platinum, issuer: Tamilnad Mercantile Bank, name: TMB Platinum Credit Card, source: "https://tmb.in/doc/creditcard_policy_01.pdf" }
-  - { id: tmb-titanium, issuer: Tamilnad Mercantile Bank, name: TMB Titanium Credit Card, source: "https://tmb.in/doc/creditcard_policy_01.pdf" }
+  - { id: tmb-platinum, issuer: Tamilnad Mercantile Bank, name: TMB Platinum Credit Card, source: "https://tmb.bank.in/" }
+  - { id: tmb-titanium, issuer: Tamilnad Mercantile Bank, name: TMB Titanium Credit Card, source: "https://tmb.bank.in/" }
   - { id: sbm-onecard, issuer: SBM Bank India, name: SBM Bank India OneCard, source: "https://www.sbmbank.co.in/" }
   - { id: sbm-step-up, issuer: SBM Bank India, name: SBM Step Up Credit Card, source: "https://www.sbmbank.co.in/" }
