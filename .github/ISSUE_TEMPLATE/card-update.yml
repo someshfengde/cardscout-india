@@ -1,0 +1,33 @@
+name: Card correction or addition
+description: Report a source-backed change to a card record
+title: "[Card data]: "
+labels: [card-data]
+body:
+  - type: input
+    id: card
+    attributes:
+      label: Card and issuer
+      placeholder: CASHBACK SBI Card — SBI Card
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: Link to the issuer page, key-fact statement, or schedule of charges.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed?
+      description: Include the old value, new value, and effective date if available.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: This report contains no referral link or personal data.
+          required: true

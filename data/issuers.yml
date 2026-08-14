@@ -1,0 +1,31 @@
+schema_version: 1
+updated_at: 2026-08-14
+issuers:
+  - { name: HDFC Bank, slug: hdfc, coverage: detailed, catalog: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
+  - { name: SBI Card, slug: sbi, coverage: detailed, catalog: "https://www.sbicard.com/en/personal/sbi-credit-card.page" }
+  - { name: Axis Bank, slug: axis, coverage: detailed, catalog: "https://www.axisbank.com/retail/cards/credit-card" }
+  - { name: ICICI Bank, slug: icici, coverage: detailed, catalog: "https://www.icicibank.com/personal-banking/cards/credit-card" }
+  - { name: IDFC FIRST Bank, slug: idfc-first, coverage: detailed, catalog: "https://www.idfcfirstbank.com/credit-card" }
+  - { name: Kotak Mahindra Bank, slug: kotak, coverage: detailed, catalog: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
+  - { name: American Express, slug: american-express, coverage: detailed, catalog: "https://www.americanexpress.com/in/credit-cards/all-cards/" }
+  - { name: YES BANK, slug: yes-bank, coverage: detailed, catalog: "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards" }
+  - { name: HSBC India, slug: hsbc, coverage: detailed, catalog: "https://www.hsbc.co.in/credit-cards/" }
+  - { name: AU Small Finance Bank, slug: au-bank, coverage: detailed, catalog: "https://www.aubank.in/personal-banking/credit-cards" }
+  - { name: IndusInd Bank, slug: indusind, coverage: discovery, catalog: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
+  - { name: RBL Bank, slug: rbl, coverage: discovery, catalog: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { name: Standard Chartered India, slug: standard-chartered, coverage: discovery, catalog: "https://www.sc.com/in/credit-cards/" }
+  - { name: Federal Bank, slug: federal, coverage: discovery, catalog: "https://www.federalbank.co.in/credit-cards" }
+  - { name: Bank of Baroda, slug: bank-of-baroda, coverage: discovery, catalog: "https://www.bobcard.co.in/credit-card" }
+  - { name: Punjab National Bank, slug: pnb, coverage: discovery, catalog: "https://www.pnbcard.in/" }
+  - { name: Canara Bank, slug: canara, coverage: discovery, catalog: "https://canarabank.com/" }
+  - { name: Union Bank of India, slug: union-bank, coverage: discovery, catalog: "https://www.unionbankofindia.co.in/en/listing/credit-card" }
+  - { name: Bank of India, slug: bank-of-india, coverage: discovery, catalog: "https://bankofindia.co.in/credit-card" }
+  - { name: Indian Bank, slug: indian-bank, coverage: discovery, catalog: "https://www.indianbank.in/departments/credit-card/" }
+  - { name: South Indian Bank, slug: south-indian-bank, coverage: discovery, catalog: "https://www.southindianbank.com/content/personal-banking/credit-cards/385" }
+  - { name: Karur Vysya Bank, slug: kvb, coverage: discovery, catalog: "https://www.kvb.co.in/personal/cards/credit-cards/" }
+  - { name: Karnataka Bank, slug: karnataka-bank, coverage: discovery, catalog: "https://karnatakabank.com/personal/cards/credit-cards" }
+  - { name: CSB Bank, slug: csb, coverage: discovery, catalog: "https://www.csb.co.in/credit-card" }
+  - { name: DBS Bank India, slug: dbs, coverage: discovery, catalog: "https://www.dbs.com/digibank/in/cards/credit-cards" }
+  - { name: OneCard partner banks, slug: onecard, coverage: discovery, catalog: "https://www.getonecard.app/" }
+  - { name: Scapia partner bank, slug: scapia, coverage: discovery, catalog: "https://www.scapia.cards/" }
+  - { name: Kiwi partner banks, slug: kiwi, coverage: discovery, catalog: "https://gokiwi.in/" }
