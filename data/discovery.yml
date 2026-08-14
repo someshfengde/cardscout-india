@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-08-14
+updated_at: 2026-08-15
 # Discovery records make the full research queue visible. Each record links to
 # the official verification target used for the issuer-by-issuer pass. It is a
 # candidate until a maintainer confirms current issuance, fees, and benefits.
@@ -236,6 +236,18 @@ cards:
   - { id: cub-salaryse-level-up, issuer: City Union Bank, name: CUB SalarySe Level UP Credit Card, source: "https://www.cityunionbank.com/cub-salaryse-level-up-credit-card" }
   - { id: cub-csk, issuer: City Union Bank, name: CUB Chennai Super Kings Credit Card, source: "https://cityunionbank.com/csk-srh-mitc-kfs" }
   - { id: cub-srh, issuer: City Union Bank, name: CUB Sunrisers Hyderabad Credit Card, source: "https://cityunionbank.com/csk-srh-mitc-kfs" }
+  - { id: karnataka-sbi-simplysave, issuer: Karnataka Bank, name: Karnataka Bank SimplySAVE SBI Card, source: "https://karnatakabank.com/sites/default/files/2024-04/information-to-customers-on-cc.pdf" }
+  - { id: karnataka-sbi-prime, issuer: Karnataka Bank, name: Karnataka Bank SBI Card PRIME, source: "https://karnatakabank.com/sites/default/files/2024-04/information-to-customers-on-cc.pdf" }
+  - { id: dcb-payless-platinum, issuer: DCB Bank, name: DCB PayLess Platinum Card, source: "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card" }
+  - { id: dcb-payless-select, issuer: DCB Bank, name: DCB PayLess Select Card, source: "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card" }
+  - { id: dcb-niyo-credit, issuer: DCB Bank, name: DCB Niyo Credit Card, source: "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card" }
+  - { id: dcb-zet-credit, issuer: DCB Bank, name: DCB ZET Credit Card, source: "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card" }
+  - { id: dcb-novio-credit, issuer: DCB Bank, name: DCB novio Credit Card, source: "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card" }
+  - { id: equitas-tiga, issuer: Equitas Small Finance Bank, name: Tiga Credit Card, source: "https://equitas.bank.in/personal-banking/pay/credit-cards/" }
+  - { id: equitas-selfe, issuer: Equitas Small Finance Bank, name: Selfe Credit Card, source: "https://equitas.bank.in/personal-banking/pay/credit-cards/" }
+  - { id: equitas-powermiles, issuer: Equitas Small Finance Bank, name: PowerMiles Credit Card, source: "https://equitas.bank.in/personal-banking/pay/credit-cards/" }
+  - { id: esaf-inori-rupay, issuer: ESAF Small Finance Bank, name: ESAF Bank INORI RuPay Credit Card, source: "https://www.esafbank.com/pdf/otherDisclosures/Intimation_regarding_Launch_of_Rupay_Credit_Cards.pdf" }
+  - { id: utkarsh-supercard, issuer: Utkarsh Small Finance Bank, name: superCard, source: "https://www.utkarsh.bank/personal/cards/credit-card/supercard" }
   - { id: dhanlaxmi-platinum, issuer: Dhanlaxmi Bank, name: Visa Platinum Chip Credit Card, source: "https://www.dhanbank.com/pdf/Credit-Card-Policy.pdf" }
   - { id: idbi-aspire, issuer: IDBI Bank, name: IDBI Aspire Credit Card, source: "https://www.idbibank.in/credit-card.aspx" }
   - { id: idbi-euphoria, issuer: IDBI Bank, name: IDBI Euphoria Credit Card, source: "https://www.idbibank.in/credit-card.aspx" }

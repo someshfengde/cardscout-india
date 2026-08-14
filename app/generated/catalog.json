@@ -1,10 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-08-14",
-    "cardCount": 282,
+    "updatedAt": "2026-08-15",
+    "cardCount": 294,
     "detailedCardCount": 62,
-    "discoveryCardCount": 220,
+    "discoveryCardCount": 232,
     "issuerCount": 40,
+    "representedIssuerCount": 40,
     "detailedIssuerCount": 10,
     "verifiedCount": 45
   },
@@ -13,241 +14,281 @@
       "name": "HDFC Bank",
       "slug": "hdfc",
       "coverage": "detailed",
-      "catalog": "https://www.hdfcbank.com/personal/pay/cards/credit-cards"
+      "catalog": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+      "cardCount": 22
     },
     {
       "name": "SBI Card",
       "slug": "sbi",
       "coverage": "detailed",
-      "catalog": "https://www.sbicard.com/en/personal/sbi-credit-card.page"
+      "catalog": "https://www.sbicard.com/en/personal/sbi-credit-card.page",
+      "cardCount": 31
     },
     {
       "name": "Axis Bank",
       "slug": "axis",
       "coverage": "detailed",
-      "catalog": "https://www.axisbank.com/retail/cards/credit-card"
+      "catalog": "https://www.axisbank.com/retail/cards/credit-card",
+      "cardCount": 25
     },
     {
       "name": "ICICI Bank",
       "slug": "icici",
       "coverage": "detailed",
-      "catalog": "https://www.icicibank.com/personal-banking/cards/credit-card"
+      "catalog": "https://www.icicibank.com/personal-banking/cards/credit-card",
+      "cardCount": 20
     },
     {
       "name": "IDFC FIRST Bank",
       "slug": "idfc-first",
       "coverage": "detailed",
-      "catalog": "https://www.idfcfirstbank.com/credit-card"
+      "catalog": "https://www.idfcfirstbank.com/credit-card",
+      "cardCount": 13
     },
     {
       "name": "Kotak Mahindra Bank",
       "slug": "kotak",
       "coverage": "detailed",
-      "catalog": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html"
+      "catalog": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
+      "cardCount": 21
     },
     {
       "name": "American Express",
       "slug": "american-express",
       "coverage": "detailed",
-      "catalog": "https://www.americanexpress.com/in/credit-cards/all-cards/"
+      "catalog": "https://www.americanexpress.com/in/credit-cards/all-cards/",
+      "cardCount": 6
     },
     {
       "name": "YES BANK",
       "slug": "yes-bank",
       "coverage": "detailed",
-      "catalog": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards"
+      "catalog": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
+      "cardCount": 11
     },
     {
       "name": "HSBC India",
       "slug": "hsbc",
       "coverage": "detailed",
-      "catalog": "https://www.hsbc.co.in/credit-cards/"
+      "catalog": "https://www.hsbc.co.in/credit-cards/",
+      "cardCount": 6
     },
     {
       "name": "AU Small Finance Bank",
       "slug": "au-bank",
       "coverage": "detailed",
-      "catalog": "https://www.aubank.in/personal-banking/credit-cards"
+      "catalog": "https://www.aubank.in/personal-banking/credit-cards",
+      "cardCount": 9
     },
     {
       "name": "IndusInd Bank",
       "slug": "indusind",
       "coverage": "discovery",
-      "catalog": "https://www.indusind.com/in/en/personal/cards/credit-card.html"
+      "catalog": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "cardCount": 14
     },
     {
       "name": "RBL Bank",
       "slug": "rbl",
       "coverage": "discovery",
-      "catalog": "https://www.rblbank.com/personal-banking/cards/credit-cards"
+      "catalog": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "cardCount": 15
     },
     {
       "name": "Standard Chartered India",
       "slug": "standard-chartered",
       "coverage": "discovery",
-      "catalog": "https://www.sc.com/in/credit-cards/"
+      "catalog": "https://www.sc.com/in/credit-cards/",
+      "cardCount": 8
     },
     {
       "name": "Federal Bank",
       "slug": "federal",
       "coverage": "discovery",
-      "catalog": "https://www.federalbank.co.in/credit-cards"
+      "catalog": "https://www.federalbank.co.in/credit-cards",
+      "cardCount": 3
     },
     {
       "name": "Bank of Baroda",
       "slug": "bank-of-baroda",
       "coverage": "discovery",
-      "catalog": "https://www.bobcard.co.in/credit-card"
+      "catalog": "https://www.bobcard.co.in/credit-card",
+      "cardCount": 9
     },
     {
       "name": "Punjab National Bank",
       "slug": "pnb",
       "coverage": "discovery",
-      "catalog": "https://www.pnbcard.in/"
+      "catalog": "https://www.pnbcard.in/",
+      "cardCount": 14
     },
     {
       "name": "Canara Bank",
       "slug": "canara",
       "coverage": "discovery",
-      "catalog": "https://canarabank.com/"
+      "catalog": "https://canarabank.com/",
+      "cardCount": 4
     },
     {
       "name": "Union Bank of India",
       "slug": "union-bank",
       "coverage": "discovery",
-      "catalog": "https://www.unionbankofindia.co.in/en/listing/credit-card"
+      "catalog": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "cardCount": 6
     },
     {
       "name": "Bank of India",
       "slug": "bank-of-india",
       "coverage": "discovery",
-      "catalog": "https://bankofindia.co.in/credit-card"
+      "catalog": "https://bankofindia.co.in/credit-card",
+      "cardCount": 3
     },
     {
       "name": "Indian Bank",
       "slug": "indian-bank",
       "coverage": "discovery",
-      "catalog": "https://www.indianbank.in/departments/credit-card/"
+      "catalog": "https://www.indianbank.in/departments/credit-card/",
+      "cardCount": 5
     },
     {
       "name": "South Indian Bank",
       "slug": "south-indian-bank",
       "coverage": "discovery",
-      "catalog": "https://www.southindianbank.com/content/personal-banking/credit-cards/385"
+      "catalog": "https://www.southindianbank.com/content/personal-banking/credit-cards/385",
+      "cardCount": 3
     },
     {
       "name": "Karur Vysya Bank",
       "slug": "kvb",
       "coverage": "discovery",
-      "catalog": "https://www.kvb.co.in/personal/cards/credit-cards/"
+      "catalog": "https://www.kvb.co.in/personal/cards/credit-cards/",
+      "cardCount": 2
     },
     {
       "name": "Karnataka Bank",
       "slug": "karnataka-bank",
       "coverage": "discovery",
-      "catalog": "https://karnatakabank.com/personal/cards/credit-cards"
+      "catalog": "https://karnatakabank.com/personal/cards/credit-cards",
+      "cardCount": 2
     },
     {
       "name": "CSB Bank",
       "slug": "csb",
       "coverage": "discovery",
-      "catalog": "https://www.csb.co.in/credit-card"
+      "catalog": "https://www.csb.co.in/credit-card",
+      "cardCount": 2
     },
     {
       "name": "DBS Bank India",
       "slug": "dbs",
       "coverage": "discovery",
-      "catalog": "https://www.dbs.com/digibank/in/cards/credit-cards"
+      "catalog": "https://www.dbs.com/digibank/in/cards/credit-cards",
+      "cardCount": 2
     },
     {
       "name": "OneCard partner banks",
       "slug": "onecard",
       "coverage": "discovery",
-      "catalog": "https://www.getonecard.app/"
+      "catalog": "https://www.getonecard.app/",
+      "cardCount": 1
     },
     {
       "name": "Scapia partner bank",
       "slug": "scapia",
       "coverage": "discovery",
-      "catalog": "https://www.scapia.cards/"
+      "catalog": "https://www.scapia.cards/",
+      "cardCount": 1
     },
     {
       "name": "Kiwi partner banks",
       "slug": "kiwi",
       "coverage": "discovery",
-      "catalog": "https://gokiwi.in/"
+      "catalog": "https://gokiwi.in/",
+      "cardCount": 2
     },
     {
       "name": "Bank of Maharashtra",
       "slug": "bank-of-maharashtra",
       "coverage": "discovery",
-      "catalog": "https://bankofmaharashtra.in/credit-card"
+      "catalog": "https://bankofmaharashtra.in/credit-card",
+      "cardCount": 4
     },
     {
       "name": "Bandhan Bank",
       "slug": "bandhan",
       "coverage": "discovery",
-      "catalog": "https://bandhanbank.com/"
+      "catalog": "https://bandhanbank.com/",
+      "cardCount": 3
     },
     {
       "name": "City Union Bank",
       "slug": "city-union-bank",
       "coverage": "discovery",
-      "catalog": "https://www.cityunionbank.com/creditcard"
+      "catalog": "https://www.cityunionbank.com/creditcard",
+      "cardCount": 4
     },
     {
       "name": "DCB Bank",
       "slug": "dcb-bank",
       "coverage": "discovery",
-      "catalog": "https://www.dcbbank.com/"
+      "catalog": "https://www.dcbbank.com/",
+      "cardCount": 5
     },
     {
       "name": "Dhanlaxmi Bank",
       "slug": "dhanlaxmi-bank",
       "coverage": "discovery",
-      "catalog": "https://www.dhanbank.com/credit-cards/"
+      "catalog": "https://www.dhanbank.com/credit-cards/",
+      "cardCount": 1
     },
     {
       "name": "IDBI Bank",
       "slug": "idbi-bank",
       "coverage": "discovery",
-      "catalog": "https://www.idbibank.in/credit-card.aspx"
+      "catalog": "https://www.idbibank.in/credit-card.aspx",
+      "cardCount": 3
     },
     {
       "name": "Jammu & Kashmir Bank",
       "slug": "jammu-kashmir-bank",
       "coverage": "discovery",
-      "catalog": "https://jkb.bank.in/transactions/services/credit-cards"
+      "catalog": "https://jkb.bank.in/transactions/services/credit-cards",
+      "cardCount": 5
     },
     {
       "name": "Tamilnad Mercantile Bank",
       "slug": "tamilnad-mercantile-bank",
       "coverage": "discovery",
-      "catalog": "https://tmb.bank.in/"
+      "catalog": "https://tmb.bank.in/",
+      "cardCount": 2
     },
     {
       "name": "SBM Bank India",
       "slug": "sbm-bank-india",
       "coverage": "discovery",
-      "catalog": "https://www.sbmbank.co.in/"
+      "catalog": "https://www.sbmbank.co.in/",
+      "cardCount": 2
     },
     {
       "name": "Equitas Small Finance Bank",
       "slug": "equitas",
       "coverage": "discovery",
-      "catalog": "https://equitas.bank.in/"
+      "catalog": "https://equitas.bank.in/",
+      "cardCount": 3
     },
     {
       "name": "ESAF Small Finance Bank",
       "slug": "esaf",
       "coverage": "discovery",
-      "catalog": "https://www.esafbank.com/"
+      "catalog": "https://www.esafbank.com/",
+      "cardCount": 1
     },
     {
       "name": "Utkarsh Small Finance Bank",
       "slug": "utkarsh",
       "coverage": "discovery",
-      "catalog": "https://www.utkarsh.bank/"
+      "catalog": "https://www.utkarsh.bank/",
+      "cardCount": 1
     }
   ],
   "cards": [
@@ -1772,10 +1813,199 @@
       "verification": "discovered"
     },
     {
+      "id": "dcb-niyo-credit",
+      "issuer": "DCB Bank",
+      "name": "DCB Niyo Credit Card",
+      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "dcb-novio-credit",
+      "issuer": "DCB Bank",
+      "name": "DCB novio Credit Card",
+      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "dcb-payless-platinum",
+      "issuer": "DCB Bank",
+      "name": "DCB PayLess Platinum Card",
+      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "dcb-payless-select",
+      "issuer": "DCB Bank",
+      "name": "DCB PayLess Select Card",
+      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "dcb-zet-credit",
+      "issuer": "DCB Bank",
+      "name": "DCB ZET Credit Card",
+      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "dhanlaxmi-platinum",
       "issuer": "Dhanlaxmi Bank",
       "name": "Visa Platinum Chip Credit Card",
       "source": "https://www.dhanbank.com/pdf/Credit-Card-Policy.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "equitas-powermiles",
+      "issuer": "Equitas Small Finance Bank",
+      "name": "PowerMiles Credit Card",
+      "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "equitas-selfe",
+      "issuer": "Equitas Small Finance Bank",
+      "name": "Selfe Credit Card",
+      "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "equitas-tiga",
+      "issuer": "Equitas Small Finance Bank",
+      "name": "Tiga Credit Card",
+      "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "esaf-inori-rupay",
+      "issuer": "ESAF Small Finance Bank",
+      "name": "ESAF Bank INORI RuPay Credit Card",
+      "source": "https://www.esafbank.com/pdf/otherDisclosures/Intimation_regarding_Launch_of_Rupay_Credit_Cards.pdf",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
@@ -3734,6 +3964,48 @@
       "issuer": "Jammu & Kashmir Bank",
       "name": "J&K Bank Platinum Privilege Credit Card",
       "source": "https://jkb.bank.in/transactions/services/credit-cards",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "karnataka-sbi-prime",
+      "issuer": "Karnataka Bank",
+      "name": "Karnataka Bank SBI Card PRIME",
+      "source": "https://karnatakabank.com/sites/default/files/2024-04/information-to-customers-on-cc.pdf",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "karnataka-sbi-simplysave",
+      "issuer": "Karnataka Bank",
+      "name": "Karnataka Bank SimplySAVE SBI Card",
+      "source": "https://karnatakabank.com/sites/default/files/2024-04/information-to-customers-on-cc.pdf",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
@@ -6028,6 +6300,27 @@
       "issuer": "Union Bank of India",
       "name": "Union Silver Credit Card",
       "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Detailed verification in progress"
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "utkarsh-supercard",
+      "issuer": "Utkarsh Small Finance Bank",
+      "name": "superCard",
+      "source": "https://www.utkarsh.bank/personal/cards/credit-card/supercard",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,

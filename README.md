@@ -9,7 +9,7 @@ anyone can review.
 
 ## What is included
 
-- 200+ discovered card products across 40 issuers and partner programs
+- 294 named card products across all 40 tracked issuers and partner programs
 - 62 detailed records, with incomplete cards visibly marked `Researching`
 - Search, issuer/use-case/fee filters, sorting, detail views, and comparisons
 - A primary-source link and verification state on every card
