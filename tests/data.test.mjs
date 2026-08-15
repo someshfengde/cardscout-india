@@ -5,8 +5,11 @@ import test from "node:test";
 const catalog = JSON.parse(await readFile(new URL("../app/generated/catalog.json", import.meta.url), "utf8"));
 
 test("catalog has broad, unique, source-backed coverage", () => {
-  assert.ok(catalog.cards.length >= 290);
+  assert.ok(catalog.cards.length >= 320);
   assert.ok(catalog.issuers.length >= 40);
+  assert.ok(catalog.meta.detailedCardCount >= 175);
+  assert.ok(catalog.meta.discoveryCardCount <= 150);
+  assert.ok(catalog.meta.detailedIssuerCount >= 20);
   assert.equal(new Set(catalog.cards.map((card) => card.id)).size, catalog.cards.length);
   assert.ok(catalog.cards.every((card) => card.source.startsWith("https://")));
   assert.ok(catalog.cards.every((card) => card.categories.length && card.highlights.length));
@@ -21,4 +24,8 @@ test("fees and verification states are machine readable", () => {
   assert.ok(catalog.cards.every((card) => card.joining_fee === null || Number.isFinite(card.joining_fee) && card.joining_fee >= 0));
   assert.ok(catalog.cards.every((card) => ["verified", "partial", "discovered"].includes(card.verification)));
   assert.ok(catalog.cards.every((card) => card.verification === "discovered" ? card.annual_fee === null : Number.isFinite(card.annual_fee)));
+  assert.ok(catalog.cards.every((card) => card.verification === "discovered" || Number.isFinite(card.forex_markup) && card.forex_markup >= 0));
+  assert.ok(catalog.cards.every((card) => card.verification === "discovered" || ["none", "conditional", "included", "unlimited"].includes(card.lounge)));
+  assert.ok(catalog.cards.every((card) => card.research_note === undefined || typeof card.research_note === "string" && card.research_note.length > 0));
+  assert.ok(catalog.cards.filter((card) => card.research_note).length >= 45);
 });

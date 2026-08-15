@@ -14,30 +14,30 @@ issuers:
   - { name: IndusInd Bank, slug: indusind, coverage: discovery, catalog: "https://www.indusind.com/in/en/personal/cards/credit-card.html" }
   - { name: RBL Bank, slug: rbl, coverage: discovery, catalog: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
   - { name: Standard Chartered India, slug: standard-chartered, coverage: discovery, catalog: "https://www.sc.com/in/credit-cards/" }
-  - { name: Federal Bank, slug: federal, coverage: discovery, catalog: "https://www.federalbank.co.in/credit-cards" }
+  - { name: Federal Bank, slug: federal, coverage: detailed, catalog: "https://www.federalbank.co.in/credit-cards" }
   - { name: Bank of Baroda, slug: bank-of-baroda, coverage: discovery, catalog: "https://www.bobcard.co.in/credit-card" }
   - { name: Punjab National Bank, slug: pnb, coverage: discovery, catalog: "https://www.pnbcard.in/" }
-  - { name: Canara Bank, slug: canara, coverage: discovery, catalog: "https://canarabank.com/" }
+  - { name: Canara Bank, slug: canara, coverage: detailed, catalog: "https://canarabank.com/" }
   - { name: Union Bank of India, slug: union-bank, coverage: discovery, catalog: "https://www.unionbankofindia.co.in/en/listing/credit-card" }
   - { name: Bank of India, slug: bank-of-india, coverage: discovery, catalog: "https://bankofindia.co.in/credit-card" }
   - { name: Indian Bank, slug: indian-bank, coverage: discovery, catalog: "https://www.indianbank.in/departments/credit-card/" }
-  - { name: South Indian Bank, slug: south-indian-bank, coverage: discovery, catalog: "https://www.southindianbank.com/content/personal-banking/credit-cards/385" }
+  - { name: South Indian Bank, slug: south-indian-bank, coverage: detailed, catalog: "https://www.southindianbank.com/content/personal-banking/credit-cards/385" }
   - { name: Karur Vysya Bank, slug: kvb, coverage: discovery, catalog: "https://www.kvb.co.in/personal/cards/credit-cards/" }
-  - { name: Karnataka Bank, slug: karnataka-bank, coverage: discovery, catalog: "https://karnatakabank.com/personal/cards/credit-cards" }
-  - { name: CSB Bank, slug: csb, coverage: discovery, catalog: "https://www.csb.co.in/credit-card" }
+  - { name: Karnataka Bank, slug: karnataka-bank, coverage: detailed, catalog: "https://karnatakabank.com/personal/cards/credit-cards" }
+  - { name: CSB Bank, slug: csb, coverage: detailed, catalog: "https://www.csb.co.in/credit-card" }
   - { name: DBS Bank India, slug: dbs, coverage: discovery, catalog: "https://www.dbs.com/digibank/in/cards/credit-cards" }
-  - { name: OneCard partner banks, slug: onecard, coverage: discovery, catalog: "https://www.getonecard.app/" }
-  - { name: Scapia partner bank, slug: scapia, coverage: discovery, catalog: "https://www.scapia.cards/" }
+  - { name: OneCard partner banks, slug: onecard, coverage: detailed, catalog: "https://www.getonecard.app/" }
+  - { name: Scapia partner bank, slug: scapia, coverage: detailed, catalog: "https://www.scapia.cards/" }
   - { name: Kiwi partner banks, slug: kiwi, coverage: discovery, catalog: "https://gokiwi.in/" }
   - { name: Bank of Maharashtra, slug: bank-of-maharashtra, coverage: discovery, catalog: "https://bankofmaharashtra.in/credit-card" }
   - { name: Bandhan Bank, slug: bandhan, coverage: discovery, catalog: "https://bandhanbank.com/" }
   - { name: City Union Bank, slug: city-union-bank, coverage: discovery, catalog: "https://www.cityunionbank.com/creditcard" }
   - { name: DCB Bank, slug: dcb-bank, coverage: discovery, catalog: "https://www.dcbbank.com/" }
-  - { name: Dhanlaxmi Bank, slug: dhanlaxmi-bank, coverage: discovery, catalog: "https://www.dhanbank.com/credit-cards/" }
+  - { name: Dhanlaxmi Bank, slug: dhanlaxmi-bank, coverage: detailed, catalog: "https://www.dhanbank.com/credit-cards/" }
   - { name: IDBI Bank, slug: idbi-bank, coverage: discovery, catalog: "https://www.idbibank.in/credit-card.aspx" }
   - { name: Jammu & Kashmir Bank, slug: jammu-kashmir-bank, coverage: discovery, catalog: "https://jkb.bank.in/transactions/services/credit-cards" }
   - { name: Tamilnad Mercantile Bank, slug: tamilnad-mercantile-bank, coverage: discovery, catalog: "https://tmb.bank.in/" }
   - { name: SBM Bank India, slug: sbm-bank-india, coverage: discovery, catalog: "https://www.sbmbank.co.in/" }
   - { name: Equitas Small Finance Bank, slug: equitas, coverage: discovery, catalog: "https://equitas.bank.in/" }
-  - { name: ESAF Small Finance Bank, slug: esaf, coverage: discovery, catalog: "https://www.esafbank.com/" }
-  - { name: Utkarsh Small Finance Bank, slug: utkarsh, coverage: discovery, catalog: "https://www.utkarsh.bank/" }
+  - { name: ESAF Small Finance Bank, slug: esaf, coverage: detailed, catalog: "https://www.esafbank.com/" }
+  - { name: Utkarsh Small Finance Bank, slug: utkarsh, coverage: detailed, catalog: "https://www.utkarsh.bank/" }

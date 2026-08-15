@@ -1,13 +1,13 @@
 {
   "meta": {
     "updatedAt": "2026-08-15",
-    "cardCount": 294,
-    "detailedCardCount": 62,
-    "discoveryCardCount": 232,
+    "cardCount": 327,
+    "detailedCardCount": 179,
+    "discoveryCardCount": 148,
     "issuerCount": 40,
     "representedIssuerCount": 40,
-    "detailedIssuerCount": 10,
-    "verifiedCount": 45
+    "detailedIssuerCount": 20,
+    "verifiedCount": 148
   },
   "issuers": [
     {
@@ -104,7 +104,7 @@
     {
       "name": "Federal Bank",
       "slug": "federal",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://www.federalbank.co.in/credit-cards",
       "cardCount": 3
     },
@@ -113,19 +113,19 @@
       "slug": "bank-of-baroda",
       "coverage": "discovery",
       "catalog": "https://www.bobcard.co.in/credit-card",
-      "cardCount": 9
+      "cardCount": 16
     },
     {
       "name": "Punjab National Bank",
       "slug": "pnb",
       "coverage": "discovery",
       "catalog": "https://www.pnbcard.in/",
-      "cardCount": 14
+      "cardCount": 17
     },
     {
       "name": "Canara Bank",
       "slug": "canara",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://canarabank.com/",
       "cardCount": 4
     },
@@ -134,14 +134,14 @@
       "slug": "union-bank",
       "coverage": "discovery",
       "catalog": "https://www.unionbankofindia.co.in/en/listing/credit-card",
-      "cardCount": 6
+      "cardCount": 13
     },
     {
       "name": "Bank of India",
       "slug": "bank-of-india",
       "coverage": "discovery",
       "catalog": "https://bankofindia.co.in/credit-card",
-      "cardCount": 3
+      "cardCount": 8
     },
     {
       "name": "Indian Bank",
@@ -153,7 +153,7 @@
     {
       "name": "South Indian Bank",
       "slug": "south-indian-bank",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://www.southindianbank.com/content/personal-banking/credit-cards/385",
       "cardCount": 3
     },
@@ -162,21 +162,21 @@
       "slug": "kvb",
       "coverage": "discovery",
       "catalog": "https://www.kvb.co.in/personal/cards/credit-cards/",
-      "cardCount": 2
+      "cardCount": 4
     },
     {
       "name": "Karnataka Bank",
       "slug": "karnataka-bank",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://karnatakabank.com/personal/cards/credit-cards",
       "cardCount": 2
     },
     {
       "name": "CSB Bank",
       "slug": "csb",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://www.csb.co.in/credit-card",
-      "cardCount": 2
+      "cardCount": 3
     },
     {
       "name": "DBS Bank India",
@@ -188,16 +188,16 @@
     {
       "name": "OneCard partner banks",
       "slug": "onecard",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://www.getonecard.app/",
       "cardCount": 1
     },
     {
       "name": "Scapia partner bank",
       "slug": "scapia",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://www.scapia.cards/",
-      "cardCount": 1
+      "cardCount": 2
     },
     {
       "name": "Kiwi partner banks",
@@ -225,7 +225,7 @@
       "slug": "city-union-bank",
       "coverage": "discovery",
       "catalog": "https://www.cityunionbank.com/creditcard",
-      "cardCount": 4
+      "cardCount": 11
     },
     {
       "name": "DCB Bank",
@@ -237,7 +237,7 @@
     {
       "name": "Dhanlaxmi Bank",
       "slug": "dhanlaxmi-bank",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://www.dhanbank.com/credit-cards/",
       "cardCount": 1
     },
@@ -279,14 +279,14 @@
     {
       "name": "ESAF Small Finance Bank",
       "slug": "esaf",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://www.esafbank.com/",
       "cardCount": 1
     },
     {
       "name": "Utkarsh Small Finance Bank",
       "slug": "utkarsh",
-      "coverage": "discovery",
+      "coverage": "detailed",
       "catalog": "https://www.utkarsh.bank/",
       "cardCount": 1
     }
@@ -1166,17 +1166,18 @@
       "issuer": "Bandhan Bank",
       "name": "Bandhan Bank One Credit Card",
       "source": "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf",
+      "research_note": "Only a 2020 official launch press release remains; no current Bandhan credit-card product catalog or application path was found, so current issuance cannot be established.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Only a 2020 official launch press release remains; no current Bandhan credit-card product catalog or application path was found, so current issuance cannot be established.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Only a 2020 official launch press release remains; no current Bandhan credit-card product catalog or application path was found, so current issuance cannot be established."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1187,17 +1188,18 @@
       "issuer": "Bandhan Bank",
       "name": "Bandhan Bank Plus Credit Card",
       "source": "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf",
+      "research_note": "Only a 2020 official launch press release remains; no current Bandhan credit-card product catalog or application path was found, so current issuance cannot be established.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Only a 2020 official launch press release remains; no current Bandhan credit-card product catalog or application path was found, so current issuance cannot be established.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Only a 2020 official launch press release remains; no current Bandhan credit-card product catalog or application path was found, so current issuance cannot be established."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1208,227 +1210,394 @@
       "issuer": "Bandhan Bank",
       "name": "Bandhan Bank Xclusive Credit Card",
       "source": "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf",
+      "research_note": "Only a 2020 official launch press release remains; no current Bandhan credit-card product catalog or application path was found, so current issuance cannot be established.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Only a 2020 official launch press release remains; no current Bandhan credit-card product catalog or application path was found, so current issuance cannot be established.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Only a 2020 official launch press release remains; no current Bandhan credit-card product catalog or application path was found, so current issuance cannot be established."
       ],
       "lounge": "researching",
       "forex_markup": null,
       "verification": "discovered"
+    },
+    {
+      "id": "bob-cashback",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Cashback",
+      "network": "Visa / RuPay",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "waiver_spend": null,
+      "reward": "Cashback on eligible online and offline spends",
+      "categories": [
+        "cashback",
+        "shopping"
+      ],
+      "highlights": [
+        "Choice of ₹49 monthly or ₹499 annual fee plan",
+        "1% fuel surcharge waiver subject to caps"
+      ],
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.bobcard.co.in/credit-card-types/bobcard-cashback"
     },
     {
       "id": "bob-easy",
       "issuer": "Bank of Baroda",
       "name": "BOBCARD Easy",
-      "source": "https://www.bobcard.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "waiver_spend": 35000,
+      "reward": "5 Reward Points per ₹100 on departmental-store and movie spends; 1 point per ₹100 elsewhere",
       "categories": [
-        "discovery"
+        "shopping",
+        "movies",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Joining-fee waiver after ₹6,000 spend in 60 days",
+        "Annual fee waiver on ₹35,000 annual spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/easy"
     },
     {
       "id": "bob-eterna",
       "issuer": "Bank of Baroda",
       "name": "BOBCARD Eterna",
-      "source": "https://www.bobcard.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa",
+      "joining_fee": 2499,
+      "annual_fee": 2499,
+      "waiver_spend": 250000,
+      "reward": "15 Reward Points per ₹100 on eligible travel, dining and online spends",
       "categories": [
-        "discovery"
+        "premium",
+        "travel",
+        "dining",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Unlimited domestic airport lounge access subject to programme terms",
+        "Annual fee waiver on ₹2.5 lakh spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "unlimited",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/eterna"
+    },
+    {
+      "id": "bob-etihad-guest",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Etihad Guest",
+      "network": "Visa",
+      "joining_fee": 2500,
+      "annual_fee": 2500,
+      "waiver_spend": 300000,
+      "reward": "3 Etihad Guest Miles per ₹100 on Etihad Airways and 1 Mile per ₹100 on other eligible spends",
+      "categories": [
+        "travel",
+        "airline",
+        "rewards",
+        "lounge"
+      ],
+      "highlights": [
+        "Eight domestic and four international lounge visits annually",
+        "1% foreign-currency markup"
+      ],
+      "lounge": "included",
+      "forex_markup": 1,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest"
+    },
+    {
+      "id": "bob-etihad-guest-premium",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Etihad Guest Premium",
+      "network": "Visa",
+      "joining_fee": 5000,
+      "annual_fee": 5000,
+      "waiver_spend": 500000,
+      "reward": "6 Etihad Guest Miles per ₹100 on Etihad Airways and 2 Miles per ₹100 on other eligible spends",
+      "categories": [
+        "premium",
+        "travel",
+        "airline",
+        "lounge"
+      ],
+      "highlights": [
+        "Twelve domestic and eight international lounge visits annually",
+        "Zero foreign-currency markup"
+      ],
+      "lounge": "included",
+      "forex_markup": 0,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest-premium"
+    },
+    {
+      "id": "bob-onecard",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD One Credit Card",
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "5X rewards on the top two monthly spend categories with in-app redemption",
+      "categories": [
+        "lifetime-free",
+        "rewards",
+        "travel"
+      ],
+      "highlights": [
+        "No joining or annual fee",
+        "Optional metal-card issuance fee may apply under the current KFS"
+      ],
+      "lounge": "none",
+      "forex_markup": 1,
+      "verification": "verified",
+      "source": "https://media.bobcard.co.in/media/4qfbv2ka/bobcard-one-mitc.pdf"
     },
     {
       "id": "bob-premier",
       "issuer": "Bank of Baroda",
       "name": "BOBCARD Premier",
-      "source": "https://www.bobcard.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 1000,
+      "annual_fee": 1000,
+      "waiver_spend": 120000,
+      "reward": "10 Reward Points per ₹100 on travel, international and dining spends; 2 points per ₹100 elsewhere",
       "categories": [
-        "discovery"
+        "travel",
+        "dining",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "One complimentary domestic airport lounge visit per quarter subject to eligibility",
+        "Annual fee waiver on ₹1.2 lakh spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/premier"
     },
     {
       "id": "bob-prime",
       "issuer": "Bank of Baroda",
       "name": "BOBCARD Prime",
-      "source": "https://www.bobcard.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Reward points on eligible spends",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "secured",
+        "rewards",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Issued against a fixed deposit of ₹30,000 or more",
+        "No joining or annual fee"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/prime"
+    },
+    {
+      "id": "bob-scapia",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Scapia Credit Card",
+      "network": "Visa + RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "20% Scapia Coins on Scapia travel bookings; 10% on eligible Visa spends and 5% on eligible RuPay/UPI spends",
+      "categories": [
+        "lifetime-free",
+        "travel",
+        "rewards",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Zero foreign-currency markup",
+        "Unlimited domestic lounge access after ₹20,000 monthly spend"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 0,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/bobcard-scapia-credit-card"
     },
     {
       "id": "bob-select",
       "issuer": "Bank of Baroda",
       "name": "BOBCARD Select",
-      "source": "https://www.bobcard.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 750,
+      "annual_fee": 750,
+      "waiver_spend": 70000,
+      "reward": "5 Reward Points per ₹100 on online and dining spends; 1 point per ₹100 elsewhere",
       "categories": [
-        "discovery"
+        "shopping",
+        "dining",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Joining-fee waiver after ₹7,500 spend in 60 days",
+        "Annual fee waiver on ₹70,000 annual spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/select"
+    },
+    {
+      "id": "bob-tiara",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Tiara",
+      "network": "RuPay",
+      "joining_fee": 2499,
+      "annual_fee": 2499,
+      "waiver_spend": 250000,
+      "reward": "5X rewards on selected categories and 3 Reward Points per ₹100 on other eligible spends",
+      "categories": [
+        "premium",
+        "rewards",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Women-focused health and insurance benefits",
+        "Annual fee waiver on ₹2.5 lakh spend"
+      ],
+      "lounge": "unlimited",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/tiara"
+    },
+    {
+      "id": "bob-uni-goldx",
+      "issuer": "Bank of Baroda",
+      "name": "BOBCARD Uni GoldX",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "1% value back as Uni Coins on eligible transactions and 5% at Uni Store",
+      "categories": [
+        "lifetime-free",
+        "cashback",
+        "travel"
+      ],
+      "highlights": [
+        "Zero foreign-currency markup",
+        "Uni Coins do not expire under current programme terms"
+      ],
+      "lounge": "none",
+      "forex_markup": 0,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/bobcard-uni-goldx"
     },
     {
       "id": "bob-hpcl-energie",
       "issuer": "Bank of Baroda",
       "name": "HPCL BOBCARD ENERGIE",
-      "source": "https://www.bobcard.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "waiver_spend": 50000,
+      "reward": "Accelerated rewards and fuel savings on eligible HPCL spends",
       "categories": [
-        "discovery"
+        "fuel",
+        "rewards",
+        "lounge",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Four domestic airport lounge visits per year subject to criteria",
+        "Annual fee waiver on ₹50,000 spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/hpcl-energie"
     },
     {
       "id": "bob-irctc",
       "issuer": "Bank of Baroda",
       "name": "IRCTC BOBCARD",
-      "source": "https://www.bobcard.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 500,
+      "annual_fee": 350,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Reward points on rail and other eligible spends",
       "categories": [
-        "discovery"
+        "rail",
+        "travel",
+        "rewards",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Four railway-lounge visits per year",
+        "1% fuel surcharge waiver subject to caps"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/irctc-credit-card"
     },
     {
       "id": "bob-snapdeal",
       "issuer": "Bank of Baroda",
       "name": "Snapdeal BOBCARD",
-      "source": "https://www.bobcard.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 249,
+      "annual_fee": 249,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "5% unlimited cashback on eligible Snapdeal spends",
       "categories": [
-        "discovery"
+        "cashback",
+        "shopping",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Low ₹249 joining and annual fee",
+        "Co-branded online-shopping card"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.bobcard.co.in/credit-card-types/snapdeal-bobcard"
     },
     {
       "id": "bob-tie",
       "issuer": "Bank of Baroda",
       "name": "TiE BOBCARD",
       "source": "https://www.bobcard.co.in/credit-card",
+      "research_note": "No current consumer product page or current MITC/KFS entry found for TiE BOBCARD.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: No current consumer product page or current MITC/KFS entry found for TiE BOBCARD.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "boi-gold",
-      "issuer": "Bank of India",
-      "name": "BOI Gold Credit Card",
-      "source": "https://bankofindia.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "No current consumer product page or current MITC/KFS entry found for TiE BOBCARD."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1477,63 +1646,206 @@
       "verification": "discovered"
     },
     {
+      "id": "boi-bharat",
+      "issuer": "Bank of India",
+      "name": "BOI RuPay Bharat Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 400,
+      "waiver_spend": null,
+      "reward": "Reward programme details not stated in the current MITC",
+      "categories": [
+        "rewards",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "International and domestic usage",
+        "No issuance fee"
+      ],
+      "lounge": "none",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://bankofindia.co.in/documents/20121/135684/BOI-Credit-Card-MITC-updated-pdf1.pdf/3f93a4be-d615-1973-feed-c3f3293f9e46?t=1743248116732"
+    },
+    {
+      "id": "boi-rupay-platinum",
+      "issuer": "Bank of India",
+      "name": "BOI RuPay Platinum International Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "Reward programme details not stated in the current MITC",
+      "categories": [
+        "lifetime-free",
+        "rewards",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "RuPay UPI support",
+        "No issuance or annual membership fee"
+      ],
+      "lounge": "none",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://bankofindia.co.in/documents/20121/135684/BOI-Credit-Card-MITC-updated-pdf1.pdf/3f93a4be-d615-1973-feed-c3f3293f9e46?t=1743248116732"
+    },
+    {
+      "id": "boi-rupay-select",
+      "issuer": "Bank of India",
+      "name": "BOI RuPay Select Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 800,
+      "waiver_spend": null,
+      "reward": "RuPay Select rewards and network benefits",
+      "categories": [
+        "premium",
+        "rewards",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "International and domestic usage",
+        "RuPay Select network privileges"
+      ],
+      "lounge": "included",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://bankofindia.co.in/documents/20121/135684/BOI-Credit-Card-MITC-updated-pdf1.pdf/3f93a4be-d615-1973-feed-c3f3293f9e46?t=1743248116732"
+    },
+    {
+      "id": "boi-swadhan",
+      "issuer": "Bank of India",
+      "name": "BOI SwaDhan RuPay Platinum Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "Reward programme details not stated in the current MITC",
+      "categories": [
+        "lifetime-free",
+        "secured",
+        "rewards",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Secured credit card",
+        "No issuance or annual membership fee"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://bankofindia.co.in/documents/20121/135684/BOI-Credit-Card-MITC-updated-pdf1.pdf/3f93a4be-d615-1973-feed-c3f3293f9e46?t=1743248116732"
+    },
+    {
+      "id": "boi-gold",
+      "issuer": "Bank of India",
+      "name": "BOI Visa Gold International Credit Card",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 300,
+      "waiver_spend": null,
+      "reward": "Reward programme details not stated in the current MITC",
+      "categories": [
+        "rewards"
+      ],
+      "highlights": [
+        "International and domestic usage",
+        "No issuance fee"
+      ],
+      "lounge": "none",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://bankofindia.co.in/documents/20121/135684/BOI-Credit-Card-MITC-updated-pdf1.pdf/3f93a4be-d615-1973-feed-c3f3293f9e46?t=1743248116732"
+    },
+    {
+      "id": "boi-visa-platinum",
+      "issuer": "Bank of India",
+      "name": "BOI Visa Platinum International Credit Card",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "Reward programme details not stated in the current MITC",
+      "categories": [
+        "lifetime-free",
+        "rewards"
+      ],
+      "highlights": [
+        "International and domestic usage",
+        "No issuance or annual membership fee"
+      ],
+      "lounge": "none",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://bankofindia.co.in/documents/20121/135684/BOI-Credit-Card-MITC-updated-pdf1.pdf/3f93a4be-d615-1973-feed-c3f3293f9e46?t=1743248116732"
+    },
+    {
       "id": "bom-sbi-elite",
       "issuer": "Bank of Maharashtra",
       "name": "Bank of Maharashtra SBI Card ELITE",
-      "source": "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / RuPay",
+      "joining_fee": 4999,
+      "annual_fee": 4999,
+      "waiver_spend": 1000000,
+      "reward": "5X Reward Points on dining, department stores and groceries and 2 points per ₹100 on other eligible spends",
       "categories": [
-        "discovery"
+        "premium",
+        "rewards",
+        "travel",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Two domestic lounge visits per quarter and six international visits per year",
+        "Annual fee reversal at ₹10 lakh spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 1.99,
+      "verification": "verified",
+      "source": "https://www.sbicard.com/en/personal/credit-cards/bom-sbi-card-elite.html"
     },
     {
       "id": "bom-sbi-prime",
       "issuer": "Bank of Maharashtra",
       "name": "Bank of Maharashtra SBI Card PRIME",
-      "source": "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 2999,
+      "annual_fee": 2999,
+      "waiver_spend": 300000,
+      "reward": "10 Reward Points per ₹100 on dining, groceries, department stores and movies; 2 points per ₹100 elsewhere",
       "categories": [
-        "discovery"
+        "premium",
+        "rewards",
+        "travel",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Eight domestic and four international lounge visits per year",
+        "Annual fee reversal at ₹3 lakh spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.sbicard.com/en/personal/credit-cards/bom-sbi-card-prime.html"
     },
     {
       "id": "bom-secured",
       "issuer": "Bank of Maharashtra",
       "name": "Bank of Maharashtra Secured Credit Card",
       "source": "https://bankofmaharashtra.in/writereaddata/documentlibrary/289b422d-886a-4353-8ca1-8a9299c60f79.pdf",
+      "research_note": "SBI Card's official FAQ says the older Bank of Maharashtra secured co-brand program is discontinued.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: SBI Card's official FAQ says the older Bank of Maharashtra secured co-brand program is discontinued.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "SBI Card's official FAQ says the older Bank of Maharashtra secured co-brand program is discontinued."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1543,165 +1855,349 @@
       "id": "bom-sbi-simplysave",
       "issuer": "Bank of Maharashtra",
       "name": "Bank of Maharashtra SimplySAVE SBI Card",
-      "source": "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / RuPay",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "waiver_spend": 100000,
+      "reward": "10 Reward Points per ₹150 on dining, groceries, movies and department stores; 1 point per ₹150 elsewhere",
       "categories": [
-        "discovery"
+        "rewards",
+        "dining",
+        "shopping",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Renewal fee reversal at ₹1 lakh annual spend",
+        "Fuel-surcharge waiver subject to transaction and monthly caps"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "canara-classic",
-      "issuer": "Canara Bank",
-      "name": "Canara Classic Credit Card",
-      "source": "https://canarabank.com/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.sbicard.com/en/personal/credit-cards/bom-simplysave-sbi-card.html"
     },
     {
       "id": "canara-gold",
       "issuer": "Canara Bank",
-      "name": "Canara Gold Credit Card",
-      "source": "https://canarabank.com/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "name": "Mastercard Gold Credit Card",
+      "network": "Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "2 Reward Points per ₹100 on eligible POS and e-commerce spends",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "₹150 inactivity fee if annual turnover is below ₹25,000",
+        "Domestic and international acceptance"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://www.canarabank.bank.in/mastercard-gold-credit-card"
     },
     {
       "id": "canara-platinum",
       "issuer": "Canara Bank",
-      "name": "Canara Platinum Credit Card",
-      "source": "https://canarabank.com/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "name": "RuPay Platinum Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "2 Reward Points per ₹100 on eligible POS and e-commerce spends",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Up to four domestic lounge visits per year under the current programme",
+        "₹200 inactivity fee below ₹50,000 annual turnover"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://www.canarabank.bank.in/rupay-platinum-credit-card"
     },
     {
       "id": "canara-select",
       "issuer": "Canara Bank",
-      "name": "Canara RuPay Select Credit Card",
-      "source": "https://canarabank.com/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "name": "RuPay Select Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "2 Reward Points per ₹100, each currently valued at ₹0.25",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "premium",
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Two domestic lounge visits per quarter and two international visits per year",
+        "₹300 inactivity fee below ₹1 lakh annual turnover"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://www.canarabank.bank.in/pages/rupay-select-credit-card"
+    },
+    {
+      "id": "canara-classic",
+      "issuer": "Canara Bank",
+      "name": "Visa Classic Credit Card",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "2 Reward Points per ₹100 on eligible POS and e-commerce spends",
+      "categories": [
+        "lifetime-free",
+        "rewards"
+      ],
+      "highlights": [
+        "₹100 inactivity fee if annual turnover is below ₹12,000",
+        "No lounge access"
+      ],
+      "lounge": "none",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://www.canarabank.bank.in/visa-classic-credit-card"
     },
     {
       "id": "cub-csk",
       "issuer": "City Union Bank",
       "name": "CUB Chennai Super Kings Credit Card",
       "source": "https://cityunionbank.com/csk-srh-mitc-kfs",
+      "research_note": "The broad discovery record splits into three live products: RuPay Platinum, Mastercard Platinum, and Mastercard World; all three are represented separately.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: The broad discovery record splits into three live products: RuPay Platinum, Mastercard Platinum, and Mastercard World; all three are represented separately.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "The broad discovery record splits into three live products: RuPay Platinum, Mastercard Platinum, and Mastercard World; all three are represented separately."
       ],
       "lounge": "researching",
       "forex_markup": null,
       "verification": "discovered"
     },
     {
+      "id": "cub-csk-master-platinum",
+      "issuer": "City Union Bank",
+      "name": "CUB CSK Mastercard Platinum Credit Card",
+      "network": "Mastercard",
+      "joining_fee": 1000,
+      "annual_fee": 1000,
+      "waiver_spend": 300000,
+      "reward": "1 point per ₹125 with 2X selected lifestyle categories and 3X CSK merchandise/tickets",
+      "categories": [
+        "rewards",
+        "sports",
+        "lounge"
+      ],
+      "highlights": [
+        "CSK fan jersey welcome milestone",
+        "Annual fee waiver on ₹3 lakh spend"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.cityunionbank.com/filemanager/Nov25/Mktg_v4.pdf"
+    },
+    {
+      "id": "cub-csk-master-world",
+      "issuer": "City Union Bank",
+      "name": "CUB CSK Mastercard World Credit Card",
+      "network": "Mastercard",
+      "joining_fee": 4000,
+      "annual_fee": 4000,
+      "waiver_spend": 500000,
+      "reward": "1 point per ₹100 domestic and 2 per ₹100 international, with 2X travel and 3X CSK merchandise/tickets",
+      "categories": [
+        "premium",
+        "travel",
+        "rewards",
+        "sports",
+        "lounge"
+      ],
+      "highlights": [
+        "Dhoni No. 7 jersey welcome benefit",
+        "Annual fee waiver on ₹5 lakh spend"
+      ],
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.cityunionbank.com/filemanager/Nov25/Mktg_v4.pdf"
+    },
+    {
+      "id": "cub-csk-rupay-platinum",
+      "issuer": "City Union Bank",
+      "name": "CUB CSK RuPay Platinum Credit Card",
+      "network": "RuPay",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "waiver_spend": 200000,
+      "reward": "2 points per ₹150 on UPI, 1 point per ₹150 elsewhere, with 2X/3X selected-category accelerators",
+      "categories": [
+        "rewards",
+        "sports",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "CSK merchandise and ticket rewards",
+        "Annual fee waiver on ₹2 lakh spend"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.cityunionbank.com/filemanager/Nov25/Mktg_v4.pdf"
+    },
+    {
       "id": "cub-salaryse-level-up",
       "issuer": "City Union Bank",
       "name": "CUB SalarySe Level UP Credit Card",
-      "source": "https://www.cityunionbank.com/cub-salaryse-level-up-credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay / Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Up to 37.5% SalarySe Scoins on salary-day UPI, 10% after ₹20,000 monthly spend and 5% below that threshold",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "lounge",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Virtual lifetime-free variant",
+        "Twelve domestic lounge visits annually, unlocked monthly after ₹10,000 spend on the physical-card programme"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 2,
+      "verification": "verified",
+      "source": "https://www.cityunionbank.com/cub-salaryse-level-up-credit-card"
+    },
+    {
+      "id": "cub-salaryse-level-up-paid",
+      "issuer": "City Union Bank",
+      "name": "CUB SalarySe Level UP Paid Credit Card",
+      "network": "RuPay / Mastercard",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "waiver_spend": 200000,
+      "reward": "Up to 37.5% SalarySe Scoins on salary-day UPI, 10% after ₹20,000 monthly spend and 5% below that threshold",
+      "categories": [
+        "rewards",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "1% foreign-currency markup on the paid physical-card variant",
+        "Annual fee waiver on ₹2 lakh spend"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 1,
+      "verification": "verified",
+      "source": "https://www.cityunionbank.com/filemanager/Nov25/KFS_Salary_SE.pdf"
+    },
+    {
+      "id": "cub-srh-master-platinum",
+      "issuer": "City Union Bank",
+      "name": "CUB SRH Mastercard Platinum Credit Card",
+      "network": "Mastercard",
+      "joining_fee": 1000,
+      "annual_fee": 1000,
+      "waiver_spend": 300000,
+      "reward": "1 point per ₹125 with 2X selected lifestyle categories and 3X SRH merchandise/tickets",
+      "categories": [
+        "rewards",
+        "sports",
+        "lounge"
+      ],
+      "highlights": [
+        "SRH fan jersey welcome milestone",
+        "Annual fee waiver on ₹3 lakh spend"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.cityunionbank.com/filemanager/Nov25/Mktg_v4.pdf"
+    },
+    {
+      "id": "cub-srh-master-world",
+      "issuer": "City Union Bank",
+      "name": "CUB SRH Mastercard World Credit Card",
+      "network": "Mastercard",
+      "joining_fee": 4000,
+      "annual_fee": 4000,
+      "waiver_spend": 500000,
+      "reward": "1 point per ₹100 domestic and 2 per ₹100 international, with 2X travel and 3X SRH merchandise/tickets",
+      "categories": [
+        "premium",
+        "travel",
+        "rewards",
+        "sports",
+        "lounge"
+      ],
+      "highlights": [
+        "Original SRH jersey welcome benefit",
+        "Annual fee waiver on ₹5 lakh spend"
+      ],
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.cityunionbank.com/filemanager/Nov25/Mktg_v4.pdf"
+    },
+    {
+      "id": "cub-srh-rupay-platinum",
+      "issuer": "City Union Bank",
+      "name": "CUB SRH RuPay Platinum Credit Card",
+      "network": "RuPay",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "waiver_spend": 200000,
+      "reward": "2 points per ₹150 on UPI, 1 point per ₹150 elsewhere, with 2X/3X selected-category accelerators",
+      "categories": [
+        "rewards",
+        "sports",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "SRH merchandise and ticket rewards",
+        "Annual fee waiver on ₹2 lakh spend"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.cityunionbank.com/filemanager/Nov25/Mktg_v4.pdf"
     },
     {
       "id": "cub-srh",
       "issuer": "City Union Bank",
       "name": "CUB Sunrisers Hyderabad Credit Card",
       "source": "https://cityunionbank.com/csk-srh-mitc-kfs",
+      "research_note": "The broad discovery record splits into three live products: RuPay Platinum, Mastercard Platinum, and Mastercard World; all three are represented separately.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: The broad discovery record splits into three live products: RuPay Platinum, Mastercard Platinum, and Mastercard World; all three are represented separately.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "The broad discovery record splits into three live products: RuPay Platinum, Mastercard Platinum, and Mastercard World; all three are represented separately."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1711,81 +2207,110 @@
       "id": "cub-dhi-signature",
       "issuer": "City Union Bank",
       "name": "Dhi CUB Visa Signature Credit Card",
-      "source": "https://www.cityunionbank.com/creditcard",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "1.25% monthly cashback for the first two years under current product terms",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "cashback",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "No joining or annual fee",
+        "Daily fuel-surcharge reimbursement subject to terms"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "csb-jupiter-edge",
-      "issuer": "CSB Bank",
-      "name": "CSB Bank Jupiter Edge Credit Card",
-      "source": "https://www.csb.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 2.5,
+      "verification": "verified",
+      "source": "https://www.cityunionbank.com/creditcard"
     },
     {
       "id": "csb-onecard",
       "issuer": "CSB Bank",
       "name": "CSB Bank OneCard",
-      "source": "https://www.csb.co.in/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "5X rewards on the top two monthly spend categories; instant in-app redemption",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "travel"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "1% foreign-currency markup",
+        "Optional metal add-on card costs ₹3,000 under the current KFS"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 1,
+      "verification": "verified",
+      "source": "https://www.csb.co.in/pdf/CSB-One_KFS_05122024.pdf"
+    },
+    {
+      "id": "csb-jupiter-edge",
+      "issuer": "CSB Bank",
+      "name": "Edge CSB Bank RuPay Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "Jupiter Jewels on eligible spends",
+      "categories": [
+        "lifetime-free",
+        "rewards",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "No joining, annual or physical-card issuance fee",
+        "Jewels have lifetime validity while the card remains active under programme terms"
+      ],
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.csb.co.in/pdf/Edge_CSB_Bank_RuPay_Credit_Card-KFS.pdf"
+    },
+    {
+      "id": "csb-jupiter-edge-plus",
+      "issuer": "CSB Bank",
+      "name": "Edge+ CSB Bank RuPay Credit Card",
+      "network": "RuPay",
+      "joining_fee": 999,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "Jupiter Jewels on eligible spends",
+      "categories": [
+        "rewards",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "₹999 one-time joining fee",
+        "No annual membership or physical-card issuance fee"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.csb.co.in/pdf/key_fact_statement_edge_csb_bank_credit_card_2025.pdf"
     },
     {
       "id": "dbs-bajaj-finserv-supercard",
       "issuer": "DBS Bank India",
       "name": "Bajaj Finserv DBS Bank SuperCard",
       "source": "https://www.dbs.com/digibank/in/cards/credit-cards",
+      "research_note": "Official DBS MITC states the co-brand was discontinued effective 1 December 2025 and replaced by DBS SuperX/SuperX Plus.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Official DBS MITC states the co-brand was discontinued effective 1 December 2025 and replaced by DBS SuperX/SuperX Plus.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Official DBS MITC states the co-brand was discontinued effective 1 December 2025 and replaced by DBS SuperX/SuperX Plus."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1795,39 +2320,43 @@
       "id": "dbs-velvet",
       "issuer": "DBS Bank India",
       "name": "DBS Vantage Credit Card",
-      "source": "https://www.dbs.com/digibank/in/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa",
+      "joining_fee": 50000,
+      "annual_fee": 50000,
+      "waiver_spend": 1000000,
+      "reward": "4 Vantage Points per ₹200 on domestic spends and 8 points per ₹200 on international spends",
       "categories": [
-        "discovery"
+        "premium",
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Invite-only metal card with unlimited airport lounge access",
+        "0% forex markup in Singapore and 1.75% elsewhere"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "unlimited",
+      "forex_markup": 1.75,
+      "verification": "verified",
+      "source": "https://www.dbs.com/newsroom/DBS_Bank_India_launches_its_first_invite_only_credit_card"
     },
     {
       "id": "dcb-niyo-credit",
       "issuer": "DCB Bank",
       "name": "DCB Niyo Credit Card",
       "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
+      "research_note": "Current official page verifies lifetime-free fees and zero forex markup, but no product reward programme or lounge value was published.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current official page verifies lifetime-free fees and zero forex markup, but no product reward programme or lounge value was published.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current official page verifies lifetime-free fees and zero forex markup, but no product reward programme or lounge value was published."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1837,81 +2366,91 @@
       "id": "dcb-novio-credit",
       "issuer": "DCB Bank",
       "name": "DCB novio Credit Card",
-      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Up to 10% novioCoin rewards on eligible UPI transactions",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "secured",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "FD-backed from ₹2,000",
+        "Select variant offers four annual lounge visits with qualifying FD"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 2.5,
+      "verification": "verified",
+      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-novio-credit-card"
     },
     {
       "id": "dcb-payless-platinum",
       "issuer": "DCB Bank",
       "name": "DCB PayLess Platinum Card",
-      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 350,
+      "waiver_spend": 50000,
+      "reward": "₹250 cashback on ₹50,000 eligible quarterly spend",
       "categories": [
-        "discovery"
+        "secured",
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "FD-backed with a minimum ₹15,000 deposit",
+        "Four domestic lounge visits per year"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card"
     },
     {
       "id": "dcb-payless-select",
       "issuer": "DCB Bank",
       "name": "DCB PayLess Select Card",
-      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 1000,
+      "waiver_spend": 200000,
+      "reward": "₹1,000 cashback on ₹1 lakh eligible quarterly spend",
       "categories": [
-        "discovery"
+        "secured",
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "FD-backed with a minimum ₹15,000 deposit",
+        "Eight domestic and one international lounge visits per year"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-select-card"
     },
     {
       "id": "dcb-zet-credit",
       "issuer": "DCB Bank",
       "name": "DCB ZET Credit Card",
       "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
+      "research_note": "Current official page verifies fees, partner rewards and forex markup, but no schema-compatible lounge value was published.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current official page verifies fees, partner rewards and forex markup, but no schema-compatible lounge value was published.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current official page verifies fees, partner rewards and forex markup, but no schema-compatible lounge value was published."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1921,39 +2460,42 @@
       "id": "dhanlaxmi-platinum",
       "issuer": "Dhanlaxmi Bank",
       "name": "Visa Platinum Chip Credit Card",
-      "source": "https://www.dhanbank.com/pdf/Credit-Card-Policy.pdf",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 400,
+      "waiver_spend": 50000,
+      "reward": "5% cashback on eligible supermarket, department-store and cinema transactions, subject to programme caps",
       "categories": [
-        "discovery"
+        "cashback",
+        "shopping",
+        "movies"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "The bank's policy identifies Visa Platinum Chip as its current retail card",
+        "Annual fee waiver at ₹50,000 eligible spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.dhanbank.com/pdf/cc/Most_Imp_Terms_Conditions.pdf"
     },
     {
       "id": "equitas-powermiles",
       "issuer": "Equitas Small Finance Bank",
       "name": "PowerMiles Credit Card",
       "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+      "research_note": "Current product page and MITC verify fees, rewards, lounge and forex markup, but the card network was not safely established.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current product page and MITC verify fees, rewards, lounge and forex markup, but the card network was not safely established.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current product page and MITC verify fees, rewards, lounge and forex markup, but the card network was not safely established."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1963,39 +2505,42 @@
       "id": "equitas-selfe",
       "issuer": "Equitas Small Finance Bank",
       "name": "Selfe Credit Card",
-      "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / RuPay",
+      "joining_fee": 1000,
+      "annual_fee": 1000,
+      "waiver_spend": 240000,
+      "reward": "2 Reward Points per ₹100; 5X in two selected eligible categories",
       "categories": [
-        "discovery"
+        "rewards",
+        "lifestyle",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Choice of two accelerated categories and two memberships",
+        "One domestic lounge visit per quarter"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/selfe-credit-card/"
     },
     {
       "id": "equitas-tiga",
       "issuer": "Equitas Small Finance Bank",
       "name": "Tiga Credit Card",
       "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+      "research_note": "Current product page verifies fees, waiver, rewards, RuPay network and forex markup, but no schema-compatible lounge value was published.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current product page verifies fees, waiver, rewards, RuPay network and forex markup, but no schema-compatible lounge value was published.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current product page verifies fees, waiver, rewards, RuPay network and forex markup, but no schema-compatible lounge value was published."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2004,86 +2549,98 @@
     {
       "id": "esaf-inori-rupay",
       "issuer": "ESAF Small Finance Bank",
-      "name": "ESAF Bank INORI RuPay Credit Card",
-      "source": "https://www.esafbank.com/pdf/otherDisclosures/Intimation_regarding_Launch_of_Rupay_Credit_Cards.pdf",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "name": "INORI RuPay Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "RuPay Platinum network offers; the current bank MITC does not publish a separate reward earn rate",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "RuPay Platinum card launched for domestic and international use",
+        "No joining or annual membership fee in the current MITC"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 2.5,
+      "verification": "partial",
+      "source": "https://www.esafbank.com/storage/2024/11/Credit-Card-Most-Important-Terms-And-Conditions-MITC.pdf"
     },
     {
       "id": "federal-celesta",
       "issuer": "Federal Bank",
       "name": "Celesta Credit Card",
-      "source": "https://www.federalbank.co.in/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa / Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "3X rewards on travel and international spends, 2X on dining and 1X on other eligible categories",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "premium",
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Two international lounge visits per year",
+        "Domestic visits require ₹60,000 quarterly spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 2,
+      "verification": "verified",
+      "source": "https://www.federal.bank.in/visa-celesta-credit-card?inheritRedirect=true"
     },
     {
       "id": "federal-imperia",
       "issuer": "Federal Bank",
       "name": "Imperio Credit Card",
-      "source": "https://www.federalbank.co.in/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa / Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "3X rewards on healthcare and groceries, 2X on utilities and 1X on other eligible categories",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "shopping",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Two domestic lounge visits in the next quarter after ₹40,000 quarterly spend",
+        "Current KFS waives joining and membership fees for post-3-April-2023 onboarding"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.federal.bank.in/visa-imperio-credit-card?inheritRedirect=true"
     },
     {
       "id": "federal-signette",
       "issuer": "Federal Bank",
       "name": "Signet Credit Card",
-      "source": "https://www.federalbank.co.in/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "3X rewards on electronics and apparel, 2X on entertainment and 1X on other eligible categories",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "shopping",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Domestic lounge access requires the published quarterly spend threshold",
+        "Current KFS waives joining and membership fees for post-3-April-2023 onboarding"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.federal.bank.in/visa-signet-credit-card?inheritRedirect=true"
     },
     {
       "id": "hdfc-bizblack-metal",
@@ -3131,17 +3688,18 @@
       "issuer": "IDBI Bank",
       "name": "IDBI Aspire Credit Card",
       "source": "https://www.idbibank.in/credit-card.aspx",
+      "research_note": "Current product page verifies fees, reward rate and forex markup, but no schema-compatible lounge value was published.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current product page verifies fees, reward rate and forex markup, but no schema-compatible lounge value was published.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current product page verifies fees, reward rate and forex markup, but no schema-compatible lounge value was published."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3150,44 +3708,48 @@
     {
       "id": "idbi-euphoria",
       "issuer": "IDBI Bank",
-      "name": "IDBI Euphoria Credit Card",
-      "source": "https://www.idbibank.in/credit-card.aspx",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "name": "IDBI Euphoria World Credit Card",
+      "network": "Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 1499,
+      "waiver_spend": 150000,
+      "reward": "6 Delight Points per ₹100 on eligible travel spends; 3 points on other eligible spends",
       "categories": [
-        "discovery"
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Unlimited participating domestic lounge visits",
+        "Air-travel accident insurance"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "unlimited",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.idbibank.in/Euphoria-credit-card.aspx"
     },
     {
       "id": "idbi-winnings",
       "issuer": "IDBI Bank",
       "name": "IDBI Winnings Credit Card",
-      "source": "https://www.idbibank.in/credit-card.aspx",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 899,
+      "waiver_spend": 90000,
+      "reward": "2 Delight Points per ₹100; 500 bonus points after five qualifying monthly transactions",
       "categories": [
-        "discovery"
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Domestic and international lounge visits",
+        "Double Delight Points during birthday month"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.idbibank.in/Winnings-credit-card.aspx"
     },
     {
       "id": "idfc-ashva",
@@ -3239,17 +3801,18 @@
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST Digital RuPay Credit Card",
       "source": "https://www.idfcfirstbank.com/credit-card",
+      "research_note": "Forex markup follows the linked primary card and cannot be represented by one numeric value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Forex markup follows the linked primary card and cannot be represented by one numeric value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Forex markup follows the linked primary card and cannot be represented by one numeric value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3259,22 +3822,24 @@
       "id": "idfc-earn",
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST EA₹N",
-      "source": "https://www.idfcfirstbank.com/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 499,
+      "annual_fee": 499,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Up to 1% cashback on eligible UPI transactions",
       "categories": [
-        "discovery"
+        "secured",
+        "cashback",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Fixed-deposit-backed virtual credit card",
+        "No income document or prior credit history required"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/news-media/press-release/Press-Release-IDFC-FIRST-Bank-Launches-all-new-FIRST-EARN-RuPay-Credit-Card.pdf"
     },
     {
       "id": "idfc-millennia",
@@ -3302,22 +3867,24 @@
       "id": "idfc-power",
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST Power",
-      "source": "https://www.idfcfirstbank.com/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 199,
+      "annual_fee": 199,
+      "waiver_spend": 50000,
+      "reward": "Up to 5% savings on fuel and 2.5% on eligible grocery, utility and FASTag spends",
       "categories": [
-        "discovery"
+        "fuel",
+        "rewards",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "RuPay UPI support",
+        "Fuel-focused rewards with everyday-spend accelerators"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.idfcfirstbank.com/content/idfcfirstbank/en/finfirst-blogs/credit-card/best-rupay-credit-cards-for-upi-by-idfc-first-bank"
     },
     {
       "id": "idfc-power-plus",
@@ -3347,17 +3914,18 @@
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST Private Credit Card",
       "source": "https://www.idfcfirstbank.com/credit-card",
+      "research_note": "Current official benefits and fees are clear, but the card network was not explicit in the checked product guide.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current official benefits and fees are clear, but the card network was not explicit in the checked product guide.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current official benefits and fees are clear, but the card network was not explicit in the checked product guide."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3390,22 +3958,24 @@
       "id": "idfc-swyp",
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST SWYP",
-      "source": "https://www.idfcfirstbank.com/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Mastercard",
+      "joining_fee": 499,
+      "annual_fee": 499,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Monthly milestone Reward Points and bonus points on eligible travel bookings",
       "categories": [
-        "discovery"
+        "rewards",
+        "shopping",
+        "travel"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Up to 20% discounts with featured partner brands",
+        "EMI conversion and monthly milestone benefits"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/news-media/press-release/FIRST-SWYP-PR-0412.pdf"
     },
     {
       "id": "idfc-wealth",
@@ -3481,17 +4051,18 @@
       "issuer": "Indian Bank",
       "name": "Bharat Credit Card",
       "source": "https://www.indianbank.in/departments/credit-card/",
+      "research_note": "Domestic-only status is clear, but the catalog requires a numeric forex markup and the official schedule marks it not applicable.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Domestic-only status is clear, but the catalog requires a numeric forex markup and the official schedule marks it not applicable.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Domestic-only status is clear, but the catalog requires a numeric forex markup and the official schedule marks it not applicable."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3502,17 +4073,18 @@
       "issuer": "Indian Bank",
       "name": "Indian Bank Gold Credit Card",
       "source": "https://www.indianbank.in/departments/credit-card/",
+      "research_note": "Current fees, reward rate and forex markup verified, but official product material did not establish a schema-compatible lounge value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current fees, reward rate and forex markup verified, but official product material did not establish a schema-compatible lounge value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current fees, reward rate and forex markup verified, but official product material did not establish a schema-compatible lounge value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3523,17 +4095,18 @@
       "issuer": "Indian Bank",
       "name": "Indian Bank Platinum Credit Card",
       "source": "https://www.indianbank.in/departments/credit-card/",
+      "research_note": "Current fees, reward rate and forex markup verified, but official product material did not establish a schema-compatible lounge value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current fees, reward rate and forex markup verified, but official product material did not establish a schema-compatible lounge value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current fees, reward rate and forex markup verified, but official product material did not establish a schema-compatible lounge value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3543,60 +4116,65 @@
       "id": "indian-bank-rupay-platinum",
       "issuer": "Indian Bank",
       "name": "Indian Bank RuPay Platinum Credit Card",
-      "source": "https://www.indianbank.in/departments/credit-card/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 250,
+      "waiver_spend": 50000,
+      "reward": "1 Reward Point worth ₹1 per ₹100 spent",
       "categories": [
-        "discovery"
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Airport lounge access",
+        "Annual fee waived at ₹50,000 previous-year spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://www.indianbank.in/wp-content/uploads/2019/03/CREDIT-CARD-FEATURES-AND-BENEFITS-6.pdf"
     },
     {
       "id": "indian-bank-rupay-select",
       "issuer": "Indian Bank",
       "name": "Indian Bank RuPay Select Credit Card",
-      "source": "https://www.indianbank.in/departments/credit-card/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 250,
+      "waiver_spend": 50000,
+      "reward": "1 Reward Point worth ₹1 per ₹100 spent",
       "categories": [
-        "discovery"
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Airport lounge access",
+        "Annual fee waived at ₹50,000 previous-year spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://www.indianbank.in/wp-content/uploads/2019/03/CREDIT-CARD-FEATURES-AND-BENEFITS-6.pdf"
     },
     {
       "id": "indusind-avios-visa-infinite",
       "issuer": "IndusInd Bank",
       "name": "Avios Visa Infinite Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "research_note": "Active; destination-dependent forex pricing and benefit variants require a richer representation than one scalar forex field.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Active; destination-dependent forex pricing and benefit variants require a richer representation than one scalar forex field.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Active; destination-dependent forex pricing and benefit variants require a richer representation than one scalar forex field."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3607,17 +4185,18 @@
       "issuer": "IndusInd Bank",
       "name": "Avios Visa Signature Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "research_note": "Not present in the current active-card catalog; do not promote without issuer confirmation.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Not present in the current active-card catalog; do not promote without issuer confirmation.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Not present in the current active-card catalog; do not promote without issuer confirmation."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3628,17 +4207,18 @@
       "issuer": "IndusInd Bank",
       "name": "Club Marriott Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "research_note": "Not present in the current active-card catalog; do not promote without issuer confirmation.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Not present in the current active-card catalog; do not promote without issuer confirmation.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Not present in the current active-card catalog; do not promote without issuer confirmation."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3649,17 +4229,18 @@
       "issuer": "IndusInd Bank",
       "name": "EazyDiner IndusInd Bank Platinum Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "research_note": "Active, but the official page refers to a RuPay variant without establishing whether that is the only current network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Active, but the official page refers to a RuPay variant without establishing whether that is the only current network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Active, but the official page refers to a RuPay variant without establishing whether that is the only current network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3670,17 +4251,18 @@
       "issuer": "IndusInd Bank",
       "name": "EazyDiner IndusInd Bank Signature Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "research_note": "Active, but the current product page does not unambiguously state the card network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Active, but the current product page does not unambiguously state the card network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Active, but the current product page does not unambiguously state the card network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3691,17 +4273,18 @@
       "issuer": "IndusInd Bank",
       "name": "IndusInd Bank Voyage Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "research_note": "Official MITC identifies the InterMiles Voyage product as discontinued.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Official MITC identifies the InterMiles Voyage product as discontinued.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Official MITC identifies the InterMiles Voyage product as discontinued."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3711,39 +4294,42 @@
       "id": "indusind-legend",
       "issuer": "IndusInd Bank",
       "name": "Legend Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "1 Reward Point per ₹100 on weekdays and 2 Reward Points per ₹100 on weekends",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "travel"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Current public offer is lifetime-free",
+        "Airport lounge access was discontinued effective 7 March 2025"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 1.8,
+      "verification": "partial",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/legend-credit-card.html"
     },
     {
       "id": "indusind-nexxt",
       "issuer": "IndusInd Bank",
       "name": "Nexxt Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "research_note": "Active, but current network and complete reward/lounges evidence were not safely extractable together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Active, but current network and complete reward/lounges evidence were not safely extractable together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Active, but current network and complete reward/lounges evidence were not safely extractable together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3754,17 +4340,18 @@
       "issuer": "IndusInd Bank",
       "name": "Pinnacle Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "research_note": "Active, but the current public fee can vary by customer segment and the network/benefit package needs one product-level normalization pass.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Active, but the current public fee can vary by customer segment and the network/benefit package needs one product-level normalization pass.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Active, but the current public fee can vary by customer segment and the network/benefit package needs one product-level normalization pass."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3774,81 +4361,87 @@
       "id": "indusind-platinum-aura-edge",
       "issuer": "IndusInd Bank",
       "name": "Platinum Aura Edge Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa / Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Choice of four reward plans with up to 8X Reward Points on selected merchant categories",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "shopping"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Current public offer is lifetime-free",
+        "Shop, Home, Travel and Party reward-plan options"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-aura-edge-visa-and-mastercard-credit-card-easy-credit.html"
     },
     {
       "id": "indusind-platinum-rupay",
       "issuer": "IndusInd Bank",
       "name": "Platinum RuPay Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "2 Reward Points per ₹100 on UPI transactions, 1 point per ₹100 on other eligible spends and 0.7 point on selected categories",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Current public offer is lifetime-free",
+        "RuPay credit card supports merchant UPI payments"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-rupay-credit-card.html/"
     },
     {
       "id": "indusind-platinum-visa",
       "issuer": "IndusInd Bank",
       "name": "Platinum Visa Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "1.5 Reward Points per ₹150 on eligible spends",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Current public offer is lifetime-free",
+        "Fuel-surcharge waiver and travel insurance benefits"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-visa-credit-card.html/"
     },
     {
       "id": "indusind-samman",
       "issuer": "IndusInd Bank",
       "name": "Samman Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "research_note": "Active targeted product; current product page and MITC do not expose a complete network/reward record suitable for promotion.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Active targeted product; current product page and MITC do not expose a complete network/reward record suitable for promotion.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Active targeted product; current product page and MITC do not expose a complete network/reward record suitable for promotion."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3858,39 +4451,43 @@
       "id": "indusind-tiger",
       "issuer": "IndusInd Bank",
       "name": "Tiger Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "1 Reward Point per ₹100 with anniversary-year slab multipliers rising to 6X",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "travel",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Two domestic lounge visits per quarter and two international visits per year",
+        "One complimentary golf game or lesson per quarter"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 1.5,
+      "verification": "verified",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/tiger-credit-card.html"
     },
     {
       "id": "jkb-corporate",
       "issuer": "Jammu & Kashmir Bank",
       "name": "J&K Bank Corporate Credit Card",
       "source": "https://jkb.bank.in/transactions/services/credit-cards",
+      "research_note": "Corporate card; excluded from this consumer-card research batch.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Corporate card; excluded from this consumer-card research batch.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Corporate card; excluded from this consumer-card research batch."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3900,39 +4497,43 @@
       "id": "jkb-eminent",
       "issuer": "Jammu & Kashmir Bank",
       "name": "J&K Bank Eminent Credit Card",
-      "source": "https://jkb.bank.in/transactions/services/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 1500,
+      "waiver_spend": 300000,
+      "reward": "1 Reward Point per ₹100; 3X points on eligible travel, apparel and dining spends",
       "categories": [
-        "discovery"
+        "premium",
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Two domestic lounge visits per quarter",
+        "One international lounge visit per half-year"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 1.99,
+      "verification": "verified",
+      "source": "https://jkb.bank.in/transactions/services/credit-cards"
     },
     {
       "id": "jkb-gold",
       "issuer": "Jammu & Kashmir Bank",
       "name": "J&K Bank Gold Credit Card",
       "source": "https://jkb.bank.in/transactions/services/credit-cards",
+      "research_note": "Current fee schedule verifies fees, waiver and forex markup, but a single current network and lounge value were not safely established.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current fee schedule verifies fees, waiver and forex markup, but a single current network and lounge value were not safely established.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current fee schedule verifies fees, waiver and forex markup, but a single current network and lounge value were not safely established."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3942,102 +4543,112 @@
       "id": "jkb-platinum",
       "issuer": "Jammu & Kashmir Bank",
       "name": "J&K Bank Platinum Credit Card",
-      "source": "https://jkb.bank.in/transactions/services/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 500,
+      "waiver_spend": 100000,
+      "reward": "1 Reward Point per ₹100; 2X points on eligible online, department-store, pharmacy and utility spends",
       "categories": [
-        "discovery"
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Two domestic lounge visits per year",
+        "Quarterly milestone voucher"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://jkb.bank.in/transactions/services/credit-cards"
     },
     {
       "id": "jkb-platinum-privilege",
       "issuer": "Jammu & Kashmir Bank",
       "name": "J&K Bank Platinum Privilege Credit Card",
-      "source": "https://jkb.bank.in/transactions/services/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "1 Reward Point per ₹100 up to ₹15,000 monthly spend; 2 points per ₹100 on eligible incremental spend",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "For eligible government employees",
+        "One domestic lounge visit per quarter"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 1.99,
+      "verification": "verified",
+      "source": "https://jkb.bank.in/transactions/services/credit-cards"
     },
     {
       "id": "karnataka-sbi-prime",
       "issuer": "Karnataka Bank",
       "name": "Karnataka Bank SBI Card PRIME",
-      "source": "https://karnatakabank.com/sites/default/files/2024-04/information-to-customers-on-cc.pdf",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / RuPay",
+      "joining_fee": 2999,
+      "annual_fee": 2999,
+      "waiver_spend": 300000,
+      "reward": "10 Reward Points per ₹100 on dining, groceries, department stores and movies; 2 points per ₹100 elsewhere",
       "categories": [
-        "discovery"
+        "premium",
+        "rewards",
+        "travel",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Domestic and international lounge access",
+        "Renewal fee reversal at ₹3 lakh annual spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/banking-tnc/karnataka-prime-tnc.pdf"
     },
     {
       "id": "karnataka-sbi-simplysave",
       "issuer": "Karnataka Bank",
       "name": "Karnataka Bank SimplySAVE SBI Card",
-      "source": "https://karnatakabank.com/sites/default/files/2024-04/information-to-customers-on-cc.pdf",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / RuPay",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "waiver_spend": 100000,
+      "reward": "10 Reward Points per ₹150 on dining, groceries, movies and department stores; 1 point per ₹150 elsewhere",
       "categories": [
-        "discovery"
+        "rewards",
+        "dining",
+        "shopping",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Renewal fee reversal at ₹1 lakh annual spend",
+        "Current Karnataka Bank notice confirms the SBI Card partnership and fee"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/banking-tnc/karnataka-prime-tnc.pdf"
     },
     {
       "id": "kvb-sbi-platinum",
       "issuer": "Karur Vysya Bank",
       "name": "KVB SBI Platinum Card",
       "source": "https://www.kvb.co.in/personal/cards/credit-cards/",
+      "research_note": "KVB's current MITC covers in-house Visa Platinum and Visa Signature cards; the older KVB-SBI Platinum discovery record could not be confirmed as open to new applications.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: KVB's current MITC covers in-house Visa Platinum and Visa Signature cards; the older KVB-SBI Platinum discovery record could not be confirmed as open to new applications.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "KVB's current MITC covers in-house Visa Platinum and Visa Signature cards; the older KVB-SBI Platinum discovery record could not be confirmed as open to new applications."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4048,38 +4659,84 @@
       "issuer": "Karur Vysya Bank",
       "name": "KVB SimplySAVE SBI Card",
       "source": "https://www.kvb.co.in/personal/cards/credit-cards/",
+      "research_note": "KVB's current MITC covers in-house Visa Platinum and Visa Signature cards; the older KVB-SBI SimplySAVE discovery record could not be confirmed as open to new applications.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: KVB's current MITC covers in-house Visa Platinum and Visa Signature cards; the older KVB-SBI SimplySAVE discovery record could not be confirmed as open to new applications.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "KVB's current MITC covers in-house Visa Platinum and Visa Signature cards; the older KVB-SBI SimplySAVE discovery record could not be confirmed as open to new applications."
       ],
       "lounge": "researching",
       "forex_markup": null,
       "verification": "discovered"
     },
     {
+      "id": "kvb-visa-platinum",
+      "issuer": "Karur Vysya Bank",
+      "name": "KVB Visa Platinum Credit Card",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 599,
+      "waiver_spend": 100000,
+      "reward": "Rewards on eligible retail spends",
+      "categories": [
+        "rewards"
+      ],
+      "highlights": [
+        "Annual fee waived for the first year",
+        "Renewal fee waived on ₹1 lakh eligible retail spend"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.kvb.co.in/docs/retail-credit-card-mitc.pdf"
+    },
+    {
+      "id": "kvb-visa-signature",
+      "issuer": "Karur Vysya Bank",
+      "name": "KVB Visa Signature Credit Card",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 999,
+      "waiver_spend": 300000,
+      "reward": "Rewards on eligible retail spends",
+      "categories": [
+        "premium",
+        "rewards",
+        "lounge"
+      ],
+      "highlights": [
+        "Annual fee waived for the first year",
+        "Renewal fee waived on ₹3 lakh eligible retail spend"
+      ],
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.kvb.co.in/docs/retail-credit-card-mitc.pdf"
+    },
+    {
       "id": "kiwi-axis-bank",
       "issuer": "Kiwi partner banks",
       "name": "Kiwi Axis Bank RuPay Credit Card",
       "source": "https://gokiwi.in/",
+      "research_note": "Current Axis KFS verifies lifetime-free fees and forex markup, but a schema-compatible lounge value was not established.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current Axis KFS verifies lifetime-free fees and forex markup, but a schema-compatible lounge value was not established.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current Axis KFS verifies lifetime-free fees and forex markup, but a schema-compatible lounge value was not established."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4088,23 +4745,25 @@
     {
       "id": "kiwi-yes-bank",
       "issuer": "Kiwi partner banks",
-      "name": "Kiwi YES BANK RuPay Credit Card",
-      "source": "https://gokiwi.in/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "name": "YES BANK Klick RuPay Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "1.5% Kiwi cashback on eligible UPI scan-and-pay and 0.5% on eligible online spends; 2 Reward Points per ₹200 on non-UPI spends",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "cashback",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Virtual-only lifetime-free card",
+        "Optional Kiwi Neon membership adds benefits"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.yesbank.in/content/published/api/v1.1/assets/CONT07A77C257C7A4BDD85DB97E51D2B5B8F/native/yesbank_key_fact_statement.pdf?channelToken=21f7ccfa2fc3401091938f541a6f8f2a&download=false"
     },
     {
       "id": "kotak-811",
@@ -4561,61 +5220,91 @@
     {
       "id": "onecard-metal",
       "issuer": "OneCard partner banks",
-      "name": "OneCard Metal Credit Card",
-      "source": "https://www.getonecard.app/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "name": "One Credit Card",
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "5X rewards on the top two monthly spend categories with instant in-app redemption",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "travel"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Issued with BOBCARD, CSB Bank, Federal Bank, SBM Bank, South Indian Bank or Indian Bank",
+        "1% foreign-currency markup"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 1,
+      "verification": "verified",
+      "source": "https://www.getonecard.app/faq/"
     },
     {
       "id": "pnb-bliss",
       "issuer": "Punjab National Bank",
       "name": "PNB BLISS Card",
-      "source": "https://www.pnbcard.in/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 510,
+      "waiver_spend": 100000,
+      "reward": "1 Reward Point per ₹100 on eligible retail spends",
       "categories": [
-        "discovery"
+        "rewards",
+        "lifestyle",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Four domestic and one international lounge visits per year",
+        "Lifestyle vouchers and memberships"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.pnbcard.in/types13.html"
+    },
+    {
+      "id": "pnb-easemytrip",
+      "issuer": "Punjab National Bank",
+      "name": "PNB EMT RuPay Platinum Credit Card",
+      "network": "RuPay",
+      "joining_fee": 2000,
+      "annual_fee": 2000,
+      "waiver_spend": 100000,
+      "reward": "300 welcome Reward Points and EasyMyTrip travel discounts",
+      "categories": [
+        "travel",
+        "rewards",
+        "rupay-upi",
+        "lounge"
+      ],
+      "highlights": [
+        "Welcome travel vouchers worth ₹3,000",
+        "Domestic and international lounge access"
+      ],
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.pnbcard.in/EMT.html"
     },
     {
       "id": "pnb-patanjali-platinum",
       "issuer": "Punjab National Bank",
       "name": "PNB Patanjali RuPay Platinum Card",
       "source": "https://www.pnbcard.in/types.html",
+      "research_note": "Current fees and Patanjali benefits verified, but official product material did not establish a schema-compatible lounge value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current fees and Patanjali benefits verified, but official product material did not establish a schema-compatible lounge value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current fees and Patanjali benefits verified, but official product material did not establish a schema-compatible lounge value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4625,39 +5314,43 @@
       "id": "pnb-patanjali-select",
       "issuer": "Punjab National Bank",
       "name": "PNB Patanjali RuPay Select Card",
-      "source": "https://www.pnbcard.in/types.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 500,
+      "annual_fee": 750,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "2X Reward Points on eligible retail merchandise plus Patanjali cashback",
       "categories": [
-        "discovery"
+        "shopping",
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "2% cashback on qualifying Patanjali transactions, subject to cap",
+        "Domestic and international lounge programme"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.pnbcard.in/types11.html"
     },
     {
       "id": "pnb-rakshak-platinum",
       "issuer": "Punjab National Bank",
       "name": "PNB Rakshak RuPay Platinum Card",
       "source": "https://www.pnbcard.in/types.html",
+      "research_note": "Current fees and rewards verified, but official product material did not establish a schema-compatible lounge value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current fees and rewards verified, but official product material did not establish a schema-compatible lounge value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current fees and rewards verified, but official product material did not establish a schema-compatible lounge value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4667,123 +5360,184 @@
       "id": "pnb-rakshak-select",
       "issuer": "Punjab National Bank",
       "name": "PNB Rakshak RuPay Select Card",
-      "source": "https://www.pnbcard.in/types.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 750,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "2X Reward Points on eligible retail merchandise; 300 welcome points",
       "categories": [
-        "discovery"
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "For eligible defence personnel",
+        "Domestic and international lounge programme"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://pnbcard.in/types8.html"
     },
     {
       "id": "pnb-luxura-rupay",
       "issuer": "Punjab National Bank",
       "name": "PNB RuPay Metal Card LUXURA",
-      "source": "https://www.pnbcard.in/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 9000,
+      "annual_fee": 7500,
+      "waiver_spend": 800000,
+      "reward": "4 Reward Points per ₹100; 3X points on eligible travel and dining",
       "categories": [
-        "discovery"
+        "premium",
+        "travel",
+        "rewards",
+        "lounge",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Unlimited domestic and international lounge access",
+        "Zero foreign-currency markup"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "unlimited",
+      "forex_markup": 0,
+      "verification": "verified",
+      "source": "https://pnbcard.in/types16.html"
     },
     {
       "id": "pnb-rupay-millennial",
       "issuer": "Punjab National Bank",
       "name": "PNB RuPay Millennial Card",
-      "source": "https://www.pnbcard.in/types.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 399,
+      "annual_fee": 999,
+      "waiver_spend": 100000,
+      "reward": "2 Reward Points per ₹150 on eligible spends; 300 welcome points on the first eligible transaction",
       "categories": [
-        "discovery"
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Youth-focused card",
+        "Domestic and international lounge programme"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://pnbcard.in/types10.html"
     },
     {
       "id": "pnb-rupay-platinum",
       "issuer": "Punjab National Bank",
       "name": "PNB RuPay Platinum Card",
-      "source": "https://www.pnbcard.in/types.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 500,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "1 Reward Point per ₹100 on eligible spends; 300 welcome points on the first eligible transaction",
       "categories": [
-        "discovery"
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Annual fee waived when used at least once in each quarter",
+        "Domestic and international lounge programme"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://pnbcard.in/types5.html"
     },
     {
       "id": "pnb-rupay-select",
       "issuer": "Punjab National Bank",
       "name": "PNB RuPay Select Card",
-      "source": "https://www.pnbcard.in/types.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 500,
+      "annual_fee": 750,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "2 Reward Points per ₹150 on eligible spends; 300 welcome points on the first eligible transaction",
       "categories": [
-        "discovery"
+        "rewards",
+        "rupay-upi",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Domestic and international lounge programme",
+        "Concierge and insurance benefits"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://pnbcard.in/types6.html"
+    },
+    {
+      "id": "pnb-salary-rupay-platinum",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Salary RuPay Platinum Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "1 Reward Point per ₹100 on eligible spends",
+      "categories": [
+        "lifetime-free",
+        "rewards",
+        "rupay-upi",
+        "lounge"
+      ],
+      "highlights": [
+        "For eligible PNB salary-account customers",
+        "Four domestic and one international lounge visits per year"
+      ],
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.pnbcard.in/types14.html"
+    },
+    {
+      "id": "pnb-salary-rupay-select",
+      "issuer": "Punjab National Bank",
+      "name": "PNB Salary RuPay Select Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "2 Reward Points per ₹150 on eligible spends",
+      "categories": [
+        "lifetime-free",
+        "rewards",
+        "rupay-upi",
+        "lounge"
+      ],
+      "highlights": [
+        "For eligible PNB salary-account customers",
+        "Eight domestic and two international lounge visits per year"
+      ],
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.pnbcard.in/types15.html"
     },
     {
       "id": "pnb-visa-classic",
       "issuer": "Punjab National Bank",
       "name": "PNB Visa Classic Card",
       "source": "https://www.pnbcard.in/types.html",
+      "research_note": "Current fees and reward rate verified, but official product material did not establish a schema-compatible lounge value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current fees and reward rate verified, but official product material did not establish a schema-compatible lounge value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current fees and reward rate verified, but official product material did not establish a schema-compatible lounge value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4794,17 +5548,18 @@
       "issuer": "Punjab National Bank",
       "name": "PNB Visa Gold Card",
       "source": "https://www.pnbcard.in/types.html",
+      "research_note": "Current fees and reward rate verified, but official product material did not establish a schema-compatible lounge value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current fees and reward rate verified, but official product material did not establish a schema-compatible lounge value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current fees and reward rate verified, but official product material did not establish a schema-compatible lounge value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4815,17 +5570,18 @@
       "issuer": "Punjab National Bank",
       "name": "PNB Visa Metal Card LUXURA",
       "source": "https://www.pnbcard.in/",
+      "research_note": "Current fees and zero forex markup verified, but a current product-specific reward rate was not safely established.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current fees and zero forex markup verified, but a current product-specific reward rate was not safely established.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current fees and zero forex markup verified, but a current product-specific reward rate was not safely established."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4836,17 +5592,18 @@
       "issuer": "Punjab National Bank",
       "name": "PNB Visa Platinum Card",
       "source": "https://www.pnbcard.in/types.html",
+      "research_note": "Current fees and reward rate verified, but official product material did not establish a schema-compatible lounge value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current fees and reward rate verified, but official product material did not establish a schema-compatible lounge value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current fees and reward rate verified, but official product material did not establish a schema-compatible lounge value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4856,39 +5613,42 @@
       "id": "pnb-visa-signature",
       "issuer": "Punjab National Bank",
       "name": "PNB Visa Signature Card",
-      "source": "https://www.pnbcard.in/types.html",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa",
+      "joining_fee": 1500,
+      "annual_fee": 2000,
+      "waiver_spend": 300000,
+      "reward": "2 Reward Points per ₹100 on eligible spends",
       "categories": [
-        "discovery"
+        "premium",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Complimentary domestic lounge access",
+        "Annual fee waived at ₹3 lakh annual spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://pnbcard.in/types9.html"
     },
     {
       "id": "rbl-bajaj-finserv-supercard",
       "issuer": "RBL Bank",
       "name": "Bajaj Finserv RBL Bank SuperCard",
       "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "research_note": "The current RBL schedule lists many distinct SuperCard variants, so the discovery record is too broad to promote as a single product safely.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: The current RBL schedule lists many distinct SuperCard variants, so the discovery record is too broad to promote as a single product safely.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "The current RBL schedule lists many distinct SuperCard variants, so the discovery record is too broad to promote as a single product safely."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4898,18 +5658,155 @@
       "id": "rbl-bookmyshow-play",
       "issuer": "RBL Bank",
       "name": "BookMyShow RBL Bank PLAY Credit Card",
+      "network": "Mastercard",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "waiver_spend": 150000,
+      "reward": "BookMyShow discounts and entertainment benefits after eligible spends",
+      "categories": [
+        "entertainment",
+        "movies"
+      ],
+      "highlights": [
+        "Welcome BookMyShow benefit up to ₹500",
+        "Annual fee waiver on ₹1.5 lakh eligible spend"
+      ],
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.rblbank.com/api/v1/doc/document/credit-cards/play-credit-card-terms-and-conditions.pdf"
+    },
+    {
+      "id": "rbl-icon",
+      "issuer": "RBL Bank",
+      "name": "Icon Credit Card",
+      "network": "Visa / Mastercard",
+      "joining_fee": 5000,
+      "annual_fee": 5000,
+      "waiver_spend": null,
+      "reward": "Premium reward points on eligible spends",
+      "categories": [
+        "premium",
+        "rewards",
+        "lounge"
+      ],
+      "highlights": [
+        "Domestic lounge access requires ₹35,000 eligible spend in the previous quarter",
+        "Current application form and schedule both list the variant"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://webassets.rblbank.com/document/pdfs/cc-lounge-faq-july-2025.pdf"
+    },
+    {
+      "id": "rbl-indian-oil",
+      "issuer": "RBL Bank",
+      "name": "IndianOil RBL Bank Credit Card",
+      "network": "Mastercard / RuPay",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "waiver_spend": 175000,
+      "reward": "Accelerated rewards and value back on eligible IndianOil fuel spends",
+      "categories": [
+        "fuel",
+        "rewards",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Annual fee waiver on ₹1.75 lakh eligible spend",
+        "Available on Mastercard and RuPay"
+      ],
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://webassets.rblbank.com/document/Download%20Forms/common-application-form.pdf"
+    },
+    {
+      "id": "rbl-indian-oil-xtra",
+      "issuer": "RBL Bank",
+      "name": "IndianOil RBL Bank XTRA Credit Card",
+      "network": "Mastercard / RuPay",
+      "joining_fee": 1500,
+      "annual_fee": 1500,
+      "waiver_spend": 275000,
+      "reward": "Accelerated rewards and value back on eligible IndianOil fuel spends",
+      "categories": [
+        "fuel",
+        "rewards",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Annual fee waiver on ₹2.75 lakh eligible spend",
+        "1% fuel surcharge waiver subject to programme terms"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.rblbank.com/indianoil-rbl-bank-xtra-credit-card"
+    },
+    {
+      "id": "rbl-insignia",
+      "issuer": "RBL Bank",
+      "name": "Insignia Preferred Banking World Card",
+      "network": "Visa / Mastercard",
+      "joining_fee": 7000,
+      "annual_fee": 7000,
+      "waiver_spend": 1000000,
+      "reward": "Premium reward points on eligible spends",
+      "categories": [
+        "premium",
+        "rewards",
+        "lounge"
+      ],
+      "highlights": [
+        "Fee-free for eligible Insignia Preferred Banking customers",
+        "1.5% foreign-currency markup"
+      ],
+      "lounge": "included",
+      "forex_markup": 1.5,
+      "verification": "verified",
+      "source": "https://webassets.rblbank.com/document/Credit%20Cards/CardsScheduleCharges.pdf"
+    },
+    {
+      "id": "rbl-monthly-treats",
+      "issuer": "RBL Bank",
+      "name": "Monthly Treats Credit Card",
+      "network": "Visa / Mastercard",
+      "joining_fee": 100,
+      "annual_fee": 1200,
+      "waiver_spend": 60000,
+      "reward": "Monthly BookMyShow and food vouchers after eligible billing-cycle spend",
+      "categories": [
+        "dining",
+        "entertainment"
+      ],
+      "highlights": [
+        "₹100 monthly membership fee",
+        "Monthly fee waived after ₹5,000 eligible spend in the previous month"
+      ],
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://webassets.rblbank.com/document/Credit%20Cards/CardsScheduleCharges.pdf"
+    },
+    {
+      "id": "rbl-paisa-on-demand",
+      "issuer": "RBL Bank",
+      "name": "Paisa on Demand Credit Card",
       "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "research_note": "Current official schedule says this older name became Paisabazaar Duet; represented by rbl-duet instead.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current official schedule says this older name became Paisabazaar Duet; represented by rbl-duet instead.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current official schedule says this older name became Paisabazaar Duet; represented by rbl-duet instead."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4918,250 +5815,133 @@
     {
       "id": "rbl-duet",
       "issuer": "RBL Bank",
-      "name": "Duet Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "name": "Paisabazaar Duet Credit Card",
+      "network": "Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Cashback and partner benefits on eligible spends",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "cashback"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "No joining or annual membership fee",
+        "Formerly called Paisa on Demand for older issuances"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "rbl-icon",
-      "issuer": "RBL Bank",
-      "name": "Icon Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "rbl-indian-oil",
-      "issuer": "RBL Bank",
-      "name": "IndianOil RBL Bank Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "rbl-indian-oil-xtra",
-      "issuer": "RBL Bank",
-      "name": "IndianOil RBL Bank XTRA Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "rbl-insignia",
-      "issuer": "RBL Bank",
-      "name": "Insignia Preferred Banking World Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "rbl-monthly-treats",
-      "issuer": "RBL Bank",
-      "name": "Monthly Treats Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "rbl-paisa-on-demand",
-      "issuer": "RBL Bank",
-      "name": "Paisa on Demand Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://webassets.rblbank.com/document/Credit%20Cards/CardsScheduleCharges.pdf"
     },
     {
       "id": "rbl-platinum-maxima",
       "issuer": "RBL Bank",
       "name": "Platinum Maxima Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa / Mastercard",
+      "joining_fee": 2000,
+      "annual_fee": 2000,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "8,000 welcome Reward Points after an eligible transaction and payment of the membership fee",
       "categories": [
-        "discovery"
+        "rewards",
+        "lifestyle",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Two domestic lounge visits per quarter after ₹35,000 eligible spend in the previous quarter",
+        "Current variant listed in the official schedule of charges"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://webassets.rblbank.com/document/credit-cards/terms-conditions-platinum-maxima.pdf"
     },
     {
       "id": "rbl-platinum-traveleasy",
       "issuer": "RBL Bank",
       "name": "Platinum TravelEasy Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa / Mastercard",
+      "joining_fee": 999,
+      "annual_fee": 999,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Fuel and ride-hailing rewards plus annual milestone vouchers",
       "categories": [
-        "discovery"
+        "travel",
+        "fuel",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Benefits on Ola and Uber transactions",
+        "Annual rewards advertised above ₹6,800 subject to terms"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards/platinum-traveleasy-credit-card"
     },
     {
       "id": "rbl-shoprite",
       "issuer": "RBL Bank",
       "name": "ShopRite Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "waiver_spend": 150000,
+      "reward": "Accelerated rewards on grocery purchases and 1 Reward Point per ₹100 on other eligible spends",
       "categories": [
-        "discovery"
+        "grocery",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "1% fuel surcharge waiver within transaction and monthly caps",
+        "Annual fee waiver on ₹1.5 lakh eligible annual spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://webassets.rblbank.com/document/credit-cards/tnc-shoprite-credit-card.pdf"
     },
     {
       "id": "rbl-world-safari",
       "issuer": "RBL Bank",
       "name": "World Safari Credit Card",
-      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa / Mastercard",
+      "joining_fee": 3000,
+      "annual_fee": 3000,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Travel rewards on eligible spends",
       "categories": [
-        "discovery"
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Zero foreign-currency markup",
+        "Domestic lounge access requires ₹35,000 eligible spend in the previous quarter"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 0,
+      "verification": "verified",
+      "source": "https://www.rblbank.com/personal-banking/cards/credit-cards/world-safari-credit-card"
     },
     {
       "id": "rbl-zomato-edition-classic",
       "issuer": "RBL Bank",
       "name": "Zomato Edition Classic Credit Card",
       "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "research_note": "No current product page, current application-form listing, or current schedule-of-charges entry found; the co-brand appears legacy/discontinued.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: No current product page, current application-form listing, or current schedule-of-charges entry found; the co-brand appears legacy/discontinued.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "No current product page, current application-form listing, or current schedule-of-charges entry found; the co-brand appears legacy/discontinued."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5172,17 +5952,18 @@
       "issuer": "RBL Bank",
       "name": "Zomato Edition Credit Card",
       "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
+      "research_note": "No current product page, current application-form listing, or current schedule-of-charges entry found; the co-brand appears legacy/discontinued.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: No current product page, current application-form listing, or current schedule-of-charges entry found; the co-brand appears legacy/discontinued.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "No current product page, current application-form listing, or current schedule-of-charges entry found; the co-brand appears legacy/discontinued."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5859,17 +6640,18 @@
       "issuer": "SBM Bank India",
       "name": "SBM Bank India OneCard",
       "source": "https://www.sbmbank.co.in/",
+      "research_note": "Current MITC verifies fees, Visa network, rewards and forex markup, but no schema-compatible lounge value was published.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current MITC verifies fees, Visa network, rewards and forex markup, but no schema-compatible lounge value was published.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current MITC verifies fees, Visa network, rewards and forex markup, but no schema-compatible lounge value was published."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5880,122 +6662,161 @@
       "issuer": "SBM Bank India",
       "name": "SBM Step Up Credit Card",
       "source": "https://www.sbmbank.co.in/",
+      "research_note": "Current catalog and aggregate MITC verify lifetime-free fees, but network, reward, lounge and forex fields remain incomplete.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current catalog and aggregate MITC verify lifetime-free fees, but network, reward, lounge and forex fields remain incomplete.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current catalog and aggregate MITC verify lifetime-free fees, but network, reward, lounge and forex fields remain incomplete."
       ],
       "lounge": "researching",
       "forex_markup": null,
       "verification": "discovered"
+    },
+    {
+      "id": "scapia-bobcard",
+      "issuer": "Scapia partner bank",
+      "name": "Scapia BOBCARD Credit Card",
+      "network": "Visa + RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "waiver_spend": null,
+      "reward": "20% Scapia Coins on travel booked in-app; 10% on eligible Visa and 5% on eligible RuPay/UPI spends",
+      "categories": [
+        "lifetime-free",
+        "travel",
+        "rewards",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Zero foreign-currency markup",
+        "Unlimited domestic lounge access after ₹20,000 monthly spend"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 0,
+      "verification": "verified",
+      "source": "https://www.scapia.cards/product/blog/the-scapia-bobcard-credit-card-everything-you-need-to-know"
     },
     {
       "id": "scapia-federal",
       "issuer": "Scapia partner bank",
       "name": "Scapia Federal Bank Credit Card",
-      "source": "https://www.scapia.cards/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa + RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Scapia Coins on eligible everyday and Scapia travel bookings",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "travel",
+        "rewards",
+        "lounge",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Zero foreign-currency markup",
+        "Domestic lounge access unlocked by qualifying monthly spend"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 0,
+      "verification": "verified",
+      "source": "https://www.scapia.cards/newsroom/summer-release2025"
     },
     {
       "id": "sib-onecard",
       "issuer": "South Indian Bank",
-      "name": "South Indian Bank OneCard",
-      "source": "https://www.southindianbank.com/content/personal-banking/credit-cards/385",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "name": "SIB One Credit Card",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "OneCard reward points on eligible spends with instant in-app redemption",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "rewards",
+        "travel"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Issued as a lifetime-free metal credit card",
+        "OneCard app controls and instant redemption"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 1,
+      "verification": "partial",
+      "source": "https://www.southindianbank.bank.in/personal/cards/credit-card/sib-one-co-branded-credit-card"
     },
     {
       "id": "sib-sbi-platinum",
       "issuer": "South Indian Bank",
-      "name": "South Indian Bank SBI Platinum Card",
-      "source": "https://www.southindianbank.com/content/personal-banking/credit-cards/385",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "name": "South Indian Bank SBI Card PRIME",
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 2999,
+      "annual_fee": 2999,
+      "waiver_spend": 300000,
+      "reward": "10 Reward Points per ₹100 on dining, groceries, department stores and movies; 2 points per ₹100 elsewhere",
       "categories": [
-        "discovery"
+        "premium",
+        "rewards",
+        "travel",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Eight domestic and four international lounge visits per year under current terms",
+        "Product is currently presented by SBI Card as PRIME"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.sbicard.com/en/personal/credit-cards/south-indian-bank-sbi-card-prime.html"
     },
     {
       "id": "sib-sbi-simplysave",
       "issuer": "South Indian Bank",
       "name": "South Indian Bank SimplySAVE SBI Card",
-      "source": "https://www.southindianbank.com/content/personal-banking/credit-cards/385",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa / Mastercard / RuPay",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "waiver_spend": 100000,
+      "reward": "10 Reward Points per ₹150 on dining, groceries, movies and department stores; 1 point per ₹150 elsewhere",
       "categories": [
-        "discovery"
+        "rewards",
+        "dining",
+        "shopping",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Renewal fee reversal at ₹1 lakh annual spend",
+        "Fuel-surcharge waiver subject to transaction and monthly caps"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.sbicard.com/en/personal/credit-cards/south-indian-bank-simplysave-sbi-card.html"
     },
     {
       "id": "sc-digismart",
       "issuer": "Standard Chartered India",
       "name": "DigiSmart Credit Card",
       "source": "https://www.sc.com/in/credit-cards/",
+      "research_note": "The product charges ₹49 monthly rather than an annual fee; the current schema cannot represent this without misleading users.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: The product charges ₹49 monthly rather than an annual fee; the current schema cannot represent this without misleading users.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "The product charges ₹49 monthly rather than an annual fee; the current schema cannot represent this without misleading users."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6005,165 +6826,179 @@
       "id": "sc-easemytrip",
       "issuer": "Standard Chartered India",
       "name": "EaseMyTrip Credit Card",
-      "source": "https://www.sc.com/in/credit-cards/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa",
+      "joining_fee": 350,
+      "annual_fee": 350,
+      "waiver_spend": 50000,
+      "reward": "10X rewards per ₹100 at standalone airline and hotel merchants and 2X on other eligible spends",
       "categories": [
-        "discovery"
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "EaseMyTrip flight and hotel discounts",
+        "Two complimentary domestic lounge visits per year"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.sc.bank.in/credit-cards/easemytrip-credit-card/"
     },
     {
       "id": "sc-manhattan-platinum",
       "issuer": "Standard Chartered India",
       "name": "Manhattan Platinum Credit Card",
-      "source": "https://www.sc.com/in/credit-cards/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa",
+      "joining_fee": 999,
+      "annual_fee": 999,
+      "waiver_spend": 120000,
+      "reward": "5% cashback at eligible supermarkets and 3 Reward Points per ₹150 on other eligible spends",
       "categories": [
-        "discovery"
+        "cashback",
+        "shopping",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Supermarket cashback caps and minimum transaction value apply",
+        "Annual fee reversal at the published spend threshold"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.sc.bank.in/credit-cards/manhattan-platinum/"
     },
     {
       "id": "sc-platinum-rewards",
       "issuer": "Standard Chartered India",
       "name": "Platinum Rewards Credit Card",
-      "source": "https://www.sc.com/in/credit-cards/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa",
+      "joining_fee": 250,
+      "annual_fee": 250,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "5 Reward Points per ₹150 on eligible dining and fuel spends and 1 point per ₹150 elsewhere",
       "categories": [
-        "discovery"
+        "rewards",
+        "dining",
+        "fuel"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Low standard annual fee",
+        "Promotional fee offers may differ at application"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.sc.bank.in/credit-cards/platinum-rewards/"
     },
     {
       "id": "sc-rewards",
       "issuer": "Standard Chartered India",
       "name": "Rewards Credit Card",
-      "source": "https://www.sc.com/in/credit-cards/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Mastercard",
+      "joining_fee": 0,
+      "annual_fee": 1000,
+      "waiver_spend": 150000,
+      "reward": "4 Reward Points per ₹150 on retail spends plus 4 additional points above ₹20,000 monthly retail spend",
       "categories": [
-        "discovery"
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "No joining fee",
+        "One domestic lounge visit per calendar quarter"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.sc.bank.in/credit-cards/rewards-credit-card/"
     },
     {
       "id": "sc-smart",
       "issuer": "Standard Chartered India",
       "name": "Smart Credit Card",
-      "source": "https://www.sc.com/in/credit-cards/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Visa",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "waiver_spend": 120000,
+      "reward": "2% cashback on eligible online spends and 1% on other eligible spends",
       "categories": [
-        "discovery"
+        "cashback",
+        "shopping"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "First-year fee is currently waived for eligible new-to-bank applicants",
+        "Statement-cycle cashback caps apply"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.sc.bank.in/credit-cards/smart-credit-card/"
     },
     {
       "id": "sc-super-value-titanium",
       "issuer": "Standard Chartered India",
       "name": "Super Value Titanium Credit Card",
-      "source": "https://www.sc.com/in/credit-cards/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "Mastercard",
+      "joining_fee": 750,
+      "annual_fee": 750,
+      "waiver_spend": 90000,
+      "reward": "5% cashback on eligible fuel, telephone and utility spends and 1 Reward Point per ₹150 elsewhere",
       "categories": [
-        "discovery"
+        "cashback",
+        "fuel",
+        "utilities"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Monthly category caps and minimum transaction rules apply",
+        "Annual fee reversal at the published spend threshold"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.sc.bank.in/credit-cards/super-value-titanium/"
     },
     {
       "id": "sc-ultimate",
       "issuer": "Standard Chartered India",
       "name": "Ultimate Credit Card",
-      "source": "https://www.sc.com/in/credit-cards/",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Mastercard",
+      "joining_fee": 5000,
+      "annual_fee": 5000,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "5 Reward Points per ₹150 on eligible spends, with each point worth ₹1",
       "categories": [
-        "discovery"
+        "premium",
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Four complimentary domestic lounge visits per quarter",
+        "International lounge access is subject to the published prior-spend condition"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 2,
+      "verification": "verified",
+      "source": "https://www.sc.bank.in/credit-cards/ultimate-card/"
     },
     {
       "id": "tmb-platinum",
       "issuer": "Tamilnad Mercantile Bank",
       "name": "TMB Platinum Credit Card",
       "source": "https://tmb.bank.in/",
+      "research_note": "Current policy verifies issuance, fees, network options and forex markup, but no product reward rate or lounge value was published.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current policy verifies issuance, fees, network options and forex markup, but no product reward rate or lounge value was published.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current policy verifies issuance, fees, network options and forex markup, but no product reward rate or lounge value was published."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6174,168 +7009,340 @@
       "issuer": "Tamilnad Mercantile Bank",
       "name": "TMB Titanium Credit Card",
       "source": "https://tmb.bank.in/",
+      "research_note": "Current policy verifies issuance, fees, network options and forex markup, but no product reward rate or lounge value was published.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Current policy verifies issuance, fees, network options and forex markup, but no product reward rate or lounge value was published.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Current policy verifies issuance, fees, network options and forex markup, but no product reward rate or lounge value was published."
       ],
       "lounge": "researching",
       "forex_markup": null,
       "verification": "discovered"
+    },
+    {
+      "id": "union-divaa",
+      "issuer": "Union Bank of India",
+      "name": "Divaa Icon Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 1499,
+      "waiver_spend": null,
+      "reward": "Reward points on eligible spends",
+      "categories": [
+        "rewards",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Women-only RuPay Platinum card",
+        "No joining fee"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
+    },
+    {
+      "id": "union-nexteria",
+      "issuer": "Union Bank of India",
+      "name": "NEXTERIA Credit Card",
+      "network": "RuPay Ekaa",
+      "joining_fee": 12499,
+      "annual_fee": 12499,
+      "waiver_spend": null,
+      "reward": "5 Reward Points per ₹125 on eligible spends with birthday and milestone accelerators",
+      "categories": [
+        "premium",
+        "travel",
+        "rewards",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Metal credit card",
+        "Joining fee waived after ₹3 lakh spend within 90 days"
+      ],
+      "lounge": "included",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/HTML/ADB_NEXTERIA_ABOUT.html"
+    },
+    {
+      "id": "union-unicorn",
+      "issuer": "Union Bank of India",
+      "name": "UNICORN Credit Card",
+      "network": "RuPay",
+      "joining_fee": 2400,
+      "annual_fee": 2400,
+      "waiver_spend": null,
+      "reward": "4 Reward Points per ₹100 on eligible spends with welcome, birthday and milestone bonuses",
+      "categories": [
+        "premium",
+        "rewards",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Joining fee waived after ₹1 lakh spend within 90 days",
+        "Premium RuPay card"
+      ],
+      "lounge": "included",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
     },
     {
       "id": "union-classic",
       "issuer": "Union Bank of India",
       "name": "Union Classic Credit Card",
       "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "research_note": "Not present in the current Union Bank card portal or KFS v1.4; likely a legacy label.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Not present in the current Union Bank card portal or KFS v1.4; likely a legacy label.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Not present in the current Union Bank card portal or KFS v1.4; likely a legacy label."
       ],
       "lounge": "researching",
       "forex_markup": null,
       "verification": "discovered"
     },
     {
-      "id": "union-gold",
+      "id": "union-jcb-health",
       "issuer": "Union Bank of India",
-      "name": "Union Gold Credit Card",
-      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "name": "Union JCB Health Credit Card",
+      "network": "JCB",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "waiver_spend": 50000,
+      "reward": "Reward points and health benefits on eligible spends",
       "categories": [
-        "discovery"
+        "health",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Health-focused JCB card",
+        "Annual fee waiver on ₹50,000 eligible usage"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
     },
     {
-      "id": "union-platinum",
+      "id": "union-jcb-wellness",
       "issuer": "Union Bank of India",
-      "name": "Union Platinum Credit Card",
-      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "name": "Union JCB Wellness Credit Card",
+      "network": "JCB",
+      "joining_fee": 999,
+      "annual_fee": 999,
+      "waiver_spend": 100000,
+      "reward": "Reward points and wellness benefits on eligible spends",
       "categories": [
-        "discovery"
+        "health",
+        "wellness",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Wellness-focused JCB card",
+        "Annual fee waiver on ₹1 lakh eligible usage"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
+    },
+    {
+      "id": "union-rupay-platinum",
+      "issuer": "Union Bank of India",
+      "name": "Union RuPay Platinum Credit Card",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 350,
+      "waiver_spend": 30000,
+      "reward": "Reward points on eligible spends",
+      "categories": [
+        "rewards",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "RuPay UPI support",
+        "Annual fee waiver on ₹30,000 eligible annual usage"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
     },
     {
       "id": "union-rupay-select",
       "issuer": "Union Bank of India",
       "name": "Union RuPay Select Credit Card",
-      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 550,
+      "waiver_spend": 50000,
+      "reward": "Reward points on eligible spends",
       "categories": [
-        "discovery"
+        "rewards",
+        "lounge",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "RuPay Select benefits",
+        "Annual fee waiver on ₹50,000 eligible annual usage"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "union-signature",
-      "issuer": "Union Bank of India",
-      "name": "Union Signature Credit Card",
-      "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
     },
     {
       "id": "union-silver",
       "issuer": "Union Bank of India",
       "name": "Union Silver Credit Card",
       "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
+      "research_note": "Not present in the current Union Bank card portal or KFS v1.4; likely a legacy label.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Research note: Not present in the current Union Bank card portal or KFS v1.4; likely a legacy label.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Detailed verification in progress"
+        "Not present in the current Union Bank card portal or KFS v1.4; likely a legacy label."
       ],
       "lounge": "researching",
       "forex_markup": null,
       "verification": "discovered"
     },
     {
+      "id": "union-uni-carbon",
+      "issuer": "Union Bank of India",
+      "name": "Union UNI CARBON Credit Card",
+      "network": "RuPay",
+      "joining_fee": 499,
+      "annual_fee": 550,
+      "waiver_spend": 100000,
+      "reward": "Fuel-focused rewards on eligible HPCL and retail spends",
+      "categories": [
+        "fuel",
+        "rewards",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "HPCL fuel surcharge waiver subject to cap",
+        "Annual fee waiver on ₹1 lakh eligible usage"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
+    },
+    {
+      "id": "union-gold",
+      "issuer": "Union Bank of India",
+      "name": "Union Visa Gold Credit Card",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 350,
+      "waiver_spend": 30000,
+      "reward": "Reward points on eligible spends",
+      "categories": [
+        "rewards"
+      ],
+      "highlights": [
+        "No joining fee",
+        "Annual fee waiver on ₹30,000 eligible annual usage"
+      ],
+      "lounge": "none",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
+    },
+    {
+      "id": "union-platinum",
+      "issuer": "Union Bank of India",
+      "name": "Union Visa Platinum Credit Card",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 450,
+      "waiver_spend": 50000,
+      "reward": "Reward points on eligible spends",
+      "categories": [
+        "rewards"
+      ],
+      "highlights": [
+        "No joining fee",
+        "Annual fee waiver on ₹50,000 eligible annual usage"
+      ],
+      "lounge": "conditional",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
+    },
+    {
+      "id": "union-signature",
+      "issuer": "Union Bank of India",
+      "name": "Union Visa Signature Credit Card",
+      "network": "Visa",
+      "joining_fee": 0,
+      "annual_fee": 1999,
+      "waiver_spend": 270000,
+      "reward": "Reward points on eligible spends",
+      "categories": [
+        "premium",
+        "rewards",
+        "lounge"
+      ],
+      "highlights": [
+        "No joining fee",
+        "Annual fee waiver on ₹2.7 lakh eligible annual usage"
+      ],
+      "lounge": "included",
+      "forex_markup": 3,
+      "verification": "verified",
+      "source": "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action"
+    },
+    {
       "id": "utkarsh-supercard",
       "issuer": "Utkarsh Small Finance Bank",
       "name": "superCard",
-      "source": "https://www.utkarsh.bank/personal/cards/credit-card/supercard",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "RuPay",
+      "joining_fee": 0,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+      "reward": "Cashback and rewards on eligible super.money transactions under current programme terms",
       "categories": [
-        "discovery"
+        "lifetime-free",
+        "secured",
+        "cashback",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Detailed verification in progress"
+        "Fixed-deposit-backed credit card",
+        "Physical-card fee depends on FD value and early closure conditions"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "none",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.utkarsh.bank/xsite/assests/personal_credit_card/SuperCard_Key_Fact_Statement_KFS.pdf"
     },
     {
       "id": "yes-ace",

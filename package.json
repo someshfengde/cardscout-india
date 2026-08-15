@@ -8,6 +8,7 @@
   "scripts": {
     "data:build": "node scripts/build-data.mjs",
     "data:audit": "node scripts/audit-sources.mjs",
+    "research:patch": "node scripts/generate-research-patch.mjs",
     "predev": "npm run data:build",
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
     "prebuild": "npm run data:build",

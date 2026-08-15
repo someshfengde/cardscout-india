@@ -9,8 +9,9 @@ anyone can review.
 
 ## What is included
 
-- 294 named card products across all 40 tracked issuers and partner programs
-- 62 detailed records, with incomplete cards visibly marked `Researching`
+- 327 named card products across all 40 tracked issuers and partner programs
+- 179 detailed records and 148 candidates still visibly marked `Researching`
+- 20 issuer groups with every known queue record promoted to detailed coverage
 - Search, issuer/use-case/fee filters, sorting, detail views, and comparisons
 - A primary-source link and verification state on every card
 - Schema validation, tests, CI, and weekly official-source change detection
@@ -40,7 +41,11 @@ npm run data:build
 npm run lint
 npm test
 npm run data:audit
+npm run research:patch -- research-batch.yml
 ```
+
+`research:patch` validates agent or contributor research fragments and prints an
+`apply_patch`-compatible promotion patch. It never edits the catalog directly.
 
 ## Data model
 
@@ -53,6 +58,8 @@ npm run data:audit
 Amounts are stored in Indian rupees and exclude GST unless explicitly noted.
 `verified` means the fee schedule was checked against an official issuer page or
 key-fact statement. `partial` means a material benefit still needs another pass.
+Discovery records can include a `research_note` explaining the exact missing fact,
+legacy status, or source limitation so contributors do not repeat dead-end work.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a correction or adding a
 card.

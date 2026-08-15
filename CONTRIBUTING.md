@@ -74,5 +74,9 @@ personal customer data.
 - The card is currently issued, or its status is clearly explained
 - Generated data and tests pass
 
+If an official source does not establish a required field, keep the card in
+`data/discovery.yml` and add a concise `research_note`. Do not infer a network,
+fee, forex rate, reward structure, or lounge entitlement from an aggregator.
+
 By contributing, you agree that your changes may be distributed under the MIT
 License.

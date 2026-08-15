@@ -1,55 +1,51 @@
 {
-  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold-credit-card": {
+  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card": {
     "status": 200,
-    "hash": "7639a5d4a74e70b65d5a"
+    "hash": "fa4e3d00ecd0121ad39f"
   },
   "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia-credit-card": {
     "status": 200,
     "hash": "6248c5e91b120980a05e"
   },
-  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-club-black-metal-edition": {
-    "status": 200,
-    "hash": "95d473a565bcff4da385"
-  },
-  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card": {
-    "status": 200,
-    "hash": "ecf0f0c6f7ebba68e21d"
-  },
-  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/marriott-bonvoy-hdfc-bank-credit-card": {
-    "status": 403,
-    "hash": "77d4554c589d557abcfe"
-  },
   "https://www.hdfcbank.com/personal/pay/cards/credit-cards/infinia-credit-card": {
     "status": 200,
     "hash": "06b3dc16dbd68d002411"
+  },
+  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold-credit-card": {
+    "status": 200,
+    "hash": "7639a5d4a74e70b65d5a"
+  },
+  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card": {
+    "status": 200,
+    "hash": "2b8699e22b0b6704821e"
   },
   "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-infinity-hdfc-bank-credit-card": {
     "status": 200,
     "hash": "c6aff3a5299e635b0481"
   },
-  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card": {
+  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-club-black-metal-edition": {
     "status": 200,
-    "hash": "fcae20d0c961a9d96e5a"
+    "hash": "95d473a565bcff4da385"
   },
-  "https://www.sbicard.com/en/personal/credit-cards/shopping/simplyclick-sbi-card.page": {
-    "status": 200,
-    "hash": "1bc5ea84a4902065cacc"
-  },
-  "https://www.sbicard.com/en/personal/credit-cards/shopping/simplysave-sbi-card.page": {
-    "status": 200,
-    "hash": "e40a5640376da3182ad7"
+  "https://www.hdfcbank.com/personal/pay/cards/credit-cards/marriott-bonvoy-hdfc-bank-credit-card": {
+    "status": 403,
+    "hash": "a3c34dbaede04ee83df1"
   },
   "https://www.sbicard.com/en/personal/credit-cards/rewards/cashback-sbi-card.page": {
     "status": 200,
     "hash": "df54d1c817c54ca26710"
   },
+  "https://www.sbicard.com/en/personal/credit-cards/shopping/simplysave-sbi-card.page": {
+    "status": 200,
+    "hash": "e40a5640376da3182ad7"
+  },
+  "https://www.sbicard.com/en/personal/credit-cards/shopping/simplyclick-sbi-card.page": {
+    "status": 200,
+    "hash": "1bc5ea84a4902065cacc"
+  },
   "https://www.sbicard.com/en/most-important-terms-and-conditions.page": {
     "status": 200,
-    "hash": "10d0fa34158538bc1c57"
-  },
-  "https://www.sbicard.com/en/personal/credit-cards/travel/bpcl-sbi-card-octane.page": {
-    "status": 200,
-    "hash": "48ea9067a9c260958e02"
+    "hash": "82fd7f60ef5c4812ad89"
   },
   "https://www.sbicard.com/en/personal/credit-cards/travel/bpcl-sbi-card.page": {
     "status": 200,
@@ -59,37 +55,41 @@
     "status": 200,
     "hash": "4f7af0e56e732ba31ba2"
   },
-  "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits": {
+  "https://www.sbicard.com/en/personal/credit-cards/travel/bpcl-sbi-card-octane.page": {
     "status": 200,
-    "hash": "092054c215974f7b0cb1"
-  },
-  "https://www.axisbank.com/retail/cards/credit-card/neo-credit-card/features-benefits": {
-    "status": 200,
-    "hash": "e942f9bbd6ec6323ea3e"
-  },
-  "https://www.axisbank.com/retail/cards/credit-card/axis-bank-ace-credit-card/features-benefits": {
-    "status": 200,
-    "hash": "29f0ea87a470f5637e0b"
-  },
-  "https://www.axisbank.com/retail/cards/credit-card/axis-bank-atlas-credit-card/features-benefits": {
-    "status": 200,
-    "hash": "50d27e44da0f636f9cd3"
-  },
-  "https://www.axisbank.com/retail/cards/credit-card/axis-bank-select-credit-card/features-benefits": {
-    "status": 200,
-    "hash": "9e9192f3cc195d057154"
+    "hash": "48ea9067a9c260958e02"
   },
   "https://www.idfcfirstbank.com/credit-card/classic": {
     "status": 200,
     "hash": "9a80be43007555b089af"
   },
-  "https://www.axisbank.com/retail/cards/credit-card/airtel-axis-bank-credit-card/features-benefits": {
+  "https://www.axisbank.com/retail/cards/credit-card/axis-bank-select-credit-card/features-benefits": {
     "status": 200,
-    "hash": "38b2fc20a6137524a368"
+    "hash": "27535798b0b31b9e292e"
+  },
+  "https://www.axisbank.com/retail/cards/credit-card/axis-bank-ace-credit-card/features-benefits": {
+    "status": 200,
+    "hash": "dbbf13832202140896c4"
+  },
+  "https://www.axisbank.com/retail/cards/credit-card/axis-bank-atlas-credit-card/features-benefits": {
+    "status": 200,
+    "hash": "50d27e44da0f636f9cd3"
+  },
+  "https://www.axisbank.com/retail/cards/credit-card/flipkart-axisbank-credit-card/features-benefits": {
+    "status": 200,
+    "hash": "092054c215974f7b0cb1"
   },
   "https://www.axisbank.com/retail/cards/credit-card/indianoil-axis-bank-credit-card/features-benefits": {
     "status": 200,
     "hash": "482fc07d25f0e681bfdb"
+  },
+  "https://www.axisbank.com/retail/cards/credit-card/airtel-axis-bank-credit-card/features-benefits": {
+    "status": 200,
+    "hash": "1594a96dbb3d21e38709"
+  },
+  "https://www.axisbank.com/retail/cards/credit-card/neo-credit-card/features-benefits": {
+    "status": 200,
+    "hash": "d2f2485f7c2f28f1189a"
   },
   "https://www.axisbank.com/retail/cards/credit-card/olympus-credit-card": {
     "status": 200,
@@ -99,73 +99,73 @@
     "status": 200,
     "hash": "4a0b682a67393dd117f5"
   },
-  "https://www.americanexpress.com/in/credit-cards/platinum-reserve-credit-card/": {
+  "https://www.idfcfirstbank.com/credit-card?cardType=Select": {
     "status": 200,
-    "hash": "77a105572a3b47c50356"
-  },
-  "https://www.idfcfirstbank.com/credit-card/wealth": {
-    "status": 200,
-    "hash": "62583385019756808939"
-  },
-  "https://www.idfcfirstbank.com/credit-card/wow": {
-    "status": 200,
-    "hash": "f299801913aafc30cf27"
-  },
-  "https://www.kotak.com/en/personal-banking/cards/credit-cards.html": {
-    "status": 200,
-    "hash": "6f84386b940f4bec8718"
+    "hash": "ded550ff35bc3b13cfe1"
   },
   "https://www.americanexpress.com/in/credit-cards/platinum-travel-credit-card/": {
     "status": 200,
     "hash": "86afeb92bc8264e85ffd"
   },
-  "https://www.kotak.com/en/personal-banking/cards/credit-cards/league-platinum-card.html": {
+  "https://www.americanexpress.com/in/credit-cards/platinum-reserve-credit-card/": {
     "status": 200,
-    "hash": "d2224516c5f3ef42515d"
+    "hash": "77a105572a3b47c50356"
   },
   "https://www.americanexpress.com/in/charge-cards/platinum-card/": {
     "status": 200,
     "hash": "c2f94a42b151a10cfba6"
   },
-  "https://www.kotak.com/en/personal-banking/cards/credit-cards/white-reserve-credit-card.html": {
+  "https://www.idfcfirstbank.com/credit-card/wow": {
     "status": 200,
-    "hash": "005698d186409938488e"
+    "hash": "f299801913aafc30cf27"
   },
-  "https://www.kotak.com/en/personal-banking/cards/credit-cards/indian-oil-credit-card.html": {
+  "https://www.idfcfirstbank.com/credit-card/wealth": {
     "status": 200,
-    "hash": "371eb180678ec10ca025"
-  },
-  "https://www.idfcfirstbank.com/credit-card?cardType=Select": {
-    "status": 200,
-    "hash": "ded550ff35bc3b13cfe1"
+    "hash": "62583385019756808939"
   },
   "https://www.idfcfirstbank.com/credit-card/select": {
     "status": 200,
     "hash": "7637048c9c618cfeeb01"
   },
-  "https://www.americanexpress.com/in/credit-cards/membership-rewards-card/": {
+  "https://www.kotak.com/en/personal-banking/cards/credit-cards/white-reserve-credit-card.html": {
     "status": 200,
-    "hash": "b4c2027e0c35e054ae46"
+    "hash": "1cc40d0449558da2cbc1"
+  },
+  "https://www.kotak.com/en/personal-banking/cards/credit-cards/league-platinum-card.html": {
+    "status": 200,
+    "hash": "69203dfb68babababaf6"
+  },
+  "https://www.kotak.com/en/personal-banking/cards/credit-cards/indian-oil-credit-card.html": {
+    "status": 200,
+    "hash": "bd3429f6dc2a09ce657a"
+  },
+  "https://www.kotak.com/en/personal-banking/cards/credit-cards.html": {
+    "status": 200,
+    "hash": "9469496e6491845e56b1"
   },
   "https://www.americanexpress.com/in/charge-cards/gold-card/": {
     "status": 200,
     "hash": "e046ef8f80cedeab3d5a"
   },
-  "https://www.americanexpress.com/in/credit-cards/smart-earn-credit-card/": {
+  "https://www.americanexpress.com/in/credit-cards/membership-rewards-card/": {
     "status": 200,
-    "hash": "b69258b39325e400348f"
+    "hash": "b4c2027e0c35e054ae46"
   },
   "https://www.hsbc.co.in/credit-cards/products/travelone/": {
     "status": 200,
-    "hash": "cfd90f6af308989fd95a"
+    "hash": "1ed57dd2e8edac8244a9"
+  },
+  "https://www.hsbc.co.in/credit-cards/products/visa-platinum/": {
+    "status": 200,
+    "hash": "551a4da0afb4d03eb09c"
   },
   "https://www.hsbc.co.in/credit-cards/products/live-plus/": {
     "status": 200,
     "hash": "1924e39e038f8b9a8dbd"
   },
-  "https://www.hsbc.co.in/credit-cards/products/visa-platinum/": {
+  "https://www.americanexpress.com/in/credit-cards/smart-earn-credit-card/": {
     "status": 200,
-    "hash": "551a4da0afb4d03eb09c"
+    "hash": "b69258b39325e400348f"
   },
   "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards/marquee-credit-card": {
     "status": 0,
@@ -191,45 +191,45 @@
     "status": 0,
     "hash": null
   },
-  "https://www.aubank.in/personal-banking/credit-cards/zenith-plus-credit-card": {
-    "status": 403,
-    "hash": "e8556e300fd3e8aec5d0"
+  "https://www.bobcard.co.in/credit-card-types/easy": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.bobcard.co.in/credit-card-types/bobcard-cashback": {
+    "status": 0,
+    "hash": null
   },
   "https://aubank.in/personal-banking/credit-cards/au-spont-credit-card": {
     "status": 403,
-    "hash": "e01b1b853c448d0f75c4"
+    "hash": "a087706fe050bb55fbfb"
+  },
+  "https://www.aubank.in/personal-banking/credit-cards/zenith-plus-credit-card": {
+    "status": 403,
+    "hash": "4306285e5edf40cbf9b1"
   },
   "https://www.aubank.in/personal-banking/credit-cards/ixigo-au-travel-credit-card": {
     "status": 403,
-    "hash": "2898ffdc08cc3bd31f85"
+    "hash": "87ae722051422bdd8e74"
   },
-  "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards": {
-    "status": 200,
-    "hash": "21d73e5a63046493f026"
-  },
-  "https://www.hdfcbank.com/personal/pay/cards/credit-cards": {
-    "status": 200,
-    "hash": "cfcaac7b669ad9b49785"
-  },
-  "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-private-metal-credit-card": {
-    "status": 200,
-    "hash": "e8d8b0b7b3531cd15196"
-  },
-  "https://www.icicibank.com/personal-banking/cards/credit-card/amazon-pay-credit-card": {
-    "status": 200,
-    "hash": "40dbb0af78d37ef22f2e"
+  "https://www.bobcard.co.in/credit-card-types/eterna": {
+    "status": 0,
+    "hash": null
   },
   "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip-credit-card": {
     "status": 200,
-    "hash": "d0e3919ff2ce52d6c84a"
+    "hash": "2ef76613d3cf756cf1ba"
+  },
+  "https://www.icicibank.com/personal-banking/cards/credit-card/amazon-pay-credit-card": {
+    "status": 200,
+    "hash": "a89c30130e72c67439a8"
+  },
+  "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-private-metal-credit-card": {
+    "status": 200,
+    "hash": "8e30819aa6f64eea6cd2"
   },
   "https://www.icicibank.com/personal-banking/cards/credit-card/coral-rupay-credit-card": {
     "status": 200,
     "hash": "b2238add8ca1f1787a64"
-  },
-  "https://www.sbicard.com/en/personal/credit-cards.page": {
-    "status": 200,
-    "hash": "df1b873f892b6ad394ca"
   },
   "https://www.icicibank.com/personal-banking/cards/credit-card/sapphiro-credit-card": {
     "status": 200,
@@ -237,55 +237,395 @@
   },
   "https://www.hsbc.co.in/credit-cards/products/premier/": {
     "status": 200,
-    "hash": "f5ccf0d08f38208f6e6b"
+    "hash": "b261262a1832a1dc12b1"
   },
-  "https://www.pnbcard.in/types.html": {
+  "https://www.bobcard.co.in/credit-card-types/bobcard-scapia-credit-card": {
     "status": 0,
     "hash": null
   },
-  "https://www.icicibank.com/personal-banking/cards/credit-card": {
-    "status": 200,
-    "hash": "95b6983d383ca7b20dd1"
+  "https://www.bobcard.co.in/credit-card-types/tiara": {
+    "status": 0,
+    "hash": null
   },
-  "https://www.aubank.in/personal-banking/credit-cards": {
+  "https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest-premium": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.bobcard.co.in/credit-card-types/select": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.bobcard.co.in/credit-card-types/snapdeal-bobcard": {
+    "status": 0,
+    "hash": null
+  },
+  "https://media.bobcard.co.in/media/4qfbv2ka/bobcard-one-mitc.pdf": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.bobcard.co.in/credit-card-types/hpcl-energie": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.bobcard.co.in/credit-card-types/irctc-credit-card": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.bobcard.co.in/credit-card-types/bobcard-uni-goldx": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.bobcard.co.in/credit-card-types/prime": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.bobcard.co.in/credit-card-types/premier": {
+    "status": 0,
+    "hash": null
+  },
+  "https://bankofindia.co.in/documents/20121/135684/BOI-Credit-Card-MITC-updated-pdf1.pdf/3f93a4be-d615-1973-feed-c3f3293f9e46?t=1743248116732": {
     "status": 403,
-    "hash": "bfc6a4f709367fc5b9cb"
+    "hash": "f09766679ab00b3e57b7"
   },
-  "https://www.indusind.com/in/en/personal/cards/credit-card.html": {
+  "https://www.canarabank.bank.in/pages/rupay-select-credit-card": {
+    "status": 200,
+    "hash": "86d22f2d844a02b8adf0"
+  },
+  "https://www.sbicard.com/en/personal/credit-cards/bom-sbi-card-prime.html": {
+    "status": 200,
+    "hash": "7bb95cb70a3f58edd518"
+  },
+  "https://www.sbicard.com/en/personal/credit-cards/bom-simplysave-sbi-card.html": {
+    "status": 200,
+    "hash": "a47e9f09bed9a7ec0a37"
+  },
+  "https://www.canarabank.bank.in/mastercard-gold-credit-card": {
+    "status": 200,
+    "hash": "3cc8493f02739d377dcd"
+  },
+  "https://www.canarabank.bank.in/rupay-platinum-credit-card": {
+    "status": 200,
+    "hash": "a4f9872e066657e74399"
+  },
+  "https://www.canarabank.bank.in/visa-classic-credit-card": {
+    "status": 200,
+    "hash": "f1c307e3c1979c99ecdf"
+  },
+  "https://www.sbicard.com/en/personal/credit-cards/bom-sbi-card-elite.html": {
+    "status": 200,
+    "hash": "bcd6fc5401816606c0c4"
+  },
+  "https://www.cityunionbank.com/creditcard": {
+    "status": 200,
+    "hash": "69d154001681c4615d46"
+  },
+  "https://www.cityunionbank.com/cub-salaryse-level-up-credit-card": {
+    "status": 200,
+    "hash": "ebddda6ae524900789af"
+  },
+  "https://www.cityunionbank.com/filemanager/Nov25/Mktg_v4.pdf": {
+    "status": 200,
+    "hash": "f347e044736e43ab19b1"
+  },
+  "https://www.cityunionbank.com/filemanager/Nov25/KFS_Salary_SE.pdf": {
+    "status": 200,
+    "hash": "d14cc2a9730d57366bc1"
+  },
+  "https://equitas.bank.in/personal-banking/pay/credit-cards/selfe-credit-card/": {
+    "status": 503,
+    "hash": "60fdb8aaf5719db5f065"
+  },
+  "https://www.esafbank.com/storage/2024/11/Credit-Card-Most-Important-Terms-And-Conditions-MITC.pdf": {
+    "status": 403,
+    "hash": "da006dceaf58915880ce"
+  },
+  "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card": {
+    "status": 200,
+    "hash": "ae05c90c6dc99da15b20"
+  },
+  "https://www.dhanbank.com/pdf/cc/Most_Imp_Terms_Conditions.pdf": {
+    "status": 200,
+    "hash": "927eabce2e6ffb44aa64"
+  },
+  "https://www.dbs.com/newsroom/DBS_Bank_India_launches_its_first_invite_only_credit_card": {
+    "status": 200,
+    "hash": "3a120821312052544077"
+  },
+  "https://www.dcb.bank.in/personal/cards/secured-card/dcb-novio-credit-card": {
+    "status": 200,
+    "hash": "4b5fd5bdb21a7aeaad98"
+  },
+  "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-select-card": {
+    "status": 200,
+    "hash": "c231a6e60c44af0d12be"
+  },
+  "https://www.csb.co.in/pdf/CSB-One_KFS_05122024.pdf": {
+    "status": 200,
+    "hash": "bf65405f615b6d12b810"
+  },
+  "https://www.federal.bank.in/visa-imperio-credit-card?inheritRedirect=true": {
+    "status": 200,
+    "hash": "1ec8aae62cd172131f37"
+  },
+  "https://www.federal.bank.in/visa-celesta-credit-card?inheritRedirect=true": {
+    "status": 200,
+    "hash": "a0459fa7f67de80c958a"
+  },
+  "https://www.csb.co.in/pdf/key_fact_statement_edge_csb_bank_credit_card_2025.pdf": {
+    "status": 200,
+    "hash": "860226b21441d6476568"
+  },
+  "https://www.csb.co.in/pdf/Edge_CSB_Bank_RuPay_Credit_Card-KFS.pdf": {
+    "status": 200,
+    "hash": "6ba95c0e89923e4a620f"
+  },
+  "https://www.indusind.bank.in/in/en/personal/cards/credit-card/tiger-credit-card.html": {
     "status": 406,
-    "hash": "ceac0dfd50751c596a2c"
+    "hash": "4fc8467b7ee4e44891fb"
   },
-  "https://www.bobcard.co.in/credit-card": {
+  "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-rupay-credit-card.html/": {
+    "status": 406,
+    "hash": "58a9ae4c8c37f66f4266"
+  },
+  "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-visa-credit-card.html/": {
+    "status": 406,
+    "hash": "76a76de7d94bda6b0f48"
+  },
+  "https://www.indusind.bank.in/in/en/personal/cards/credit-card/legend-credit-card.html": {
+    "status": 406,
+    "hash": "cdca3b85c6f2eb63fadc"
+  },
+  "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-aura-edge-visa-and-mastercard-credit-card-easy-credit.html": {
+    "status": 406,
+    "hash": "86121a5c572fe80cf2e7"
+  },
+  "https://www.indianbank.in/wp-content/uploads/2019/03/CREDIT-CARD-FEATURES-AND-BENEFITS-6.pdf": {
+    "status": 200,
+    "hash": "557963290a549459e827"
+  },
+  "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/news-media/press-release/FIRST-SWYP-PR-0412.pdf": {
+    "status": 200,
+    "hash": "06085716eb6e58ffde32"
+  },
+  "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/news-media/press-release/Press-Release-IDFC-FIRST-Bank-Launches-all-new-FIRST-EARN-RuPay-Credit-Card.pdf": {
+    "status": 200,
+    "hash": "0c34dca03908e614f5c0"
+  },
+  "https://www.idfcfirstbank.com/content/idfcfirstbank/en/finfirst-blogs/credit-card/best-rupay-credit-cards-for-upi-by-idfc-first-bank": {
+    "status": 200,
+    "hash": "4900fba75c02af74dbca"
+  },
+  "https://www.federal.bank.in/visa-signet-credit-card?inheritRedirect=true": {
+    "status": 200,
+    "hash": "8fc92604f3be00b3ae3b"
+  },
+  "https://www.idbibank.in/Euphoria-credit-card.aspx": {
+    "status": 200,
+    "hash": "a2ef425ba9b6e8b7ac0f"
+  },
+  "https://www.idbibank.in/Winnings-credit-card.aspx": {
+    "status": 200,
+    "hash": "b784c1c094f4cd9ad5ad"
+  },
+  "https://www.kvb.co.in/docs/retail-credit-card-mitc.pdf": {
     "status": 0,
     "hash": null
+  },
+  "https://www.pnbcard.in/types13.html": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.pnbcard.in/EMT.html": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.pnbcard.in/types11.html": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.getonecard.app/faq/": {
+    "status": 200,
+    "hash": "bfb4d9158f5ebd17fb08"
+  },
+  "https://pnbcard.in/types8.html": {
+    "status": 200,
+    "hash": "52d7bd781dd360de8c1d"
+  },
+  "https://pnbcard.in/types16.html": {
+    "status": 200,
+    "hash": "9beced9039c8e1a93880"
+  },
+  "https://pnbcard.in/types10.html": {
+    "status": 200,
+    "hash": "50a56b8d4f6b5c9700e9"
+  },
+  "https://pnbcard.in/types5.html": {
+    "status": 200,
+    "hash": "a6c2679af9cad4e5f01b"
+  },
+  "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/banking-tnc/karnataka-prime-tnc.pdf": {
+    "status": 200,
+    "hash": "06c6cc4802420218e2bf"
+  },
+  "https://jkb.bank.in/transactions/services/credit-cards": {
+    "status": 200,
+    "hash": "56e1729b6cc8b16792f1"
+  },
+  "https://www.yesbank.in/content/published/api/v1.1/assets/CONT07A77C257C7A4BDD85DB97E51D2B5B8F/native/yesbank_key_fact_statement.pdf?channelToken=21f7ccfa2fc3401091938f541a6f8f2a&download=false": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.pnbcard.in/types14.html": {
+    "status": 0,
+    "hash": null
+  },
+  "https://www.pnbcard.in/types15.html": {
+    "status": 0,
+    "hash": null
+  },
+  "https://webassets.rblbank.com/document/Credit%20Cards/CardsScheduleCharges.pdf": {
+    "status": 200,
+    "hash": "2678b965659a67202471"
+  },
+  "https://pnbcard.in/types9.html": {
+    "status": 200,
+    "hash": "737df784042efd81b667"
+  },
+  "https://pnbcard.in/types6.html": {
+    "status": 200,
+    "hash": "f17007e1312cbba9b4ca"
+  },
+  "https://webassets.rblbank.com/document/pdfs/cc-lounge-faq-july-2025.pdf": {
+    "status": 200,
+    "hash": "cf05dde9c4b30af3827a"
+  },
+  "https://webassets.rblbank.com/document/credit-cards/tnc-shoprite-credit-card.pdf": {
+    "status": 200,
+    "hash": "5dd9daf04f20d977b73a"
+  },
+  "https://webassets.rblbank.com/document/credit-cards/terms-conditions-platinum-maxima.pdf": {
+    "status": 200,
+    "hash": "01b245bcbb537199ae49"
+  },
+  "https://www.rblbank.com/indianoil-rbl-bank-xtra-credit-card": {
+    "status": 200,
+    "hash": "a09c6d37b9c7cb3560df"
+  },
+  "https://webassets.rblbank.com/document/Download%20Forms/common-application-form.pdf": {
+    "status": 200,
+    "hash": "d2684a6f68987aa337e7"
+  },
+  "https://www.rblbank.com/api/v1/doc/document/credit-cards/play-credit-card-terms-and-conditions.pdf": {
+    "status": 200,
+    "hash": "d29e2359355b661257ba"
+  },
+  "https://www.rblbank.com/personal-banking/cards/credit-cards/platinum-traveleasy-credit-card": {
+    "status": 200,
+    "hash": "d59343f4802ce8a25faf"
+  },
+  "https://www.southindianbank.bank.in/personal/cards/credit-card/sib-one-co-branded-credit-card": {
+    "status": 403,
+    "hash": "76670331744df6e1bd6b"
+  },
+  "https://www.scapia.cards/product/blog/the-scapia-bobcard-credit-card-everything-you-need-to-know": {
+    "status": 403,
+    "hash": "1ccfcba969920abee27a"
+  },
+  "https://www.scapia.cards/newsroom/summer-release2025": {
+    "status": 403,
+    "hash": "beefd52a4289fd97f557"
+  },
+  "https://www.sc.bank.in/credit-cards/manhattan-platinum/": {
+    "status": 200,
+    "hash": "227b521cb082a39be2db"
+  },
+  "https://www.sc.bank.in/credit-cards/easemytrip-credit-card/": {
+    "status": 200,
+    "hash": "6d1ff9ecc52744151807"
+  },
+  "https://www.sc.bank.in/credit-cards/smart-credit-card/": {
+    "status": 200,
+    "hash": "f2efe5a969f16eeb7b8d"
+  },
+  "https://www.sc.bank.in/credit-cards/platinum-rewards/": {
+    "status": 200,
+    "hash": "c83f03d5f413021f77bb"
+  },
+  "https://www.sc.bank.in/credit-cards/super-value-titanium/": {
+    "status": 200,
+    "hash": "0a3e4da4e0fa347f75fc"
+  },
+  "https://www.sc.bank.in/credit-cards/rewards-credit-card/": {
+    "status": 200,
+    "hash": "a2c1c36b6d9a5435f6a3"
+  },
+  "https://www.rblbank.com/personal-banking/cards/credit-cards/world-safari-credit-card": {
+    "status": 200,
+    "hash": "4e5fd4f693f3ad7b0a20"
+  },
+  "https://www.sbicard.com/en/personal/credit-cards/south-indian-bank-simplysave-sbi-card.html": {
+    "status": 200,
+    "hash": "ae5e380d832e97d5ed94"
+  },
+  "https://www.sbicard.com/en/personal/credit-cards/south-indian-bank-sbi-card-prime.html": {
+    "status": 200,
+    "hash": "d4f2630919a0f7d1a8da"
+  },
+  "https://www.sc.bank.in/credit-cards/ultimate-card/": {
+    "status": 200,
+    "hash": "bf6908e5cc1872a27760"
+  },
+  "https://www.sbicard.com/en/personal/credit-cards.page": {
+    "status": 200,
+    "hash": "df1b873f892b6ad394ca"
   },
   "https://www.hsbc.co.in/credit-cards/": {
     "status": 200,
     "hash": "25a5fda3cab1e78bcc63"
   },
+  "https://www.utkarsh.bank/xsite/assests/personal_credit_card/SuperCard_Key_Fact_Statement_KFS.pdf": {
+    "status": 200,
+    "hash": "7c345ec6e516294e9f96"
+  },
+  "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards": {
+    "status": 200,
+    "hash": "f463258c6e5773636a7d"
+  },
+  "https://unioncards.unionbankofindia.co.in/HTML/ADB_NEXTERIA_ABOUT.html": {
+    "status": 200,
+    "hash": "e670281434d2745d31cb"
+  },
+  "https://www.icicibank.com/personal-banking/cards/credit-card": {
+    "status": 200,
+    "hash": "95b6983d383ca7b20dd1"
+  },
+  "https://www.hdfcbank.com/personal/pay/cards/credit-cards": {
+    "status": 200,
+    "hash": "547dbfc726da0a385752"
+  },
   "https://www.axisbank.com/retail/cards/credit-card": {
     "status": 200,
-    "hash": "2aa0e92a5480aee5e3f3"
+    "hash": "cd7b910452be77f42ced"
   },
   "https://www.kotak.com/en/personal-banking/cards/credit-cards/business-credit-card.html": {
     "status": 200,
-    "hash": "024f9295dfa409c12c83"
+    "hash": "326f1c30b632c18538f1"
+  },
+  "https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action": {
+    "status": 200,
+    "hash": "b0c54ae0bdca1485343b"
   },
   "https://www.idfcfirstbank.com/credit-card": {
     "status": 200,
     "hash": "ded550ff35bc3b13cfe1"
   },
-  "https://www.rblbank.com/personal-banking/cards/credit-cards": {
-    "status": 200,
-    "hash": "27e990b1261c40788636"
-  },
-  "https://www.sc.com/in/credit-cards/": {
-    "status": 200,
-    "hash": "30e895c450feaac086f6"
-  },
-  "https://www.federalbank.co.in/credit-cards": {
-    "status": 200,
-    "hash": "b2e30eeb89ed3ecc3303"
+  "https://www.pnbcard.in/types.html": {
+    "status": 0,
+    "hash": null
   },
   "https://www.pnbcard.in/": {
     "status": 0,
@@ -295,49 +635,53 @@
     "status": 0,
     "hash": null
   },
-  "https://www.southindianbank.com/content/personal-banking/credit-cards/385": {
+  "https://www.bobcard.co.in/credit-card": {
     "status": 0,
     "hash": null
   },
   "https://bankofindia.co.in/credit-card": {
     "status": 403,
-    "hash": "05771edadac5cb4f1fa6"
+    "hash": "db5f1135997faa4aff21"
   },
-  "https://www.getonecard.app/": {
+  "https://www.rblbank.com/personal-banking/cards/credit-cards": {
     "status": 200,
-    "hash": "89b5a158c2d68e765354"
+    "hash": "27e990b1261c40788636"
   },
-  "https://www.scapia.cards/": {
+  "https://www.indusind.com/in/en/personal/cards/credit-card.html": {
+    "status": 406,
+    "hash": "60dae0c83559d041e89f"
+  },
+  "https://www.aubank.in/personal-banking/credit-cards": {
     "status": 403,
-    "hash": "6381839a196d36839aff"
-  },
-  "https://gokiwi.in/": {
-    "status": 200,
-    "hash": "5dd9c75ea7b25d7babe0"
-  },
-  "https://www.indianbank.in/departments/credit-card/": {
-    "status": 200,
-    "hash": "c0ea9f3936003a2b0683"
+    "hash": "9bc9ab5916e4edf62426"
   },
   "https://www.unionbankofindia.co.in/en/listing/credit-card": {
     "status": 200,
     "hash": "e4bafb3a2e6a32c6d0eb"
   },
-  "https://canarabank.com/": {
+  "https://www.indianbank.in/departments/credit-card/": {
     "status": 200,
-    "hash": "87c92fca7326a7629012"
+    "hash": "1cbdd10a8651d38a9843"
+  },
+  "https://www.sc.com/in/credit-cards/": {
+    "status": 200,
+    "hash": "30e895c450feaac086f6"
   },
   "https://www.dbs.com/digibank/in/cards/credit-cards": {
     "status": 200,
     "hash": "a0605013ff203ff054cc"
   },
-  "https://www.csb.co.in/credit-card": {
+  "https://gokiwi.in/": {
     "status": 200,
-    "hash": "fbf450622116782fe549"
+    "hash": "5dd9c75ea7b25d7babe0"
   },
-  "https://www.dhanbank.com/pdf/Credit-Card-Policy.pdf": {
+  "https://equitas.bank.in/personal-banking/pay/credit-cards/": {
+    "status": 503,
+    "hash": "8e8958fab7f5c1f04b6e"
+  },
+  "https://www.americanexpress.com/in/credit-cards/all-cards/": {
     "status": 200,
-    "hash": "c955144295feb3fdbb16"
+    "hash": "de262e98f907f9d4e31a"
   },
   "https://www.sbmbank.co.in/": {
     "status": 200,
@@ -355,21 +699,17 @@
     "status": 200,
     "hash": "419fb94b90a48566400b"
   },
-  "https://www.cityunionbank.com/creditcard": {
+  "https://canarabank.com/": {
     "status": 200,
-    "hash": "69d154001681c4615d46"
+    "hash": "ec3405a2364ce3fd06c4"
+  },
+  "https://www.federalbank.co.in/credit-cards": {
+    "status": 200,
+    "hash": "63c7ccf0084c0bf067d5"
   },
   "https://www.idbibank.in/credit-card.aspx": {
     "status": 200,
     "hash": "5afb8a50f74c25d3f759"
-  },
-  "https://www.cityunionbank.com/cub-salaryse-level-up-credit-card": {
-    "status": 200,
-    "hash": "ebddda6ae524900789af"
-  },
-  "https://jkb.bank.in/transactions/services/credit-cards": {
-    "status": 200,
-    "hash": "0fe8ba130beb5645f69b"
   },
   "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf": {
     "status": 200,
@@ -379,41 +719,49 @@
     "status": 0,
     "hash": null
   },
-  "https://bankofmaharashtra.in/writereaddata/documentlibrary/f6523f2c-2e53-4adf-9c9a-58f552286597.pdf": {
+  "https://www.southindianbank.com/content/personal-banking/credit-cards/385": {
     "status": 0,
     "hash": null
   },
+  "https://www.getonecard.app/": {
+    "status": 200,
+    "hash": "89b5a158c2d68e765354"
+  },
+  "https://www.scapia.cards/": {
+    "status": 403,
+    "hash": "b04e5262ecc84d2de3bc"
+  },
   "https://equitas.bank.in/": {
     "status": 503,
-    "hash": "bb77c4168503275f9ab3"
+    "hash": "2565d700ec9acb9458ca"
   },
   "https://karnatakabank.com/personal/cards/credit-cards": {
     "status": 403,
-    "hash": "26875a57a86b598431ce"
-  },
-  "https://www.americanexpress.com/in/credit-cards/all-cards/": {
-    "status": 200,
-    "hash": "4e850c4e12dddf72eb70"
+    "hash": "459e4d3d9e07d0dc2221"
   },
   "https://www.dhanbank.com/credit-cards/": {
     "status": 200,
-    "hash": "986f45876c811d0b6e8f"
+    "hash": "cae5de1f8a24164b0e84"
   },
   "https://www.esafbank.com/": {
     "status": 403,
-    "hash": "223ffc81ecdfb4c3f2af"
+    "hash": "498b96c72a9767bde0b7"
   },
   "https://www.dcbbank.com/": {
     "status": 200,
     "hash": "e30fea19c632516e99d9"
   },
+  "https://www.utkarsh.bank/": {
+    "status": 200,
+    "hash": "13395b6ed745b4ed3269"
+  },
   "https://bandhanbank.com/": {
     "status": 200,
     "hash": "f15ca3aa6e4c3cea9580"
   },
-  "https://www.utkarsh.bank/": {
+  "https://www.csb.co.in/credit-card": {
     "status": 200,
-    "hash": "63be5ab39924b635d1f6"
+    "hash": "6ebe89b03afa6b5264d9"
   },
   "https://bankofmaharashtra.in/credit-card": {
     "status": 0,
