@@ -5,9 +5,11 @@ import { parse } from "yaml";
 const cardsDoc = parse(await readFile(new URL("../data/cards.yml", import.meta.url), "utf8"));
 const discoveryDoc = parse(await readFile(new URL("../data/discovery.yml", import.meta.url), "utf8"));
 const issuerDoc = parse(await readFile(new URL("../data/issuers.yml", import.meta.url), "utf8"));
+const retiredDoc = parse(await readFile(new URL("../data/retired.yml", import.meta.url), "utf8"));
 const urls = [...new Set([
   ...cardsDoc.cards.map((card) => card.source),
   ...discoveryDoc.cards.map((card) => card.source),
+  ...retiredDoc.cards.map((card) => card.source),
   ...issuerDoc.issuers.map((issuer) => issuer.catalog),
 ])];
 const previous = JSON.parse(await readFile(new URL("../data/source-state.json", import.meta.url), "utf8").catch(() => "{}"));

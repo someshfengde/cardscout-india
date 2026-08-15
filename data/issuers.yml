@@ -25,11 +25,11 @@ issuers:
   - { name: Karur Vysya Bank, slug: kvb, coverage: discovery, catalog: "https://www.kvb.co.in/personal/cards/credit-cards/" }
   - { name: Karnataka Bank, slug: karnataka-bank, coverage: detailed, catalog: "https://karnatakabank.com/personal/cards/credit-cards" }
   - { name: CSB Bank, slug: csb, coverage: detailed, catalog: "https://www.csb.co.in/credit-card" }
-  - { name: DBS Bank India, slug: dbs, coverage: discovery, catalog: "https://www.dbs.com/digibank/in/cards/credit-cards" }
+  - { name: DBS Bank India, slug: dbs, coverage: detailed, catalog: "https://www.dbs.com/digibank/in/cards/credit-cards" }
   - { name: OneCard partner banks, slug: onecard, coverage: detailed, catalog: "https://www.getonecard.app/" }
   - { name: Scapia partner bank, slug: scapia, coverage: detailed, catalog: "https://www.scapia.cards/" }
   - { name: Kiwi partner banks, slug: kiwi, coverage: discovery, catalog: "https://gokiwi.in/" }
-  - { name: Bank of Maharashtra, slug: bank-of-maharashtra, coverage: discovery, catalog: "https://bankofmaharashtra.in/credit-card" }
+  - { name: Bank of Maharashtra, slug: bank-of-maharashtra, coverage: detailed, catalog: "https://bankofmaharashtra.in/credit-card" }
   - { name: Bandhan Bank, slug: bandhan, coverage: discovery, catalog: "https://bandhanbank.com/" }
   - { name: City Union Bank, slug: city-union-bank, coverage: discovery, catalog: "https://www.cityunionbank.com/creditcard" }
   - { name: DCB Bank, slug: dcb-bank, coverage: discovery, catalog: "https://www.dcbbank.com/" }

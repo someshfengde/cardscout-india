@@ -1,0 +1,107 @@
+schema_version: 1
+updated_at: 2026-08-15
+# Products confirmed by an official issuer source as discontinued, superseded,
+# or unavailable for new issuance. Retired records are preserved for auditability
+# but are intentionally excluded from the active comparison catalog.
+cards:
+  # Fleet-confirmed retirements
+  - id: axis-samsung-infinite
+    issuer: Axis Bank
+    name: Samsung Axis Bank Infinite Credit Card
+    reason: Axis Bank states that it is not accepting applications for this card and directs applicants to the Samsung Axis Bank Signature Credit Card instead.
+    source: https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-infinite-credit-card
+  - id: boi-india
+    issuer: Bank of India
+    name: BOI India Credit Card
+    reason: Bank of India's official MITC lists India Card under Mastercard and explicitly states that issuance of Mastercard credit cards is discontinued.
+    source: https://bankofindia.co.in/documents/20121/23409404/BOI_CREDITCARD_MITC_2024.pdf/dd42e196-be18-ee7b-9118-faaee453f03a?t=1712738856087
+  - id: bom-secured
+    issuer: Bank of Maharashtra
+    name: Bank of Maharashtra Secured Credit Card
+    reason: SBI Card's official FAQ states that the Bank of Maharashtra secured co-brand card programme was discontinued.
+    source: https://www.sbicard.com/en/faq/bom-sbi-secured-co-brand-card-program-discontinuation.page
+  - id: dbs-bajaj-finserv-supercard
+    issuer: DBS Bank India
+    name: Bajaj Finserv DBS Bank SuperCard
+    reason: DBS's official consolidated MITC states that this co-brand was discontinued and replaced by DBS SuperX and SuperX Plus.
+    source: https://www.dbs.com/in/credit-cards/credit-card-consolidated-mitc.pdf
+    effective_date: 2025-12-01
+  - id: hdfc-paytm-mobile
+    issuer: HDFC Bank
+    name: Paytm HDFC Bank Mobile Credit Card
+    reason: HDFC Bank's official Paytm card FAQ states that sourcing has been discontinued.
+    source: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCredit+Card+Landing+Page%2FCredit+Cards%2FCommercial%2FFAQs-Paytm-HDFC-Bank-Credit-Cards.pdf
+  - id: icici-emirates-skywards-rubyx
+    issuer: ICICI Bank
+    name: Emirates Skywards ICICI Bank Rubyx Credit Card
+    reason: The current official product page states that ICICI Bank is not accepting applications for the Emirates Rubyx Credit Card.
+    source: https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-skywards/emirates-rubyx
+  - id: icici-makemytrip-signature
+    issuer: ICICI Bank
+    name: MakeMyTrip ICICI Bank Signature Credit Card
+    reason: ICICI Bank states that it is no longer accepting applications for this older MakeMyTrip Signature product; the current MakeMyTrip card is a separate Mastercard plus RuPay proposition.
+    source: https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card
+  - id: icici-manchester-united-signature
+    issuer: ICICI Bank
+    name: Manchester United Signature Credit Card
+    reason: The current official product page states that ICICI Bank is not accepting applications for the Manchester United Signature Credit Card.
+    source: https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-signature-card
+  - id: indusind-voyage
+    issuer: IndusInd Bank
+    name: IndusInd Bank Voyage Credit Card
+    reason: IndusInd Bank states that the InterMiles Voyage product has been discontinued for new sourcing and for existing credit cards and is displayed only as a reference.
+    source: https://www.indusind.com/in/en/personal/cards/credit-card/intermiles-voyage-amex-credit-card.html
+  - id: rbl-paisa-on-demand
+    issuer: RBL Bank
+    name: Paisa on Demand Credit Card
+    reason: RBL Bank's official schedule identifies Paisabazaar Duet as the current name of the product earlier known as RBL Bank Paisa on Demand; the current product is already represented by rbl-duet.
+    source: https://webasset.rblbank.com/document/Credit%20Cards/SOC-Supercard.pdf
+    effective_date: 2021-09-10
+  - id: rbl-zomato-edition-classic
+    issuer: RBL Bank
+    name: Zomato Edition Classic Credit Card
+    reason: RBL Bank ended its Zomato co-brand partnership and replaced Edition Classic cards with lifetime-free ShopRite cards.
+    source: https://www.rblbank.com/api/v1/doc/document/credit-cards/edition-card-1-423.pdf
+    effective_date: 2023-05-15
+  - id: rbl-zomato-edition
+    issuer: RBL Bank
+    name: Zomato Edition Credit Card
+    reason: RBL Bank ended its Zomato co-brand partnership and replaced Edition Black and Edition Classic cards with lifetime-free ShopRite cards.
+    source: https://www.rblbank.com/api/v1/doc/document/credit-cards/edition-card-1-423.pdf
+    effective_date: 2023-05-15
+  - id: sbi-central
+    issuer: SBI Card
+    name: Central SBI Card
+    reason: SBI Card states that issuance of Central Select and Central Select+ cards was discontinued and existing cards were replaced.
+    source: https://www.sbicard.com/en/customer-notices.page
+    effective_date: 2022-05
+  - id: sbi-central-select
+    issuer: SBI Card
+    name: Central SBI Card SELECT
+    reason: SBI Card states that issuance of Central Select and Central Select+ cards was discontinued and existing cards were replaced.
+    source: https://www.sbicard.com/en/customer-notices.page
+    effective_date: 2022-05
+  - id: sbi-club-vistara
+    issuer: SBI Card
+    name: Club Vistara SBI Card
+    reason: SBI Card officially discontinued issuance of new Club Vistara SBI Credit Cards.
+    source: https://www.sbicard.com/en/customer-notices.page
+    effective_date: 2024-09-28
+  - id: sbi-club-vistara-prime
+    issuer: SBI Card
+    name: Club Vistara SBI Card PRIME
+    reason: SBI Card officially discontinued issuance of new Club Vistara SBI Credit Card PRIME cards.
+    source: https://www.sbicard.com/en/customer-notices.page
+    effective_date: 2024-09-28
+  - id: sbi-etihad-guest
+    issuer: SBI Card
+    name: Etihad Guest SBI Card
+    reason: Issuance was discontinued and SBI Card subsequently phased out existing cards, with deactivation no later than 31 March 2026.
+    source: https://www.sbicard.com/en/personal/credit-cards/etihad-guest-sbi-card.html
+    effective_date: 2025-03-11
+  - id: sbi-etihad-guest-premier
+    issuer: SBI Card
+    name: Etihad Guest SBI Card Premier
+    reason: Issuance was discontinued and SBI Card subsequently phased out existing cards, with deactivation no later than 31 March 2026.
+    source: https://www.sbicard.com/en/personal/credit-cards/etihad-guest-sbi-premier-card.html
+    effective_date: 2025-03-11

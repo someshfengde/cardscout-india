@@ -77,6 +77,9 @@ personal customer data.
 If an official source does not establish a required field, keep the card in
 `data/discovery.yml` and add a concise `research_note`. Do not infer a network,
 fee, forex rate, reward structure, or lounge entitlement from an aggregator.
+Move a card to `data/retired.yml` only when an official issuer notice confirms
+that it is discontinued, superseded, or unavailable for new issuance. Preserve
+the official source and effective date when one is published.
 
 By contributing, you agree that your changes may be distributed under the MIT
 License.
