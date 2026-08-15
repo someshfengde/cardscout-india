@@ -9,7 +9,7 @@ type Card = {
   lounge: string; forex_markup: number | null; verification: string; source: string;
 };
 type Catalog = {
-  meta: { updatedAt: string; cardCount: number; detailedCardCount: number; discoveryCardCount: number; issuerCount: number; representedIssuerCount: number; detailedIssuerCount: number; verifiedCount: number };
+  meta: { updatedAt: string; cardCount: number; detailedCardCount: number; discoveryCardCount: number; issuerCount: number; representedIssuerCount: number; detailedIssuerCount: number; verifiedCount: number; retiredCardCount: number };
   issuers: { name: string; coverage: string; catalog: string; cardCount: number }[];
   cards: Card[];
 };
@@ -143,7 +143,7 @@ export default function CardExplorer({ catalog }: { catalog: Catalog }) {
       </section>
 
       <section className="coverage" id="coverage">
-        <div className="coverage-copy"><span className="section-kicker">HONEST ABOUT THE GAPS</span><h2>India-wide discovery,<br /><i>in public.</i></h2><p>We expose {catalog.meta.cardCount} card names across {catalog.meta.representedIssuerCount === catalog.meta.issuerCount ? `all ${catalog.meta.issuerCount} tracked issuers` : `${catalog.meta.representedIssuerCount} issuers, with ${catalog.meta.issuerCount - catalog.meta.representedIssuerCount} more issuer programs still being mapped`}. {catalog.meta.detailedCardCount} cards have structured fees and benefits; {catalog.meta.discoveryCardCount} remain visible research records.</p><a href="https://github.com/someshfengde/cardscout-india/blob/main/data/discovery.yml" target="_blank" rel="noreferrer">View the card-by-card discovery ledger →</a></div>
+        <div className="coverage-copy"><span className="section-kicker">HONEST ABOUT THE GAPS</span><h2>India-wide discovery,<br /><i>in public.</i></h2><p>We expose {catalog.meta.cardCount} card names across {catalog.meta.representedIssuerCount === catalog.meta.issuerCount ? `all ${catalog.meta.issuerCount} tracked issuers` : `${catalog.meta.representedIssuerCount} issuers, with ${catalog.meta.issuerCount - catalog.meta.representedIssuerCount} more issuer programs still being mapped`}. {catalog.meta.detailedCardCount} cards have structured fees and benefits; {catalog.meta.discoveryCardCount} remain visible research records.{catalog.meta.retiredCardCount > 0 ? ` ${catalog.meta.retiredCardCount} officially retired products are preserved separately and excluded from comparison.` : ""}</p><a href="https://github.com/someshfengde/cardscout-india/blob/main/data/discovery.yml" target="_blank" rel="noreferrer">View the card-by-card discovery ledger →</a>{catalog.meta.retiredCardCount > 0 && <a href="https://github.com/someshfengde/cardscout-india/blob/main/data/retired.yml" target="_blank" rel="noreferrer">View the retired-card archive →</a>}</div>
         <div className="issuer-cloud">{catalog.issuers.map((item) => <a key={item.name} href={item.catalog} target="_blank" rel="noreferrer" className={item.coverage}>{item.name}<small>{item.cardCount ? `${item.cardCount} ${item.cardCount === 1 ? "card" : "cards"} · ` : "Issuer tracked · "}{item.coverage === "detailed" ? "Detailed" : "Research queue"}</small></a>)}</div>
       </section>
 

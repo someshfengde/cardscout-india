@@ -4,12 +4,14 @@ import { parse } from "yaml";
 const cardsDoc = parse(await readFile(new URL("../data/cards.yml", import.meta.url), "utf8"));
 const discoveryDoc = parse(await readFile(new URL("../data/discovery.yml", import.meta.url), "utf8"));
 const issuersDoc = parse(await readFile(new URL("../data/issuers.yml", import.meta.url), "utf8"));
+const retiredDoc = parse(await readFile(new URL("../data/retired.yml", import.meta.url), "utf8"));
 const cards = cardsDoc?.cards;
 const discoveries = discoveryDoc?.cards;
 const issuers = issuersDoc?.issuers;
+const retired = retiredDoc?.cards;
 
-if (!Array.isArray(cards) || !Array.isArray(discoveries) || !Array.isArray(issuers)) {
-  throw new Error("cards.yml, discovery.yml, and issuers.yml must contain arrays");
+if (!Array.isArray(cards) || !Array.isArray(discoveries) || !Array.isArray(issuers) || !Array.isArray(retired)) {
+  throw new Error("cards.yml, discovery.yml, issuers.yml, and retired.yml must contain arrays");
 }
 
 const required = ["id", "issuer", "name", "network", "joining_fee", "annual_fee", "reward", "categories", "highlights", "lounge", "forex_markup", "verification", "source"];
@@ -49,6 +51,16 @@ for (const [index, card] of discoveries.entries()) {
   if (!/^https:\/\//.test(card.source)) throw new Error(`Source must use HTTPS: ${card.id}`);
 }
 
+for (const [index, card] of retired.entries()) {
+  for (const key of ["id", "issuer", "name", "reason", "source"]) {
+    if (typeof card[key] !== "string" || card[key].trim() === "") throw new Error(`Retired record ${index + 1} (${card.id ?? "unknown"}) has invalid ${key}`);
+  }
+  if (ids.has(card.id)) throw new Error(`Duplicate active/retired card id: ${card.id}`);
+  ids.add(card.id);
+  if (!issuerNames.has(card.issuer)) throw new Error(`Unknown issuer on retired ${card.id}: ${card.issuer}`);
+  if (!/^https:\/\//.test(card.source)) throw new Error(`Retired source must use HTTPS: ${card.id}`);
+}
+
 const discoveredCards = discoveries.map((card) => ({
   ...card,
   network: "Researching",
@@ -79,6 +91,7 @@ const output = {
     representedIssuerCount: cardCountByIssuer.size,
     detailedIssuerCount: detailedIssuers,
     verifiedCount: cards.filter((card) => card.verification === "verified").length,
+    retiredCardCount: retired.length,
   },
   issuers: issuersWithCounts,
   cards: allCards.sort((a, b) => a.issuer.localeCompare(b.issuer) || a.name.localeCompare(b.name)),

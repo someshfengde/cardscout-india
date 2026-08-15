@@ -2329,3 +2329,422 @@ cards:
     forex_markup: 3.5
     verification: verified
     source: https://www.utkarsh.bank/xsite/assests/personal_credit_card/SuperCard_Key_Fact_Statement_KFS.pdf
+
+  # Fleet research promotion
+  - id: axis-fibe
+    issuer: Axis Bank
+    name: Fibe Axis Bank Credit Card
+    network: RuPay
+    joining_fee: 0
+    annual_fee: 0
+    waiver_spend: null
+    reward: 3% cashback on food delivery, entertainment and local commute, and 1% on other eligible spends
+    categories:
+      - lifetime-free
+      - cashback
+      - rupay-upi
+      - lounge
+    highlights:
+      - Lifetime free
+      - Four complimentary domestic lounge visits per calendar year
+    lounge: included
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.axis.bank.in/cards/credit-card/fibe-axis-bank-credit-card
+  - id: axis-freecharge
+    issuer: Axis Bank
+    name: Freecharge Axis Bank Credit Card
+    network: Visa
+    joining_fee: 250
+    annual_fee: 250
+    waiver_spend: null
+    reward: 1 EDGE REWARD Point on eligible spends, plus monthly milestone EDGE REWARD Points
+    categories:
+      - rewards
+      - shopping
+      - virtual
+    highlights:
+      - Virtual Visa Platinum card
+      - Monthly spend milestone rewards
+    lounge: none
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-credit-card
+  - id: axis-freecharge-plus
+    issuer: Axis Bank
+    name: Freecharge Plus Axis Bank Credit Card
+    network: Visa
+    joining_fee: 350
+    annual_fee: 350
+    waiver_spend: 50000
+    reward: 5% cashback on Freecharge spends, 2% on local commute and 1% on other eligible spends
+    categories:
+      - cashback
+      - shopping
+      - commute
+    highlights:
+      - Annual fee waiver on Rs 50,000 anniversary-year spend
+      - Cashback across Freecharge, local commute and other eligible spends
+    lounge: none
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-plus-credit-card
+  - id: axis-samsung-signature
+    issuer: Axis Bank
+    name: Samsung Axis Bank Signature Credit Card
+    network: Visa
+    joining_fee: 500
+    annual_fee: 500
+    waiver_spend: 200000
+    reward: 10% cashback on eligible Samsung purchases, accelerated EDGE REWARD Points at preferred partners and base EDGE REWARD Points elsewhere
+    categories:
+      - cashback
+      - shopping
+      - rewards
+      - lounge
+    highlights:
+      - Four domestic lounge visits per calendar year subject to prior-spend criteria
+      - Annual fee waived above Rs 2 lakh annual spend
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-signature-credit-card
+  - id: hdfc-diners-privilege
+    issuer: HDFC Bank
+    name: Diners Club Privilege
+    network: Diners Club
+    joining_fee: 1000
+    annual_fee: 1000
+    waiver_spend: 300000
+    reward: 4 Reward Points per ₹200 on eligible spends
+    categories:
+      - rewards
+      - dining
+      - lifestyle
+      - lounge
+    highlights:
+      - Three airport lounge vouchers per quarter after ₹60,000 eligible spend in the preceding quarter
+      - Two domestic and one international lounge voucher comprise each qualifying quarterly allocation
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.hdfc.bank.in/credit-cards/diners-privilege-credit-card
+  - id: hdfc-freedom
+    issuer: HDFC Bank
+    name: Freedom Credit Card
+    network: Visa / RuPay
+    joining_fee: 500
+    annual_fee: 500
+    waiver_spend: 50000
+    reward: 10 CashPoints per ₹200 on select partner spends and 1 CashPoint per ₹200 on other eligible spends
+    categories:
+      - rewards
+      - shopping
+    highlights:
+      - Annual fee waiver on ₹50,000 annual spend
+      - Fuel surcharge waiver subject to transaction and monthly caps
+    lounge: none
+    forex_markup: 3.5
+    verification: partial
+    source: https://www.hdfc.bank.in/credit-cards/freedom-credit-card
+  - id: hdfc-indianoil
+    issuer: HDFC Bank
+    name: IndianOil HDFC Bank Credit Card
+    network: Visa / RuPay
+    joining_fee: 500
+    annual_fee: 500
+    waiver_spend: 50000
+    reward: Up to 5% value as Fuel Points on eligible IndianOil, grocery and utility spends; 1 Fuel Point per ₹150 on other eligible spends
+    categories:
+      - fuel
+      - rewards
+      - utilities
+      - grocery
+    highlights:
+      - Annual fee waiver on ₹50,000 annual spend
+      - Fuel Points can be redeemed at participating IndianOil outlets
+    lounge: none
+    forex_markup: 3.5
+    verification: partial
+    source: https://www.hdfc.bank.in/credit-cards/indianoil-hdfc-bank-credit-card
+  - id: icici-adani-one-platinum
+    issuer: ICICI Bank
+    name: Adani One ICICI Bank Platinum Credit Card
+    network: Visa
+    joining_fee: 750
+    annual_fee: 750
+    waiver_spend: 300000
+    reward: 3 Adani Reward Points per ₹100 on Adani ecosystem spends, 1.5 per ₹100 on international spends, and 1 per ₹100 on domestic spends
+    categories:
+      - travel
+      - rewards
+      - lounge
+    highlights:
+      - Two domestic lounge visits per quarter after spending ₹75,000 in the preceding quarter
+      - Eight premium lounge upgrades per year
+      - Adani airport porter, valet and parking benefits
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card
+  - id: icici-adani-one-signature
+    issuer: ICICI Bank
+    name: Adani One ICICI Bank Signature Credit Card
+    network: Visa
+    joining_fee: 5000
+    annual_fee: 5000
+    waiver_spend: 600000
+    reward: 7 Adani Reward Points per ₹100 on Adani ecosystem spends, 2 per ₹100 on international spends, and 1.5 per ₹100 on domestic spends
+    categories:
+      - travel
+      - rewards
+      - lounge
+      - premium
+    highlights:
+      - Four domestic lounge visits per quarter after spending ₹75,000 in the preceding quarter
+      - Two complimentary international lounge visits per year
+      - Adani airport services include lounge upgrades, Pranaam, porter, valet and parking benefits
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/signature-credit-card
+  - id: icici-emirates-skywards-sapphiro
+    issuer: ICICI Bank
+    name: Emirates Skywards ICICI Bank Sapphiro Credit Card
+    network: Visa
+    joining_fee: 5000
+    annual_fee: 5000
+    waiver_spend: null
+    reward: 1.5 Emirates Skywards Miles per ₹100 on eligible domestic and international spends
+    categories:
+      - travel
+      - airline
+      - rewards
+      - lounge
+    highlights:
+      - Emirates Skywards Silver Tier membership and 5,000 Skywards Miles on joining
+      - Two domestic lounge visits per quarter after spending ₹75,000 in the preceding quarter
+      - Two complimentary international lounge visits per year
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-skywards/emirates-sapphiro
+  - id: icici-makemytrip
+    issuer: ICICI Bank
+    name: MakeMyTrip ICICI Bank Credit Card
+    network: Mastercard + RuPay
+    joining_fee: 999
+    annual_fee: 999
+    waiver_spend: 300000
+    reward: 6% myCash on MakeMyTrip hotel bookings, 3% on MakeMyTrip flight, bus and cab bookings, and 1% on other eligible retail spends
+    categories:
+      - travel
+      - rewards
+      - lounge
+      - rupay-upi
+    highlights:
+      - Issued as a dual proposition with both Mastercard and RuPay cards
+      - Two domestic airport lounge visits per quarter after spending ₹75,000 in the preceding quarter
+      - One complimentary international airport lounge visit per year
+    lounge: conditional
+    forex_markup: 0.99
+    verification: verified
+    source: https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-bank-credit-card
+  - id: icici-rubyx
+    issuer: ICICI Bank
+    name: Rubyx Credit Card
+    network: Mastercard + American Express / Visa + RuPay
+    joining_fee: 3000
+    annual_fee: 2000
+    waiver_spend: 300000
+    reward: 4 ICICI Bank Reward Points per ₹100 on international spends, 2 per ₹100 on domestic spends, and 1 per ₹100 on utility and insurance spends
+    categories:
+      - premium
+      - rewards
+      - travel
+      - lounge
+    highlights:
+      - Dual-card variants are offered as Mastercard plus American Express or Visa plus RuPay
+      - Two domestic airport lounge visits per quarter per variant after spending ₹75,000 in the preceding quarter
+      - Eight complimentary railway lounge visits per year
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card
+  - id: icici-times-black
+    issuer: ICICI Bank
+    name: Times Black ICICI Bank Credit Card
+    network: Visa
+    joining_fee: 20000
+    annual_fee: 20000
+    waiver_spend: 2500000
+    reward: 2% in ICICI Bank Reward Points on eligible domestic transactions
+    categories:
+      - premium
+      - travel
+      - rewards
+      - lounge
+    highlights:
+      - Unlimited complimentary domestic and international airport lounge access
+      - Premium luxury stay, lifestyle and international-experience benefits
+      - Annual fee waived from the second year on qualifying annual spend
+    lounge: unlimited
+    forex_markup: 1.49
+    verification: verified
+    source: https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card
+  - id: kotak-811
+    issuer: Kotak Mahindra Bank
+    name: 811 Credit Card
+    network: Visa
+    joining_fee: 500
+    annual_fee: 500
+    waiver_spend: 50000
+    reward: 2 Reward Points per Rs 100 on eligible online spends and 1 Reward Point per Rs 100 on eligible offline spends
+    categories:
+      - rewards
+      - shopping
+      - movies
+    highlights:
+      - Annual fee waiver on Rs 50,000 anniversary-year retail spend
+      - Three PVR tickets on Rs 75,000 anniversary-year spend
+    lounge: none
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/kotak-811-credit-card.html
+  - id: kotak-mojo-platinum
+    issuer: Kotak Mahindra Bank
+    name: Mojo Platinum Credit Card
+    network: Visa
+    joining_fee: 1000
+    annual_fee: 1000
+    waiver_spend: 100000
+    reward: 2.5 Mojo Points per Rs 100 on eligible online spends and 1 Mojo Point per Rs 100 on other eligible spends
+    categories:
+      - rewards
+      - shopping
+      - lounge
+    highlights:
+      - Eight domestic lounge visits annually subject to quarterly spend criteria
+      - Quarterly milestone reward in the first card year
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/mojo-platinum-credit-card.html
+  - id: kotak-zen-signature
+    issuer: Kotak Mahindra Bank
+    name: Zen Signature Credit Card
+    network: Visa
+    joining_fee: 1500
+    annual_fee: 1500
+    waiver_spend: 150000
+    reward: 10 Zen Points per Rs 150 on eligible shopping and 5 Zen Points per Rs 150 on other eligible spends
+    categories:
+      - rewards
+      - shopping
+      - travel
+      - lounge
+    highlights:
+      - Domestic lounge visits require Rs 75,000 quarterly spend
+      - Three international lounge visits per calendar year
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/zen-signature-credit-card.html
+  - id: sbi-miles
+    issuer: SBI Card
+    name: SBI Card MILES
+    network: Mastercard / RuPay
+    joining_fee: 1499
+    annual_fee: 1499
+    waiver_spend: 600000
+    reward: 2 Travel Credits per ₹200 on eligible travel spends and 1 Travel Credit per ₹200 on other eligible spends
+    categories:
+      - travel
+      - rewards
+      - lounge
+    highlights:
+      - Four complimentary domestic airport lounge visits per year
+      - Travel Credits transfer to participating airline and hotel partners
+    lounge: included
+    forex_markup: 3
+    verification: verified
+    source: https://www.sbicard.com/en/personal/credit-cards/sbi-card-miles.html
+  - id: sbi-miles-elite
+    issuer: SBI Card
+    name: SBI Card MILES ELITE
+    network: Mastercard / RuPay
+    joining_fee: 4999
+    annual_fee: 4999
+    waiver_spend: 1500000
+    reward: 6 Travel Credits per ₹200 on eligible travel spends and 2 Travel Credits per ₹200 on other eligible spends
+    categories:
+      - travel
+      - rewards
+      - lounge
+    highlights:
+      - Domestic and international airport lounge access with annual and quarterly visit limits
+      - Travel Credits transfer to participating airline and hotel partners
+    lounge: included
+    forex_markup: 1.99
+    verification: verified
+    source: https://www.sbicard.com/en/personal/credit-cards/sbi-card-miles-elite.html
+  - id: sbi-miles-prime
+    issuer: SBI Card
+    name: SBI Card MILES PRIME
+    network: Mastercard / RuPay
+    joining_fee: 2999
+    annual_fee: 2999
+    waiver_spend: 1000000
+    reward: 4 Travel Credits per ₹200 on eligible travel spends and 2 Travel Credits per ₹200 on other eligible spends
+    categories:
+      - travel
+      - rewards
+      - lounge
+    highlights:
+      - Eight domestic and four international airport lounge visits per year
+      - Travel Credits transfer to participating airline and hotel partners
+    lounge: included
+    forex_markup: 2.5
+    verification: verified
+    source: https://www.sbicard.com/en/personal/credit-cards/sbi-card-miles-prime.html
+  - id: sbi-tata-neu-infinity
+    issuer: SBI Card
+    name: Tata Neu Infinity SBI Card
+    network: RuPay / Visa
+    joining_fee: 1499
+    annual_fee: 1499
+    waiver_spend: 300000
+    reward: 5% value back as NeuCoins on eligible Tata Neu and partner-brand spends and 1.5% on other eligible spends including UPI
+    categories:
+      - shopping
+      - rewards
+      - rupay-upi
+      - travel
+      - lounge
+    highlights:
+      - Eight domestic lounge visits subject to quarterly spend and four international lounge visits per year
+      - Annual fee reversal on ₹3 lakh annual spend
+    lounge: conditional
+    forex_markup: 1.99
+    verification: verified
+    source: https://www.sbicard.com/en/personal/credit-cards/tata-neu-infinity-sbi-card.html
+  - id: sbi-tata-neu-plus
+    issuer: SBI Card
+    name: Tata Neu Plus SBI Card
+    network: RuPay / Visa
+    joining_fee: 499
+    annual_fee: 499
+    waiver_spend: 100000
+    reward: 2% value back as NeuCoins on eligible Tata Neu and partner-brand spends and 1% on other eligible spends including UPI
+    categories:
+      - shopping
+      - rewards
+      - rupay-upi
+      - lounge
+    highlights:
+      - Four domestic airport lounge visits per year after meeting the preceding-quarter spend condition
+      - Annual fee reversal on ₹1 lakh annual spend
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.sbicard.com/en/personal/credit-cards/tata-neu-plus-sbi-card.html
