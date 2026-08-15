@@ -15,6 +15,11 @@ if (!Array.isArray(cards) || !Array.isArray(discoveries) || !Array.isArray(issue
 const required = ["id", "issuer", "name", "network", "joining_fee", "annual_fee", "reward", "categories", "highlights", "lounge", "forex_markup", "verification", "source"];
 const ids = new Set();
 const issuerNames = new Set(issuers.map((issuer) => issuer.name));
+const allowedLounge = new Set(["none", "conditional", "included", "unlimited"]);
+
+function isNonNegativeNumber(value) {
+  return Number.isFinite(value) && value >= 0;
+}
 
 for (const [index, card] of cards.entries()) {
   for (const key of required) {
@@ -24,7 +29,13 @@ for (const [index, card] of cards.entries()) {
   ids.add(card.id);
   if (!issuerNames.has(card.issuer)) throw new Error(`Unknown issuer on ${card.id}: ${card.issuer}`);
   if (!/^https:\/\//.test(card.source)) throw new Error(`Source must use HTTPS: ${card.id}`);
+  if (!isNonNegativeNumber(card.joining_fee)) throw new Error(`Invalid joining fee: ${card.id}`);
+  if (!isNonNegativeNumber(card.annual_fee)) throw new Error(`Invalid annual fee: ${card.id}`);
+  if (card.waiver_spend !== null && !isNonNegativeNumber(card.waiver_spend)) throw new Error(`Invalid waiver spend: ${card.id}`);
+  if (!isNonNegativeNumber(card.forex_markup)) throw new Error(`Invalid forex markup: ${card.id}`);
   if (!Array.isArray(card.categories) || card.categories.length === 0) throw new Error(`Categories missing: ${card.id}`);
+  if (!Array.isArray(card.highlights) || card.highlights.length === 0) throw new Error(`Highlights missing: ${card.id}`);
+  if (!allowedLounge.has(card.lounge)) throw new Error(`Invalid lounge state: ${card.id}`);
   if (!["verified", "partial"].includes(card.verification)) throw new Error(`Invalid verification: ${card.id}`);
 }
 
@@ -44,9 +55,9 @@ const discoveredCards = discoveries.map((card) => ({
   joining_fee: null,
   annual_fee: null,
   waiver_spend: null,
-  reward: "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
+  reward: card.research_note ? `Research note: ${card.research_note}` : "Discovery candidate; current availability, fees, rewards, and eligibility are being verified against the linked issuer source.",
   categories: ["discovery"],
-  highlights: ["Official verification target linked", "Detailed verification in progress"],
+  highlights: ["Official verification target linked", card.research_note ?? "Detailed verification in progress"],
   lounge: "researching",
   forex_markup: null,
   verification: "discovered",
