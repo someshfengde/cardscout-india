@@ -19,15 +19,60 @@ const changed = [];
 const failed = [];
 const blocked = [];
 
+const blockedStatuses = new Set([401, 403, 406, 429, 500, 502, 503, 504]);
+
+function normalizeHtml(body) {
+  return body
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/<(script|style|noscript|template)\b[^>]*>[\s\S]*?<\/\1>/gi, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;|&#160;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#(?:39|x27);/gi, "'")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 1_000_000);
+}
+
+async function fetchSnapshot(url) {
+  const response = await fetch(url, { redirect: "follow", headers: { "user-agent": "CardScout-India-source-audit/1.0 (+https://github.com/someshfengde/cardscout-india)" }, signal: AbortSignal.timeout(12000) });
+  const bytes = Buffer.from(await response.arrayBuffer());
+  const contentType = response.headers.get("content-type")?.toLowerCase() ?? "";
+  const isHtml = contentType.includes("text/html");
+  const content = isHtml ? normalizeHtml(bytes.toString("utf8")) : bytes;
+  const contentBlocked = isHtml && /(?:security violation|incident id:|access denied|captcha|enable javascript and cookies to continue)/i.test(content);
+  const checkable = response.status < 400 && !contentBlocked;
+  const hash = checkable ? createHash("sha256").update(content).digest("hex").slice(0, 20) : null;
+  return { status: response.status, hash, checkable, contentBlocked };
+}
+
+function classify(snapshot, url) {
+  if (snapshot.contentBlocked) blocked.push(`CONTENT-BLOCKED ${url}`);
+  else if (blockedStatuses.has(snapshot.status)) blocked.push(`${snapshot.status} ${url}`);
+  else if (!snapshot.checkable) failed.push(`${snapshot.status} ${url}`);
+}
+
 async function audit(url) {
   try {
-    const response = await fetch(url, { redirect: "follow", headers: { "user-agent": "CardScout-India-source-audit/1.0 (+https://github.com/someshfengde/cardscout-india)" }, signal: AbortSignal.timeout(12000) });
-    const body = (await response.text()).replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "").replace(/\s+/g, " ").slice(0, 1_000_000);
-    const hash = createHash("sha256").update(body).digest("hex").slice(0, 20);
-    next[url] = { status: response.status, hash };
-    if ([401, 403, 406, 429, 500, 502, 503, 504].includes(response.status)) blocked.push(`${response.status} ${url}`);
-    else if (response.status >= 400) failed.push(`${response.status} ${url}`);
-    if (!baseline && previous[url] && (previous[url].hash !== hash || previous[url].status !== response.status)) changed.push(url);
+    const snapshot = await fetchSnapshot(url);
+    const prior = previous[url];
+    const changeCandidate = !baseline && snapshot.checkable && prior?.status < 400 && prior.hash && prior.hash !== snapshot.hash;
+
+    if (changeCandidate) {
+      const confirmation = await fetchSnapshot(url);
+      if (!confirmation.checkable || confirmation.hash !== snapshot.hash) {
+        next[url] = prior;
+        blocked.push(`CONTENT-UNSTABLE ${url}`);
+        return;
+      }
+      changed.push(url);
+    }
+
+    next[url] = { status: snapshot.status, hash: snapshot.hash };
+    classify(snapshot, url);
   } catch (error) {
     next[url] = { status: 0, hash: null };
     blocked.push(`ERROR ${url}: ${error.message}`);

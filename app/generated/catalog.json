@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-15",
+    "updatedAt": "2026-08-17",
     "cardCount": 309,
     "detailedCardCount": 200,
     "discoveryCardCount": 109,
@@ -2612,19 +2612,19 @@
       "id": "hdfc-bizgrow",
       "issuer": "HDFC Bank",
       "name": "BizGrow Credit Card",
-      "source": "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards",
-      "research_note": "The official fee-waiver page showed a time-limited lifetime-free offer ending 31 July 2026; no post-offer current standard fee record was found.",
+      "source": "https://www.hdfc.bank.in/business-credit-cards/biz-grow-credit-card",
+      "research_note": "Current official pages verify ₹500 joining and renewal fees, a ₹1 lakh annual-fee waiver, 3.5% forex markup and the reward structure, but they link both Visa and Mastercard network benefits without establishing the currently issued network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The official fee-waiver page showed a time-limited lifetime-free offer ending 31 July 2026; no post-offer current standard fee record was found.",
+      "reward": "Research note: Current official pages verify ₹500 joining and renewal fees, a ₹1 lakh annual-fee waiver, 3.5% forex markup and the reward structure, but they link both Visa and Mastercard network benefits without establishing the currently issued network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The official fee-waiver page showed a time-limited lifetime-free offer ending 31 July 2026; no post-offer current standard fee record was found."
+        "Current official pages verify ₹500 joining and renewal fees, a ₹1 lakh annual-fee waiver, 3.5% forex markup and the reward structure, but they link both Visa and Mastercard network benefits without establishing the currently issued network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3065,19 +3065,19 @@
       "id": "hsbc-rupay-cashback",
       "issuer": "HSBC India",
       "name": "HSBC RuPay Cashback Credit Card",
-      "source": "https://www.hsbc.co.in/credit-cards/",
-      "research_note": "The official 0% forex offer expired on 31 July 2026 and the checked official product materials did not establish the post-offer numeric forex markup.",
+      "source": "https://www.hsbc.co.in/credit-cards/products/rupay-cashback-credit-card/",
+      "research_note": "The official 0% forex offer now runs through 31 August 2026; the checked official product materials still do not establish the post-offer numeric forex markup.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The official 0% forex offer expired on 31 July 2026 and the checked official product materials did not establish the post-offer numeric forex markup.",
+      "reward": "Research note: The official 0% forex offer now runs through 31 August 2026; the checked official product materials still do not establish the post-offer numeric forex markup.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The official 0% forex offer expired on 31 July 2026 and the checked official product materials did not establish the post-offer numeric forex markup."
+        "The official 0% forex offer now runs through 31 August 2026; the checked official product materials still do not establish the post-offer numeric forex markup."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3113,18 +3113,18 @@
       "joining_fee": 999,
       "annual_fee": 999,
       "waiver_spend": 200000,
-      "reward": "10% cashback on dining, food delivery and groceries; base cashback elsewhere",
+      "reward": "10% cashback on dining, food delivery, groceries, shopping and utilities; 1.5% on most other spends",
       "categories": [
         "cashback",
         "dining",
         "shopping"
       ],
       "highlights": [
-        "Monthly accelerated cashback cap",
-        "Domestic lounge access subject to spend criteria"
+        "₹1,200 monthly accelerated cashback cap",
+        "Two domestic and one international airport lounge visits per year"
       ],
-      "lounge": "conditional",
-      "forex_markup": 3.5,
+      "lounge": "included",
+      "forex_markup": 1.99,
       "verification": "verified",
       "source": "https://www.hsbc.co.in/credit-cards/products/live-plus/"
     },
