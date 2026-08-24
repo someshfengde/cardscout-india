@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-08-17
+updated_at: 2026-08-24
 # Discovery records make the full research queue visible. Each record links to
 # the official verification target used for the issuer-by-issuer pass. It is a
 # candidate until a maintainer confirms current issuance, fees, and benefits.
@@ -15,6 +15,10 @@ cards:
   - { id: hdfc-bizblack-metal, issuer: HDFC Bank, name: BizBlack Metal Edition, source: "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards", research_note: "Current official pages establish benefits and waiver threshold, but the checked fee schedules rendered required fee and forex table cells ambiguously." }
   - { id: hdfc-bizpower, issuer: HDFC Bank, name: BizPower Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards", research_note: "Current official pages establish fee, waiver, rewards and forex, but the issued network was not explicit enough for the required non-null network field." }
   - { id: hdfc-bizgrow, issuer: HDFC Bank, name: BizGrow Credit Card, source: "https://www.hdfc.bank.in/business-credit-cards/biz-grow-credit-card", research_note: "Current official pages verify ₹500 joining and renewal fees, a ₹1 lakh annual-fee waiver, 3.5% forex markup and the reward structure, but they link both Visa and Mastercard network benefits without establishing the currently issued network." }
+  - { id: hdfc-phonepe-uno, issuer: HDFC Bank, name: PhonePe HDFC Bank Uno Credit Card, source: "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-uno-credit-card", research_note: "The current official product page verifies ₹499 joining and annual fees, a ₹1 lakh renewal-fee waiver and rewards, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup." }
+  - { id: hdfc-phonepe-ultimo, issuer: HDFC Bank, name: PhonePe HDFC Bank Ultimo Credit Card, source: "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-ultimo-credit-card", research_note: "The current official product page verifies ₹999 joining and annual fees, a ₹2 lakh renewal-fee waiver, rewards and conditional domestic lounge access, but it does not explicitly establish the issued network or numeric forex markup." }
+  - { id: hdfc-swiggy-ornge, issuer: HDFC Bank, name: Swiggy Ornge HDFC Bank Credit Card, source: "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card", research_note: "The current official product page verifies ₹500 joining and renewal fees, a ₹1.5 lakh renewal-fee waiver and cashback benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup." }
+  - { id: hdfc-swiggy-blck, issuer: HDFC Bank, name: Swiggy BLCK HDFC Bank Credit Card, source: "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card", research_note: "The current official product page verifies ₹1,000 joining and renewal fees, a ₹2 lakh renewal-fee waiver, cashback and Mastercard golf benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup." }
 
   # SBI Card
   - { id: sbi-unnati, issuer: SBI Card, name: Unnati SBI Card, source: "https://www.sbicard.com/en/personal/credit-cards.page", research_note: "The current official page and fee schedule conflict on how the first-four-year fee arrangement should map to one joining and annual fee record." }

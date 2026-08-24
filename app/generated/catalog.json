@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-08-17",
-    "cardCount": 309,
+    "updatedAt": "2026-08-24",
+    "cardCount": 313,
     "detailedCardCount": 200,
-    "discoveryCardCount": 109,
+    "discoveryCardCount": 113,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -16,7 +16,7 @@
       "slug": "hdfc",
       "coverage": "detailed",
       "catalog": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
-      "cardCount": 21
+      "cardCount": 25
     },
     {
       "name": "SBI Card",
@@ -2882,6 +2882,50 @@
       "verification": "discovered"
     },
     {
+      "id": "hdfc-phonepe-ultimo",
+      "issuer": "HDFC Bank",
+      "name": "PhonePe HDFC Bank Ultimo Credit Card",
+      "source": "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-ultimo-credit-card",
+      "research_note": "The current official product page verifies ₹999 joining and annual fees, a ₹2 lakh renewal-fee waiver, rewards and conditional domestic lounge access, but it does not explicitly establish the issued network or numeric forex markup.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official product page verifies ₹999 joining and annual fees, a ₹2 lakh renewal-fee waiver, rewards and conditional domestic lounge access, but it does not explicitly establish the issued network or numeric forex markup.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official product page verifies ₹999 joining and annual fees, a ₹2 lakh renewal-fee waiver, rewards and conditional domestic lounge access, but it does not explicitly establish the issued network or numeric forex markup."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "hdfc-phonepe-uno",
+      "issuer": "HDFC Bank",
+      "name": "PhonePe HDFC Bank Uno Credit Card",
+      "source": "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-uno-credit-card",
+      "research_note": "The current official product page verifies ₹499 joining and annual fees, a ₹1 lakh renewal-fee waiver and rewards, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official product page verifies ₹499 joining and annual fees, a ₹1 lakh renewal-fee waiver and rewards, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official product page verifies ₹499 joining and annual fees, a ₹1 lakh renewal-fee waiver and rewards, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "hdfc-pixel-go",
       "issuer": "HDFC Bank",
       "name": "PIXEL Go Credit Card",
@@ -2993,6 +3037,28 @@
       "verification": "discovered"
     },
     {
+      "id": "hdfc-swiggy-blck",
+      "issuer": "HDFC Bank",
+      "name": "Swiggy BLCK HDFC Bank Credit Card",
+      "source": "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+      "research_note": "The current official product page verifies ₹1,000 joining and renewal fees, a ₹2 lakh renewal-fee waiver, cashback and Mastercard golf benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official product page verifies ₹1,000 joining and renewal fees, a ₹2 lakh renewal-fee waiver, cashback and Mastercard golf benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official product page verifies ₹1,000 joining and renewal fees, a ₹2 lakh renewal-fee waiver, cashback and Mastercard golf benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "hdfc-swiggy",
       "issuer": "HDFC Bank",
       "name": "Swiggy HDFC Bank Credit Card",
@@ -3014,6 +3080,28 @@
       "forex_markup": 3.5,
       "verification": "partial",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card"
+    },
+    {
+      "id": "hdfc-swiggy-ornge",
+      "issuer": "HDFC Bank",
+      "name": "Swiggy Ornge HDFC Bank Credit Card",
+      "source": "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
+      "research_note": "The current official product page verifies ₹500 joining and renewal fees, a ₹1.5 lakh renewal-fee waiver and cashback benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official product page verifies ₹500 joining and renewal fees, a ₹1.5 lakh renewal-fee waiver and cashback benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official product page verifies ₹500 joining and renewal fees, a ₹1.5 lakh renewal-fee waiver and cashback benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "hdfc-tata-neu-infinity",

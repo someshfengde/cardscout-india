@@ -22,9 +22,13 @@ const blocked = [];
 const blockedStatuses = new Set([401, 403, 406, 429, 500, 502, 503, 504]);
 
 function normalizeHtml(body) {
-  return body
+  const withoutPageChrome = body
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/<(script|style|noscript|template)\b[^>]*>[\s\S]*?<\/\1>/gi, "")
+    .replace(/<(header|nav|footer|aside)\b[^>]*>[\s\S]*?<\/\1>/gi, "");
+  const primaryContent = withoutPageChrome.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1] ?? withoutPageChrome;
+
+  return primaryContent
     .replace(/<[^>]+>/g, " ")
     .replace(/&nbsp;|&#160;/gi, " ")
     .replace(/&amp;/gi, "&")
