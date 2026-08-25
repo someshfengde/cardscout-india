@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-08-15
+updated_at: 2026-08-25
 # Products confirmed by an official issuer source as discontinued, superseded,
 # or unavailable for new issuance. Retired records are preserved for auditability
 # but are intentionally excluded from the active comparison catalog.
@@ -99,6 +99,28 @@ cards:
     reason: Issuance was discontinued and SBI Card subsequently phased out existing cards, with deactivation no later than 31 March 2026.
     source: https://www.sbicard.com/en/personal/credit-cards/etihad-guest-sbi-card.html
     effective_date: 2025-03-11
+
+  # Fleet-confirmed retirements
+  - id: kotak-privy-league-signature
+    issuer: Kotak Mahindra Bank
+    name: Privy League Signature Credit Card
+    reason: Kotak's current credit-card catalogue marks the Privy League Signature Credit Card as discontinued for new applications.
+    source: https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html
+  - id: kotak-pvr-gold
+    issuer: Kotak Mahindra Bank
+    name: PVR Gold Credit Card
+    reason: Kotak's current credit-card catalogue marks the PVR Kotak Gold Credit Card as discontinued for new applications.
+    source: https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html
+  - id: kotak-pvr-platinum
+    issuer: Kotak Mahindra Bank
+    name: PVR Platinum Credit Card
+    reason: Kotak's current movie-card page marks the PVR Kotak Platinum Credit Card as discontinued for new applications.
+    source: https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/get-movie-credit-cards.html
+  - id: kotak-urbane-gold
+    issuer: Kotak Mahindra Bank
+    name: Urbane Gold Credit Card
+    reason: Kotak's current credit-card catalogue marks the Urbane Gold Credit Card as discontinued for new applications.
+    source: https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html
   - id: sbi-etihad-guest-premier
     issuer: SBI Card
     name: Etihad Guest SBI Card Premier

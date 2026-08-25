@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-08-17
+updated_at: 2026-08-25
 currency: INR
 cards:
   - { id: hdfc-millennia, issuer: HDFC Bank, name: Millennia, network: Visa, joining_fee: 1000, annual_fee: 1000, waiver_spend: 100000, reward: "5% CashPoints on select online brands; 1% on other eligible spends", categories: [cashback, shopping], highlights: ["Quarterly lounge access subject to spend criteria", "CashPoints redeemable against statement balance"], lounge: conditional, forex_markup: 3.5, verification: partial, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia-credit-card" }
@@ -2748,3 +2748,107 @@ cards:
     forex_markup: 3.5
     verification: verified
     source: https://www.sbicard.com/en/personal/credit-cards/tata-neu-plus-sbi-card.html
+
+  # Fleet research promotion
+  - id: axis-primus
+    issuer: Axis Bank
+    name: PRIMUS Credit Card
+    network: Visa
+    joining_fee: 500000
+    annual_fee: 300000
+    waiver_spend: null
+    reward: 1 EDGE Mile per ₹100 spent on all transactions
+    categories:
+      - premium
+      - travel
+      - rewards
+      - lounge
+    highlights:
+      - Invite-only ultra-premium card
+      - Unlimited domestic lounge access at participating airports
+      - No foreign-currency transaction fee; 1.5% + GST DCC markup applies when an international transaction is billed in INR
+    lounge: unlimited
+    forex_markup: 0
+    verification: verified
+    source: https://www.axisbank.com/docs/default-source/default-document-library/credit-cards/terms-and-conditions-for-axis-bank-primus-credit-card.pdf
+  - id: indusind-pinnacle
+    issuer: IndusInd Bank
+    name: Pinnacle Credit Card
+    network: Mastercard
+    joining_fee: 15000
+    annual_fee: 0
+    waiver_spend: null
+    reward: 2.5 Reward Points per ₹100 on e-commerce transactions; 1.5 per ₹100 on e-commerce travel and airline transactions; 1 per ₹100 on POS, MoTo, IVR and standing instructions; fuel transactions earn no Reward Points
+    categories:
+      - premium
+      - travel
+      - rewards
+      - lounge
+    highlights:
+      - Mastercard World benefits
+      - One domestic lounge visit per calendar quarter after ₹1,50,000 spend in the previous quarter
+      - One complimentary international Priority Pass visit per calendar quarter outside India
+    lounge: conditional
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.indusind.bank.in/in/en/personal/cards/credit-card/pinnacle-world-credit-card.html
+  - id: pnb-luxura-visa
+    issuer: Punjab National Bank
+    name: PNB Visa Metal Card LUXURA
+    network: Visa
+    joining_fee: 4999
+    annual_fee: 1999
+    waiver_spend: 600000
+    reward: 4 reward points per Rs100 on eligible spends, with 3X rewards on travel and dining
+    categories:
+      - premium
+      - travel
+      - lounge
+      - rewards
+    highlights:
+      - Unlimited complimentary domestic and international lounge access
+      - Welcome and annual-spend milestone reward points
+    lounge: unlimited
+    forex_markup: 0
+    verification: verified
+    source: https://pnbcard.in/types17.html
+  - id: sbi-irctc-premier
+    issuer: SBI Card
+    name: IRCTC SBI Card Premier
+    network: Visa
+    joining_fee: 1499
+    annual_fee: 1499
+    waiver_spend: 200000
+    reward: Up to 10% value back in reward points on eligible IRCTC rail tickets; 3 Reward Points per ₹125 on dining and standing-instruction utility spends
+    categories:
+      - travel
+      - rewards
+      - lounge
+    highlights:
+      - Eight complimentary railway lounge visits per year, capped at two per quarter
+      - Annual fee reversed on ₹2 lakh eligible annual spend
+      - 1% transaction-charge saving on eligible IRCTC railway bookings
+    lounge: included
+    forex_markup: 3.5
+    verification: partial
+    source: https://www.sbicard.com/en/personal/credit-cards/irctc-premier-card.html
+  - id: sbi-irctc-platinum
+    issuer: SBI Card
+    name: IRCTC SBI Platinum Card
+    network: Visa
+    joining_fee: 500
+    annual_fee: 500
+    waiver_spend: null
+    reward: Up to 10% value back in reward points on eligible IRCTC rail tickets; 1 Reward Point per ₹125 on other non-fuel retail purchases
+    categories:
+      - travel
+      - rewards
+      - lounge
+    highlights:
+      - Four complimentary railway lounge visits per year, capped at one per quarter
+      - ₹500 annual and renewal fee
+      - 1% transaction-charge saving on eligible IRCTC railway bookings
+    lounge: included
+    forex_markup: 3.5
+    verification: partial
+    source: https://www.sbicard.com/en/personal/credit-cards/irctc-sbi-platinum-card.html

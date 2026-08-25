@@ -1,14 +1,14 @@
 {
   "meta": {
-    "updatedAt": "2026-08-24",
-    "cardCount": 313,
-    "detailedCardCount": 200,
-    "discoveryCardCount": 113,
+    "updatedAt": "2026-08-25",
+    "cardCount": 309,
+    "detailedCardCount": 205,
+    "discoveryCardCount": 104,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
-    "verifiedCount": 167,
-    "retiredCardCount": 18
+    "verifiedCount": 170,
+    "retiredCardCount": 22
   },
   "issuers": [
     {
@@ -51,7 +51,7 @@
       "slug": "kotak",
       "coverage": "detailed",
       "catalog": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "cardCount": 21
+      "cardCount": 17
     },
     {
       "name": "American Express",
@@ -433,18 +433,18 @@
       "issuer": "AU Small Finance Bank",
       "name": "ALTURA Credit Card",
       "source": "https://www.aubank.in/personal-banking/credit-cards",
-      "research_note": "Current fees and rewards are published, but the issued network and a product-specific lounge classification were not explicitly established.",
+      "research_note": "Current official fees and rewards are published, but the issued network and product-specific lounge classification are not explicitly established together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current fees and rewards are published, but the issued network and a product-specific lounge classification were not explicitly established.",
+      "reward": "Research note: Current official fees and rewards are published, but the issued network and product-specific lounge classification are not explicitly established together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current fees and rewards are published, but the issued network and a product-specific lounge classification were not explicitly established."
+        "Current official fees and rewards are published, but the issued network and product-specific lounge classification are not explicitly established together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -455,18 +455,18 @@
       "issuer": "AU Small Finance Bank",
       "name": "ALTURA PLUS Credit Card",
       "source": "https://www.aubank.in/personal-banking/credit-cards",
-      "research_note": "Current fees and rewards are published, but the issued network and a product-specific lounge classification were not explicitly established.",
+      "research_note": "Current official fees and rewards are published, but the issued network and product-specific lounge classification are not explicitly established together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current fees and rewards are published, but the issued network and a product-specific lounge classification were not explicitly established.",
+      "reward": "Research note: Current official fees and rewards are published, but the issued network and product-specific lounge classification are not explicitly established together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current fees and rewards are published, but the issued network and a product-specific lounge classification were not explicitly established."
+        "Current official fees and rewards are published, but the issued network and product-specific lounge classification are not explicitly established together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -500,18 +500,18 @@
       "issuer": "AU Small Finance Bank",
       "name": "LIT Credit Card",
       "source": "https://www.aubank.in/personal-banking/credit-cards",
-      "research_note": "The current product is customizable, and the checked official material does not establish one fixed reward, lounge and network package suitable for the flat schema.",
+      "research_note": "The current product is customizable, so AU's official material does not establish one fixed reward, lounge and network package for the flat schema.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current product is customizable, and the checked official material does not establish one fixed reward, lounge and network package suitable for the flat schema.",
+      "reward": "Research note: The current product is customizable, so AU's official material does not establish one fixed reward, lounge and network package for the flat schema.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current product is customizable, and the checked official material does not establish one fixed reward, lounge and network package suitable for the flat schema."
+        "The current product is customizable, so AU's official material does not establish one fixed reward, lounge and network package for the flat schema."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -522,18 +522,18 @@
       "issuer": "AU Small Finance Bank",
       "name": "NOMO Credit Card",
       "source": "https://www.aubank.in/personal-banking/credit-cards",
-      "research_note": "The current MITC verifies the secured product, one-time fee and forex, but a current product page with network, reward earn and lounge classification was not found.",
+      "research_note": "Current AU MITC establishes the secured product, one-time ₹199 joining fee and forex, but a current official source does not publish a complete network, reward and lounge record together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current MITC verifies the secured product, one-time fee and forex, but a current product page with network, reward earn and lounge classification was not found.",
+      "reward": "Research note: Current AU MITC establishes the secured product, one-time ₹199 joining fee and forex, but a current official source does not publish a complete network, reward and lounge record together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current MITC verifies the secured product, one-time fee and forex, but a current product page with network, reward earn and lounge classification was not found."
+        "Current AU MITC establishes the secured product, one-time ₹199 joining fee and forex, but a current official source does not publish a complete network, reward and lounge record together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -567,18 +567,18 @@
       "issuer": "AU Small Finance Bank",
       "name": "VETTA Credit Card",
       "source": "https://www.aubank.in/personal-banking/credit-cards",
-      "research_note": "The current product page and MITC establish rewards, lounge and forex, but the issued Visa/RuPay variant and a distinct joining fee are not explicit enough for the strict flat schema.",
+      "research_note": "Current AU MITC and product terms establish fees, rewards, lounge and forex, but the strict record cannot safely choose a current Visa/RuPay variant or distinct joining-fee treatment.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current product page and MITC establish rewards, lounge and forex, but the issued Visa/RuPay variant and a distinct joining fee are not explicit enough for the strict flat schema.",
+      "reward": "Research note: Current AU MITC and product terms establish fees, rewards, lounge and forex, but the strict record cannot safely choose a current Visa/RuPay variant or distinct joining-fee treatment.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current product page and MITC establish rewards, lounge and forex, but the issued Visa/RuPay variant and a distinct joining fee are not explicit enough for the strict flat schema."
+        "Current AU MITC and product terms establish fees, rewards, lounge and forex, but the strict record cannot safely choose a current Visa/RuPay variant or distinct joining-fee treatment."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -589,18 +589,18 @@
       "issuer": "AU Small Finance Bank",
       "name": "ZENITH Credit Card",
       "source": "https://www.aubank.in/personal-banking/credit-cards",
-      "research_note": "The current MITC lists the card and charges, but current new-application availability and the issued network were not both established from a product-specific page.",
+      "research_note": "Current AU MITC establishes ₹7,999 joining and annual fees, while official terms identify a Visa lounge variant, but a single current product source does not publish the complete reward and network package unambiguously.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current MITC lists the card and charges, but current new-application availability and the issued network were not both established from a product-specific page.",
+      "reward": "Research note: Current AU MITC establishes ₹7,999 joining and annual fees, while official terms identify a Visa lounge variant, but a single current product source does not publish the complete reward and network package unambiguously.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current MITC lists the card and charges, but current new-application availability and the issued network were not both established from a product-specific page."
+        "Current AU MITC establishes ₹7,999 joining and annual fees, while official terms identify a Visa lounge variant, but a single current product source does not publish the complete reward and network package unambiguously."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -702,18 +702,18 @@
       "issuer": "Axis Bank",
       "name": "AURA Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "The current product page and fee schedule do not unambiguously establish a single current network and lounge classification.",
+      "research_note": "Current official MITC and terms establish the product and charges, but a single current network and complete lounge classification are not explicitly published.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current product page and fee schedule do not unambiguously establish a single current network and lounge classification.",
+      "reward": "Research note: Current official MITC and terms establish the product and charges, but a single current network and complete lounge classification are not explicitly published.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current product page and fee schedule do not unambiguously establish a single current network and lounge classification."
+        "Current official MITC and terms establish the product and charges, but a single current network and complete lounge classification are not explicitly published."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -816,18 +816,18 @@
       "issuer": "Axis Bank",
       "name": "HORIZON Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "The official page verifies travel rewards and lounge benefits, but the current network is not explicitly established in the checked product text.",
+      "research_note": "Current official terms establish fees, miles, forex and lounge benefits, but do not explicitly identify one issued network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The official page verifies travel rewards and lounge benefits, but the current network is not explicitly established in the checked product text.",
+      "reward": "Research note: Current official terms establish fees, miles, forex and lounge benefits, but do not explicitly identify one issued network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The official page verifies travel rewards and lounge benefits, but the current network is not explicitly established in the checked product text."
+        "Current official terms establish fees, miles, forex and lounge benefits, but do not explicitly identify one issued network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -861,18 +861,18 @@
       "issuer": "Axis Bank",
       "name": "LIC Axis Bank Platinum Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "The current page verifies fees, rewards and forex, but the network is not explicitly stated in the checked official text.",
+      "research_note": "Current official material establishes fees, rewards and forex, but does not explicitly state the currently issued network or a complete lounge classification.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current page verifies fees, rewards and forex, but the network is not explicitly stated in the checked official text.",
+      "reward": "Research note: Current official material establishes fees, rewards and forex, but does not explicitly state the currently issued network or a complete lounge classification.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current page verifies fees, rewards and forex, but the network is not explicitly stated in the checked official text."
+        "Current official material establishes fees, rewards and forex, but does not explicitly state the currently issued network or a complete lounge classification."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -883,18 +883,18 @@
       "issuer": "Axis Bank",
       "name": "LIC Axis Bank Signature Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "The current page verifies fees, rewards, lounge and forex, but the network is not explicitly stated in the checked official text.",
+      "research_note": "Current official material establishes fees, rewards, lounge and forex, but does not explicitly state the currently issued network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current page verifies fees, rewards, lounge and forex, but the network is not explicitly stated in the checked official text.",
+      "reward": "Research note: Current official material establishes fees, rewards, lounge and forex, but does not explicitly state the currently issued network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current page verifies fees, rewards, lounge and forex, but the network is not explicitly stated in the checked official text."
+        "Current official material establishes fees, rewards, lounge and forex, but does not explicitly state the currently issued network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -905,18 +905,18 @@
       "issuer": "Axis Bank",
       "name": "MAGNUS Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "Current official fees, rewards and lounge benefits are available, but the checked official text does not unambiguously establish the card network.",
+      "research_note": "Current official product and fee material establish fees, rewards, forex and lounge benefits, but do not explicitly identify one current network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees, rewards and lounge benefits are available, but the checked official text does not unambiguously establish the card network.",
+      "reward": "Research note: Current official product and fee material establish fees, rewards, forex and lounge benefits, but do not explicitly identify one current network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees, rewards and lounge benefits are available, but the checked official text does not unambiguously establish the card network."
+        "Current official product and fee material establish fees, rewards, forex and lounge benefits, but do not explicitly identify one current network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -927,18 +927,18 @@
       "issuer": "Axis Bank",
       "name": "MAGNUS for Burgundy",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "Current official fees and benefits are available, but the checked official text does not unambiguously establish the current card network.",
+      "research_note": "Current official fee and benefit material establishes the premium product, but does not explicitly identify one current network variant.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees and benefits are available, but the checked official text does not unambiguously establish the current card network.",
+      "reward": "Research note: Current official fee and benefit material establishes the premium product, but does not explicitly identify one current network variant.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees and benefits are available, but the checked official text does not unambiguously establish the current card network."
+        "Current official fee and benefit material establishes the premium product, but does not explicitly identify one current network variant."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -949,18 +949,18 @@
       "issuer": "Axis Bank",
       "name": "MY ZONE Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "Current official benefits and charges are published, but the checked text does not unambiguously establish the currently issued card network.",
+      "research_note": "Current official fees and benefits are available, but official materials show Visa, Mastercard and RuPay variants; one network cannot be selected for this broad queue record.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official benefits and charges are published, but the checked text does not unambiguously establish the currently issued card network.",
+      "reward": "Research note: Current official fees and benefits are available, but official materials show Visa, Mastercard and RuPay variants; one network cannot be selected for this broad queue record.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official benefits and charges are published, but the checked text does not unambiguously establish the currently issued card network."
+        "Current official fees and benefits are available, but official materials show Visa, Mastercard and RuPay variants; one network cannot be selected for this broad queue record."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1017,18 +1017,18 @@
       "issuer": "Axis Bank",
       "name": "PNB Axis Bank Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "No current product-specific application page or entry in the current Axis Bank retail-card fee sheet was found; no official discontinuation notice was found either.",
+      "research_note": "The current Axis retail catalog and fee material do not establish a current product-specific application path, network or complete strict field set; no official discontinuation notice was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: No current product-specific application page or entry in the current Axis Bank retail-card fee sheet was found; no official discontinuation notice was found either.",
+      "reward": "Research note: The current Axis retail catalog and fee material do not establish a current product-specific application path, network or complete strict field set; no official discontinuation notice was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "No current product-specific application page or entry in the current Axis Bank retail-card fee sheet was found; no official discontinuation notice was found either."
+        "The current Axis retail catalog and fee material do not establish a current product-specific application path, network or complete strict field set; no official discontinuation notice was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1038,41 +1038,44 @@
       "id": "axis-primus",
       "issuer": "Axis Bank",
       "name": "PRIMUS Credit Card",
-      "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "The current official fee schedule verifies fees and zero forex markup, but the public material checked does not safely establish a single network and normalized reward description.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa",
+      "joining_fee": 500000,
+      "annual_fee": 300000,
       "waiver_spend": null,
-      "reward": "Research note: The current official fee schedule verifies fees and zero forex markup, but the public material checked does not safely establish a single network and normalized reward description.",
+      "reward": "1 EDGE Mile per ₹100 spent on all transactions",
       "categories": [
-        "discovery"
+        "premium",
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "The current official fee schedule verifies fees and zero forex markup, but the public material checked does not safely establish a single network and normalized reward description."
+        "Invite-only ultra-premium card",
+        "Unlimited domestic lounge access at participating airports",
+        "No foreign-currency transaction fee; 1.5% + GST DCC markup applies when an international transaction is billed in INR"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "unlimited",
+      "forex_markup": 0,
+      "verification": "verified",
+      "source": "https://www.axisbank.com/docs/default-source/default-document-library/credit-cards/terms-and-conditions-for-axis-bank-primus-credit-card.pdf"
     },
     {
       "id": "axis-privilege",
       "issuer": "Axis Bank",
       "name": "PRIVILEGE Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "Official benefits and fees are available, but the current product name and network variant are not sufficiently normalized for a strict record.",
+      "research_note": "Current official material establishes fees and benefits, but the public record does not normalize one current network variant for this product.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Official benefits and fees are available, but the current product name and network variant are not sufficiently normalized for a strict record.",
+      "reward": "Research note: Current official material establishes fees and benefits, but the public record does not normalize one current network variant for this product.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Official benefits and fees are available, but the current product name and network variant are not sufficiently normalized for a strict record."
+        "Current official material establishes fees and benefits, but the public record does not normalize one current network variant for this product."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1083,18 +1086,18 @@
       "issuer": "Axis Bank",
       "name": "RESERVE Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "Current official fees and premium benefits are available, but the checked official text does not unambiguously establish the current network.",
+      "research_note": "Current official benefit and fee material establishes unlimited lounge access and pricing, but does not explicitly identify one current network or a complete reward description.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees and premium benefits are available, but the checked official text does not unambiguously establish the current network.",
+      "reward": "Research note: Current official benefit and fee material establishes unlimited lounge access and pricing, but does not explicitly identify one current network or a complete reward description.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees and premium benefits are available, but the checked official text does not unambiguously establish the current network."
+        "Current official benefit and fee material establishes unlimited lounge access and pricing, but does not explicitly identify one current network or a complete reward description."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1105,18 +1108,18 @@
       "issuer": "Axis Bank",
       "name": "Rewards Credit Card",
       "source": "https://www.axisbank.com/retail/cards/credit-card",
-      "research_note": "Current official rewards, lounge and charges are published, but the checked official text does not unambiguously establish the card network.",
+      "research_note": "The current official terms establish fees, rewards, forex and lounge benefits, but the product is not tied to one explicitly published current network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official rewards, lounge and charges are published, but the checked official text does not unambiguously establish the card network.",
+      "reward": "Research note: The current official terms establish fees, rewards, forex and lounge benefits, but the product is not tied to one explicitly published current network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official rewards, lounge and charges are published, but the checked official text does not unambiguously establish the card network."
+        "The current official terms establish fees, rewards, forex and lounge benefits, but the product is not tied to one explicitly published current network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1174,18 +1177,18 @@
       "issuer": "Bandhan Bank",
       "name": "Bandhan Bank One Credit Card",
       "source": "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf",
-      "research_note": "Only the official 2020 launch release remains; no current Bandhan catalog or application path establishes current issuance.",
+      "research_note": "Only Bandhan's official 2020 launch release was found; no current Bandhan catalog or application path establishes current issuance, and no official discontinuation notice was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Only the official 2020 launch release remains; no current Bandhan catalog or application path establishes current issuance.",
+      "reward": "Research note: Only Bandhan's official 2020 launch release was found; no current Bandhan catalog or application path establishes current issuance, and no official discontinuation notice was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Only the official 2020 launch release remains; no current Bandhan catalog or application path establishes current issuance."
+        "Only Bandhan's official 2020 launch release was found; no current Bandhan catalog or application path establishes current issuance, and no official discontinuation notice was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1196,18 +1199,18 @@
       "issuer": "Bandhan Bank",
       "name": "Bandhan Bank Plus Credit Card",
       "source": "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf",
-      "research_note": "Only the official 2020 launch release remains; no current Bandhan catalog or application path establishes current issuance.",
+      "research_note": "Only Bandhan's official 2020 launch release was found; no current Bandhan catalog or application path establishes current issuance, and no official discontinuation notice was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Only the official 2020 launch release remains; no current Bandhan catalog or application path establishes current issuance.",
+      "reward": "Research note: Only Bandhan's official 2020 launch release was found; no current Bandhan catalog or application path establishes current issuance, and no official discontinuation notice was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Only the official 2020 launch release remains; no current Bandhan catalog or application path establishes current issuance."
+        "Only Bandhan's official 2020 launch release was found; no current Bandhan catalog or application path establishes current issuance, and no official discontinuation notice was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1218,18 +1221,18 @@
       "issuer": "Bandhan Bank",
       "name": "Bandhan Bank Xclusive Credit Card",
       "source": "https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf",
-      "research_note": "Only the official 2020 launch release remains; no current Bandhan catalog or application path establishes current issuance.",
+      "research_note": "Only Bandhan's official 2020 launch release was found; no current Bandhan catalog or application path establishes current issuance, and no official discontinuation notice was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Only the official 2020 launch release remains; no current Bandhan catalog or application path establishes current issuance.",
+      "reward": "Research note: Only Bandhan's official 2020 launch release was found; no current Bandhan catalog or application path establishes current issuance, and no official discontinuation notice was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Only the official 2020 launch release remains; no current Bandhan catalog or application path establishes current issuance."
+        "Only Bandhan's official 2020 launch release was found; no current Bandhan catalog or application path establishes current issuance, and no official discontinuation notice was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1594,18 +1597,18 @@
       "issuer": "Bank of Baroda",
       "name": "TiE BOBCARD",
       "source": "https://www.bobcard.co.in/credit-card",
-      "research_note": "No current consumer product page or current BOBCARD MITC or KFS entry was found, and no official discontinuation notice was located.",
+      "research_note": "The current BOBCARD catalog, application flow, and fee material do not list TiE BOBCARD as a current consumer product; no official discontinuation notice was found to support retirement.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: No current consumer product page or current BOBCARD MITC or KFS entry was found, and no official discontinuation notice was located.",
+      "reward": "Research note: The current BOBCARD catalog, application flow, and fee material do not list TiE BOBCARD as a current consumer product; no official discontinuation notice was found to support retirement.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "No current consumer product page or current BOBCARD MITC or KFS entry was found, and no official discontinuation notice was located."
+        "The current BOBCARD catalog, application flow, and fee material do not list TiE BOBCARD as a current consumer product; no official discontinuation notice was found to support retirement."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1616,18 +1619,18 @@
       "issuer": "Bank of India",
       "name": "BOI International Credit Card",
       "source": "https://bankofindia.co.in/credit-card",
-      "research_note": "The queue name is a broad usage label rather than one current product; Bank of India currently lists several distinct international Visa and RuPay cards, while Mastercard issuance is discontinued.",
+      "research_note": "The current official BOI MITC lists several distinct Visa and RuPay international products and separately states Mastercard issuance is discontinued; the broad International queue label cannot be normalized to one product/network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The queue name is a broad usage label rather than one current product; Bank of India currently lists several distinct international Visa and RuPay cards, while Mastercard issuance is discontinued.",
+      "reward": "Research note: The current official BOI MITC lists several distinct Visa and RuPay international products and separately states Mastercard issuance is discontinued; the broad International queue label cannot be normalized to one product/network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The queue name is a broad usage label rather than one current product; Bank of India currently lists several distinct international Visa and RuPay cards, while Mastercard issuance is discontinued."
+        "The current official BOI MITC lists several distinct Visa and RuPay international products and separately states Mastercard issuance is discontinued; the broad International queue label cannot be normalized to one product/network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -1939,18 +1942,18 @@
       "issuer": "City Union Bank",
       "name": "CUB Chennai Super Kings Credit Card",
       "source": "https://cityunionbank.com/csk-srh-mitc-kfs",
-      "research_note": "This is a family placeholder, not one product; the official KFS splits it into RuPay Platinum, Mastercard Platinum and Mastercard World variants that are already represented separately.",
+      "research_note": "The current official CUB MITC/KFS split CSK into RuPay Platinum, Mastercard Platinum, and Mastercard World variants; this family placeholder cannot be promoted as one normalized card and the variants are represented separately.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: This is a family placeholder, not one product; the official KFS splits it into RuPay Platinum, Mastercard Platinum and Mastercard World variants that are already represented separately.",
+      "reward": "Research note: The current official CUB MITC/KFS split CSK into RuPay Platinum, Mastercard Platinum, and Mastercard World variants; this family placeholder cannot be promoted as one normalized card and the variants are represented separately.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "This is a family placeholder, not one product; the official KFS splits it into RuPay Platinum, Mastercard Platinum and Mastercard World variants that are already represented separately."
+        "The current official CUB MITC/KFS split CSK into RuPay Platinum, Mastercard Platinum, and Mastercard World variants; this family placeholder cannot be promoted as one normalized card and the variants are represented separately."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2152,18 +2155,18 @@
       "issuer": "City Union Bank",
       "name": "CUB Sunrisers Hyderabad Credit Card",
       "source": "https://cityunionbank.com/csk-srh-mitc-kfs",
-      "research_note": "This is a family placeholder, not one product; the official KFS splits it into RuPay Platinum, Mastercard Platinum and Mastercard World variants that are already represented separately.",
+      "research_note": "The current official CUB MITC/KFS split SRH into RuPay Platinum, Mastercard Platinum, and Mastercard World variants; this family placeholder cannot be promoted as one normalized card and the variants are represented separately.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: This is a family placeholder, not one product; the official KFS splits it into RuPay Platinum, Mastercard Platinum and Mastercard World variants that are already represented separately.",
+      "reward": "Research note: The current official CUB MITC/KFS split SRH into RuPay Platinum, Mastercard Platinum, and Mastercard World variants; this family placeholder cannot be promoted as one normalized card and the variants are represented separately.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "This is a family placeholder, not one product; the official KFS splits it into RuPay Platinum, Mastercard Platinum and Mastercard World variants that are already represented separately."
+        "The current official CUB MITC/KFS split SRH into RuPay Platinum, Mastercard Platinum, and Mastercard World variants; this family placeholder cannot be promoted as one normalized card and the variants are represented separately."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2289,18 +2292,18 @@
       "issuer": "DCB Bank",
       "name": "DCB Niyo Credit Card",
       "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
-      "research_note": "Current official material verifies lifetime-free fees and zero forex markup, but no product reward programme or lounge value is published.",
+      "research_note": "The current official DCB Niyo page verifies lifetime-free fees and zero forex markup, but does not publish a product reward programme or lounge value needed for strict normalization.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official material verifies lifetime-free fees and zero forex markup, but no product reward programme or lounge value is published.",
+      "reward": "Research note: The current official DCB Niyo page verifies lifetime-free fees and zero forex markup, but does not publish a product reward programme or lounge value needed for strict normalization.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official material verifies lifetime-free fees and zero forex markup, but no product reward programme or lounge value is published."
+        "The current official DCB Niyo page verifies lifetime-free fees and zero forex markup, but does not publish a product reward programme or lounge value needed for strict normalization."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2383,18 +2386,18 @@
       "issuer": "DCB Bank",
       "name": "DCB ZET Credit Card",
       "source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
-      "research_note": "Current official material verifies fees, partner rewards and forex markup, but no schema-compatible lounge value is published.",
+      "research_note": "The current official DCB ZET page verifies RuPay issuance, lifetime-free renewal, and cashback/discount benefits, but the page conflicts on forex markup (2.49% fee table versus 3.5% FAQ) and does not publish a schema-compatible lounge value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official material verifies fees, partner rewards and forex markup, but no schema-compatible lounge value is published.",
+      "reward": "Research note: The current official DCB ZET page verifies RuPay issuance, lifetime-free renewal, and cashback/discount benefits, but the page conflicts on forex markup (2.49% fee table versus 3.5% FAQ) and does not publish a schema-compatible lounge value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official material verifies fees, partner rewards and forex markup, but no schema-compatible lounge value is published."
+        "The current official DCB ZET page verifies RuPay issuance, lifetime-free renewal, and cashback/discount benefits, but the page conflicts on forex markup (2.49% fee table versus 3.5% FAQ) and does not publish a schema-compatible lounge value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2428,18 +2431,18 @@
       "issuer": "Equitas Small Finance Bank",
       "name": "PowerMiles Credit Card",
       "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/",
-      "research_note": "Current fees, rewards, lounge entitlement and forex markup are available, but the official text does not unambiguously identify the card network.",
+      "research_note": "Current official Equitas pricing and MITC establish fees, rewards, lounge entitlement, and forex charges, but the official product text does not unambiguously identify the issued network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current fees, rewards, lounge entitlement and forex markup are available, but the official text does not unambiguously identify the card network.",
+      "reward": "Research note: Current official Equitas pricing and MITC establish fees, rewards, lounge entitlement, and forex charges, but the official product text does not unambiguously identify the issued network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current fees, rewards, lounge entitlement and forex markup are available, but the official text does not unambiguously identify the card network."
+        "Current official Equitas pricing and MITC establish fees, rewards, lounge entitlement, and forex charges, but the official product text does not unambiguously identify the issued network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2473,18 +2476,18 @@
       "issuer": "Equitas Small Finance Bank",
       "name": "Tiga Credit Card",
       "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/",
-      "research_note": "Current fees, waiver, rewards, RuPay network and forex markup are available, but official material does not publish a schema-compatible lounge status for Tiga.",
+      "research_note": "Current official Equitas pricing and MITC establish fees, rewards, RuPay-related features, and forex charges, but do not publish a schema-compatible lounge status for Tiga.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current fees, waiver, rewards, RuPay network and forex markup are available, but official material does not publish a schema-compatible lounge status for Tiga.",
+      "reward": "Research note: Current official Equitas pricing and MITC establish fees, rewards, RuPay-related features, and forex charges, but do not publish a schema-compatible lounge status for Tiga.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current fees, waiver, rewards, RuPay network and forex markup are available, but official material does not publish a schema-compatible lounge status for Tiga."
+        "Current official Equitas pricing and MITC establish fees, rewards, RuPay-related features, and forex charges, but do not publish a schema-compatible lounge status for Tiga."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2591,18 +2594,18 @@
       "issuer": "HDFC Bank",
       "name": "BizBlack Metal Edition",
       "source": "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards",
-      "research_note": "Current official pages establish benefits and waiver threshold, but the checked fee schedules rendered required fee and forex table cells ambiguously.",
+      "research_note": "Current HDFC Bank business-card materials establish benefits and fees, but the checked official fee material does not unambiguously establish the issued network and numeric forex markup for BizBlack Metal Edition.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official pages establish benefits and waiver threshold, but the checked fee schedules rendered required fee and forex table cells ambiguously.",
+      "reward": "Research note: Current HDFC Bank business-card materials establish benefits and fees, but the checked official fee material does not unambiguously establish the issued network and numeric forex markup for BizBlack Metal Edition.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official pages establish benefits and waiver threshold, but the checked fee schedules rendered required fee and forex table cells ambiguously."
+        "Current HDFC Bank business-card materials establish benefits and fees, but the checked official fee material does not unambiguously establish the issued network and numeric forex markup for BizBlack Metal Edition."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2613,18 +2616,18 @@
       "issuer": "HDFC Bank",
       "name": "BizGrow Credit Card",
       "source": "https://www.hdfc.bank.in/business-credit-cards/biz-grow-credit-card",
-      "research_note": "Current official pages verify ₹500 joining and renewal fees, a ₹1 lakh annual-fee waiver, 3.5% forex markup and the reward structure, but they link both Visa and Mastercard network benefits without establishing the currently issued network.",
+      "research_note": "Current HDFC Bank materials establish fees, waiver, rewards, and 3.5% forex, but reference both Visa and Mastercard network benefits without establishing the currently issued network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official pages verify ₹500 joining and renewal fees, a ₹1 lakh annual-fee waiver, 3.5% forex markup and the reward structure, but they link both Visa and Mastercard network benefits without establishing the currently issued network.",
+      "reward": "Research note: Current HDFC Bank materials establish fees, waiver, rewards, and 3.5% forex, but reference both Visa and Mastercard network benefits without establishing the currently issued network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official pages verify ₹500 joining and renewal fees, a ₹1 lakh annual-fee waiver, 3.5% forex markup and the reward structure, but they link both Visa and Mastercard network benefits without establishing the currently issued network."
+        "Current HDFC Bank materials establish fees, waiver, rewards, and 3.5% forex, but reference both Visa and Mastercard network benefits without establishing the currently issued network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2635,18 +2638,18 @@
       "issuer": "HDFC Bank",
       "name": "BizPower Credit Card",
       "source": "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards",
-      "research_note": "Current official pages establish fee, waiver, rewards and forex, but the issued network was not explicit enough for the required non-null network field.",
+      "research_note": "HDFC Bank's current page states ₹2,500 fee, rewards, and lounge benefits, but lists Visa and Mastercard network-partner benefits rather than one issued network and does not state product-level forex markup.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official pages establish fee, waiver, rewards and forex, but the issued network was not explicit enough for the required non-null network field.",
+      "reward": "Research note: HDFC Bank's current page states ₹2,500 fee, rewards, and lounge benefits, but lists Visa and Mastercard network-partner benefits rather than one issued network and does not state product-level forex markup.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official pages establish fee, waiver, rewards and forex, but the issued network was not explicit enough for the required non-null network field."
+        "HDFC Bank's current page states ₹2,500 fee, rewards, and lounge benefits, but lists Visa and Mastercard network-partner benefits rather than one issued network and does not state product-level forex markup."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2727,18 +2730,18 @@
       "issuer": "HDFC Bank",
       "name": "HDFC Bank UPI RuPay Credit Card",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
-      "research_note": "The card is a virtual companion product; the checked official sources did not establish a single complete set of current fee, reward and forex fields.",
+      "research_note": "HDFC Bank presents this as a virtual RuPay companion whose fees and rewards depend on the linked primary card; no single product-level fee, reward, lounge, and forex record is established.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The card is a virtual companion product; the checked official sources did not establish a single complete set of current fee, reward and forex fields.",
+      "reward": "Research note: HDFC Bank presents this as a virtual RuPay companion whose fees and rewards depend on the linked primary card; no single product-level fee, reward, lounge, and forex record is established.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The card is a virtual companion product; the checked official sources did not establish a single complete set of current fee, reward and forex fields."
+        "HDFC Bank presents this as a virtual RuPay companion whose fees and rewards depend on the linked primary card; no single product-level fee, reward, lounge, and forex record is established."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2842,18 +2845,18 @@
       "issuer": "HDFC Bank",
       "name": "MoneyBack+",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
-      "research_note": "Current official fees are available, but the product page checked did not establish an exact currently issued network variant together with the complete current reward rules.",
+      "research_note": "Current HDFC Bank materials expose fees and reward benefits, but do not establish one currently issued network and a complete product-level forex markup record for this queue item.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees are available, but the product page checked did not establish an exact currently issued network variant together with the complete current reward rules.",
+      "reward": "Research note: Current HDFC Bank materials expose fees and reward benefits, but do not establish one currently issued network and a complete product-level forex markup record for this queue item.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees are available, but the product page checked did not establish an exact currently issued network variant together with the complete current reward rules."
+        "Current HDFC Bank materials expose fees and reward benefits, but do not establish one currently issued network and a complete product-level forex markup record for this queue item."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2864,18 +2867,18 @@
       "issuer": "HDFC Bank",
       "name": "Paytm HDFC Bank Select Credit Card",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
-      "research_note": "A current official benefits page remains online, but the checked official sources did not establish a complete, internally consistent current fee and network record.",
+      "research_note": "The current HDFC Bank page confirms ₹1,000 annual fee, Visa/Mastercard acceptance, cashback, and domestic lounge access, but does not state a product-level numeric forex markup and does not establish one issued network variant.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: A current official benefits page remains online, but the checked official sources did not establish a complete, internally consistent current fee and network record.",
+      "reward": "Research note: The current HDFC Bank page confirms ₹1,000 annual fee, Visa/Mastercard acceptance, cashback, and domestic lounge access, but does not state a product-level numeric forex markup and does not establish one issued network variant.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "A current official benefits page remains online, but the checked official sources did not establish a complete, internally consistent current fee and network record."
+        "The current HDFC Bank page confirms ₹1,000 annual fee, Visa/Mastercard acceptance, cashback, and domestic lounge access, but does not state a product-level numeric forex markup and does not establish one issued network variant."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2886,18 +2889,18 @@
       "issuer": "HDFC Bank",
       "name": "PhonePe HDFC Bank Ultimo Credit Card",
       "source": "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-ultimo-credit-card",
-      "research_note": "The current official product page verifies ₹999 joining and annual fees, a ₹2 lakh renewal-fee waiver, rewards and conditional domestic lounge access, but it does not explicitly establish the issued network or numeric forex markup.",
+      "research_note": "HDFC Bank's current product page confirms fees, waiver, rewards, and conditional domestic lounge access, but does not explicitly establish the issued network and numeric forex markup together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current official product page verifies ₹999 joining and annual fees, a ₹2 lakh renewal-fee waiver, rewards and conditional domestic lounge access, but it does not explicitly establish the issued network or numeric forex markup.",
+      "reward": "Research note: HDFC Bank's current product page confirms fees, waiver, rewards, and conditional domestic lounge access, but does not explicitly establish the issued network and numeric forex markup together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current official product page verifies ₹999 joining and annual fees, a ₹2 lakh renewal-fee waiver, rewards and conditional domestic lounge access, but it does not explicitly establish the issued network or numeric forex markup."
+        "HDFC Bank's current product page confirms fees, waiver, rewards, and conditional domestic lounge access, but does not explicitly establish the issued network and numeric forex markup together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2908,18 +2911,18 @@
       "issuer": "HDFC Bank",
       "name": "PhonePe HDFC Bank Uno Credit Card",
       "source": "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-uno-credit-card",
-      "research_note": "The current official product page verifies ₹499 joining and annual fees, a ₹1 lakh renewal-fee waiver and rewards, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "research_note": "HDFC Bank's current product page confirms fees, waiver, and rewards, but does not explicitly establish the issued network, product-level lounge classification, and numeric forex markup together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current official product page verifies ₹499 joining and annual fees, a ₹1 lakh renewal-fee waiver and rewards, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "reward": "Research note: HDFC Bank's current product page confirms fees, waiver, and rewards, but does not explicitly establish the issued network, product-level lounge classification, and numeric forex markup together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current official product page verifies ₹499 joining and annual fees, a ₹1 lakh renewal-fee waiver and rewards, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup."
+        "HDFC Bank's current product page confirms fees, waiver, and rewards, but does not explicitly establish the issued network, product-level lounge classification, and numeric forex markup together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2930,18 +2933,18 @@
       "issuer": "HDFC Bank",
       "name": "PIXEL Go Credit Card",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
-      "research_note": "The April 2026 official MITC establishes the fee and waiver, but the current official materials checked did not unambiguously expose every required network and reward field.",
+      "research_note": "Current HDFC Bank materials describe the PIXEL Go product and network/customization model, but do not establish one normalized currently issued network and complete current fee, reward, lounge, and forex record.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The April 2026 official MITC establishes the fee and waiver, but the current official materials checked did not unambiguously expose every required network and reward field.",
+      "reward": "Research note: Current HDFC Bank materials describe the PIXEL Go product and network/customization model, but do not establish one normalized currently issued network and complete current fee, reward, lounge, and forex record.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The April 2026 official MITC establishes the fee and waiver, but the current official materials checked did not unambiguously expose every required network and reward field."
+        "Current HDFC Bank materials describe the PIXEL Go product and network/customization model, but do not establish one normalized currently issued network and complete current fee, reward, lounge, and forex record."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2952,18 +2955,18 @@
       "issuer": "HDFC Bank",
       "name": "PIXEL Play Credit Card",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
-      "research_note": "The April 2026 official MITC establishes the fee and waiver, but the current official materials checked did not unambiguously expose every required network and reward field.",
+      "research_note": "The current HDFC Bank page confirms Visa/RuPay choice, cashback, renewal waiver, and 3.5% foreign-transaction charge, but it describes customer-selectable network combinations rather than one product-level network value suitable for this broad queue ID.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The April 2026 official MITC establishes the fee and waiver, but the current official materials checked did not unambiguously expose every required network and reward field.",
+      "reward": "Research note: The current HDFC Bank page confirms Visa/RuPay choice, cashback, renewal waiver, and 3.5% foreign-transaction charge, but it describes customer-selectable network combinations rather than one product-level network value suitable for this broad queue ID.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The April 2026 official MITC establishes the fee and waiver, but the current official materials checked did not unambiguously expose every required network and reward field."
+        "The current HDFC Bank page confirms Visa/RuPay choice, cashback, renewal waiver, and 3.5% foreign-transaction charge, but it describes customer-selectable network combinations rather than one product-level network value suitable for this broad queue ID."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -2997,18 +3000,18 @@
       "issuer": "HDFC Bank",
       "name": "Shoppers Stop BLACK HDFC Bank Credit Card",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
-      "research_note": "The current official catalog establishes the product, but a single current official source set did not establish all required fee, network, reward and forex fields.",
+      "research_note": "HDFC Bank's current fee page and terms expose fees, rewards, and DCC information, but the checked official materials do not establish the issued network and a durable numeric forex markup together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current official catalog establishes the product, but a single current official source set did not establish all required fee, network, reward and forex fields.",
+      "reward": "Research note: HDFC Bank's current fee page and terms expose fees, rewards, and DCC information, but the checked official materials do not establish the issued network and a durable numeric forex markup together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current official catalog establishes the product, but a single current official source set did not establish all required fee, network, reward and forex fields."
+        "HDFC Bank's current fee page and terms expose fees, rewards, and DCC information, but the checked official materials do not establish the issued network and a durable numeric forex markup together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3019,18 +3022,18 @@
       "issuer": "HDFC Bank",
       "name": "Shoppers Stop HDFC Bank Credit Card",
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
-      "research_note": "The current official catalog establishes the product, but a single current official source set did not establish all required fee, network, reward and forex fields.",
+      "research_note": "HDFC Bank's current Shoppers Stop FAQ confirms separate mass and premium variants; the checked official materials do not provide one normalized network, fee, reward, lounge, and forex package for the mass variant.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current official catalog establishes the product, but a single current official source set did not establish all required fee, network, reward and forex fields.",
+      "reward": "Research note: HDFC Bank's current Shoppers Stop FAQ confirms separate mass and premium variants; the checked official materials do not provide one normalized network, fee, reward, lounge, and forex package for the mass variant.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current official catalog establishes the product, but a single current official source set did not establish all required fee, network, reward and forex fields."
+        "HDFC Bank's current Shoppers Stop FAQ confirms separate mass and premium variants; the checked official materials do not provide one normalized network, fee, reward, lounge, and forex package for the mass variant."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3041,18 +3044,18 @@
       "issuer": "HDFC Bank",
       "name": "Swiggy BLCK HDFC Bank Credit Card",
       "source": "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
-      "research_note": "The current official product page verifies ₹1,000 joining and renewal fees, a ₹2 lakh renewal-fee waiver, cashback and Mastercard golf benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "research_note": "HDFC Bank's current product page confirms fees, waiver, cashback, and Mastercard golf benefits, but does not establish a complete product-level lounge classification and numeric forex markup for promotion.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current official product page verifies ₹1,000 joining and renewal fees, a ₹2 lakh renewal-fee waiver, cashback and Mastercard golf benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "reward": "Research note: HDFC Bank's current product page confirms fees, waiver, cashback, and Mastercard golf benefits, but does not establish a complete product-level lounge classification and numeric forex markup for promotion.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current official product page verifies ₹1,000 joining and renewal fees, a ₹2 lakh renewal-fee waiver, cashback and Mastercard golf benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup."
+        "HDFC Bank's current product page confirms fees, waiver, cashback, and Mastercard golf benefits, but does not establish a complete product-level lounge classification and numeric forex markup for promotion."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3086,18 +3089,18 @@
       "issuer": "HDFC Bank",
       "name": "Swiggy Ornge HDFC Bank Credit Card",
       "source": "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
-      "research_note": "The current official product page verifies ₹500 joining and renewal fees, a ₹1.5 lakh renewal-fee waiver and cashback benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "research_note": "HDFC Bank's current product page confirms fees, waiver, and cashback, but does not explicitly establish the issued network, product-level lounge classification, and numeric forex markup together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current official product page verifies ₹500 joining and renewal fees, a ₹1.5 lakh renewal-fee waiver and cashback benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup.",
+      "reward": "Research note: HDFC Bank's current product page confirms fees, waiver, and cashback, but does not explicitly establish the issued network, product-level lounge classification, and numeric forex markup together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current official product page verifies ₹500 joining and renewal fees, a ₹1.5 lakh renewal-fee waiver and cashback benefits, but it does not explicitly establish the issued network, product-level lounge classification or numeric forex markup."
+        "HDFC Bank's current product page confirms fees, waiver, and cashback, but does not explicitly establish the issued network, product-level lounge classification, and numeric forex markup together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3154,18 +3157,18 @@
       "issuer": "HSBC India",
       "name": "HSBC RuPay Cashback Credit Card",
       "source": "https://www.hsbc.co.in/credit-cards/products/rupay-cashback-credit-card/",
-      "research_note": "The official 0% forex offer now runs through 31 August 2026; the checked official product materials still do not establish the post-offer numeric forex markup.",
+      "research_note": "HSBC India's current page confirms RuPay/JCB network, ₹499 fees, cashback, and lounge visits, but its 0% forex markup is only stated through 31 August 2026 and the checked official materials do not establish the post-offer numeric markup.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The official 0% forex offer now runs through 31 August 2026; the checked official product materials still do not establish the post-offer numeric forex markup.",
+      "reward": "Research note: HSBC India's current page confirms RuPay/JCB network, ₹499 fees, cashback, and lounge visits, but its 0% forex markup is only stated through 31 August 2026 and the checked official materials do not establish the post-offer numeric markup.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The official 0% forex offer now runs through 31 August 2026; the checked official product materials still do not establish the post-offer numeric forex markup."
+        "HSBC India's current page confirms RuPay/JCB network, ₹499 fees, cashback, and lounge visits, but its 0% forex markup is only stated through 31 August 2026 and the checked official materials do not establish the post-offer numeric markup."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3176,18 +3179,18 @@
       "issuer": "HSBC India",
       "name": "HSBC Taj Credit Card",
       "source": "https://www.hsbc.co.in/credit-cards/",
-      "research_note": "The official page establishes Visa Infinite, fees, rewards and lounge access, but no current official product-specific numeric forex markup was found.",
+      "research_note": "HSBC India's current Taj page confirms Visa Infinite benefits, ₹1,10,000 joining and annual fees, rewards, and unlimited lounge access, but no current official product-specific numeric forex markup was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The official page establishes Visa Infinite, fees, rewards and lounge access, but no current official product-specific numeric forex markup was found.",
+      "reward": "Research note: HSBC India's current Taj page confirms Visa Infinite benefits, ₹1,10,000 joining and annual fees, rewards, and unlimited lounge access, but no current official product-specific numeric forex markup was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The official page establishes Visa Infinite, fees, rewards and lounge access, but no current official product-specific numeric forex markup was found."
+        "HSBC India's current Taj page confirms Visa Infinite benefits, ₹1,10,000 joining and annual fees, rewards, and unlimited lounge access, but no current official product-specific numeric forex markup was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3361,18 +3364,18 @@
       "issuer": "ICICI Bank",
       "name": "Coral Credit Card",
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
-      "research_note": "The queue ID is a multi-network Coral family record and overlaps the existing product-specific icici-coral-rupay record; promoting another broad record would duplicate that live card.",
+      "research_note": "ICICI Bank's current Coral materials cover multiple network variants and the queue record overlaps the existing product-specific icici-coral-rupay record; promoting this broad ID would duplicate or collapse distinct variants.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The queue ID is a multi-network Coral family record and overlaps the existing product-specific icici-coral-rupay record; promoting another broad record would duplicate that live card.",
+      "reward": "Research note: ICICI Bank's current Coral materials cover multiple network variants and the queue record overlaps the existing product-specific icici-coral-rupay record; promoting this broad ID would duplicate or collapse distinct variants.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The queue ID is a multi-network Coral family record and overlaps the existing product-specific icici-coral-rupay record; promoting another broad record would duplicate that live card."
+        "ICICI Bank's current Coral materials cover multiple network variants and the queue record overlaps the existing product-specific icici-coral-rupay record; promoting this broad ID would duplicate or collapse distinct variants."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3406,18 +3409,18 @@
       "issuer": "ICICI Bank",
       "name": "Emeralde Credit Card",
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
-      "research_note": "The current product is live, but the official material describes multiple network-era benefits and does not establish one unambiguous current network value for this broad queue ID.",
+      "research_note": "ICICI Bank's current Emeralde page confirms fees, 2% forex, rewards, and unlimited lounge access, but describes American Express and other network-era variants without establishing one current network for this broad queue ID.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current product is live, but the official material describes multiple network-era benefits and does not establish one unambiguous current network value for this broad queue ID.",
+      "reward": "Research note: ICICI Bank's current Emeralde page confirms fees, 2% forex, rewards, and unlimited lounge access, but describes American Express and other network-era variants without establishing one current network for this broad queue ID.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current product is live, but the official material describes multiple network-era benefits and does not establish one unambiguous current network value for this broad queue ID."
+        "ICICI Bank's current Emeralde page confirms fees, 2% forex, rewards, and unlimited lounge access, but describes American Express and other network-era variants without establishing one current network for this broad queue ID."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3476,18 +3479,18 @@
       "issuer": "ICICI Bank",
       "name": "Expressions Credit Card",
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
-      "research_note": "The current catalog advertises an Expressions custom-design card, but the official product material does not establish a single network and complete product-level fee and benefit record distinct from the underlying card variant.",
+      "research_note": "ICICI Bank's current Expressions page confirms fees, rewards, and conditional lounge access, but does not establish a single issued network or product-level numeric forex markup for the customizable card.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current catalog advertises an Expressions custom-design card, but the official product material does not establish a single network and complete product-level fee and benefit record distinct from the underlying card variant.",
+      "reward": "Research note: ICICI Bank's current Expressions page confirms fees, rewards, and conditional lounge access, but does not establish a single issued network or product-level numeric forex markup for the customizable card.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current catalog advertises an Expressions custom-design card, but the official product material does not establish a single network and complete product-level fee and benefit record distinct from the underlying card variant."
+        "ICICI Bank's current Expressions page confirms fees, rewards, and conditional lounge access, but does not establish a single issued network or product-level numeric forex markup for the customizable card."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3498,18 +3501,18 @@
       "issuer": "ICICI Bank",
       "name": "HPCL Coral Credit Card",
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
-      "research_note": "The current product is live in American Express and Visa or Mastercard variants; one broad record cannot provide a single product-specific network without collapsing distinct variants.",
+      "research_note": "ICICI Bank's current HPCL Coral materials confirm fees, 3.5% forex, rewards, and benefits, but official material covers American Express and Visa/Mastercard variants without establishing one network value for this broad ID.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current product is live in American Express and Visa or Mastercard variants; one broad record cannot provide a single product-specific network without collapsing distinct variants.",
+      "reward": "Research note: ICICI Bank's current HPCL Coral materials confirm fees, 3.5% forex, rewards, and benefits, but official material covers American Express and Visa/Mastercard variants without establishing one network value for this broad ID.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current product is live in American Express and Visa or Mastercard variants; one broad record cannot provide a single product-specific network without collapsing distinct variants."
+        "ICICI Bank's current HPCL Coral materials confirm fees, 3.5% forex, rewards, and benefits, but official material covers American Express and Visa/Mastercard variants without establishing one network value for this broad ID."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3520,18 +3523,18 @@
       "issuer": "ICICI Bank",
       "name": "HPCL Super Saver Credit Card",
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
-      "research_note": "The current product is live, but official material references multiple network variants and does not establish one unambiguous network value for the broad queue record.",
+      "research_note": "ICICI Bank's current page confirms ₹500 fees, 3.5% forex, rewards, and conditional lounge access, but the official materials reference network variants without establishing one current network for the broad queue record.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current product is live, but official material references multiple network variants and does not establish one unambiguous network value for the broad queue record.",
+      "reward": "Research note: ICICI Bank's current page confirms ₹500 fees, 3.5% forex, rewards, and conditional lounge access, but the official materials reference network variants without establishing one current network for the broad queue record.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current product is live, but official material references multiple network variants and does not establish one unambiguous network value for the broad queue record."
+        "ICICI Bank's current page confirms ₹500 fees, 3.5% forex, rewards, and conditional lounge access, but the official materials reference network variants without establishing one current network for the broad queue record."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3567,18 +3570,18 @@
       "issuer": "ICICI Bank",
       "name": "Manchester United Platinum Credit Card",
       "source": "https://www.icicibank.com/personal-banking/cards/credit-card",
-      "research_note": "The card remains in official reference material but no current official statement explicitly confirms whether new applications are accepted or discontinued.",
+      "research_note": "ICICI Bank's current benefits material confirms a ₹499 joining fee and one quarterly lounge visit, but the checked official materials do not establish current annual fee, network, rewards, and forex fields together or clearly state issuance status.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The card remains in official reference material but no current official statement explicitly confirms whether new applications are accepted or discontinued.",
+      "reward": "Research note: ICICI Bank's current benefits material confirms a ₹499 joining fee and one quarterly lounge visit, but the checked official materials do not establish current annual fee, network, rewards, and forex fields together or clearly state issuance status.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The card remains in official reference material but no current official statement explicitly confirms whether new applications are accepted or discontinued."
+        "ICICI Bank's current benefits material confirms a ₹499 joining fee and one quarterly lounge visit, but the checked official materials do not establish current annual fee, network, rewards, and forex fields together or clearly state issuance status."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3684,18 +3687,18 @@
       "issuer": "IDBI Bank",
       "name": "IDBI Aspire Credit Card",
       "source": "https://www.idbibank.in/credit-card.aspx",
-      "research_note": "The current product page verifies fees, reward rate and forex markup, but no schema-compatible lounge value is published.",
+      "research_note": "The current official IDBI Aspire page verifies Visa issuance, fees, reward rate, and 3.5% forex markup, but publishes no product-level lounge status.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current product page verifies fees, reward rate and forex markup, but no schema-compatible lounge value is published.",
+      "reward": "Research note: The current official IDBI Aspire page verifies Visa issuance, fees, reward rate, and 3.5% forex markup, but publishes no product-level lounge status.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current product page verifies fees, reward rate and forex markup, but no schema-compatible lounge value is published."
+        "The current official IDBI Aspire page verifies Visa issuance, fees, reward rate, and 3.5% forex markup, but publishes no product-level lounge status."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3797,18 +3800,18 @@
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST Digital RuPay Credit Card",
       "source": "https://www.idfcfirstbank.com/credit-card",
-      "research_note": "Official policy states that charges, including forex markup, follow the linked primary card, so no single accurate numeric forex_markup exists.",
+      "research_note": "IDFC FIRST Bank's current UPI guide confirms RuPay issuance and ₹199 joining/annual fees for the standard digital card, while official policy states forex follows the linked primary card; no single accurate numeric forex markup exists.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Official policy states that charges, including forex markup, follow the linked primary card, so no single accurate numeric forex_markup exists.",
+      "reward": "Research note: IDFC FIRST Bank's current UPI guide confirms RuPay issuance and ₹199 joining/annual fees for the standard digital card, while official policy states forex follows the linked primary card; no single accurate numeric forex markup exists.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Official policy states that charges, including forex markup, follow the linked primary card, so no single accurate numeric forex_markup exists."
+        "IDFC FIRST Bank's current UPI guide confirms RuPay issuance and ₹199 joining/annual fees for the standard digital card, while official policy states forex follows the linked primary card; no single accurate numeric forex markup exists."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -3910,18 +3913,18 @@
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST Private Credit Card",
       "source": "https://www.idfcfirstbank.com/credit-card",
-      "research_note": "Current official fees, rewards, 0% forex and benefits are clear, but the checked current product guide does not explicitly identify the card network.",
+      "research_note": "IDFC FIRST Bank's current materials establish invitation-only benefits, ₹4,000 fees, 0% forex, rewards, and lounge access, but the checked current product material does not explicitly identify the credit-card network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees, rewards, 0% forex and benefits are clear, but the checked current product guide does not explicitly identify the card network.",
+      "reward": "Research note: IDFC FIRST Bank's current materials establish invitation-only benefits, ₹4,000 fees, 0% forex, rewards, and lounge access, but the checked current product material does not explicitly identify the credit-card network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees, rewards, 0% forex and benefits are clear, but the checked current product guide does not explicitly identify the card network."
+        "IDFC FIRST Bank's current materials establish invitation-only benefits, ₹4,000 fees, 0% forex, rewards, and lounge access, but the checked current product material does not explicitly identify the credit-card network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4047,18 +4050,18 @@
       "issuer": "Indian Bank",
       "name": "Bharat Credit Card",
       "source": "https://www.indianbank.in/departments/credit-card/",
-      "research_note": "The product is domestic-only and its official foreign-currency markup is not applicable, which cannot be represented by the catalog's required numeric forex_markup field without inventing a value.",
+      "research_note": "The current official Indian Bank fee schedule identifies Bharat as domestic-only with foreign-currency markup not applicable, which cannot be represented by the catalog's required numeric forex_markup field without inventing a value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product is domestic-only and its official foreign-currency markup is not applicable, which cannot be represented by the catalog's required numeric forex_markup field without inventing a value.",
+      "reward": "Research note: The current official Indian Bank fee schedule identifies Bharat as domestic-only with foreign-currency markup not applicable, which cannot be represented by the catalog's required numeric forex_markup field without inventing a value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product is domestic-only and its official foreign-currency markup is not applicable, which cannot be represented by the catalog's required numeric forex_markup field without inventing a value."
+        "The current official Indian Bank fee schedule identifies Bharat as domestic-only with foreign-currency markup not applicable, which cannot be represented by the catalog's required numeric forex_markup field without inventing a value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4069,18 +4072,18 @@
       "issuer": "Indian Bank",
       "name": "Indian Bank Gold Credit Card",
       "source": "https://www.indianbank.in/departments/credit-card/",
-      "research_note": "Current official fees, reward rate and forex markup are available, but official product material does not establish a schema-compatible lounge status.",
+      "research_note": "Current official Indian Bank fees, rewards, and forex markup are available, but the official product material does not establish a schema-compatible lounge status.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees, reward rate and forex markup are available, but official product material does not establish a schema-compatible lounge status.",
+      "reward": "Research note: Current official Indian Bank fees, rewards, and forex markup are available, but the official product material does not establish a schema-compatible lounge status.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees, reward rate and forex markup are available, but official product material does not establish a schema-compatible lounge status."
+        "Current official Indian Bank fees, rewards, and forex markup are available, but the official product material does not establish a schema-compatible lounge status."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4091,18 +4094,18 @@
       "issuer": "Indian Bank",
       "name": "Indian Bank Platinum Credit Card",
       "source": "https://www.indianbank.in/departments/credit-card/",
-      "research_note": "Current official fees, reward rate and forex markup are available, but official product material does not establish a schema-compatible lounge status.",
+      "research_note": "Current official Indian Bank fees, rewards, and forex markup are available, but the official product material does not establish a schema-compatible lounge status.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees, reward rate and forex markup are available, but official product material does not establish a schema-compatible lounge status.",
+      "reward": "Research note: Current official Indian Bank fees, rewards, and forex markup are available, but the official product material does not establish a schema-compatible lounge status.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees, reward rate and forex markup are available, but official product material does not establish a schema-compatible lounge status."
+        "Current official Indian Bank fees, rewards, and forex markup are available, but the official product material does not establish a schema-compatible lounge status."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4159,18 +4162,18 @@
       "issuer": "IndusInd Bank",
       "name": "Avios Visa Infinite Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "research_note": "The product is current, but its destination-dependent foreign-currency pricing cannot be represented truthfully by the catalog's single numeric forex_markup field.",
+      "research_note": "The current official product is live with Visa, fees, rewards and lounge benefits, but forex is destination-dependent (1.5% only at the selected destination and 3.5% elsewhere), which cannot be represented by one numeric schema field.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product is current, but its destination-dependent foreign-currency pricing cannot be represented truthfully by the catalog's single numeric forex_markup field.",
+      "reward": "Research note: The current official product is live with Visa, fees, rewards and lounge benefits, but forex is destination-dependent (1.5% only at the selected destination and 3.5% elsewhere), which cannot be represented by one numeric schema field.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product is current, but its destination-dependent foreign-currency pricing cannot be represented truthfully by the catalog's single numeric forex_markup field."
+        "The current official product is live with Visa, fees, rewards and lounge benefits, but forex is destination-dependent (1.5% only at the selected destination and 3.5% elsewhere), which cannot be represented by one numeric schema field."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4181,18 +4184,18 @@
       "issuer": "IndusInd Bank",
       "name": "Avios Visa Signature Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "research_note": "No current official product page or explicit official discontinuation notice was found for the Signature candidate.",
+      "research_note": "The current official IndusInd catalog and MITC list Avios Visa Infinite but not this Signature candidate; no explicit official discontinuation or supersession notice for this exact queue ID was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: No current official product page or explicit official discontinuation notice was found for the Signature candidate.",
+      "reward": "Research note: The current official IndusInd catalog and MITC list Avios Visa Infinite but not this Signature candidate; no explicit official discontinuation or supersession notice for this exact queue ID was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "No current official product page or explicit official discontinuation notice was found for the Signature candidate."
+        "The current official IndusInd catalog and MITC list Avios Visa Infinite but not this Signature candidate; no explicit official discontinuation or supersession notice for this exact queue ID was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4203,18 +4206,18 @@
       "issuer": "IndusInd Bank",
       "name": "Club Marriott Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "research_note": "Official IndusInd material describes Club Marriott as a benefit on other products, but no current consumer credit card product with this exact name or official discontinuation notice was found.",
+      "research_note": "Current official IndusInd material presents Club Marriott as a benefit on other cards and programs, not as a current consumer card product with this exact name; no explicit discontinuation notice was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Official IndusInd material describes Club Marriott as a benefit on other products, but no current consumer credit card product with this exact name or official discontinuation notice was found.",
+      "reward": "Research note: Current official IndusInd material presents Club Marriott as a benefit on other cards and programs, not as a current consumer card product with this exact name; no explicit discontinuation notice was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Official IndusInd material describes Club Marriott as a benefit on other products, but no current consumer credit card product with this exact name or official discontinuation notice was found."
+        "Current official IndusInd material presents Club Marriott as a benefit on other cards and programs, not as a current consumer card product with this exact name; no explicit discontinuation notice was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4225,18 +4228,18 @@
       "issuer": "IndusInd Bank",
       "name": "EazyDiner IndusInd Bank Platinum Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "research_note": "The product is current, but official material references a RuPay variant without establishing whether it is the only currently issued network.",
+      "research_note": "The current official page explicitly supports a RuPay variant and also states the product is offered on Visa and RuPay platforms; one broad record cannot select one network.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product is current, but official material references a RuPay variant without establishing whether it is the only currently issued network.",
+      "reward": "Research note: The current official page explicitly supports a RuPay variant and also states the product is offered on Visa and RuPay platforms; one broad record cannot select one network.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product is current, but official material references a RuPay variant without establishing whether it is the only currently issued network."
+        "The current official page explicitly supports a RuPay variant and also states the product is offered on Visa and RuPay platforms; one broad record cannot select one network."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4247,18 +4250,18 @@
       "issuer": "IndusInd Bank",
       "name": "EazyDiner IndusInd Bank Signature Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "research_note": "The product is current, but the current official page does not unambiguously identify the card network.",
+      "research_note": "Current official MITC establishes fees and the product page identifies Signature on Visa, but the queue record lacks a current product-specific page and complete current benefit and lounge package.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product is current, but the current official page does not unambiguously identify the card network.",
+      "reward": "Research note: Current official MITC establishes fees and the product page identifies Signature on Visa, but the queue record lacks a current product-specific page and complete current benefit and lounge package.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product is current, but the current official page does not unambiguously identify the card network."
+        "Current official MITC establishes fees and the product page identifies Signature on Visa, but the queue record lacks a current product-specific page and complete current benefit and lounge package."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4292,18 +4295,18 @@
       "issuer": "IndusInd Bank",
       "name": "Nexxt Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "research_note": "The card appears in the current MITC, but a complete current official network, reward and lounge combination was not established.",
+      "research_note": "The current official product page establishes fees, rewards and live availability, but does not explicitly identify the current network or a schema-compatible lounge value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The card appears in the current MITC, but a complete current official network, reward and lounge combination was not established.",
+      "reward": "Research note: The current official product page establishes fees, rewards and live availability, but does not explicitly identify the current network or a schema-compatible lounge value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The card appears in the current MITC, but a complete current official network, reward and lounge combination was not established."
+        "The current official product page establishes fees, rewards and live availability, but does not explicitly identify the current network or a schema-compatible lounge value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4313,23 +4316,26 @@
       "id": "indusind-pinnacle",
       "issuer": "IndusInd Bank",
       "name": "Pinnacle Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "research_note": "The card is current, but official pricing varies by customer segment and the product material does not yield one unambiguous network and fee combination for a strict record.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Mastercard",
+      "joining_fee": 15000,
+      "annual_fee": 0,
       "waiver_spend": null,
-      "reward": "Research note: The card is current, but official pricing varies by customer segment and the product material does not yield one unambiguous network and fee combination for a strict record.",
+      "reward": "2.5 Reward Points per ₹100 on e-commerce transactions; 1.5 per ₹100 on e-commerce travel and airline transactions; 1 per ₹100 on POS, MoTo, IVR and standing instructions; fuel transactions earn no Reward Points",
       "categories": [
-        "discovery"
+        "premium",
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "The card is current, but official pricing varies by customer segment and the product material does not yield one unambiguous network and fee combination for a strict record."
+        "Mastercard World benefits",
+        "One domestic lounge visit per calendar quarter after ₹1,50,000 spend in the previous quarter",
+        "One complimentary international Priority Pass visit per calendar quarter outside India"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pinnacle-world-credit-card.html"
     },
     {
       "id": "indusind-platinum-aura-edge",
@@ -4404,18 +4410,18 @@
       "issuer": "IndusInd Bank",
       "name": "Samman Credit Card",
       "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "research_note": "The targeted card appears in official material, but a complete current official network and reward record was not established.",
+      "research_note": "The current official page establishes RuPay, cashback and live application, and MITC establishes fees, but the official material does not publish a complete lounge treatment for the strict record.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The targeted card appears in official material, but a complete current official network and reward record was not established.",
+      "reward": "Research note: The current official page establishes RuPay, cashback and live application, and MITC establishes fees, but the official material does not publish a complete lounge treatment for the strict record.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The targeted card appears in official material, but a complete current official network and reward record was not established."
+        "The current official page establishes RuPay, cashback and live application, and MITC establishes fees, but the official material does not publish a complete lounge treatment for the strict record."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4450,18 +4456,18 @@
       "issuer": "Jammu & Kashmir Bank",
       "name": "J&K Bank Corporate Credit Card",
       "source": "https://jkb.bank.in/transactions/services/credit-cards",
-      "research_note": "This is a corporate card and falls outside the consumer-card catalog; it is not retired and therefore cannot be placed in the retired bucket.",
+      "research_note": "The current official J&K Bank fee schedule lists Corporate, but this is a corporate card outside the consumer-card catalog; it is not retired and cannot be promoted without changing catalog scope.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: This is a corporate card and falls outside the consumer-card catalog; it is not retired and therefore cannot be placed in the retired bucket.",
+      "reward": "Research note: The current official J&K Bank fee schedule lists Corporate, but this is a corporate card outside the consumer-card catalog; it is not retired and cannot be promoted without changing catalog scope.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "This is a corporate card and falls outside the consumer-card catalog; it is not retired and therefore cannot be placed in the retired bucket."
+        "The current official J&K Bank fee schedule lists Corporate, but this is a corporate card outside the consumer-card catalog; it is not retired and cannot be promoted without changing catalog scope."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4496,18 +4502,18 @@
       "issuer": "Jammu & Kashmir Bank",
       "name": "J&K Bank Gold Credit Card",
       "source": "https://jkb.bank.in/transactions/services/credit-cards",
-      "research_note": "The current fee schedule still names Gold, while the revamped current application suite names only Platinum, Platinum Privilege and Eminent; no explicit official discontinuation notice resolves that conflict.",
+      "research_note": "The current J&K Bank fee schedule still names Gold, while the revamped current application suite emphasizes Platinum, Platinum Privilege, and Eminent; no explicit official discontinuation notice resolves the conflict.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current fee schedule still names Gold, while the revamped current application suite names only Platinum, Platinum Privilege and Eminent; no explicit official discontinuation notice resolves that conflict.",
+      "reward": "Research note: The current J&K Bank fee schedule still names Gold, while the revamped current application suite emphasizes Platinum, Platinum Privilege, and Eminent; no explicit official discontinuation notice resolves the conflict.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current fee schedule still names Gold, while the revamped current application suite names only Platinum, Platinum Privilege and Eminent; no explicit official discontinuation notice resolves that conflict."
+        "The current J&K Bank fee schedule still names Gold, while the revamped current application suite emphasizes Platinum, Platinum Privilege, and Eminent; no explicit official discontinuation notice resolves the conflict."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4611,18 +4617,18 @@
       "issuer": "Karur Vysya Bank",
       "name": "KVB SBI Platinum Card",
       "source": "https://www.kvb.co.in/personal/cards/credit-cards/",
-      "research_note": "Current KVB material services SBI Card holders but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued.",
+      "research_note": "Current KVB material provides servicing and hotlisting for SBI co-branded cards, but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current KVB material services SBI Card holders but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued.",
+      "reward": "Research note: Current KVB material provides servicing and hotlisting for SBI co-branded cards, but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current KVB material services SBI Card holders but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued."
+        "Current KVB material provides servicing and hotlisting for SBI co-branded cards, but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4633,18 +4639,18 @@
       "issuer": "Karur Vysya Bank",
       "name": "KVB SimplySAVE SBI Card",
       "source": "https://www.kvb.co.in/personal/cards/credit-cards/",
-      "research_note": "Current KVB material services SBI Card holders but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued.",
+      "research_note": "Current KVB material provides servicing and hotlisting for SBI co-branded cards, but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current KVB material services SBI Card holders but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued.",
+      "reward": "Research note: Current KVB material provides servicing and hotlisting for SBI co-branded cards, but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current KVB material services SBI Card holders but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued."
+        "Current KVB material provides servicing and hotlisting for SBI co-branded cards, but does not confirm that this older co-brand remains open to new applications or that it has been officially discontinued."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4699,18 +4705,18 @@
       "issuer": "Kiwi partner banks",
       "name": "Kiwi Axis Bank RuPay Credit Card",
       "source": "https://gokiwi.in/",
-      "research_note": "Current official material supports lifetime-free fees and forex, but no official product record establishes a schema-compatible reward and lounge package for current issuance.",
+      "research_note": "Current Kiwi pages describe a multi-bank RuPay programme and Kiwi-level cashback and lounge memberships, but do not provide a product-specific Axis Bank card record with an unambiguous issuer package and card-level lounge terms.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official material supports lifetime-free fees and forex, but no official product record establishes a schema-compatible reward and lounge package for current issuance.",
+      "reward": "Research note: Current Kiwi pages describe a multi-bank RuPay programme and Kiwi-level cashback and lounge memberships, but do not provide a product-specific Axis Bank card record with an unambiguous issuer package and card-level lounge terms.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official material supports lifetime-free fees and forex, but no official product record establishes a schema-compatible reward and lounge package for current issuance."
+        "Current Kiwi pages describe a multi-bank RuPay programme and Kiwi-level cashback and lounge memberships, but do not provide a product-specific Axis Bank card record with an unambiguous issuer package and card-level lounge terms."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4767,18 +4773,18 @@
       "issuer": "Kotak Mahindra Bank",
       "name": "811 Dream Different Credit Card",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "Current official secured-card fees and rewards are available, but the currently issued network is not explicitly established.",
+      "research_note": "Kotak confirms Visa issuance, no joining or annual fee and reward terms, but current official material conflicts on forex markup and does not establish a catalogue-compatible lounge status.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official secured-card fees and rewards are available, but the currently issued network is not explicitly established.",
+      "reward": "Research note: Kotak confirms Visa issuance, no joining or annual fee and reward terms, but current official material conflicts on forex markup and does not establish a catalogue-compatible lounge status.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official secured-card fees and rewards are available, but the currently issued network is not explicitly established."
+        "Kotak confirms Visa issuance, no joining or annual fee and reward terms, but current official material conflicts on forex markup and does not establish a catalogue-compatible lounge status."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4835,18 +4841,18 @@
       "issuer": "Kotak Mahindra Bank",
       "name": "IndiGo Kotak Credit Card",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "Current rewards and fees are advertised, but the checked official material does not unambiguously establish the issued network and lounge classification.",
+      "research_note": "Current Kotak material confirms the new IndiGo card, ₹1,500 fees and BluChip rewards, but does not establish the network or a product-level lounge status; legacy 6E migration also makes the broad record ambiguous.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current rewards and fees are advertised, but the checked official material does not unambiguously establish the issued network and lounge classification.",
+      "reward": "Research note: Current Kotak material confirms the new IndiGo card, ₹1,500 fees and BluChip rewards, but does not establish the network or a product-level lounge status; legacy 6E migration also makes the broad record ambiguous.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current rewards and fees are advertised, but the checked official material does not unambiguously establish the issued network and lounge classification."
+        "Current Kotak material confirms the new IndiGo card, ₹1,500 fees and BluChip rewards, but does not establish the network or a product-level lounge status; legacy 6E migration also makes the broad record ambiguous."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4857,18 +4863,18 @@
       "issuer": "Kotak Mahindra Bank",
       "name": "IndiGo Kotak XL Credit Card",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "Current rewards and fees are advertised, but the checked official material does not unambiguously establish the issued network and lounge classification.",
+      "research_note": "Current Kotak KFS references the IndiGo Kotak XL variant, but the checked official material does not establish a complete current network, fee and lounge record for this queue ID.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current rewards and fees are advertised, but the checked official material does not unambiguously establish the issued network and lounge classification.",
+      "reward": "Research note: Current Kotak KFS references the IndiGo Kotak XL variant, but the checked official material does not establish a complete current network, fee and lounge record for this queue ID.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current rewards and fees are advertised, but the checked official material does not unambiguously establish the issued network and lounge classification."
+        "Current Kotak KFS references the IndiGo Kotak XL variant, but the checked official material does not establish a complete current network, fee and lounge record for this queue ID."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4966,88 +4972,22 @@
       "source": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/mojo-platinum-credit-card.html"
     },
     {
-      "id": "kotak-privy-league-signature",
-      "issuer": "Kotak Mahindra Bank",
-      "name": "Privy League Signature Credit Card",
-      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "Current segment eligibility may alter fees and benefits, and the checked public material does not expose one normalized network and fee package.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Research note: Current segment eligibility may alter fees and benefits, and the checked public material does not expose one normalized network and fee package.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Current segment eligibility may alter fees and benefits, and the checked public material does not expose one normalized network and fee package."
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "kotak-pvr-gold",
-      "issuer": "Kotak Mahindra Bank",
-      "name": "PVR Gold Credit Card",
-      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "The legacy product remains referenced by Kotak, but current new-issuance status and the card network were not unambiguously established.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Research note: The legacy product remains referenced by Kotak, but current new-issuance status and the card network were not unambiguously established.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "The legacy product remains referenced by Kotak, but current new-issuance status and the card network were not unambiguously established."
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
       "id": "kotak-pvr-inox",
       "issuer": "Kotak Mahindra Bank",
       "name": "PVR INOX Credit Card",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "The product is currently advertised, but the checked official product material does not safely establish the current card network and forex markup together.",
+      "research_note": "Current Kotak page and KFS confirm ₹0 joining fee, ₹499 annual fee, movie benefits and 3.5% forex markup, but no product-specific network or catalogue-compatible lounge status was established.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product is currently advertised, but the checked official product material does not safely establish the current card network and forex markup together.",
+      "reward": "Research note: Current Kotak page and KFS confirm ₹0 joining fee, ₹499 annual fee, movie benefits and 3.5% forex markup, but no product-specific network or catalogue-compatible lounge status was established.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product is currently advertised, but the checked official product material does not safely establish the current card network and forex markup together."
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "kotak-pvr-platinum",
-      "issuer": "Kotak Mahindra Bank",
-      "name": "PVR Platinum Credit Card",
-      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "The legacy product remains referenced by Kotak, but current new-issuance status and the card network were not unambiguously established.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Research note: The legacy product remains referenced by Kotak, but current new-issuance status and the card network were not unambiguously established.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "The legacy product remains referenced by Kotak, but current new-issuance status and the card network were not unambiguously established."
+        "Current Kotak page and KFS confirm ₹0 joining fee, ₹499 annual fee, movie benefits and 3.5% forex markup, but no product-specific network or catalogue-compatible lounge status was established."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5058,18 +4998,18 @@
       "issuer": "Kotak Mahindra Bank",
       "name": "Royale Signature Credit Card",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "The product appears in official fee material, but current new-application availability, network and lounge benefits were not all established.",
+      "research_note": "Kotak's current catalogue exposes fee and waiver wording, but current new-application availability, network and lounge benefits were not all established together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product appears in official fee material, but current new-application availability, network and lounge benefits were not all established.",
+      "reward": "Research note: Kotak's current catalogue exposes fee and waiver wording, but current new-application availability, network and lounge benefits were not all established together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product appears in official fee material, but current new-application availability, network and lounge benefits were not all established."
+        "Kotak's current catalogue exposes fee and waiver wording, but current new-application availability, network and lounge benefits were not all established together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5080,18 +5020,18 @@
       "issuer": "Kotak Mahindra Bank",
       "name": "Solitaire Business Credit Card",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/business-credit-card.html",
-      "research_note": "The card is currently advertised, but a complete public joining fee, annual fee, network and lounge package was not available together.",
+      "research_note": "Current Kotak material confirms Solitaire Business is invitation-only, but no public product-specific joining fee, annual fee, network and lounge package was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The card is currently advertised, but a complete public joining fee, annual fee, network and lounge package was not available together.",
+      "reward": "Research note: Current Kotak material confirms Solitaire Business is invitation-only, but no public product-specific joining fee, annual fee, network and lounge package was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The card is currently advertised, but a complete public joining fee, annual fee, network and lounge package was not available together."
+        "Current Kotak material confirms Solitaire Business is invitation-only, but no public product-specific joining fee, annual fee, network and lounge package was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5102,40 +5042,18 @@
       "issuer": "Kotak Mahindra Bank",
       "name": "Solitaire Credit Card",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "The product is currently shown as invite-only, but a public product-specific fee and network record sufficient for strict normalization was not found.",
+      "research_note": "Current Kotak material confirms an invite-only Solitaire card and benefits, but no public product-specific network and single fee/forex package sufficient for strict normalization was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product is currently shown as invite-only, but a public product-specific fee and network record sufficient for strict normalization was not found.",
+      "reward": "Research note: Current Kotak material confirms an invite-only Solitaire card and benefits, but no public product-specific network and single fee/forex package sufficient for strict normalization was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product is currently shown as invite-only, but a public product-specific fee and network record sufficient for strict normalization was not found."
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
-      "id": "kotak-urbane-gold",
-      "issuer": "Kotak Mahindra Bank",
-      "name": "Urbane Gold Credit Card",
-      "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "Current rewards and fees are published, but the current official product text does not state the card network.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Research note: Current rewards and fees are published, but the current official product text does not state the card network.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Current rewards and fees are published, but the current official product text does not state the card network."
+        "Current Kotak material confirms an invite-only Solitaire card and benefits, but no public product-specific network and single fee/forex package sufficient for strict normalization was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5146,18 +5064,18 @@
       "issuer": "Kotak Mahindra Bank",
       "name": "White Credit Card",
       "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-      "research_note": "Current benefits and fees are published, but the checked official material does not unambiguously establish the currently issued network and lounge classification.",
+      "research_note": "Current Kotak material confirms ₹3,000 fees, a ₹5 lakh annual-fee waiver threshold and lounge benefits, but does not establish one current product-specific network and forex value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current benefits and fees are published, but the checked official material does not unambiguously establish the currently issued network and lounge classification.",
+      "reward": "Research note: Current Kotak material confirms ₹3,000 fees, a ₹5 lakh annual-fee waiver threshold and lounge benefits, but does not establish one current product-specific network and forex value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current benefits and fees are published, but the checked official material does not unambiguously establish the currently issued network and lounge classification."
+        "Current Kotak material confirms ₹3,000 fees, a ₹5 lakh annual-fee waiver threshold and lounge benefits, but does not establish one current product-specific network and forex value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5286,18 +5204,18 @@
       "issuer": "Punjab National Bank",
       "name": "PNB Patanjali RuPay Platinum Card",
       "source": "https://www.pnbcard.in/types.html",
-      "research_note": "Current official fees and Patanjali benefits are available, but official product material does not establish a schema-compatible lounge status.",
+      "research_note": "Current official PNB pages and fee/reward schedules establish the Patanjali RuPay Platinum fee and benefits, but do not establish a schema-compatible lounge classification for this Platinum variant.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees and Patanjali benefits are available, but official product material does not establish a schema-compatible lounge status.",
+      "reward": "Research note: Current official PNB pages and fee/reward schedules establish the Patanjali RuPay Platinum fee and benefits, but do not establish a schema-compatible lounge classification for this Platinum variant.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees and Patanjali benefits are available, but official product material does not establish a schema-compatible lounge status."
+        "Current official PNB pages and fee/reward schedules establish the Patanjali RuPay Platinum fee and benefits, but do not establish a schema-compatible lounge classification for this Platinum variant."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5332,18 +5250,18 @@
       "issuer": "Punjab National Bank",
       "name": "PNB Rakshak RuPay Platinum Card",
       "source": "https://www.pnbcard.in/types.html",
-      "research_note": "Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status.",
+      "research_note": "Current official PNB pages and fee/reward schedules establish fees, rewards, and RuPay issuance, but do not establish a schema-compatible lounge classification for this Platinum variant.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status.",
+      "reward": "Research note: Current official PNB pages and fee/reward schedules establish fees, rewards, and RuPay issuance, but do not establish a schema-compatible lounge classification for this Platinum variant.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status."
+        "Current official PNB pages and fee/reward schedules establish fees, rewards, and RuPay issuance, but do not establish a schema-compatible lounge classification for this Platinum variant."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5519,18 +5437,18 @@
       "issuer": "Punjab National Bank",
       "name": "PNB Visa Classic Card",
       "source": "https://www.pnbcard.in/types.html",
-      "research_note": "Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status.",
+      "research_note": "Current official PNB pages and fee/reward schedules establish Visa Classic fees and rewards, but do not establish a schema-compatible lounge classification.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status.",
+      "reward": "Research note: Current official PNB pages and fee/reward schedules establish Visa Classic fees and rewards, but do not establish a schema-compatible lounge classification.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status."
+        "Current official PNB pages and fee/reward schedules establish Visa Classic fees and rewards, but do not establish a schema-compatible lounge classification."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5541,18 +5459,18 @@
       "issuer": "Punjab National Bank",
       "name": "PNB Visa Gold Card",
       "source": "https://www.pnbcard.in/types.html",
-      "research_note": "Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status.",
+      "research_note": "Current official PNB pages and fee/reward schedules establish Visa Gold fees and rewards, but do not establish a schema-compatible lounge classification.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status.",
+      "reward": "Research note: Current official PNB pages and fee/reward schedules establish Visa Gold fees and rewards, but do not establish a schema-compatible lounge classification.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status."
+        "Current official PNB pages and fee/reward schedules establish Visa Gold fees and rewards, but do not establish a schema-compatible lounge classification."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5562,41 +5480,43 @@
       "id": "pnb-luxura-visa",
       "issuer": "Punjab National Bank",
       "name": "PNB Visa Metal Card LUXURA",
-      "source": "https://www.pnbcard.in/",
-      "research_note": "Current official fees and zero forex markup are available, but a current product-specific reward rate was not established from official material.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Research note: Current official fees and zero forex markup are available, but a current product-specific reward rate was not established from official material.",
+      "network": "Visa",
+      "joining_fee": 4999,
+      "annual_fee": 1999,
+      "waiver_spend": 600000,
+      "reward": "4 reward points per Rs100 on eligible spends, with 3X rewards on travel and dining",
       "categories": [
-        "discovery"
+        "premium",
+        "travel",
+        "lounge",
+        "rewards"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Current official fees and zero forex markup are available, but a current product-specific reward rate was not established from official material."
+        "Unlimited complimentary domestic and international lounge access",
+        "Welcome and annual-spend milestone reward points"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "unlimited",
+      "forex_markup": 0,
+      "verification": "verified",
+      "source": "https://pnbcard.in/types17.html"
     },
     {
       "id": "pnb-visa-platinum",
       "issuer": "Punjab National Bank",
       "name": "PNB Visa Platinum Card",
       "source": "https://www.pnbcard.in/types.html",
-      "research_note": "Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status.",
+      "research_note": "Current official PNB pages and fee/reward schedules establish Visa Platinum fees and rewards, but do not establish a schema-compatible lounge classification.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status.",
+      "reward": "Research note: Current official PNB pages and fee/reward schedules establish Visa Platinum fees and rewards, but do not establish a schema-compatible lounge classification.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees and rewards are available, but official product material does not establish a schema-compatible lounge status."
+        "Current official PNB pages and fee/reward schedules establish Visa Platinum fees and rewards, but do not establish a schema-compatible lounge classification."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5630,18 +5550,18 @@
       "issuer": "RBL Bank",
       "name": "Bajaj Finserv RBL Bank SuperCard",
       "source": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "research_note": "The official schedule contains multiple separately priced SuperCard variants, so this family-level queue ID cannot be promoted as one strict product.",
+      "research_note": "RBL's current SuperCard schedule/MITC lists many separately priced variants, so this family-level queue ID cannot map to one network, fee, reward and lounge record.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The official schedule contains multiple separately priced SuperCard variants, so this family-level queue ID cannot be promoted as one strict product.",
+      "reward": "Research note: RBL's current SuperCard schedule/MITC lists many separately priced variants, so this family-level queue ID cannot map to one network, fee, reward and lounge record.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The official schedule contains multiple separately priced SuperCard variants, so this family-level queue ID cannot be promoted as one strict product."
+        "RBL's current SuperCard schedule/MITC lists many separately priced variants, so this family-level queue ID cannot map to one network, fee, reward and lounge record."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -5992,18 +5912,18 @@
       "issuer": "SBI Card",
       "name": "Fabindia SBI Card",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status.",
+      "research_note": "Current SBI fee material still references the card, but no current product-specific application path or complete network-and-benefits record was found; no official discontinuation notice was located.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status.",
+      "reward": "Research note: Current SBI fee material still references the card, but no current product-specific application path or complete network-and-benefits record was found; no official discontinuation notice was located.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status."
+        "Current SBI fee material still references the card, but no current product-specific application path or complete network-and-benefits record was found; no official discontinuation notice was located."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6014,18 +5934,18 @@
       "issuer": "SBI Card",
       "name": "Fabindia SBI Card SELECT",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status.",
+      "research_note": "Current SBI fee material still references the card, but no current product-specific application path or complete network-and-benefits record was found; no official discontinuation notice was located.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status.",
+      "reward": "Research note: Current SBI fee material still references the card, but no current product-specific application path or complete network-and-benefits record was found; no official discontinuation notice was located.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status."
+        "Current SBI fee material still references the card, but no current product-specific application path or complete network-and-benefits record was found; no official discontinuation notice was located."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6035,63 +5955,67 @@
       "id": "sbi-irctc-premier",
       "issuer": "SBI Card",
       "name": "IRCTC SBI Card Premier",
-      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "Official current materials establish fees and benefits but did not unambiguously establish the currently issued network variant for the strict network field.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Research note: Official current materials establish fees and benefits but did not unambiguously establish the currently issued network variant for the strict network field.",
+      "network": "Visa",
+      "joining_fee": 1499,
+      "annual_fee": 1499,
+      "waiver_spend": 200000,
+      "reward": "Up to 10% value back in reward points on eligible IRCTC rail tickets; 3 Reward Points per ₹125 on dining and standing-instruction utility spends",
       "categories": [
-        "discovery"
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Official current materials establish fees and benefits but did not unambiguously establish the currently issued network variant for the strict network field."
+        "Eight complimentary railway lounge visits per year, capped at two per quarter",
+        "Annual fee reversed on ₹2 lakh eligible annual spend",
+        "1% transaction-charge saving on eligible IRCTC railway bookings"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.sbicard.com/en/personal/credit-cards/irctc-premier-card.html"
     },
     {
       "id": "sbi-irctc-platinum",
       "issuer": "SBI Card",
       "name": "IRCTC SBI Platinum Card",
-      "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "Official current materials establish fees and benefits but did not unambiguously establish the currently issued network variant for the strict network field.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
+      "network": "Visa",
+      "joining_fee": 500,
+      "annual_fee": 500,
       "waiver_spend": null,
-      "reward": "Research note: Official current materials establish fees and benefits but did not unambiguously establish the currently issued network variant for the strict network field.",
+      "reward": "Up to 10% value back in reward points on eligible IRCTC rail tickets; 1 Reward Point per ₹125 on other non-fuel retail purchases",
       "categories": [
-        "discovery"
+        "travel",
+        "rewards",
+        "lounge"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Official current materials establish fees and benefits but did not unambiguously establish the currently issued network variant for the strict network field."
+        "Four complimentary railway lounge visits per year, capped at one per quarter",
+        "₹500 annual and renewal fee",
+        "1% transaction-charge saving on eligible IRCTC railway bookings"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.sbicard.com/en/personal/credit-cards/irctc-sbi-platinum-card.html"
     },
     {
       "id": "sbi-krisflyer",
       "issuer": "SBI Card",
       "name": "KrisFlyer SBI Card",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "Current official fees, rewards and lounge benefits are clear, but the product-specific issued network and forex markup were not explicit enough for strict promotion.",
+      "research_note": "Current SBI sources describe conflicting network-era variants (Visa/Mastercard versus Amex/Mastercard) and do not provide one current product-specific forex value, so the broad queue record is unresolved.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees, rewards and lounge benefits are clear, but the product-specific issued network and forex markup were not explicit enough for strict promotion.",
+      "reward": "Research note: Current SBI sources describe conflicting network-era variants (Visa/Mastercard versus Amex/Mastercard) and do not provide one current product-specific forex value, so the broad queue record is unresolved.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees, rewards and lounge benefits are clear, but the product-specific issued network and forex markup were not explicit enough for strict promotion."
+        "Current SBI sources describe conflicting network-era variants (Visa/Mastercard versus Amex/Mastercard) and do not provide one current product-specific forex value, so the broad queue record is unresolved."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6102,18 +6026,18 @@
       "issuer": "SBI Card",
       "name": "KrisFlyer SBI Card APEX",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "Current official fees, rewards and lounge benefits are clear, but the product-specific issued network and forex markup were not explicit enough for strict promotion.",
+      "research_note": "Current SBI sources describe conflicting network-era variants (Visa/Mastercard versus Amex/Mastercard) and do not provide one current product-specific forex value, so the broad queue record is unresolved.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official fees, rewards and lounge benefits are clear, but the product-specific issued network and forex markup were not explicit enough for strict promotion.",
+      "reward": "Research note: Current SBI sources describe conflicting network-era variants (Visa/Mastercard versus Amex/Mastercard) and do not provide one current product-specific forex value, so the broad queue record is unresolved.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official fees, rewards and lounge benefits are clear, but the product-specific issued network and forex markup were not explicit enough for strict promotion."
+        "Current SBI sources describe conflicting network-era variants (Visa/Mastercard versus Amex/Mastercard) and do not provide one current product-specific forex value, so the broad queue record is unresolved."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6124,18 +6048,18 @@
       "issuer": "SBI Card",
       "name": "Lifestyle Home Centre SBI Card",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "Official notices show servicing and benefit changes for existing cards, but current new-card issuance and all required strict fields were not established together.",
+      "research_note": "SBI notices document benefit changes for existing Lifestyle/Home Centre cards but do not establish current new issuance, and no complete current product-specific network-and-benefits record was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Official notices show servicing and benefit changes for existing cards, but current new-card issuance and all required strict fields were not established together.",
+      "reward": "Research note: SBI notices document benefit changes for existing Lifestyle/Home Centre cards but do not establish current new issuance, and no complete current product-specific network-and-benefits record was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Official notices show servicing and benefit changes for existing cards, but current new-card issuance and all required strict fields were not established together."
+        "SBI notices document benefit changes for existing Lifestyle/Home Centre cards but do not establish current new issuance, and no complete current product-specific network-and-benefits record was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6146,18 +6070,18 @@
       "issuer": "SBI Card",
       "name": "Lifestyle Home Centre SBI Card SELECT",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "Official notices show servicing and benefit changes for existing cards, but current new-card issuance and all required strict fields were not established together.",
+      "research_note": "SBI notices document benefit changes for existing Lifestyle/Home Centre cards but do not establish current new issuance, and no complete current product-specific network-and-benefits record was found.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Official notices show servicing and benefit changes for existing cards, but current new-card issuance and all required strict fields were not established together.",
+      "reward": "Research note: SBI notices document benefit changes for existing Lifestyle/Home Centre cards but do not establish current new issuance, and no complete current product-specific network-and-benefits record was found.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Official notices show servicing and benefit changes for existing cards, but current new-card issuance and all required strict fields were not established together."
+        "SBI notices document benefit changes for existing Lifestyle/Home Centre cards but do not establish current new issuance, and no complete current product-specific network-and-benefits record was found."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6168,18 +6092,18 @@
       "issuer": "SBI Card",
       "name": "Nature's Basket SBI Card",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status.",
+      "research_note": "No current SBI application path or complete product-specific network, fee and benefit record was found; no official discontinuation notice was located.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status.",
+      "reward": "Research note: No current SBI application path or complete product-specific network, fee and benefit record was found; no official discontinuation notice was located.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status."
+        "No current SBI application path or complete product-specific network, fee and benefit record was found; no official discontinuation notice was located."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6190,18 +6114,18 @@
       "issuer": "SBI Card",
       "name": "Nature's Basket SBI Card ELITE",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status.",
+      "research_note": "No current SBI application path or complete product-specific network, fee and benefit record was found; no official discontinuation notice was located.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status.",
+      "reward": "Research note: No current SBI application path or complete product-specific network, fee and benefit record was found; no official discontinuation notice was located.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The product remains in official legacy materials, but no explicit current apply path or official discontinuation notice was found to establish new issuance status."
+        "No current SBI application path or complete product-specific network, fee and benefit record was found; no official discontinuation notice was located."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6422,18 +6346,18 @@
       "issuer": "SBI Card",
       "name": "Titan SBI Card",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "A current official product listing exists, but the checked official page did not expose an unambiguous current network and complete strict fee/reward record.",
+      "research_note": "Current SBI material establishes a live Titan card with Visa/RuPay availability, fees and lounge benefits, but the product page contains conflicting reward-rate sections, so one strict reward record cannot be selected safely.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: A current official product listing exists, but the checked official page did not expose an unambiguous current network and complete strict fee/reward record.",
+      "reward": "Research note: Current SBI material establishes a live Titan card with Visa/RuPay availability, fees and lounge benefits, but the product page contains conflicting reward-rate sections, so one strict reward record cannot be selected safely.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "A current official product listing exists, but the checked official page did not expose an unambiguous current network and complete strict fee/reward record."
+        "Current SBI material establishes a live Titan card with Visa/RuPay availability, fees and lounge benefits, but the product page contains conflicting reward-rate sections, so one strict reward record cannot be selected safely."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6444,18 +6368,18 @@
       "issuer": "SBI Card",
       "name": "Unnati SBI Card",
       "source": "https://www.sbicard.com/en/personal/credit-cards.page",
-      "research_note": "The current official page and fee schedule conflict on how the first-four-year fee arrangement should map to one joining and annual fee record.",
+      "research_note": "Current SBI product material confirms the card is live, but presents conflicting first-four-year fee wording and does not state one current product-specific network, so strict normalization is unsafe.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current official page and fee schedule conflict on how the first-four-year fee arrangement should map to one joining and annual fee record.",
+      "reward": "Research note: Current SBI product material confirms the card is live, but presents conflicting first-four-year fee wording and does not state one current product-specific network, so strict normalization is unsafe.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current official page and fee schedule conflict on how the first-four-year fee arrangement should map to one joining and annual fee record."
+        "Current SBI product material confirms the card is live, but presents conflicting first-four-year fee wording and does not state one current product-specific network, so strict normalization is unsafe."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6466,18 +6390,18 @@
       "issuer": "SBM Bank India",
       "name": "SBM Bank India OneCard",
       "source": "https://www.sbmbank.co.in/",
-      "research_note": "Current official MITC verifies fees, Visa network, rewards and forex markup, but it does not publish a schema-compatible lounge status.",
+      "research_note": "Current official SBM/OneCard MITC material verifies fees, Visa issuance, rewards, and forex markup, but does not publish a schema-compatible lounge status.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official MITC verifies fees, Visa network, rewards and forex markup, but it does not publish a schema-compatible lounge status.",
+      "reward": "Research note: Current official SBM/OneCard MITC material verifies fees, Visa issuance, rewards, and forex markup, but does not publish a schema-compatible lounge status.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official MITC verifies fees, Visa network, rewards and forex markup, but it does not publish a schema-compatible lounge status."
+        "Current official SBM/OneCard MITC material verifies fees, Visa issuance, rewards, and forex markup, but does not publish a schema-compatible lounge status."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6488,18 +6412,18 @@
       "issuer": "SBM Bank India",
       "name": "SBM Step Up Credit Card",
       "source": "https://www.sbmbank.co.in/",
-      "research_note": "Current official catalog and MITC verify lifetime-free fees, but a complete official network, reward, lounge and forex record was not established.",
+      "research_note": "The current official SBM catalog lists the Paisabazaar Step-Up secured card and links KFS/terms/rewards, but the checked materials do not establish a complete single record for network, reward, lounge, and forex fields.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official catalog and MITC verify lifetime-free fees, but a complete official network, reward, lounge and forex record was not established.",
+      "reward": "Research note: The current official SBM catalog lists the Paisabazaar Step-Up secured card and links KFS/terms/rewards, but the checked materials do not establish a complete single record for network, reward, lounge, and forex fields.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official catalog and MITC verify lifetime-free fees, but a complete official network, reward, lounge and forex record was not established."
+        "The current official SBM catalog lists the Paisabazaar Step-Up secured card and links KFS/terms/rewards, but the checked materials do not establish a complete single record for network, reward, lounge, and forex fields."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6631,18 +6555,18 @@
       "issuer": "Standard Chartered India",
       "name": "DigiSmart Credit Card",
       "source": "https://www.sc.com/in/credit-cards/",
-      "research_note": "The official product charges ₹49 monthly; the current schema only supports joining and annual fees and cannot represent this accurately.",
+      "research_note": "Standard Chartered's current product catalogue does not expose a DigiSmart application/product page; only legacy DigiSmart references remain, and its ₹49 monthly charge cannot be represented by the schema's joining/annual fee fields.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The official product charges ₹49 monthly; the current schema only supports joining and annual fees and cannot represent this accurately.",
+      "reward": "Research note: Standard Chartered's current product catalogue does not expose a DigiSmart application/product page; only legacy DigiSmart references remain, and its ₹49 monthly charge cannot be represented by the schema's joining/annual fee fields.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The official product charges ₹49 monthly; the current schema only supports joining and annual fees and cannot represent this accurately."
+        "Standard Chartered's current product catalogue does not expose a DigiSmart application/product page; only legacy DigiSmart references remain, and its ₹49 monthly charge cannot be represented by the schema's joining/annual fee fields."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6813,18 +6737,18 @@
       "issuer": "Tamilnad Mercantile Bank",
       "name": "TMB Platinum Credit Card",
       "source": "https://tmb.bank.in/",
-      "research_note": "Current official policy verifies issuance, fees, network options and forex markup, but it does not publish a product reward rate or lounge status.",
+      "research_note": "The current official TMB Platinum page verifies issuance, secured-card fees, and charges, but does not publish a product reward rate or lounge status and does not provide an unambiguous network value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official policy verifies issuance, fees, network options and forex markup, but it does not publish a product reward rate or lounge status.",
+      "reward": "Research note: The current official TMB Platinum page verifies issuance, secured-card fees, and charges, but does not publish a product reward rate or lounge status and does not provide an unambiguous network value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official policy verifies issuance, fees, network options and forex markup, but it does not publish a product reward rate or lounge status."
+        "The current official TMB Platinum page verifies issuance, secured-card fees, and charges, but does not publish a product reward rate or lounge status and does not provide an unambiguous network value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6835,18 +6759,18 @@
       "issuer": "Tamilnad Mercantile Bank",
       "name": "TMB Titanium Credit Card",
       "source": "https://tmb.bank.in/",
-      "research_note": "Current official policy verifies issuance, fees, network options and forex markup, but it does not publish a product reward rate or lounge status.",
+      "research_note": "The current official TMB Titanium page verifies issuance, fees, and forex markup, but does not publish a product reward rate or lounge status and does not provide an unambiguous network value.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Current official policy verifies issuance, fees, network options and forex markup, but it does not publish a product reward rate or lounge status.",
+      "reward": "Research note: The current official TMB Titanium page verifies issuance, fees, and forex markup, but does not publish a product reward rate or lounge status and does not provide an unambiguous network value.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Current official policy verifies issuance, fees, network options and forex markup, but it does not publish a product reward rate or lounge status."
+        "The current official TMB Titanium page verifies issuance, fees, and forex markup, but does not publish a product reward rate or lounge status and does not provide an unambiguous network value."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -6929,18 +6853,18 @@
       "issuer": "Union Bank of India",
       "name": "Union Classic Credit Card",
       "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
-      "research_note": "The label is absent from the current Union Bank card portal and KFS, but no official discontinuation or migration notice was found.",
+      "research_note": "The current Union Bank card portal and KFS omit the Classic label and list other current variants, but no official discontinuation or migration notice was found to classify this record as retired.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The label is absent from the current Union Bank card portal and KFS, but no official discontinuation or migration notice was found.",
+      "reward": "Research note: The current Union Bank card portal and KFS omit the Classic label and list other current variants, but no official discontinuation or migration notice was found to classify this record as retired.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The label is absent from the current Union Bank card portal and KFS, but no official discontinuation or migration notice was found."
+        "The current Union Bank card portal and KFS omit the Classic label and list other current variants, but no official discontinuation or migration notice was found to classify this record as retired."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -7041,18 +6965,18 @@
       "issuer": "Union Bank of India",
       "name": "Union Silver Credit Card",
       "source": "https://www.unionbankofindia.co.in/en/listing/credit-card",
-      "research_note": "The label is absent from the current Union Bank card portal and KFS, but no official discontinuation or migration notice was found.",
+      "research_note": "The current Union Bank card portal and KFS omit the Silver label and list other current variants, but no official discontinuation or migration notice was found to classify this record as retired.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The label is absent from the current Union Bank card portal and KFS, but no official discontinuation or migration notice was found.",
+      "reward": "Research note: The current Union Bank card portal and KFS omit the Silver label and list other current variants, but no official discontinuation or migration notice was found to classify this record as retired.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The label is absent from the current Union Bank card portal and KFS, but no official discontinuation or migration notice was found."
+        "The current Union Bank card portal and KFS omit the Silver label and list other current variants, but no official discontinuation or migration notice was found to classify this record as retired."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -7197,18 +7121,18 @@
       "issuer": "YES BANK",
       "name": "BYOC Cashback Credit Card",
       "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
-      "research_note": "The official KFS defines a monthly plan fee rather than an annual fee and does not establish one current network and lounge value, so the existing schema cannot represent it faithfully.",
+      "research_note": "The current official BYOC MITC defines a monthly-plan product and cashback terms, but it does not establish one annual-fee-equivalent record, current network, and lounge value for the schema.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The official KFS defines a monthly plan fee rather than an annual fee and does not establish one current network and lounge value, so the existing schema cannot represent it faithfully.",
+      "reward": "Research note: The current official BYOC MITC defines a monthly-plan product and cashback terms, but it does not establish one annual-fee-equivalent record, current network, and lounge value for the schema.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The official KFS defines a monthly plan fee rather than an annual fee and does not establish one current network and lounge value, so the existing schema cannot represent it faithfully."
+        "The current official BYOC MITC defines a monthly-plan product and cashback terms, but it does not establish one annual-fee-equivalent record, current network, and lounge value for the schema."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -7219,18 +7143,18 @@
       "issuer": "YES BANK",
       "name": "BYOC Rewards Credit Card",
       "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
-      "research_note": "The official KFS defines a monthly plan fee rather than an annual fee and does not establish one current network and lounge value, so the existing schema cannot represent it faithfully.",
+      "research_note": "The current official BYOC MITC defines a monthly-plan product and reward terms, but it does not establish one annual-fee-equivalent record, current network, and lounge value for the schema.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The official KFS defines a monthly plan fee rather than an annual fee and does not establish one current network and lounge value, so the existing schema cannot represent it faithfully.",
+      "reward": "Research note: The current official BYOC MITC defines a monthly-plan product and reward terms, but it does not establish one annual-fee-equivalent record, current network, and lounge value for the schema.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The official KFS defines a monthly plan fee rather than an annual fee and does not establish one current network and lounge value, so the existing schema cannot represent it faithfully."
+        "The current official BYOC MITC defines a monthly-plan product and reward terms, but it does not establish one annual-fee-equivalent record, current network, and lounge value for the schema."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -7357,18 +7281,18 @@
       "issuer": "YES BANK",
       "name": "Wellness Credit Card",
       "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
-      "research_note": "The current YES BANK KFS lists the card and its fee, but no current product application page establishes the network, reward earn and lounge package together.",
+      "research_note": "Current YES BANK KFS and fee schedule list the card and charges, but no current official product source establishes one network, reward earn rate, and lounge classification together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current YES BANK KFS lists the card and its fee, but no current product application page establishes the network, reward earn and lounge package together.",
+      "reward": "Research note: Current YES BANK KFS and fee schedule list the card and charges, but no current official product source establishes one network, reward earn rate, and lounge classification together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current YES BANK KFS lists the card and its fee, but no current product application page establishes the network, reward earn and lounge package together."
+        "Current YES BANK KFS and fee schedule list the card and charges, but no current official product source establishes one network, reward earn rate, and lounge classification together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -7379,18 +7303,18 @@
       "issuer": "YES BANK",
       "name": "Wellness Plus Credit Card",
       "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
-      "research_note": "The current YES BANK KFS lists the card and its fee, but no current product application page establishes the network, reward earn and lounge package together.",
+      "research_note": "Current YES BANK KFS and fee schedule list the card and charges, but no current official product source establishes one network, reward earn rate, and lounge classification together.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current YES BANK KFS lists the card and its fee, but no current product application page establishes the network, reward earn and lounge package together.",
+      "reward": "Research note: Current YES BANK KFS and fee schedule list the card and charges, but no current official product source establishes one network, reward earn rate, and lounge classification together.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current YES BANK KFS lists the card and its fee, but no current product application page establishes the network, reward earn and lounge package together."
+        "Current YES BANK KFS and fee schedule list the card and charges, but no current official product source establishes one network, reward earn rate, and lounge classification together."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -7401,18 +7325,18 @@
       "issuer": "YES BANK",
       "name": "YES BANK AI Inside Credit Card",
       "source": "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards",
-      "research_note": "The current KFS lists both AI Inside and AI Inside RuPay variants, so this broad discovery record cannot be normalized to one network without splitting it.",
+      "research_note": "The current official YES BANK KFS lists separate AI Inside and AI Inside RuPay variants, so this broad queue record cannot be normalized to one network without splitting it.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: The current KFS lists both AI Inside and AI Inside RuPay variants, so this broad discovery record cannot be normalized to one network without splitting it.",
+      "reward": "Research note: The current official YES BANK KFS lists separate AI Inside and AI Inside RuPay variants, so this broad queue record cannot be normalized to one network without splitting it.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "The current KFS lists both AI Inside and AI Inside RuPay variants, so this broad discovery record cannot be normalized to one network without splitting it."
+        "The current official YES BANK KFS lists separate AI Inside and AI Inside RuPay variants, so this broad queue record cannot be normalized to one network without splitting it."
       ],
       "lounge": "researching",
       "forex_markup": null,
