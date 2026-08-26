@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-08-25
+updated_at: 2026-08-26
 currency: INR
 cards:
   - { id: hdfc-millennia, issuer: HDFC Bank, name: Millennia, network: Visa, joining_fee: 1000, annual_fee: 1000, waiver_spend: 100000, reward: "5% CashPoints on select online brands; 1% on other eligible spends", categories: [cashback, shopping], highlights: ["Quarterly lounge access subject to spend criteria", "CashPoints redeemable against statement balance"], lounge: conditional, forex_markup: 3.5, verification: partial, source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia-credit-card" }
@@ -2852,3 +2852,25 @@ cards:
     forex_markup: 3.5
     verification: partial
     source: https://www.sbicard.com/en/personal/credit-cards/irctc-sbi-platinum-card.html
+
+  # Fleet research promotion
+  - id: yes-wellness-plus
+    issuer: YES BANK
+    name: Wellness Plus Credit Card
+    network: Visa / Mastercard
+    joining_fee: 1499
+    annual_fee: 1499
+    waiver_spend: null
+    reward: 30 Reward Points per ₹200 on chemist/pharmacy spends; 6 Reward Points per ₹200 on other eligible categories
+    categories:
+      - rewards
+      - health
+      - lounge
+    highlights:
+      - 2 complimentary domestic lounge visits per calendar quarter for the primary cardmember, subject to ₹50,000 eligible spend in the previous calendar quarter; fee payments, reversals/cancellations, rental and wallet transactions are excluded, and guest visits are chargeable
+      - Mastercard/Visa variants are covered by the same published product guide
+      - 3.5% foreign-currency conversion charge
+    lounge: included
+    forex_markup: 3.5
+    verification: verified
+    source: https://www.yesbank.in/content/published/api/v1.1/assets/CONTD4E6F94378934CA8AA1378574C96C340/native/usage_guide_yes_bank_wellness_plus_cc_pdf.pdf?channelToken=21f7ccfa2fc3401091938f541a6f8f2a&download=false

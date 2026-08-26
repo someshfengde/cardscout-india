@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-08-25
+updated_at: 2026-08-26
 # Products confirmed by an official issuer source as discontinued, superseded,
 # or unavailable for new issuance. Retired records are preserved for auditability
 # but are intentionally excluded from the active comparison catalog.
@@ -99,6 +99,13 @@ cards:
     reason: Issuance was discontinued and SBI Card subsequently phased out existing cards, with deactivation no later than 31 March 2026.
     source: https://www.sbicard.com/en/personal/credit-cards/etihad-guest-sbi-card.html
     effective_date: 2025-03-11
+
+  # Fleet-confirmed retirements
+  - id: axis-aura
+    issuer: Axis Bank
+    name: AURA Credit Card
+    reason: The current official Axis product page explicitly states that this credit card is no longer available.
+    source: https://www.axis.bank.in/cards/credit-card/axis-bank-aura-credit-card
 
   # Fleet-confirmed retirements
   - id: kotak-privy-league-signature
