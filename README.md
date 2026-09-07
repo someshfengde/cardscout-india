@@ -10,7 +10,7 @@ anyone can review.
 ## What is included
 
 - 308 active card products across all 40 tracked issuers and partner programs
-- 206 detailed records and 102 candidates still visibly marked `Researching`
+- 207 detailed records and 101 candidates still visibly marked `Researching`
 - 22 issuer groups with every known active queue record promoted to detailed coverage
 - 23 officially retired products preserved in a separate source-backed archive
 - Search, issuer/use-case/fee filters, sorting, detail views, and comparisons

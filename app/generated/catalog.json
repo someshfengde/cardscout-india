@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-08-26",
+    "updatedAt": "2026-09-07",
     "cardCount": 308,
-    "detailedCardCount": 206,
-    "discoveryCardCount": 102,
+    "detailedCardCount": 207,
+    "discoveryCardCount": 101,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
-    "verifiedCount": 171,
+    "verifiedCount": 172,
     "retiredCardCount": 23
   },
   "issuers": [
@@ -3131,28 +3131,6 @@
       "source": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card"
     },
     {
-      "id": "hsbc-rupay-cashback",
-      "issuer": "HSBC India",
-      "name": "HSBC RuPay Cashback Credit Card",
-      "source": "https://www.hsbc.co.in/credit-cards/products/rupay-cashback-credit-card/",
-      "research_note": "Current official HSBC page confirms RuPay/JCB network, fees, cashback and lounge visits, but the 0% forex statement is an offer only through 31 August 2026 and the post-offer numeric markup is not established.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Research note: Current official HSBC page confirms RuPay/JCB network, fees, cashback and lounge visits, but the 0% forex statement is an offer only through 31 August 2026 and the post-offer numeric markup is not established.",
-      "categories": [
-        "discovery"
-      ],
-      "highlights": [
-        "Official verification target linked",
-        "Current official HSBC page confirms RuPay/JCB network, fees, cashback and lounge visits, but the 0% forex statement is an offer only through 31 August 2026 and the post-offer numeric markup is not established."
-      ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
-    },
-    {
       "id": "hsbc-taj",
       "issuer": "HSBC India",
       "name": "HSBC Taj Credit Card",
@@ -3219,6 +3197,32 @@
       "forex_markup": 0.99,
       "verification": "partial",
       "source": "https://www.hsbc.co.in/credit-cards/products/premier/"
+    },
+    {
+      "id": "hsbc-rupay-cashback",
+      "issuer": "HSBC India",
+      "name": "RuPay Cashback Credit Card",
+      "network": "RuPay / JCB",
+      "joining_fee": 499,
+      "annual_fee": 499,
+      "waiver_spend": 200000,
+      "reward": "10% cashback on eligible dining, food delivery and grocery spends and 1% on other eligible spends, capped at ₹400 per month",
+      "categories": [
+        "cashback",
+        "dining",
+        "groceries",
+        "travel",
+        "lounge",
+        "rupay-upi"
+      ],
+      "highlights": [
+        "Up to two domestic lounge visits per quarter and two international visits per year",
+        "3.5% standard foreign-currency conversion charge after the 0% offer ended on 31 August 2026"
+      ],
+      "lounge": "included",
+      "forex_markup": 3.5,
+      "verification": "verified",
+      "source": "https://www.hsbc.co.in/credit-cards/products/rupay-cashback-credit-card/"
     },
     {
       "id": "hsbc-travelone",

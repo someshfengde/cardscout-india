@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-08-26
+updated_at: 2026-09-07
 # Discovery records make the full research queue visible. Each record links to
 # the official verification target used for the issuer-by-issuer pass. It is a
 # candidate until a maintainer confirms current issuance, fees, and benefits.
@@ -72,7 +72,6 @@ cards:
   - { id: yes-byoc-rewards, issuer: YES BANK, name: BYOC Rewards Credit Card, source: "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards", research_note: "Current BYOC MITC defines variable monthly card and subscription plans, while the value chart gives conditional lounge access; there is no single annual-fee-equivalent record or proven network-parity lounge package for promotion." }
   - { id: yes-ai-inside, issuer: YES BANK, name: YES BANK AI Inside Credit Card, source: "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards", research_note: "Current YES BANK KFS explicitly separates AI Inside and AI Inside RuPay variants; the official lounge table gives 1 domestic visit per quarter but does not prove network variants share all material terms for a combined record." }
   - { id: hsbc-taj, issuer: HSBC India, name: HSBC Taj Credit Card, source: "https://www.hsbc.co.in/credit-cards/", research_note: "Current official HSBC page confirms Visa Infinite, fees, rewards and unlimited global airport lounge access, but the checked current official product material does not publish a numeric foreign-currency markup." }
-  - { id: hsbc-rupay-cashback, issuer: HSBC India, name: HSBC RuPay Cashback Credit Card, source: "https://www.hsbc.co.in/credit-cards/products/rupay-cashback-credit-card/", research_note: "Current official HSBC page confirms RuPay/JCB network, fees, cashback and lounge visits, but the 0% forex statement is an offer only through 31 August 2026 and the post-offer numeric markup is not established." }
   - { id: au-zenith, issuer: AU Small Finance Bank, name: ZENITH Credit Card, source: "https://www.aubank.in/personal-banking/credit-cards", research_note: "Current AU MITC and schedule establish ₹7,999 joining and annual fees, while official terms mention a Visa lounge variant; no single current official source establishes a complete reward, network and lounge package." }
   - { id: au-vetta, issuer: AU Small Finance Bank, name: VETTA Credit Card, source: "https://www.aubank.in/personal-banking/credit-cards", research_note: "Current AU MITC and product terms establish fees, rewards, lounge and forex, but the strict record cannot safely choose a current Visa/RuPay variant or distinct joining-fee treatment." }
   - { id: au-lit, issuer: AU Small Finance Bank, name: LIT Credit Card, source: "https://www.aubank.in/personal-banking/credit-cards", research_note: "The current official product is customizable, so AU material does not establish one fixed reward, lounge and network package for the flat schema." }
