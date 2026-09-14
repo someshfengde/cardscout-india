@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-09-07",
+    "updatedAt": "2026-09-14",
     "cardCount": 308,
-    "detailedCardCount": 207,
-    "discoveryCardCount": 101,
+    "detailedCardCount": 208,
+    "discoveryCardCount": 100,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -2866,23 +2866,26 @@
       "id": "hdfc-phonepe-ultimo",
       "issuer": "HDFC Bank",
       "name": "PhonePe HDFC Bank Ultimo Credit Card",
-      "source": "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-ultimo-credit-card",
-      "research_note": "Current HDFC product and FAQ pages describe 8 domestic lounge visits per year subject to ₹75,000 quarterly spend, while the May 2026 co-branded MITC describes 2 baseline visits plus 2 additional spend-based visits per quarter; the conflicting current lounge rules must be reconciled before promotion.",
-      "network": "Researching",
-      "joining_fee": null,
-      "annual_fee": null,
-      "waiver_spend": null,
-      "reward": "Research note: Current HDFC product and FAQ pages describe 8 domestic lounge visits per year subject to ₹75,000 quarterly spend, while the May 2026 co-branded MITC describes 2 baseline visits plus 2 additional spend-based visits per quarter; the conflicting current lounge rules must be reconciled before promotion.",
+      "network": "RuPay",
+      "joining_fee": 999,
+      "annual_fee": 999,
+      "waiver_spend": 200000,
+      "reward": "10% Reward Points on select PhonePe categories, 5% on select online brands and 1% on Scan & Pay, capped at 2,000 points per month",
       "categories": [
-        "discovery"
+        "cashback",
+        "shopping",
+        "travel",
+        "lounge",
+        "rupay-upi"
       ],
       "highlights": [
-        "Official verification target linked",
-        "Current HDFC product and FAQ pages describe 8 domestic lounge visits per year subject to ₹75,000 quarterly spend, while the May 2026 co-branded MITC describes 2 baseline visits plus 2 additional spend-based visits per quarter; the conflicting current lounge rules must be reconciled before promotion."
+        "Up to eight domestic lounge visits per year after spending ₹75,000 in the previous quarter",
+        "Reward Points redeem at ₹1 each for statement cashback"
       ],
-      "lounge": "researching",
-      "forex_markup": null,
-      "verification": "discovered"
+      "lounge": "conditional",
+      "forex_markup": 3.5,
+      "verification": "partial",
+      "source": "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-ultimo-credit-card"
     },
     {
       "id": "hdfc-phonepe-uno",

@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-09-07
+updated_at: 2026-09-14
 # Discovery records make the full research queue visible. Each record links to
 # the official verification target used for the issuer-by-issuer pass. It is a
 # candidate until a maintainer confirms current issuance, fees, and benefits.
@@ -16,7 +16,6 @@ cards:
   - { id: hdfc-bizpower, issuer: HDFC Bank, name: BizPower Credit Card, source: "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards", research_note: "HDFC Bank's current page states ₹2,500 fee, rewards, and lounge benefits, but lists Visa and Mastercard network-partner benefits rather than one issued network and does not state product-level forex markup." }
   - { id: hdfc-bizgrow, issuer: HDFC Bank, name: BizGrow Credit Card, source: "https://www.hdfc.bank.in/business-credit-cards/biz-grow-credit-card", research_note: "Current HDFC Bank materials establish fees, waiver, rewards, and network-partner benefits, but do not establish the currently issued network and a complete product-level lounge and numeric forex record together." }
   - { id: hdfc-phonepe-uno, issuer: HDFC Bank, name: PhonePe HDFC Bank Uno Credit Card, source: "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-uno-credit-card", research_note: "HDFC Bank's current product page and co-branded MITC confirm fees, waiver, RuPay issuance, rewards, and 3.5% forex, but do not provide an explicit product-level lounge entitlement or exclusion required for promotion." }
-  - { id: hdfc-phonepe-ultimo, issuer: HDFC Bank, name: PhonePe HDFC Bank Ultimo Credit Card, source: "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-ultimo-credit-card", research_note: "Current HDFC product and FAQ pages describe 8 domestic lounge visits per year subject to ₹75,000 quarterly spend, while the May 2026 co-branded MITC describes 2 baseline visits plus 2 additional spend-based visits per quarter; the conflicting current lounge rules must be reconciled before promotion." }
   - { id: hdfc-swiggy-ornge, issuer: HDFC Bank, name: Swiggy Ornge HDFC Bank Credit Card, source: "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card", research_note: "HDFC Bank's current product page and co-branded MITC confirm fees, waiver, cashback, and current fee treatment, but do not explicitly establish the issued network, product-level lounge classification, and numeric forex markup together." }
   - { id: hdfc-swiggy-blck, issuer: HDFC Bank, name: Swiggy BLCK HDFC Bank Credit Card, source: "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card", research_note: "HDFC Bank's current product page and co-branded MITC confirm fees, waiver, cashback, and current fee treatment, but do not establish a complete product-level network, lounge classification, and numeric forex record for promotion." }
 
