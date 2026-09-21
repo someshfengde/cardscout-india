@@ -1,11 +1,11 @@
 schema_version: 1
-updated_at: 2026-08-15
+updated_at: 2026-09-21
 issuers:
   - { name: HDFC Bank, slug: hdfc, coverage: detailed, catalog: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
   - { name: SBI Card, slug: sbi, coverage: detailed, catalog: "https://www.sbicard.com/en/personal/sbi-credit-card.page" }
   - { name: Axis Bank, slug: axis, coverage: detailed, catalog: "https://www.axisbank.com/retail/cards/credit-card" }
   - { name: ICICI Bank, slug: icici, coverage: detailed, catalog: "https://www.icicibank.com/personal-banking/cards/credit-card" }
-  - { name: IDFC FIRST Bank, slug: idfc-first, coverage: detailed, catalog: "https://www.idfcfirstbank.com/credit-card" }
+  - { name: IDFC FIRST Bank, slug: idfc-first, coverage: detailed, catalog: "https://www.idfcfirst.bank.in/credit-card" }
   - { name: Kotak Mahindra Bank, slug: kotak, coverage: detailed, catalog: "https://www.kotak.com/en/personal-banking/cards/credit-cards.html" }
   - { name: American Express, slug: american-express, coverage: detailed, catalog: "https://www.americanexpress.com/in/credit-cards/all-cards/" }
   - { name: YES BANK, slug: yes-bank, coverage: detailed, catalog: "https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards" }

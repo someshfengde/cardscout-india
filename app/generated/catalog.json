@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-09-14",
-    "cardCount": 308,
+    "updatedAt": "2026-09-21",
+    "cardCount": 316,
     "detailedCardCount": 208,
-    "discoveryCardCount": 100,
+    "discoveryCardCount": 108,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -43,8 +43,8 @@
       "name": "IDFC FIRST Bank",
       "slug": "idfc-first",
       "coverage": "detailed",
-      "catalog": "https://www.idfcfirstbank.com/credit-card",
-      "cardCount": 13
+      "catalog": "https://www.idfcfirst.bank.in/credit-card",
+      "cardCount": 21
     },
     {
       "name": "Kotak Mahindra Bank",
@@ -3759,6 +3759,28 @@
       "source": "https://www.idfcfirstbank.com/credit-card?cardType=Select"
     },
     {
+      "id": "idfc-diamond-reserve",
+      "issuer": "IDFC FIRST Bank",
+      "name": "Diamond Reserve Credit Card",
+      "source": "https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card",
+      "research_note": "The current official IDFC FIRST catalog and dedicated product page confirm active ₹3,000 pricing, zero forex, and domestic/global lounge benefits; network, reward, waiver, and exact lounge conditions still need a complete KFS and benefit-document pass.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IDFC FIRST catalog and dedicated product page confirm active ₹3,000 pricing, zero forex, and domestic/global lounge benefits; network, reward, waiver, and exact lounge conditions still need a complete KFS and benefit-document pass.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IDFC FIRST catalog and dedicated product page confirm active ₹3,000 pricing, zero forex, and domestic/global lounge benefits; network, reward, waiver, and exact lounge conditions still need a complete KFS and benefit-document pass."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "idfc-classic",
       "issuer": "IDFC FIRST Bank",
       "name": "FIRST Classic",
@@ -4008,6 +4030,138 @@
       "source": "https://www.idfcfirstbank.com/credit-card/wow"
     },
     {
+      "id": "idfc-wow-black",
+      "issuer": "IDFC FIRST Bank",
+      "name": "FIRST WOW! Black Credit Card",
+      "source": "https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card",
+      "research_note": "The current official IDFC FIRST catalog and dedicated product page confirm an active FD-backed, zero-forex dual-card product; the Visa/RuPay structure, fees, rewards, and lounge conditions need variant-safe normalization before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IDFC FIRST catalog and dedicated product page confirm an active FD-backed, zero-forex dual-card product; the Visa/RuPay structure, fees, rewards, and lounge conditions need variant-safe normalization before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IDFC FIRST catalog and dedicated product page confirm an active FD-backed, zero-forex dual-card product; the Visa/RuPay structure, fees, rewards, and lounge conditions need variant-safe normalization before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "idfc-gaj",
+      "issuer": "IDFC FIRST Bank",
+      "name": "Gaj Credit Card",
+      "source": "https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj",
+      "research_note": "The current official IDFC FIRST catalog and dedicated product page confirm an active invite-only metal card with ₹12,500 pricing and zero-forex positioning; network, reward, waiver, and lounge terms still need normalization against current KFS and benefit documents.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IDFC FIRST catalog and dedicated product page confirm an active invite-only metal card with ₹12,500 pricing and zero-forex positioning; network, reward, waiver, and lounge terms still need normalization against current KFS and benefit documents.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IDFC FIRST catalog and dedicated product page confirm an active invite-only metal card with ₹12,500 pricing and zero-forex positioning; network, reward, waiver, and lounge terms still need normalization against current KFS and benefit documents."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "idfc-hello-cashback",
+      "issuer": "IDFC FIRST Bank",
+      "name": "Hello Cashback Credit Card",
+      "source": "https://www.idfcfirst.bank.in/credit-card/hello-cashback-credit-card",
+      "research_note": "The current official IDFC FIRST catalog and dedicated product page confirm active FD-backed cashback and UPI issuance; the fee, network, forex, and explicit lounge fields still need a complete current KFS cross-check before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IDFC FIRST catalog and dedicated product page confirm active FD-backed cashback and UPI issuance; the fee, network, forex, and explicit lounge fields still need a complete current KFS cross-check before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IDFC FIRST catalog and dedicated product page confirm active FD-backed cashback and UPI issuance; the fee, network, forex, and explicit lounge fields still need a complete current KFS cross-check before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "idfc-indigo-dual",
+      "issuer": "IDFC FIRST Bank",
+      "name": "IndiGo IDFC FIRST Bank Dual Credit Card",
+      "source": "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card",
+      "research_note": "The current official IDFC FIRST catalog and dedicated product page confirm active Mastercard and RuPay dual-card issuance with travel rewards; fees, waiver, lounge conditions, and network-specific benefit parity require a complete current terms review before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IDFC FIRST catalog and dedicated product page confirm active Mastercard and RuPay dual-card issuance with travel rewards; fees, waiver, lounge conditions, and network-specific benefit parity require a complete current terms review before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IDFC FIRST catalog and dedicated product page confirm active Mastercard and RuPay dual-card issuance with travel rewards; fees, waiver, lounge conditions, and network-specific benefit parity require a complete current terms review before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "idfc-lic-classic",
+      "issuer": "IDFC FIRST Bank",
+      "name": "LIC Classic IDFC FIRST Bank Credit Card",
+      "source": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+      "research_note": "The current official IDFC FIRST catalog and LIC product page confirm active Classic issuance with insurance-focused rewards; current network, fees, forex, and exact lounge eligibility must be separated from the Select variant before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IDFC FIRST catalog and LIC product page confirm active Classic issuance with insurance-focused rewards; current network, fees, forex, and exact lounge eligibility must be separated from the Select variant before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IDFC FIRST catalog and LIC product page confirm active Classic issuance with insurance-focused rewards; current network, fees, forex, and exact lounge eligibility must be separated from the Select variant before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "idfc-lic-select",
+      "issuer": "IDFC FIRST Bank",
+      "name": "LIC Select IDFC FIRST Bank Credit Card",
+      "source": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+      "research_note": "The current official IDFC FIRST catalog and LIC product page confirm active Select issuance with insurance-focused rewards and lounge access; current network, fees, forex, and variant-specific lounge conditions still require a complete KFS review.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IDFC FIRST catalog and LIC product page confirm active Select issuance with insurance-focused rewards and lounge access; current network, fees, forex, and variant-specific lounge conditions still require a complete KFS review.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IDFC FIRST catalog and LIC product page confirm active Select issuance with insurance-focused rewards and lounge access; current network, fees, forex, and variant-specific lounge conditions still require a complete KFS review."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "idfc-mayura",
       "issuer": "IDFC FIRST Bank",
       "name": "Mayura",
@@ -4029,6 +4183,28 @@
       "forex_markup": 0,
       "verification": "verified",
       "source": "https://www.idfcfirstbank.com/credit-card?cardType=Select"
+    },
+    {
+      "id": "idfc-quantum-plus",
+      "issuer": "IDFC FIRST Bank",
+      "name": "Quantum+ Credit Card",
+      "source": "https://www.idfcfirst.bank.in/credit-card/quantum-plus-credit-card",
+      "research_note": "The current official IDFC FIRST catalog and dedicated product page confirm active FD-backed, lifetime-free issuance with cashback and UPI benefits; the network, product-level forex markup, and explicit lounge classification still need a complete KFS cross-check before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IDFC FIRST catalog and dedicated product page confirm active FD-backed, lifetime-free issuance with cashback and UPI benefits; the network, product-level forex markup, and explicit lounge classification still need a complete KFS cross-check before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IDFC FIRST catalog and dedicated product page confirm active FD-backed, lifetime-free issuance with cashback and UPI benefits; the network, product-level forex markup, and explicit lounge classification still need a complete KFS cross-check before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "indian-bank-bharat",
