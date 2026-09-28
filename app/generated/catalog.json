@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-09-21",
-    "cardCount": 316,
+    "updatedAt": "2026-09-28",
+    "cardCount": 321,
     "detailedCardCount": 208,
-    "discoveryCardCount": 108,
+    "discoveryCardCount": 113,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -85,8 +85,8 @@
       "name": "IndusInd Bank",
       "slug": "indusind",
       "coverage": "discovery",
-      "catalog": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
-      "cardCount": 13
+      "catalog": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "cardCount": 18
     },
     {
       "name": "RBL Bank",
@@ -4322,7 +4322,7 @@
       "id": "indusind-avios-visa-infinite",
       "issuer": "IndusInd Bank",
       "name": "Avios Visa Infinite Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
       "research_note": "The current official product is live with Visa, fees, rewards and lounge benefits, but forex is destination-dependent (1.5% only at the selected destination and 3.5% elsewhere), which cannot be represented by one numeric schema field.",
       "network": "Researching",
       "joining_fee": null,
@@ -4344,7 +4344,7 @@
       "id": "indusind-avios-visa-signature",
       "issuer": "IndusInd Bank",
       "name": "Avios Visa Signature Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
       "research_note": "The current official IndusInd catalog and MITC list Avios Visa Infinite but not this Signature candidate; no explicit official discontinuation or supersession notice for this exact queue ID was found.",
       "network": "Researching",
       "joining_fee": null,
@@ -4366,7 +4366,7 @@
       "id": "indusind-club-marriott",
       "issuer": "IndusInd Bank",
       "name": "Club Marriott Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
       "research_note": "Current official IndusInd material presents Club Marriott as a benefit on other cards and programs, not as a current consumer card product with this exact name; no explicit discontinuation notice was found.",
       "network": "Researching",
       "joining_fee": null,
@@ -4385,10 +4385,32 @@
       "verification": "discovered"
     },
     {
+      "id": "indusind-cred-rupay",
+      "issuer": "IndusInd Bank",
+      "name": "CRED IndusInd Bank RuPay Credit Card",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/CRED-IndusInd-Bank-ruPay-credit-card.html",
+      "research_note": "The current official IndusInd catalog and dedicated page confirm active RuPay issuance and CRED Reward Points across stated categories; current fees, forex, waiver, lounge treatment, and reward-value normalization still need complete official terms verification.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IndusInd catalog and dedicated page confirm active RuPay issuance and CRED Reward Points across stated categories; current fees, forex, waiver, lounge treatment, and reward-value normalization still need complete official terms verification.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IndusInd catalog and dedicated page confirm active RuPay issuance and CRED Reward Points across stated categories; current fees, forex, waiver, lounge treatment, and reward-value normalization still need complete official terms verification."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "indusind-eazydiner-platinum",
       "issuer": "IndusInd Bank",
       "name": "EazyDiner IndusInd Bank Platinum Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
       "research_note": "Current official material supports Visa and RuPay variants, so one broad record cannot select a network without proving that all material fees, rewards, lounge and forex terms are identical.",
       "network": "Researching",
       "joining_fee": null,
@@ -4410,7 +4432,7 @@
       "id": "indusind-eazydiner-signature",
       "issuer": "IndusInd Bank",
       "name": "EazyDiner IndusInd Bank Signature Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
       "research_note": "Official material identifies a Signature Visa product and publishes lounge/fee changes, but the current product-specific source does not establish a complete current benefit, forex and lounge package for this queue record.",
       "network": "Researching",
       "joining_fee": null,
@@ -4423,6 +4445,72 @@
       "highlights": [
         "Official verification target linked",
         "Official material identifies a Signature Visa product and publishes lounge/fee changes, but the current product-specific source does not establish a complete current benefit, forex and lounge package for this queue record."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-epay-amex",
+      "issuer": "IndusInd Bank",
+      "name": "ePay American Express Credit Card",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/epay-amex-card.html",
+      "research_note": "The current official IndusInd catalog and dedicated page confirm active American Express issuance with transaction-based rewards and membership benefits; current fees, forex, waiver, reward valuation, and explicit lounge treatment require a complete KFS and terms review.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IndusInd catalog and dedicated page confirm active American Express issuance with transaction-based rewards and membership benefits; current fees, forex, waiver, reward valuation, and explicit lounge treatment require a complete KFS and terms review.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IndusInd catalog and dedicated page confirm active American Express issuance with transaction-based rewards and membership benefits; current fees, forex, waiver, reward valuation, and explicit lounge treatment require a complete KFS and terms review."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-solitaire",
+      "issuer": "IndusInd Bank",
+      "name": "Indus Solitaire Credit Card",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/solitaire-credit-card.html",
+      "research_note": "The current official IndusInd catalog and dedicated product page confirm active premium issuance and publish travel, reward, and milestone benefits; current network, fees, forex, waiver, and exact lounge conditions need a complete KFS and benefit-document pass.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IndusInd catalog and dedicated product page confirm active premium issuance and publish travel, reward, and milestone benefits; current network, fees, forex, waiver, and exact lounge conditions need a complete KFS and benefit-document pass.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IndusInd catalog and dedicated product page confirm active premium issuance and publish travel, reward, and milestone benefits; current network, fees, forex, waiver, and exact lounge conditions need a complete KFS and benefit-document pass."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-jio-bp-mobility-plus",
+      "issuer": "IndusInd Bank",
+      "name": "Jio-bp Mobility+ Credit Card",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/jio-bp-mobility-credit-card.html",
+      "research_note": "The current official IndusInd catalog and dedicated product page confirm active fuel-focused issuance and publish Smiles rewards and milestones; current network, fees, forex, waiver, and lounge treatment still require a complete KFS and terms pass before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IndusInd catalog and dedicated product page confirm active fuel-focused issuance and publish Smiles rewards and milestones; current network, fees, forex, waiver, and lounge treatment still require a complete KFS and terms pass before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IndusInd catalog and dedicated product page confirm active fuel-focused issuance and publish Smiles rewards and milestones; current network, fees, forex, waiver, and lounge treatment still require a complete KFS and terms pass before promotion."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -4455,7 +4543,7 @@
       "id": "indusind-nexxt",
       "issuer": "IndusInd Bank",
       "name": "Nexxt Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
       "research_note": "The current official product page establishes live benefits and rewards, but does not identify the current network or a schema-compatible lounge value; lounge none cannot be inferred.",
       "network": "Researching",
       "joining_fee": null,
@@ -4497,6 +4585,28 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pinnacle-world-credit-card.html"
+    },
+    {
+      "id": "indusind-pioneer-private",
+      "issuer": "IndusInd Bank",
+      "name": "PIONEER Private Credit Card",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-private.html",
+      "research_note": "The current official IndusInd catalog and dedicated page confirm active premium issuance with travel and lifestyle privileges; product-specific network, fees, forex, waiver, reward rate, and lounge conditions still require normalization against current official terms.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official IndusInd catalog and dedicated page confirm active premium issuance with travel and lifestyle privileges; product-specific network, fees, forex, waiver, reward rate, and lounge conditions still require normalization against current official terms.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official IndusInd catalog and dedicated page confirm active premium issuance with travel and lifestyle privileges; product-specific network, fees, forex, waiver, reward rate, and lounge conditions still require normalization against current official terms."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "indusind-platinum-aura-edge",
@@ -4570,7 +4680,7 @@
       "id": "indusind-samman",
       "issuer": "IndusInd Bank",
       "name": "Samman Credit Card",
-      "source": "https://www.indusind.com/in/en/personal/cards/credit-card.html",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
       "research_note": "The current official page establishes RuPay, cashback and live application, and MITC establishes fees, but the official material does not publish a complete lounge treatment for the strict record.",
       "network": "Researching",
       "joining_fee": null,
