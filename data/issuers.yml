@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-09-28
+updated_at: 2026-10-07
 issuers:
   - { name: HDFC Bank, slug: hdfc, coverage: detailed, catalog: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
   - { name: SBI Card, slug: sbi, coverage: detailed, catalog: "https://www.sbicard.com/en/personal/sbi-credit-card.page" }
@@ -12,7 +12,7 @@ issuers:
   - { name: HSBC India, slug: hsbc, coverage: detailed, catalog: "https://www.hsbc.co.in/credit-cards/" }
   - { name: AU Small Finance Bank, slug: au-bank, coverage: detailed, catalog: "https://www.aubank.in/personal-banking/credit-cards" }
   - { name: IndusInd Bank, slug: indusind, coverage: discovery, catalog: "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html" }
-  - { name: RBL Bank, slug: rbl, coverage: discovery, catalog: "https://www.rblbank.com/personal-banking/cards/credit-cards" }
+  - { name: RBL Bank, slug: rbl, coverage: discovery, catalog: "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category" }
   - { name: Standard Chartered India, slug: standard-chartered, coverage: discovery, catalog: "https://www.sc.com/in/credit-cards/" }
   - { name: Federal Bank, slug: federal, coverage: detailed, catalog: "https://www.federalbank.co.in/credit-cards" }
   - { name: Bank of Baroda, slug: bank-of-baroda, coverage: discovery, catalog: "https://www.bobcard.co.in/credit-card" }

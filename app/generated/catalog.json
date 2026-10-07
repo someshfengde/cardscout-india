@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-09-28",
-    "cardCount": 321,
+    "updatedAt": "2026-10-07",
+    "cardCount": 332,
     "detailedCardCount": 208,
-    "discoveryCardCount": 113,
+    "discoveryCardCount": 124,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -92,8 +92,8 @@
       "name": "RBL Bank",
       "slug": "rbl",
       "coverage": "discovery",
-      "catalog": "https://www.rblbank.com/personal-banking/cards/credit-cards",
-      "cardCount": 12
+      "catalog": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+      "cardCount": 23
     },
     {
       "name": "Standard Chartered India",
@@ -5817,6 +5817,28 @@
       "source": "https://pnbcard.in/types9.html"
     },
     {
+      "id": "rbl-apex",
+      "issuer": "RBL Bank",
+      "name": "Apex Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/apex-credit-card",
+      "research_note": "RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "rbl-bajaj-finserv-supercard",
       "issuer": "RBL Bank",
       "name": "Bajaj Finserv RBL Bank SuperCard",
@@ -5859,6 +5881,28 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.rblbank.com/api/v1/doc/document/credit-cards/play-credit-card-terms-and-conditions.pdf"
+    },
+    {
+      "id": "rbl-cookies",
+      "issuer": "RBL Bank",
+      "name": "Cookies Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/cookies-credit-card",
+      "research_note": "RBL's current product page and catalog confirm an application and a monthly-fee model; network, annual-fee representation, forex, lounge, and full reward conditions need a product-document pass before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current product page and catalog confirm an application and a monthly-fee model; network, annual-fee representation, forex, lounge, and full reward conditions need a product-document pass before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current product page and catalog confirm an application and a monthly-fee model; network, annual-fee representation, forex, lounge, and full reward conditions need a product-document pass before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "rbl-icon",
@@ -5953,6 +5997,50 @@
       "source": "https://webassets.rblbank.com/document/Credit%20Cards/CardsScheduleCharges.pdf"
     },
     {
+      "id": "rbl-irctc",
+      "issuer": "RBL Bank",
+      "name": "IRCTC RBL Bank Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/irctc-rbl-bank-credit-card",
+      "research_note": "RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-jalsa",
+      "issuer": "RBL Bank",
+      "name": "Jalsa Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/jalsa-credit-card",
+      "research_note": "RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "rbl-monthly-treats",
       "issuer": "RBL Bank",
       "name": "Monthly Treats Credit Card",
@@ -5997,6 +6085,28 @@
       "source": "https://webassets.rblbank.com/document/Credit%20Cards/CardsScheduleCharges.pdf"
     },
     {
+      "id": "rbl-platinum-delight",
+      "issuer": "RBL Bank",
+      "name": "Platinum Delight Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/platinum-delight-credit-card",
+      "research_note": "RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links a dedicated product page and application; verify current fees, network, rewards, lounge, and forex against product terms before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "rbl-platinum-maxima",
       "issuer": "RBL Bank",
       "name": "Platinum Maxima Credit Card",
@@ -6020,6 +6130,28 @@
       "source": "https://webassets.rblbank.com/document/credit-cards/terms-conditions-platinum-maxima.pdf"
     },
     {
+      "id": "rbl-platinum-maxima-plus",
+      "issuer": "RBL Bank",
+      "name": "Platinum Maxima Plus Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/platinum-maxima-plus-credit-card",
+      "research_note": "RBL's current product page and catalog confirm an application and publish rewards, fees, and conditional lounge access; network, forex, and complete benefit terms need a product-document pass before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current product page and catalog confirm an application and publish rewards, fees, and conditional lounge access; network, forex, and complete benefit terms need a product-document pass before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current product page and catalog confirm an application and publish rewards, fees, and conditional lounge access; network, forex, and complete benefit terms need a product-document pass before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "rbl-platinum-traveleasy",
       "issuer": "RBL Bank",
       "name": "Platinum TravelEasy Credit Card",
@@ -6041,6 +6173,72 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.rblbank.com/personal-banking/cards/credit-cards/platinum-traveleasy-credit-card"
+    },
+    {
+      "id": "rbl-shoppers-stop-black",
+      "issuer": "RBL Bank",
+      "name": "RBL Bank Shoppers Stop Black Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-shoppers-stop-black-credit-card",
+      "research_note": "RBL's current catalog links this separately named variant and an application; confirm variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links this separately named variant and an application; confirm variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links this separately named variant and an application; confirm variant-specific fees, network, rewards, lounge, and forex before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-shoppers-stop-gold",
+      "issuer": "RBL Bank",
+      "name": "RBL Bank Shoppers Stop Gold Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-shoppers-stop-gold-credit-card",
+      "research_note": "RBL's current catalog links this separately named variant and an application; confirm variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links this separately named variant and an application; confirm variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links this separately named variant and an application; confirm variant-specific fees, network, rewards, lounge, and forex before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-shoppers-stop-platinum",
+      "issuer": "RBL Bank",
+      "name": "RBL Bank Shoppers Stop Platinum Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-shoppers-stop-platinum-credit-card",
+      "research_note": "RBL's current catalog links this separately named variant and an application; confirm variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links this separately named variant and an application; confirm variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links this separately named variant and an application; confirm variant-specific fees, network, rewards, lounge, and forex before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "rbl-shoprite",
@@ -6086,6 +6284,50 @@
       "forex_markup": 0,
       "verification": "verified",
       "source": "https://www.rblbank.com/personal-banking/cards/credit-cards/world-safari-credit-card"
+    },
+    {
+      "id": "rbl-world-safari-lite",
+      "issuer": "RBL Bank",
+      "name": "World Safari Lite Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/world-safari-lite-credit-card",
+      "research_note": "RBL's current catalog links a distinct product page and application; verify variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links a distinct product page and application; verify variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links a distinct product page and application; verify variant-specific fees, network, rewards, lounge, and forex before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-world-safari-plus",
+      "issuer": "RBL Bank",
+      "name": "World Safari Plus Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/world-safari-plus-credit-card",
+      "research_note": "RBL's current catalog links a distinct product page and application; verify variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links a distinct product page and application; verify variant-specific fees, network, rewards, lounge, and forex before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links a distinct product page and application; verify variant-specific fees, network, rewards, lounge, and forex before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "sbi-aurum",
