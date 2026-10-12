@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-10-07",
-    "cardCount": 332,
+    "updatedAt": "2026-10-12",
+    "cardCount": 336,
     "detailedCardCount": 208,
-    "discoveryCardCount": 124,
+    "discoveryCardCount": 128,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -93,7 +93,7 @@
       "slug": "rbl",
       "coverage": "discovery",
       "catalog": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
-      "cardCount": 23
+      "cardCount": 27
     },
     {
       "name": "Standard Chartered India",
@@ -6041,6 +6041,28 @@
       "verification": "discovered"
     },
     {
+      "id": "rbl-lumiere",
+      "issuer": "RBL Bank",
+      "name": "Lumière Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/lumiere-credit-card",
+      "research_note": "RBL's current catalog lists this distinct premium card with an interest form; invitation/issuance eligibility, network, fees, rewards, lounge, and forex need direct product-term verification before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog lists this distinct premium card with an interest form; invitation/issuance eligibility, network, fees, rewards, lounge, and forex need direct product-term verification before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog lists this distinct premium card with an interest form; invitation/issuance eligibility, network, fees, rewards, lounge, and forex need direct product-term verification before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "rbl-monthly-treats",
       "issuer": "RBL Bank",
       "name": "Monthly Treats Credit Card",
@@ -6061,6 +6083,28 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://webassets.rblbank.com/document/Credit%20Cards/CardsScheduleCharges.pdf"
+    },
+    {
+      "id": "rbl-nova",
+      "issuer": "RBL Bank",
+      "name": "NOVA Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/nova-credit-card",
+      "research_note": "RBL's current catalog lists this distinct premium card with an interest form, while its product page describes rewards, lounges, and forex; network, fees, eligibility, and complete current terms need verification before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog lists this distinct premium card with an interest form, while its product page describes rewards, lounges, and forex; network, fees, eligibility, and complete current terms need verification before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog lists this distinct premium card with an interest form, while its product page describes rewards, lounges, and forex; network, fees, eligibility, and complete current terms need verification before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "rbl-duet",
@@ -6173,6 +6217,50 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.rblbank.com/personal-banking/cards/credit-cards/platinum-traveleasy-credit-card"
+    },
+    {
+      "id": "rbl-patanjali-swarn",
+      "issuer": "RBL Bank",
+      "name": "RBL Bank Patanjali Swarn Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-patanjali-swarn-credit-card",
+      "research_note": "RBL's current catalog links a distinct application and product page with rewards and lounge benefits; network, forex, fees, and current milestone conditions need complete product-document verification before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links a distinct application and product page with rewards and lounge benefits; network, forex, fees, and current milestone conditions need complete product-document verification before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links a distinct application and product page with rewards and lounge benefits; network, forex, fees, and current milestone conditions need complete product-document verification before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "rbl-patanjali-vishisht",
+      "issuer": "RBL Bank",
+      "name": "RBL Bank Patanjali Vishisht Credit Card",
+      "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-patanjali-vishisht-credit-card",
+      "research_note": "RBL's current catalog links an application and product page that identifies RuPay and publishes fees and reward conditions; forex and explicit lounge classification need current product-document verification before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: RBL's current catalog links an application and product page that identifies RuPay and publishes fees and reward conditions; forex and explicit lounge classification need current product-document verification before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "RBL's current catalog links an application and product page that identifies RuPay and publishes fees and reward conditions; forex and explicit lounge classification need current product-document verification before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "rbl-shoppers-stop-black",
