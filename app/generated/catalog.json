@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-10-12",
-    "cardCount": 336,
+    "updatedAt": "2026-10-19",
+    "cardCount": 338,
     "detailedCardCount": 208,
-    "discoveryCardCount": 128,
+    "discoveryCardCount": 130,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -99,8 +99,8 @@
       "name": "Standard Chartered India",
       "slug": "standard-chartered",
       "coverage": "discovery",
-      "catalog": "https://www.sc.com/in/credit-cards/",
-      "cardCount": 8
+      "catalog": "https://www.sc.bank.in/credit-cards/",
+      "cardCount": 10
     },
     {
       "name": "Federal Bank",
@@ -7152,22 +7152,44 @@
       "source": "https://www.sbicard.com/en/personal/credit-cards/south-indian-bank-simplysave-sbi-card.html"
     },
     {
-      "id": "sc-digismart",
+      "id": "sc-beyond",
       "issuer": "Standard Chartered India",
-      "name": "DigiSmart Credit Card",
-      "source": "https://www.sc.com/in/credit-cards/",
-      "research_note": "Standard Chartered's current product catalogue does not expose a DigiSmart application/product page; only legacy DigiSmart references remain, and its ₹49 monthly charge cannot be represented by the schema's joining/annual fee fields.",
+      "name": "Beyond Credit Card",
+      "source": "https://www.sc.bank.in/credit-cards/beyond-credit-card/",
+      "research_note": "Standard Chartered currently labels Beyond an exclusive card launch for Priority Banking and publishes rewards, forex, and lounge marketing, but its unlimited-lounge wording conflicts with finite example quantities; eligibility, fees, network, and definitive lounge terms need product-document verification.",
       "network": "Researching",
       "joining_fee": null,
       "annual_fee": null,
       "waiver_spend": null,
-      "reward": "Research note: Standard Chartered's current product catalogue does not expose a DigiSmart application/product page; only legacy DigiSmart references remain, and its ₹49 monthly charge cannot be represented by the schema's joining/annual fee fields.",
+      "reward": "Research note: Standard Chartered currently labels Beyond an exclusive card launch for Priority Banking and publishes rewards, forex, and lounge marketing, but its unlimited-lounge wording conflicts with finite example quantities; eligibility, fees, network, and definitive lounge terms need product-document verification.",
       "categories": [
         "discovery"
       ],
       "highlights": [
         "Official verification target linked",
-        "Standard Chartered's current product catalogue does not expose a DigiSmart application/product page; only legacy DigiSmart references remain, and its ₹49 monthly charge cannot be represented by the schema's joining/annual fee fields."
+        "Standard Chartered currently labels Beyond an exclusive card launch for Priority Banking and publishes rewards, forex, and lounge marketing, but its unlimited-lounge wording conflicts with finite example quantities; eligibility, fees, network, and definitive lounge terms need product-document verification."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "sc-digismart",
+      "issuer": "Standard Chartered India",
+      "name": "DigiSmart Credit Card",
+      "source": "https://www.sc.bank.in/credit-cards/digismart-card/",
+      "research_note": "Standard Chartered's current catalog links a DigiSmart product page, but the checked page does not establish new-application availability; its ₹49 monthly usage fee and spend-based reversal also cannot be represented by annual-fee fields without a schema extension.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: Standard Chartered's current catalog links a DigiSmart product page, but the checked page does not establish new-application availability; its ₹49 monthly usage fee and spend-based reversal also cannot be represented by annual-fee fields without a schema extension.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Standard Chartered's current catalog links a DigiSmart product page, but the checked page does not establish new-application availability; its ₹49 monthly usage fee and spend-based reversal also cannot be represented by annual-fee fields without a schema extension."
       ],
       "lounge": "researching",
       "forex_markup": null,
@@ -7241,6 +7263,28 @@
       "forex_markup": 3.5,
       "verification": "partial",
       "source": "https://www.sc.bank.in/credit-cards/platinum-rewards/"
+    },
+    {
+      "id": "sc-priority-visa-infinite",
+      "issuer": "Standard Chartered India",
+      "name": "Priority Visa Infinite Credit Card",
+      "source": "https://www.sc.bank.in/credit-cards/priority-banking-visa-infinite/",
+      "research_note": "Standard Chartered's current catalog and product page describe this Priority Banking Visa card, complimentary relationship pricing, and condition-dependent lounge access; verify current sourcing availability, forex, fees for nonqualifying relationships, and complete terms before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: Standard Chartered's current catalog and product page describe this Priority Banking Visa card, complimentary relationship pricing, and condition-dependent lounge access; verify current sourcing availability, forex, fees for nonqualifying relationships, and complete terms before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Standard Chartered's current catalog and product page describe this Priority Banking Visa card, complimentary relationship pricing, and condition-dependent lounge access; verify current sourcing availability, forex, fees for nonqualifying relationships, and complete terms before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "sc-rewards",

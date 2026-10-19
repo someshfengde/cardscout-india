@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-08-26
+updated_at: 2026-10-19
 # Products confirmed by an official issuer source as discontinued, superseded,
 # or unavailable for new issuance. Retired records are preserved for auditability
 # but are intentionally excluded from the active comparison catalog.
@@ -97,7 +97,7 @@ cards:
     issuer: SBI Card
     name: Etihad Guest SBI Card
     reason: Issuance was discontinued and SBI Card subsequently phased out existing cards, with deactivation no later than 31 March 2026.
-    source: https://www.sbicard.com/en/personal/credit-cards/etihad-guest-sbi-card.html
+    source: https://www.sbicard.com/en/customer-notices.page
     effective_date: 2025-03-11
 
   # Fleet-confirmed retirements
@@ -132,5 +132,5 @@ cards:
     issuer: SBI Card
     name: Etihad Guest SBI Card Premier
     reason: Issuance was discontinued and SBI Card subsequently phased out existing cards, with deactivation no later than 31 March 2026.
-    source: https://www.sbicard.com/en/personal/credit-cards/etihad-guest-sbi-premier-card.html
+    source: https://www.sbicard.com/en/customer-notices.page
     effective_date: 2025-03-11

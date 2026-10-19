@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-10-12
+updated_at: 2026-10-19
 # Discovery records make the full research queue visible. Each record links to
 # the official verification target used for the issuer-by-issuer pass. It is a
 # candidate until a maintainer confirms current issuance, fees, and benefits.
@@ -119,7 +119,9 @@ cards:
   - { id: rbl-patanjali-swarn, issuer: RBL Bank, name: RBL Bank Patanjali Swarn Credit Card, source: "https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-patanjali-swarn-credit-card", research_note: "RBL's current catalog links a distinct application and product page with rewards and lounge benefits; network, forex, fees, and current milestone conditions need complete product-document verification before promotion." }
 
   # Standard Chartered India
-  - { id: sc-digismart, issuer: Standard Chartered India, name: DigiSmart Credit Card, source: "https://www.sc.com/in/credit-cards/", research_note: "Standard Chartered's current product catalogue does not expose a DigiSmart application/product page; only legacy DigiSmart references remain, and its ₹49 monthly charge cannot be represented by the schema's joining/annual fee fields." }
+  - { id: sc-digismart, issuer: Standard Chartered India, name: DigiSmart Credit Card, source: "https://www.sc.bank.in/credit-cards/digismart-card/", research_note: "Standard Chartered's current catalog links a DigiSmart product page, but the checked page does not establish new-application availability; its ₹49 monthly usage fee and spend-based reversal also cannot be represented by annual-fee fields without a schema extension." }
+  - { id: sc-beyond, issuer: Standard Chartered India, name: Beyond Credit Card, source: "https://www.sc.bank.in/credit-cards/beyond-credit-card/", research_note: "Standard Chartered currently labels Beyond an exclusive card launch for Priority Banking and publishes rewards, forex, and lounge marketing, but its unlimited-lounge wording conflicts with finite example quantities; eligibility, fees, network, and definitive lounge terms need product-document verification." }
+  - { id: sc-priority-visa-infinite, issuer: Standard Chartered India, name: Priority Visa Infinite Credit Card, source: "https://www.sc.bank.in/credit-cards/priority-banking-visa-infinite/", research_note: "Standard Chartered's current catalog and product page describe this Priority Banking Visa card, complimentary relationship pricing, and condition-dependent lounge access; verify current sourcing availability, forex, fees for nonqualifying relationships, and complete terms before promotion." }
 
   # Federal Bank
 
