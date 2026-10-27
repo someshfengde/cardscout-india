@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-10-19",
-    "cardCount": 338,
+    "updatedAt": "2026-10-27",
+    "cardCount": 340,
     "detailedCardCount": 208,
-    "discoveryCardCount": 130,
+    "discoveryCardCount": 132,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -134,8 +134,8 @@
       "name": "Union Bank of India",
       "slug": "union-bank",
       "coverage": "discovery",
-      "catalog": "https://www.unionbankofindia.co.in/en/listing/credit-card",
-      "cardCount": 13
+      "catalog": "https://www.unionbankofindia.bank.in/en/listing/credit-cards",
+      "cardCount": 15
     },
     {
       "name": "Bank of India",
@@ -7470,6 +7470,28 @@
       "source": "https://unioncards.unionbankofindia.co.in/HTML/ADB_NEXTERIA_ABOUT.html"
     },
     {
+      "id": "union-pm-svanidhi",
+      "issuer": "Union Bank of India",
+      "name": "PM SVANidhi Credit Card",
+      "source": "https://www.unionbankofindia.bank.in/en/details/pm-svanidhi-credit-card",
+      "research_note": "Union Bank's current catalog and product page identify a RuPay retail credit card for eligible street vendors with lifetime-free pricing; the bank states rewards follow policy, while exact reward value, lounge treatment, and restricted international-use representation need verification before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: Union Bank's current catalog and product page identify a RuPay retail credit card for eligible street vendors with lifetime-free pricing; the bank states rewards follow policy, while exact reward value, lounge treatment, and restricted international-use representation need verification before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Union Bank's current catalog and product page identify a RuPay retail credit card for eligible street vendors with lifetime-free pricing; the bank states rewards follow policy, while exact reward value, lounge treatment, and restricted international-use representation need verification before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "union-unicorn",
       "issuer": "Union Bank of India",
       "name": "UNICORN Credit Card",
@@ -7622,6 +7644,28 @@
       "highlights": [
         "Official verification target linked",
         "The current Union Bank card portal and KFS omit the Silver label and list other current variants, but no official discontinuation or migration notice was found to classify this record as retired."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "union-sparsh",
+      "issuer": "Union Bank of India",
+      "name": "Union Sparsh Credit Card",
+      "source": "https://www.unionbankofindia.bank.in/en/details/union-sparsh-credit-card",
+      "research_note": "Union Bank's current catalog and product page announce an accessible RuPay card for visually impaired customers and provide an application route; fees, rewards, lounge, forex, and eligibility terms require the linked MITC and KFS before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: Union Bank's current catalog and product page announce an accessible RuPay card for visually impaired customers and provide an application route; fees, rewards, lounge, forex, and eligibility terms require the linked MITC and KFS before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "Union Bank's current catalog and product page announce an accessible RuPay card for visually impaired customers and provide an application route; fees, rewards, lounge, forex, and eligibility terms require the linked MITC and KFS before promotion."
       ],
       "lounge": "researching",
       "forex_markup": null,

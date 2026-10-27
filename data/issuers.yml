@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-10-19
+updated_at: 2026-10-27
 issuers:
   - { name: HDFC Bank, slug: hdfc, coverage: detailed, catalog: "https://www.hdfcbank.com/personal/pay/cards/credit-cards" }
   - { name: SBI Card, slug: sbi, coverage: detailed, catalog: "https://www.sbicard.com/en/personal/sbi-credit-card.page" }
@@ -18,7 +18,7 @@ issuers:
   - { name: Bank of Baroda, slug: bank-of-baroda, coverage: discovery, catalog: "https://www.bobcard.co.in/credit-card" }
   - { name: Punjab National Bank, slug: pnb, coverage: discovery, catalog: "https://www.pnbcard.in/" }
   - { name: Canara Bank, slug: canara, coverage: detailed, catalog: "https://canarabank.com/" }
-  - { name: Union Bank of India, slug: union-bank, coverage: discovery, catalog: "https://www.unionbankofindia.co.in/en/listing/credit-card" }
+  - { name: Union Bank of India, slug: union-bank, coverage: discovery, catalog: "https://www.unionbankofindia.bank.in/en/listing/credit-cards" }
   - { name: Bank of India, slug: bank-of-india, coverage: discovery, catalog: "https://bankofindia.co.in/credit-card" }
   - { name: Indian Bank, slug: indian-bank, coverage: discovery, catalog: "https://www.indianbank.in/departments/credit-card/" }
   - { name: South Indian Bank, slug: south-indian-bank, coverage: detailed, catalog: "https://www.southindianbank.com/content/personal-banking/credit-cards/385" }

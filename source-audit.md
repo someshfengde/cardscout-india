@@ -1,9 +1,9 @@
 # Source audit
 
-Checked 271 official sources.
+Checked 274 official sources.
 Changed since the previous audit: 0.
 Broken or error responses: 0.
-Automation-blocked sources: 98.
+Automation-blocked sources: 235.
 
 ## Blocked from automated checking
 
@@ -16,94 +16,231 @@ These sources require manual review; they are not treated as broken.
 - ERROR https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards/select-credit-card: The operation was aborted due to timeout
 - ERROR https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards/ace-credit-card: The operation was aborted due to timeout
 - ERROR https://www.yesbank.in/personal-banking/yes-individual/cards/credit-cards: The operation was aborted due to timeout
+- ERROR https://www.hsbc.co.in/credit-cards/products/visa-platinum/: The operation was aborted due to timeout
+- ERROR https://www.hsbc.co.in/credit-cards/products/rupay-cashback-credit-card/: The operation was aborted due to timeout
+- ERROR https://aubank.in/personal-banking/credit-cards/au-spont-credit-card: fetch failed
+- ERROR https://www.hsbc.co.in/credit-cards/products/premier/: fetch failed
+- ERROR https://www.aubank.in/personal-banking/credit-cards/ixigo-au-travel-credit-card: fetch failed
+- ERROR https://www.aubank.in/personal-banking/credit-cards/zenith-plus-credit-card: fetch failed
+- ERROR https://www.icicibank.com/personal-banking/cards/credit-card/amazon-pay-credit-card: fetch failed
+- ERROR https://www.icicibank.com/personal-banking/cards/credit-card/coral-rupay-credit-card: fetch failed
+- ERROR https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip-credit-card: fetch failed
+- ERROR https://www.icicibank.com/personal-banking/cards/credit-card/sapphiro-credit-card: fetch failed
+- ERROR https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-private-metal-credit-card: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/bobcard-cashback: fetch failed
-- 403 https://www.aubank.in/personal-banking/credit-cards/ixigo-au-travel-credit-card
-- 403 https://aubank.in/personal-banking/credit-cards/au-spont-credit-card
-- 403 https://www.aubank.in/personal-banking/credit-cards/zenith-plus-credit-card
+- ERROR https://www.hsbc.co.in/credit-cards/products/travelone/: fetch failed
+- ERROR https://www.hsbc.co.in/credit-cards/products/live-plus/: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/eterna: fetch failed
+- ERROR https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/easy: fetch failed
+- ERROR https://media.bobcard.co.in/media/4qfbv2ka/bobcard-one-mitc.pdf: fetch failed
+- ERROR https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest-premium: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/premier: fetch failed
+- ERROR https://www.bobcard.co.in/credit-card-types/prime: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/bobcard-scapia-credit-card: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/select: fetch failed
-- ERROR https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest-premium: fetch failed
-- ERROR https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest: fetch failed
-- ERROR https://www.bobcard.co.in/credit-card-types/prime: fetch failed
-- ERROR https://media.bobcard.co.in/media/4qfbv2ka/bobcard-one-mitc.pdf: fetch failed
-- ERROR https://www.bobcard.co.in/credit-card-types/tiara: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/bobcard-uni-goldx: fetch failed
+- ERROR https://www.bobcard.co.in/credit-card-types/tiara: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/hpcl-energie: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/irctc-credit-card: fetch failed
+- ERROR https://bankofindia.co.in/documents/20121/135684/BOI-Credit-Card-MITC-updated-pdf1.pdf/3f93a4be-d615-1973-feed-c3f3293f9e46?t=1743248116732: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card-types/snapdeal-bobcard: fetch failed
-- 403 https://bankofindia.co.in/documents/20121/135684/BOI-Credit-Card-MITC-updated-pdf1.pdf/3f93a4be-d615-1973-feed-c3f3293f9e46?t=1743248116732
+- ERROR https://www.sbicard.com/en/personal/credit-cards/bom-sbi-card-elite.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/bom-sbi-card-prime.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/bom-simplysave-sbi-card.html: fetch failed
+- ERROR https://www.canarabank.bank.in/mastercard-gold-credit-card: fetch failed
+- ERROR https://www.canarabank.bank.in/rupay-platinum-credit-card: fetch failed
+- ERROR https://www.canarabank.bank.in/pages/rupay-select-credit-card: fetch failed
 - ERROR https://www.cityunionbank.com/filemanager/Nov25/Mktg_v4.pdf: fetch failed
+- ERROR https://www.canarabank.bank.in/visa-classic-credit-card: fetch failed
 - ERROR https://www.cityunionbank.com/cub-salaryse-level-up-credit-card: fetch failed
 - ERROR https://www.cityunionbank.com/filemanager/Nov25/KFS_Salary_SE.pdf: fetch failed
 - ERROR https://www.cityunionbank.com/creditcard: fetch failed
-- 503 https://equitas.bank.in/personal-banking/pay/credit-cards/selfe-credit-card/
-- ERROR https://www.csb.co.in/pdf/Edge_CSB_Bank_RuPay_Credit_Card-KFS.pdf: fetch failed
 - ERROR https://www.csb.co.in/pdf/CSB-One_KFS_05122024.pdf: fetch failed
+- ERROR https://www.csb.co.in/pdf/Edge_CSB_Bank_RuPay_Credit_Card-KFS.pdf: fetch failed
+- ERROR https://www.dbs.com/newsroom/DBS_Bank_India_launches_its_first_invite_only_credit_card: fetch failed
 - ERROR https://www.csb.co.in/pdf/key_fact_statement_edge_csb_bank_credit_card_2025.pdf: fetch failed
-- CONTENT-UNSTABLE https://www.dhanbank.com/pdf/cc/Most_Imp_Terms_Conditions.pdf
-- CONTENT-BLOCKED https://www.esafbank.com/storage/2024/11/Credit-Card-Most-Important-Terms-And-Conditions-MITC.pdf
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/legend-credit-card.html
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-rupay-credit-card.html/
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-aura-edge-visa-and-mastercard-credit-card-easy-credit.html
+- ERROR https://www.dcb.bank.in/personal/cards/secured-card/dcb-novio-credit-card: fetch failed
+- ERROR https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card: fetch failed
+- ERROR https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-select-card: fetch failed
+- ERROR https://www.dhanbank.com/pdf/cc/Most_Imp_Terms_Conditions.pdf: fetch failed
+- ERROR https://www.esafbank.com/storage/2024/11/Credit-Card-Most-Important-Terms-And-Conditions-MITC.pdf: fetch failed
+- ERROR https://equitas.bank.in/personal-banking/pay/credit-cards/selfe-credit-card/: fetch failed
+- ERROR https://www.federal.bank.in/visa-celesta-credit-card?inheritRedirect=true: fetch failed
+- ERROR https://www.federal.bank.in/visa-signet-credit-card?inheritRedirect=true: fetch failed
 - ERROR https://www.idbibank.in/Euphoria-credit-card.aspx: fetch failed
 - ERROR https://www.idbibank.in/Winnings-credit-card.aspx: fetch failed
-- CONTENT-BLOCKED https://www.federal.bank.in/visa-imperio-credit-card?inheritRedirect=true
-- CONTENT-BLOCKED https://www.federal.bank.in/visa-celesta-credit-card?inheritRedirect=true
-- CONTENT-BLOCKED https://www.federal.bank.in/visa-signet-credit-card?inheritRedirect=true
+- ERROR https://www.federal.bank.in/visa-imperio-credit-card?inheritRedirect=true: fetch failed
+- ERROR https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/news-media/press-release/Press-Release-IDFC-FIRST-Bank-Launches-all-new-FIRST-EARN-RuPay-Credit-Card.pdf: fetch failed
+- ERROR https://www.idfcfirstbank.com/content/idfcfirstbank/en/finfirst-blogs/credit-card/best-rupay-credit-cards-for-upi-by-idfc-first-bank: fetch failed
+- ERROR https://www.indianbank.in/wp-content/uploads/2019/03/CREDIT-CARD-FEATURES-AND-BENEFITS-6.pdf: fetch failed
+- ERROR https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/news-media/press-release/FIRST-SWYP-PR-0412.pdf: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/legend-credit-card.html: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-aura-edge-visa-and-mastercard-credit-card-easy-credit.html: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-rupay-credit-card.html/: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-visa-credit-card.html/: fetch failed
+- ERROR https://jkb.bank.in/transactions/services/credit-cards: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/tiger-credit-card.html: fetch failed
 - ERROR https://www.kvb.co.in/docs/retail-credit-card-mitc.pdf: fetch failed
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/tiger-credit-card.html
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-visa-credit-card.html/
+- ERROR https://www.sbicard.com/sbi-card-en/assets/docs/pdf/banking-tnc/karnataka-prime-tnc.pdf: fetch failed
+- ERROR https://www.yesbank.in/content/published/api/v1.1/assets/CONT07A77C257C7A4BDD85DB97E51D2B5B8F/native/yesbank_key_fact_statement.pdf?channelToken=21f7ccfa2fc3401091938f541a6f8f2a&download=false: fetch failed
 - ERROR https://www.pnbcard.in/types13.html: fetch failed
+- ERROR https://www.getonecard.app/faq/: fetch failed
 - ERROR https://www.pnbcard.in/EMT.html: fetch failed
 - ERROR https://www.pnbcard.in/types11.html: fetch failed
 - ERROR https://pnbcard.in/types8.html: fetch failed
 - ERROR https://pnbcard.in/types16.html: fetch failed
-- ERROR https://www.yesbank.in/content/published/api/v1.1/assets/CONT07A77C257C7A4BDD85DB97E51D2B5B8F/native/yesbank_key_fact_statement.pdf?channelToken=21f7ccfa2fc3401091938f541a6f8f2a&download=false: The operation was aborted due to timeout
 - ERROR https://pnbcard.in/types10.html: fetch failed
 - ERROR https://pnbcard.in/types5.html: fetch failed
+- ERROR https://www.pnbcard.in/types14.html: fetch failed
 - ERROR https://pnbcard.in/types6.html: fetch failed
 - ERROR https://www.pnbcard.in/types15.html: fetch failed
-- ERROR https://www.pnbcard.in/types14.html: fetch failed
 - ERROR https://pnbcard.in/types9.html: fetch failed
-- ERROR https://webassets.rblbank.com/document/Download%20Forms/common-application-form.pdf: fetch failed
 - ERROR https://webassets.rblbank.com/document/pdfs/cc-lounge-faq-july-2025.pdf: fetch failed
+- ERROR https://www.rblbank.com/api/v1/doc/document/credit-cards/play-credit-card-terms-and-conditions.pdf: fetch failed
+- ERROR https://webassets.rblbank.com/document/Download%20Forms/common-application-form.pdf: fetch failed
+- ERROR https://www.rblbank.com/indianoil-rbl-bank-xtra-credit-card: fetch failed
 - ERROR https://webassets.rblbank.com/document/Credit%20Cards/CardsScheduleCharges.pdf: fetch failed
 - ERROR https://webassets.rblbank.com/document/credit-cards/terms-conditions-platinum-maxima.pdf: fetch failed
-- 403 https://www.scapia.cards/newsroom/summer-release2025
-- 403 https://www.scapia.cards/product/blog/the-scapia-bobcard-credit-card-everything-you-need-to-know
-- 403 https://www.southindianbank.bank.in/personal/cards/credit-card/sib-one-co-branded-credit-card
+- ERROR https://www.rblbank.com/personal-banking/cards/credit-cards/platinum-traveleasy-credit-card: fetch failed
+- ERROR https://www.rblbank.com/personal-banking/cards/credit-cards/world-safari-credit-card: fetch failed
 - ERROR https://webassets.rblbank.com/document/credit-cards/tnc-shoprite-credit-card.pdf: fetch failed
+- ERROR https://www.scapia.cards/product/blog/the-scapia-bobcard-credit-card-everything-you-need-to-know: fetch failed
+- ERROR https://www.scapia.cards/newsroom/summer-release2025: fetch failed
+- ERROR https://www.southindianbank.bank.in/personal/cards/credit-card/sib-one-co-branded-credit-card: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/south-indian-bank-sbi-card-prime.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/south-indian-bank-simplysave-sbi-card.html: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/easemytrip-credit-card/: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/manhattan-platinum/: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/platinum-rewards/: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/rewards-credit-card/: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/smart-credit-card/: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/super-value-titanium/: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/ultimate-card/: fetch failed
+- ERROR https://unioncards.unionbankofindia.co.in/access/keyFactStmt%21go.action: fetch failed
+- ERROR https://www.utkarsh.bank/xsite/assests/personal_credit_card/SuperCard_Key_Fact_Statement_KFS.pdf: fetch failed
+- ERROR https://unioncards.unionbankofindia.co.in/HTML/ADB_NEXTERIA_ABOUT.html: fetch failed
+- ERROR https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-credit-card: fetch failed
+- ERROR https://www.axis.bank.in/cards/credit-card/fibe-axis-bank-credit-card: fetch failed
+- ERROR https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-plus-credit-card: fetch failed
+- ERROR https://www.hdfc.bank.in/credit-cards/diners-privilege-credit-card: fetch failed
+- ERROR https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-signature-credit-card: fetch failed
+- ERROR https://www.hdfc.bank.in/credit-cards/freedom-credit-card: fetch failed
+- ERROR https://www.hdfc.bank.in/credit-cards/indianoil-hdfc-bank-credit-card: fetch failed
+- ERROR https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card: fetch failed
+- ERROR https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/signature-credit-card: fetch failed
+- ERROR https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-skywards/emirates-sapphiro: fetch failed
+- ERROR https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-bank-credit-card: fetch failed
+- ERROR https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card: fetch failed
+- ERROR https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card: fetch failed
+- ERROR https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/kotak-811-credit-card.html: fetch failed
+- ERROR https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/mojo-platinum-credit-card.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/sbi-card-miles.html: fetch failed
+- ERROR https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/zen-signature-credit-card.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/sbi-card-miles-elite.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/sbi-card-miles-prime.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/tata-neu-infinity-sbi-card.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/tata-neu-plus-sbi-card.html: fetch failed
+- ERROR https://www.axisbank.com/docs/default-source/default-document-library/credit-cards/terms-and-conditions-for-axis-bank-primus-credit-card.pdf: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/pinnacle-world-credit-card.html: fetch failed
 - ERROR https://pnbcard.in/types17.html: fetch failed
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/pinnacle-world-credit-card.html
-- ERROR https://www.yesbank.in/content/published/api/v1.1/assets/CONTD4E6F94378934CA8AA1378574C96C340/native/usage_guide_yes_bank_wellness_plus_cc_pdf.pdf?channelToken=21f7ccfa2fc3401091938f541a6f8f2a&download=false: The operation was aborted due to timeout
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/jio-bp-mobility-credit-card.html
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-private.html
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card.html
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/epay-amex-card.html
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/solitaire-credit-card.html
-- 406 https://www.indusind.bank.in/in/en/personal/cards/credit-card/CRED-IndusInd-Bank-ruPay-credit-card.html
-- 403 https://www.aubank.in/personal-banking/credit-cards
+- ERROR https://www.sbicard.com/en/personal/credit-cards/irctc-premier-card.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards/irctc-sbi-platinum-card.html: fetch failed
+- ERROR https://www.yesbank.in/content/published/api/v1.1/assets/CONTD4E6F94378934CA8AA1378574C96C340/native/usage_guide_yes_bank_wellness_plus_cc_pdf.pdf?channelToken=21f7ccfa2fc3401091938f541a6f8f2a&download=false: fetch failed
+- ERROR https://www.hdfcbank.com/personal/pay/cards/credit-cards: fetch failed
+- ERROR https://www.hdfc.bank.in/business-credit-cards/biz-grow-credit-card: fetch failed
+- ERROR https://www.hdfcbank.com/personal/pay/cards/business-credit-cards: fetch failed
+- ERROR https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card: fetch failed
+- ERROR https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-uno-credit-card: fetch failed
+- ERROR https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card: fetch failed
+- ERROR https://www.sbicard.com/en/personal/credit-cards.page: fetch failed
+- ERROR https://www.axisbank.com/retail/cards/credit-card: fetch failed
+- ERROR https://www.icicibank.com/personal-banking/cards/credit-card: fetch failed
+- ERROR https://www.idfcfirstbank.com/credit-card: fetch failed
+- ERROR https://www.idfcfirst.bank.in/credit-card/quantum-plus-credit-card: fetch failed
+- ERROR https://www.idfcfirst.bank.in/credit-card/hello-cashback-credit-card: fetch failed
+- ERROR https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj: fetch failed
+- ERROR https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card: fetch failed
+- ERROR https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card: fetch failed
+- ERROR https://www.idfcfirst.bank.in/credit-card/indigo-credit-card: fetch failed
+- ERROR https://www.idfcfirst.bank.in/credit-card/lic-credit-card: fetch failed
+- ERROR https://www.kotak.com/en/personal-banking/cards/credit-cards/business-credit-card.html: fetch failed
+- ERROR https://www.hsbc.co.in/credit-cards/: fetch failed
+- ERROR https://www.aubank.in/personal-banking/credit-cards: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card.html: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/jio-bp-mobility-credit-card.html: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/solitaire-credit-card.html: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/CRED-IndusInd-Bank-ruPay-credit-card.html: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-private.html: fetch failed
+- ERROR https://www.indusind.bank.in/in/en/personal/cards/credit-card/epay-amex-card.html: fetch failed
+- ERROR https://www.rblbank.com/personal-banking/cards/credit-cards: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/nova-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/lumiere-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-shoppers-stop-gold-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/irctc-rbl-bank-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-shoppers-stop-platinum-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-shoppers-stop-black-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/apex-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/jalsa-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/world-safari-lite-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/world-safari-plus-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/platinum-delight-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/platinum-maxima-plus-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-patanjali-vishisht-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/cookies-credit-card: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/rbl-bank-patanjali-swarn-credit-card: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/beyond-credit-card/: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/digismart-card/: fetch failed
 - ERROR https://www.bobcard.co.in/credit-card: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/priority-banking-visa-infinite/: fetch failed
 - ERROR https://www.pnbcard.in/types.html: fetch failed
+- ERROR https://www.unionbankofindia.co.in/en/listing/credit-card: fetch failed
+- ERROR https://www.unionbankofindia.bank.in/en/details/pm-svanidhi-credit-card: fetch failed
+- ERROR https://www.unionbankofindia.bank.in/en/details/union-sparsh-credit-card: fetch failed
+- ERROR https://bankofindia.co.in/credit-card: fetch failed
+- ERROR https://www.indianbank.in/departments/credit-card/: fetch failed
 - ERROR https://www.kvb.co.in/personal/cards/credit-cards/: fetch failed
-- 403 https://bankofindia.co.in/credit-card
+- ERROR https://gokiwi.in/: fetch failed
 - ERROR https://cityunionbank.com/csk-srh-mitc-kfs: fetch failed
-- 503 https://equitas.bank.in/personal-banking/pay/credit-cards/
-- 403 https://bankofindia.co.in/documents/20121/23409404/BOI_CREDITCARD_MITC_2024.pdf/dd42e196-be18-ee7b-9118-faaee453f03a?t=1712738856087
+- ERROR https://www.bandhanbank.com/sites/default/files/2020-12/PressReleaseCreditCard.pdf: fetch failed
+- ERROR https://equitas.bank.in/personal-banking/pay/credit-cards/: fetch failed
 - ERROR https://www.idbibank.in/credit-card.aspx: fetch failed
-- ERROR https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCredit+Card+Landing+Page%2FCredit+Cards%2FCommercial%2FFAQs-Paytm-HDFC-Bank-Credit-Cards.pdf: The operation was aborted due to timeout
-- 406 https://www.indusind.com/in/en/personal/cards/credit-card/intermiles-voyage-amex-credit-card.html
+- ERROR https://tmb.bank.in/: fetch failed
+- ERROR https://www.sbmbank.co.in/: fetch failed
+- ERROR https://bankofindia.co.in/documents/20121/23409404/BOI_CREDITCARD_MITC_2024.pdf/dd42e196-be18-ee7b-9118-faaee453f03a?t=1712738856087: fetch failed
+- ERROR https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-infinite-credit-card: fetch failed
+- ERROR https://www.sbicard.com/en/faq/bom-sbi-secured-co-brand-card-program-discontinuation.page: fetch failed
+- ERROR https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCredit+Card+Landing+Page%2FCredit+Cards%2FCommercial%2FFAQs-Paytm-HDFC-Bank-Credit-Cards.pdf: fetch failed
+- ERROR https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-skywards/emirates-rubyx: fetch failed
+- ERROR https://www.dbs.com/in/credit-cards/credit-card-consolidated-mitc.pdf: fetch failed
+- ERROR https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card: fetch failed
+- ERROR https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-signature-card: fetch failed
 - ERROR https://webasset.rblbank.com/document/Credit%20Cards/SOC-Supercard.pdf: fetch failed
+- ERROR https://www.indusind.com/in/en/personal/cards/credit-card/intermiles-voyage-amex-credit-card.html: fetch failed
+- ERROR https://www.sbicard.com/en/customer-notices.page: fetch failed
+- ERROR https://www.rblbank.com/api/v1/doc/document/credit-cards/edition-card-1-423.pdf: fetch failed
+- ERROR https://www.axis.bank.in/cards/credit-card/axis-bank-aura-credit-card: fetch failed
+- ERROR https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html: fetch failed
+- ERROR https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/get-movie-credit-cards.html: fetch failed
+- ERROR https://www.sbicard.com/en/personal/sbi-credit-card.page: fetch failed
+- ERROR https://www.idfcfirst.bank.in/credit-card: fetch failed
+- ERROR https://www.americanexpress.com/in/credit-cards/all-cards/: fetch failed
+- ERROR https://www.rbl.bank.in/personal-banking/cards/credit-cards/category: fetch failed
+- ERROR https://www.sc.bank.in/credit-cards/: fetch failed
 - ERROR https://www.pnbcard.in/: fetch failed
+- ERROR https://www.federalbank.co.in/credit-cards: fetch failed
+- ERROR https://canarabank.com/: fetch failed
+- ERROR https://www.unionbankofindia.bank.in/en/listing/credit-cards: fetch failed
+- ERROR https://karnatakabank.com/personal/cards/credit-cards: fetch failed
 - ERROR https://www.southindianbank.com/content/personal-banking/credit-cards/385: fetch failed
-- 403 https://karnatakabank.com/personal/cards/credit-cards
 - ERROR https://www.csb.co.in/credit-card: fetch failed
-- CONTENT-BLOCKED https://www.federalbank.co.in/credit-cards
-- 403 https://www.scapia.cards/
-- 503 https://equitas.bank.in/
-- CONTENT-UNSTABLE https://www.dhanbank.com/credit-cards/
-- CONTENT-BLOCKED https://www.esafbank.com/
+- ERROR https://www.dbs.com/digibank/in/cards/credit-cards: fetch failed
+- ERROR https://www.getonecard.app/: fetch failed
+- ERROR https://www.scapia.cards/: fetch failed
 - ERROR https://bankofmaharashtra.in/credit-card: fetch failed
+- ERROR https://bandhanbank.com/: fetch failed
+- ERROR https://www.dcbbank.com/: fetch failed
+- ERROR https://www.dhanbank.com/credit-cards/: fetch failed
+- ERROR https://equitas.bank.in/: fetch failed
+- ERROR https://www.esafbank.com/: fetch failed
+- ERROR https://www.utkarsh.bank/: fetch failed
