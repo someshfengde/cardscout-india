@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-10-27",
-    "cardCount": 340,
+    "updatedAt": "2026-11-03",
+    "cardCount": 342,
     "detailedCardCount": 208,
-    "discoveryCardCount": 132,
+    "discoveryCardCount": 134,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -261,7 +261,7 @@
       "slug": "tamilnad-mercantile-bank",
       "coverage": "discovery",
       "catalog": "https://tmb.bank.in/",
-      "cardCount": 2
+      "cardCount": 4
     },
     {
       "name": "SBM Bank India",
@@ -7378,6 +7378,28 @@
       "source": "https://www.sc.bank.in/credit-cards/ultimate-card/"
     },
     {
+      "id": "tmb-phoenix-rupay",
+      "issuer": "Tamilnad Mercantile Bank",
+      "name": "TMB Phoenix RuPay Credit Card",
+      "source": "https://www.tmb.bank.in/personal/savings/tmb-phoenix-rupay-credit-card",
+      "research_note": "The current TMB product page confirms active RuPay Platinum issuance, nil joining fee and a ₹500 renewal fee with ₹1 lakh annual spend waiver, but an official TMB MITC PDF lists a ₹75,000 quarterly waiver; product-level rewards and lounge entitlement are also not specified. Keep researching until TMB resolves the waiver conflict.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current TMB product page confirms active RuPay Platinum issuance, nil joining fee and a ₹500 renewal fee with ₹1 lakh annual spend waiver, but an official TMB MITC PDF lists a ₹75,000 quarterly waiver; product-level rewards and lounge entitlement are also not specified. Keep researching until TMB resolves the waiver conflict.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current TMB product page confirms active RuPay Platinum issuance, nil joining fee and a ₹500 renewal fee with ₹1 lakh annual spend waiver, but an official TMB MITC PDF lists a ₹75,000 quarterly waiver; product-level rewards and lounge entitlement are also not specified. Keep researching until TMB resolves the waiver conflict."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "tmb-platinum",
       "issuer": "Tamilnad Mercantile Bank",
       "name": "TMB Platinum Credit Card",
@@ -7416,6 +7438,28 @@
       "highlights": [
         "Official verification target linked",
         "The current official TMB Titanium page verifies issuance, fees, and forex markup, but does not publish a product reward rate or lounge status and does not provide an unambiguous network value."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "tmb-wings-rupay",
+      "issuer": "Tamilnad Mercantile Bank",
+      "name": "TMB Wings RuPay Credit Card",
+      "source": "https://www.tmb.bank.in/personal/retail-cards/tmb-wings-rupay-credit-card",
+      "research_note": "The current TMB product page confirms active RuPay Platinum issuance, nil joining fee and a ₹250 renewal fee with a quarterly spend waiver, but an official TMB MITC PDF instead lists a ₹500 renewal fee; product-level rewards and lounge entitlement are also not specified. Keep researching until TMB resolves the fee conflict.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current TMB product page confirms active RuPay Platinum issuance, nil joining fee and a ₹250 renewal fee with a quarterly spend waiver, but an official TMB MITC PDF instead lists a ₹500 renewal fee; product-level rewards and lounge entitlement are also not specified. Keep researching until TMB resolves the fee conflict.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current TMB product page confirms active RuPay Platinum issuance, nil joining fee and a ₹250 renewal fee with a quarterly spend waiver, but an official TMB MITC PDF instead lists a ₹500 renewal fee; product-level rewards and lounge entitlement are also not specified. Keep researching until TMB resolves the fee conflict."
       ],
       "lounge": "researching",
       "forex_markup": null,
