@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-11-03",
-    "cardCount": 342,
+    "updatedAt": "2026-11-09",
+    "cardCount": 345,
     "detailedCardCount": 208,
-    "discoveryCardCount": 134,
+    "discoveryCardCount": 137,
     "issuerCount": 40,
     "representedIssuerCount": 40,
     "detailedIssuerCount": 22,
@@ -86,7 +86,7 @@
       "slug": "indusind",
       "coverage": "discovery",
       "catalog": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
-      "cardCount": 18
+      "cardCount": 21
     },
     {
       "name": "RBL Bank",
@@ -4473,6 +4473,28 @@
       "verification": "discovered"
     },
     {
+      "id": "indusind-indulge",
+      "issuer": "IndusInd Bank",
+      "name": "Indulge Credit Card",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/indulge-credit-card.html",
+      "research_note": "The current IndusInd catalog and product page list Indulge, and the current premium-card MITC lists its fees; product-specific network, reward valuation, forex and lounge conditions still need normalization before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current IndusInd catalog and product page list Indulge, and the current premium-card MITC lists its fees; product-specific network, reward valuation, forex and lounge conditions still need normalization before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current IndusInd catalog and product page list Indulge, and the current premium-card MITC lists its fees; product-specific network, reward valuation, forex and lounge conditions still need normalization before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
       "id": "indusind-solitaire",
       "issuer": "IndusInd Bank",
       "name": "Indus Solitaire Credit Card",
@@ -4585,6 +4607,50 @@
       "forex_markup": 3.5,
       "verification": "verified",
       "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pinnacle-world-credit-card.html"
+    },
+    {
+      "id": "indusind-pioneer-heritage",
+      "issuer": "IndusInd Bank",
+      "name": "PIONEER Heritage Credit Card",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-heritage-credit-card.html",
+      "research_note": "The current official page confirms issuance and benefits but distinguishes Mastercard and other variants, as well as erstwhile benefits; network-specific lounge and the complete current fee package must be resolved before one normalized record is published.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official page confirms issuance and benefits but distinguishes Mastercard and other variants, as well as erstwhile benefits; network-specific lounge and the complete current fee package must be resolved before one normalized record is published.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official page confirms issuance and benefits but distinguishes Mastercard and other variants, as well as erstwhile benefits; network-specific lounge and the complete current fee package must be resolved before one normalized record is published."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
+    },
+    {
+      "id": "indusind-pioneer-legacy",
+      "issuer": "IndusInd Bank",
+      "name": "PIONEER Legacy Credit Card",
+      "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-legacy-credit-card.html",
+      "research_note": "The current official page confirms issuance and reward/lounges, but notes spend-based domestic lounge access from July 2026; network variant, current fees, forex and exact lounge conditions still require an official terms pass before promotion.",
+      "network": "Researching",
+      "joining_fee": null,
+      "annual_fee": null,
+      "waiver_spend": null,
+      "reward": "Research note: The current official page confirms issuance and reward/lounges, but notes spend-based domestic lounge access from July 2026; network variant, current fees, forex and exact lounge conditions still require an official terms pass before promotion.",
+      "categories": [
+        "discovery"
+      ],
+      "highlights": [
+        "Official verification target linked",
+        "The current official page confirms issuance and reward/lounges, but notes spend-based domestic lounge access from July 2026; network variant, current fees, forex and exact lounge conditions still require an official terms pass before promotion."
+      ],
+      "lounge": "researching",
+      "forex_markup": null,
+      "verification": "discovered"
     },
     {
       "id": "indusind-pioneer-private",
